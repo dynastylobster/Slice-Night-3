@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_MenaceOrb",
-    "path":"sprites/Spr_MenaceOrb/Spr_MenaceOrb.yy",
+    "name":"Spr_Wiz",
+    "path":"sprites/Spr_Wiz/Spr_Wiz.yy",
   },
   "spriteMaskId":null,
   "visible":true,

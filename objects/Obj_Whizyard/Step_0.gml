@@ -11,8 +11,10 @@ if !global.paused {
 	var randX = random_range(20, 75);
 	if (irandom(1) == 1) {randY *= -1;}
 	if (irandom(1) == 1) {randX *= -1;}
+	if (instance_exists(Obj_Billy)) {
 	y = Obj_Billy.y + randY;
 	x = Obj_Billy.x + randX;
+	}
 	instance_create_layer(x, y, layer, ObjMenaceOrb, {belongsToWhizyard : true} );
 	audio_play_sound(Snd_Wizard_TP, 0, false, global.SFXvolume * 1);
 	attackCounter = 0;
