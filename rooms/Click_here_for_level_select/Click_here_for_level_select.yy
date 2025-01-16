@@ -64,6 +64,7 @@
     {"name":"inst_1107DBB2","path":"rooms/Click_here_for_level_select/Click_here_for_level_select.yy",},
     {"name":"inst_6DA126DA","path":"rooms/Click_here_for_level_select/Click_here_for_level_select.yy",},
     {"name":"inst_40317B1C","path":"rooms/Click_here_for_level_select/Click_here_for_level_select.yy",},
+    {"name":"inst_3A284322","path":"rooms/Click_here_for_level_select/Click_here_for_level_select.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -73,6 +74,9 @@
         {"$GMRInstance":"v1","%Name":"inst_4FD4A680","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4FD4A680","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"propertyId":{"name":"destination","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"resource":{"name":"Level_Fantasy1","path":"rooms/Level_Fantasy1/Level_Fantasy1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Level_Fantasy1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":1.0909091,"x":16.0,"y":160.0,},
+        {"$GMRInstance":"v1","%Name":"inst_3A284322","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3A284322","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"propertyId":{"name":"destination","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"resource":{"name":"Level_faux_testRoom","path":"rooms/Level_faux_testRoom/Level_faux_testRoom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Level_faux_testRoom",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":1.0909091,"x":208.0,"y":480.0,},
         {"$GMRInstance":"v1","%Name":"inst_2C4DC423","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2C4DC423","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"propertyId":{"name":"destination","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"resource":{"name":"Level_Forest4","path":"rooms/Level_Forest4/Level_Forest4.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Level_Forest4",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":1.0909091,"x":304.0,"y":272.0,},

@@ -51,7 +51,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"Slice Night 3",
   "resources":[
@@ -173,6 +173,7 @@
     {"id":{"name":"Obj_MovePlatform","path":"objects/Obj_MovePlatform/Obj_MovePlatform.yy",},},
     {"id":{"name":"Obj_MusicSilence","path":"objects/Obj_MusicSilence/Obj_MusicSilence.yy",},},
     {"id":{"name":"Obj_NoWallJumpBlock","path":"objects/Obj_NoWallJumpBlock/Obj_NoWallJumpBlock.yy",},},
+    {"id":{"name":"Obj_NPC_MultiLine","path":"objects/Obj_NPC_MultiLine/Obj_NPC_MultiLine.yy",},},
     {"id":{"name":"Obj_NPC","path":"objects/Obj_NPC/Obj_NPC.yy",},},
     {"id":{"name":"Obj_NPCMotuBilly","path":"objects/Obj_NPCMotuBilly/Obj_NPCMotuBilly.yy",},},
     {"id":{"name":"Obj_NuclearPaint","path":"objects/Obj_NuclearPaint/Obj_NuclearPaint.yy",},},
@@ -282,6 +283,7 @@
     {"id":{"name":"Level_Fantasy4","path":"rooms/Level_Fantasy4/Level_Fantasy4.yy",},},
     {"id":{"name":"Level_Fantasy5","path":"rooms/Level_Fantasy5/Level_Fantasy5.yy",},},
     {"id":{"name":"Level_Fantasy6","path":"rooms/Level_Fantasy6/Level_Fantasy6.yy",},},
+    {"id":{"name":"Level_faux_testRoom","path":"rooms/Level_faux_testRoom/Level_faux_testRoom.yy",},},
     {"id":{"name":"Level_Forest1","path":"rooms/Level_Forest1/Level_Forest1.yy",},},
     {"id":{"name":"Level_Forest2","path":"rooms/Level_Forest2/Level_Forest2.yy",},},
     {"id":{"name":"Level_Forest3","path":"rooms/Level_Forest3/Level_Forest3.yy",},},
@@ -842,6 +844,7 @@
     {"roomId":{"name":"Level_PunkScene","path":"rooms/Level_PunkScene/Level_PunkScene.yy",},},
     {"roomId":{"name":"Level_Cardly","path":"rooms/Level_Cardly/Level_Cardly.yy",},},
     {"roomId":{"name":"Level_CardlyBoss","path":"rooms/Level_CardlyBoss/Level_CardlyBoss.yy",},},
+    {"roomId":{"name":"Level_faux_testRoom","path":"rooms/Level_faux_testRoom/Level_faux_testRoom.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
