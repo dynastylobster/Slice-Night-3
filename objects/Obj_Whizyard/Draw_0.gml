@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-hp = 4
-attackCounter = 0;
-goTime = false;
-image_alpha = 0;
-age = 0;
+if age <= 4 {
+	if goTime and age%2 =1 draw_self();
+	} else {
+		draw_self()
+	}
