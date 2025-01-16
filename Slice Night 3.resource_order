@@ -206,6 +206,7 @@
     {"name":"Obj_WormHead","order":4,"path":"objects/Obj_WormHead/Obj_WormHead.yy",},
     {"name":"Obj_YinBang","order":22,"path":"objects/Obj_YinBang/Obj_YinBang.yy",},
     {"name":"ObjMenaceOrb","order":3,"path":"objects/ObjMenaceOrb/ObjMenaceOrb.yy",},
+    {"name":"ObjTrollOrb","order":30,"path":"objects/ObjTrollOrb/ObjTrollOrb.yy",},
     {"name":"SwingPath","order":1,"path":"paths/SwingPath/SwingPath.yy",},
     {"name":"BillyCutsceneRoom1","order":23,"path":"rooms/BillyCutsceneRoom1/BillyCutsceneRoom1.yy",},
     {"name":"BillyCutsceneRoom2","order":35,"path":"rooms/BillyCutsceneRoom2/BillyCutsceneRoom2.yy",},
