@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Snd_SombreDrone",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":73.846146,
+  "name":"Snd_SombreDrone",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Snd_SombreDrone.ogg",
+  "type":1,
+  "volume":1.0,
+}

@@ -1,0 +1,1 @@
+jumpspeed = 2;

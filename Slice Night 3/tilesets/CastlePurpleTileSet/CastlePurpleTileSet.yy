@@ -1,0 +1,43 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"CastlePurpleTileSet",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        11,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,10,10,10,10,2,2,2,2,12,12,12,12,20,20,20,20,13,29,1,
+        1,3,3,21,21,19,19,4,28,22,30,31,
+      ],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"CastlePurpleTileSet",
+  "out_columns":9,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"CastlePurpleTileSprite",
+    "path":"sprites/CastlePurpleTileSprite/CastlePurpleTileSprite.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":90,
+}

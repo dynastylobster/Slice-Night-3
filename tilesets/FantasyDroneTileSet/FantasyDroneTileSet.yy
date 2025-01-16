@@ -1,0 +1,47 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"FantasyDroneTileSet",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        18,22,21,52,5,52,52,52,6,52,52,52,52,52,52,52,17,17,17,17,2,2,2,2,19,19,19,19,34,34,34,34,20,50,1,52,
+        3,52,35,52,33,52,4,49,36,51,52,
+      ],},
+    {"$GMAutoTileSet":"","%Name":"autotile_SN2","closed_edge":false,"name":"autotile_SN2","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        116,119,118,52,102,52,52,52,103,52,52,52,52,52,52,52,115,115,115,115,100,100,100,100,117,117,117,117,
+        132,132,132,132,113,114,99,99,101,101,133,133,131,131,113,114,113,114,52,
+      ],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"FantasyDroneTileSet",
+  "out_columns":16,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"FantasyDroneTileSprite",
+    "path":"sprites/FantasyDroneTileSprite/FantasyDroneTileSprite.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":256,
+}

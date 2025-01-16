@@ -1,0 +1,43 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"CastleOfPromiseTileSet",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        56,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,55,55,55,55,47,47,47,47,57,57,57,57,65,65,65,65,58,74,
+        46,46,48,48,66,66,64,64,49,73,67,75,76,
+      ],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"CastleOfPromiseTileSet",
+  "out_columns":9,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"CastleOfPromiseTileSprite",
+    "path":"sprites/CastleOfPromiseTileSprite/CastleOfPromiseTileSprite.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":90,
+}

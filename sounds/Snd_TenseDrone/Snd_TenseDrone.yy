@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Snd_TenseDrone",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":6.400045,
+  "name":"Snd_TenseDrone",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Snd_TenseDrone.wav",
+  "type":0,
+  "volume":1.0,
+}

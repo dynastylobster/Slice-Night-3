@@ -1,0 +1,1 @@
+GameObject.fastONOFF = true

@@ -1,0 +1,24 @@
+{
+  "$GMPath":"",
+  "%Name":"CirclePath",
+  "closed":true,
+  "kind":1,
+  "name":"CirclePath",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":47.485725,"y":0.016784668,},
+    {"speed":100.0,"x":34.22599,"y":33.83497,},
+    {"speed":100.0,"x":0.10910797,"y":48.068733,},
+    {"speed":100.0,"x":-34.3844,"y":34.48432,},
+    {"speed":100.0,"x":-48.64414,"y":0.016784668,},
+    {"speed":100.0,"x":-34.3844,"y":-34.152046,},
+    {"speed":100.0,"x":0.43378448,"y":-48.035164,},
+    {"speed":100.0,"x":34.901314,"y":-34.74945,},
+  ],
+  "precision":8,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

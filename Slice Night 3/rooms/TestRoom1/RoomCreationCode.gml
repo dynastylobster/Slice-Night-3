@@ -1,0 +1,1 @@
+global.music = Snd_SlicerOfThe7DreamsMusic

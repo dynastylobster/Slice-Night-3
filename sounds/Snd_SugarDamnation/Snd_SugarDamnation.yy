@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Snd_SugarDamnation",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":81.62029,
+  "name":"Snd_SugarDamnation",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":32000,
+  "soundFile":"Snd_SugarDamnation.ogg",
+  "type":0,
+  "volume":1.0,
+}

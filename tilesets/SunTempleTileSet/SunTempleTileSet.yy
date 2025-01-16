@@ -1,0 +1,47 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"SunTempleTileSet",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"Ground","closed_edge":false,"name":"Ground","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        52,50,50,154,50,154,154,154,50,154,154,154,154,154,154,154,51,51,51,51,2,2,2,2,53,53,53,53,102,102,102,
+        102,54,152,1,1,3,3,103,103,101,101,3,151,104,153,105,
+      ],},
+    {"$GMAutoTileSet":"","%Name":"Leaves","closed_edge":false,"name":"Leaves","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        251,251,251,251,251,251,251,251,251,251,251,251,251,251,251,251,250,250,250,250,201,201,201,201,252,
+        252,252,252,301,301,301,301,251,251,200,200,202,202,302,302,300,300,251,251,251,251,251,
+      ],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"SunTempleTileSet",
+  "out_columns":43,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"Spr_SunTempleTiles",
+    "path":"sprites/Spr_SunTempleTiles/Spr_SunTempleTiles.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":1850,
+}
