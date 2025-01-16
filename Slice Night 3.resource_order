@@ -684,6 +684,7 @@
     {"name":"Spr_WormBody","order":33,"path":"sprites/Spr_WormBody/Spr_WormBody.yy",},
     {"name":"Spr_WormHead","order":34,"path":"sprites/Spr_WormHead/Spr_WormHead.yy",},
     {"name":"Spr_YinBang","order":32,"path":"sprites/Spr_YinBang/Spr_YinBang.yy",},
+    {"name":"TabuliTileSprite","order":49,"path":"sprites/TabuliTileSprite/TabuliTileSprite.yy",},
     {"name":"AlienTileSet","order":37,"path":"tilesets/AlienTileSet/AlienTileSet.yy",},
     {"name":"AlienTileSetNight","order":40,"path":"tilesets/AlienTileSetNight/AlienTileSetNight.yy",},
     {"name":"BoatTileSet","order":1,"path":"tilesets/BoatTileSet/BoatTileSet.yy",},
@@ -708,5 +709,6 @@
     {"name":"NuclearPaintTileSet","order":44,"path":"tilesets/NuclearPaintTileSet/NuclearPaintTileSet.yy",},
     {"name":"PunkFactoryTileSet","order":42,"path":"tilesets/PunkFactoryTileSet/PunkFactoryTileSet.yy",},
     {"name":"SunTempleTileSet","order":30,"path":"tilesets/SunTempleTileSet/SunTempleTileSet.yy",},
+    {"name":"TabuliTileSet","order":50,"path":"tilesets/TabuliTileSet/TabuliTileSet.yy",},
   ],
 }
