@@ -388,6 +388,7 @@
     {"id":{"name":"Snd_TrainScratch","path":"sounds/Snd_TrainScratch/Snd_TrainScratch.yy",},},
     {"id":{"name":"Snd_WalkerOfTheFinalDreamMusic","path":"sounds/Snd_WalkerOfTheFinalDreamMusic/Snd_WalkerOfTheFinalDreamMusic.yy",},},
     {"id":{"name":"Snd_Warning","path":"sounds/Snd_Warning/Snd_Warning.yy",},},
+    {"id":{"name":"Snd_Wizard_TP","path":"sounds/Snd_Wizard_TP/Snd_Wizard_TP.yy",},},
     {"id":{"name":"Snd_YonkSlicerOfThe7Dreams","path":"sounds/Snd_YonkSlicerOfThe7Dreams/Snd_YonkSlicerOfThe7Dreams.yy",},},
     {"id":{"name":"AlienTileSprite","path":"sprites/AlienTileSprite/AlienTileSprite.yy",},},
     {"id":{"name":"AlienTileSpriteNight","path":"sprites/AlienTileSpriteNight/AlienTileSpriteNight.yy",},},

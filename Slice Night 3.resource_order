@@ -341,6 +341,7 @@
     {"name":"Snd_TrainScratch","order":48,"path":"sounds/Snd_TrainScratch/Snd_TrainScratch.yy",},
     {"name":"Snd_WalkerOfTheFinalDreamMusic","order":34,"path":"sounds/Snd_WalkerOfTheFinalDreamMusic/Snd_WalkerOfTheFinalDreamMusic.yy",},
     {"name":"Snd_Warning","order":37,"path":"sounds/Snd_Warning/Snd_Warning.yy",},
+    {"name":"Snd_Wizard_TP","order":62,"path":"sounds/Snd_Wizard_TP/Snd_Wizard_TP.yy",},
     {"name":"Snd_YonkSlicerOfThe7Dreams","order":39,"path":"sounds/Snd_YonkSlicerOfThe7Dreams/Snd_YonkSlicerOfThe7Dreams.yy",},
     {"name":"AlienTileSprite","order":38,"path":"sprites/AlienTileSprite/AlienTileSprite.yy",},
     {"name":"AlienTileSpriteNight","order":39,"path":"sprites/AlienTileSpriteNight/AlienTileSpriteNight.yy",},
