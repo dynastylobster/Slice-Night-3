@@ -1,6 +1,18 @@
 /// @description Set Up controls
 hpsprite = Spr_HP
 global.motu = false
+
+characters = [["Billy", "Miley", "Billy (Fox)", "Miley (Fox)"], ["Motu"], ["Void"]];
+charDesc = ["Human.\nNothing special.", "Robotic.\nMoves slower, but attacks harder.\nIncreased trick speed, cannot flameslice.", "Coyote.\nMassively increased movement abilities.\nIneffective damage."];
+// Humans, Robots, Coyotes
+global.character = 0;
+global.costume = characters[0][0];
+
+
+
+
+
+
 ini_open("save.ini") 
 	global.vsync = ini_read_real("Prefrence","Vsync",false);
 ini_close();
@@ -44,6 +56,8 @@ menu_text[6] = "Delete Save File:" + string(global.save)
 	menu_text[7] = "Vsync: OFF"
 	}
 menu_text[8] = "Feminine Billy: "
+menu_text[9] = "Switch Character";
+menu_text[10] = "Switch Costume";
 
 //global.jumpslicemap = 0
 //global.musicvolume = 1

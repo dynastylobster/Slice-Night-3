@@ -7,7 +7,6 @@ touchingwall = false
 phase = 1;
 startx = x
 starty = y
-hp = 13
 hit = false;
 active = true
 alarm[1] = 100;

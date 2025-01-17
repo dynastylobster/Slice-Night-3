@@ -248,6 +248,30 @@ if global.fem {
 	menu_text[8] = "Feminine Billy: "
 	}
 
+	if (menu_index = 9) {
+		if global.key_Z_pressed or global.key_X_pressed {
+			var nextChar = global.character + 1;
+			if (nextChar > array_length(characters)) {
+			nextChar = 0;
+			}
+			global.character = nextChar;
+			// save
+		}
+
+	}
+	if (menu_index = 10) {
+		if global.key_Z_pressed or global.key_X_pressed {
+			var curChar = global.character;
+			var nextCos = array_find_index(characters[curChar], global.costume) + 1;
+			if (nextCos > array_length(characters[curChar])) {
+			nextCos = 0;
+			}
+			global.costume = characters[curChar][nextCos];
+			// save
+		}
+
+	}
+	
 audio_sound_gain(global.music,global.musicvolume,0); 
 
 audio_sound_gain(Snd_NormalClear,global.musicvolume,0); 

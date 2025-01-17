@@ -74,7 +74,7 @@ if global.billyfox and sliding and !slicing_side and !slicing_down {
 
 }
 //girl billy
-if global.fem and !global.motu
+if (global.costume == "Miley")
 {
 if sprite_index = Spr_BillyDie then sprite_index = Spr_BillyDieF
 if sprite_index = Spr_BillyWalk then sprite_index = Spr_BillyWalkF
@@ -92,7 +92,7 @@ if sprite_index = Spr_BillyWallSlide then sprite_index = Spr_BillyWallSlideF
 }
 
 // playable motu
-if global.motu = true {
+if (global.costume == "Motu") {
 	
 if sprite_index = Spr_BillyDie then sprite_index = Spr_PMotuDie
 if sprite_index = Spr_BillyWalk {image_speed = 0.8} else image_speed = 1

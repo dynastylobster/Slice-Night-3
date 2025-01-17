@@ -13,7 +13,10 @@
   ],
   "managed":true,
   "name":"Obj_SheildShooter",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"EnemyParentObject","path":"objects/EnemyParentObject/EnemyParentObject.yy",},"propertyId":{"name":"hp","path":"objects/EnemyParentObject/EnemyParentObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"EnemyParentObject","path":"objects/EnemyParentObject/EnemyParentObject.yy",},"propertyId":{"name":"resistances","path":"objects/EnemyParentObject/EnemyParentObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Immune To Normal\", \"Immune To Flame\"",},
+  ],
   "parent":{
     "name":"Enemies",
     "path":"folders/Objects/Enemies.yy",

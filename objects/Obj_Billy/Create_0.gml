@@ -46,6 +46,7 @@ cam_y = clamp(y-120,0,room_height-240)
 about_to_jump = false
 
 koyote_time = 9
+canDoubleJump = false;
 
 xspeed = 0 
 yspeed = 0

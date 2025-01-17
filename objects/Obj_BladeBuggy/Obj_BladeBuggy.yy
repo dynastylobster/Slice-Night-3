@@ -7,7 +7,9 @@
   ],
   "managed":true,
   "name":"Obj_BladeBuggy",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"EnemyParentObject","path":"objects/EnemyParentObject/EnemyParentObject.yy",},"propertyId":{"name":"hp","path":"objects/EnemyParentObject/EnemyParentObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+  ],
   "parent":{
     "name":"Enemies",
     "path":"folders/Objects/Enemies.yy",

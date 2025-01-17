@@ -16,7 +16,10 @@
   ],
   "managed":true,
   "name":"Obj_Model1Boss",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"EnemyParentObject","path":"objects/EnemyParentObject/EnemyParentObject.yy",},"propertyId":{"name":"resistances","path":"objects/EnemyParentObject/EnemyParentObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Immune To Down\", \"Immune To Flame\", \"Resists Normal\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"EnemyParentObject","path":"objects/EnemyParentObject/EnemyParentObject.yy",},"propertyId":{"name":"hp","path":"objects/EnemyParentObject/EnemyParentObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"9",},
+  ],
   "parent":{
     "name":"model1 boss",
     "path":"folders/Objects/Bosses/model1 boss.yy",
