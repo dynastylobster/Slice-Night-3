@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited()
+age++
 if !global.paused {
 	if (goTime) {
 		if (image_alpha < 1) {image_alpha += 0.1;}
