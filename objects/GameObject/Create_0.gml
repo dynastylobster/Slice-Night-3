@@ -120,3 +120,5 @@ image_speed = 1
 
     _menux = camera_get_view_x(view_camera[0])+100
 	_menuy = camera_get_view_y(view_camera[0])+120
+	
+	alarm[3] = 2;

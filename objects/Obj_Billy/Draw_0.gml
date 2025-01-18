@@ -154,7 +154,7 @@ if (global.costume == "Billy (Fox)" || global.costume == "Miley (Fox)") and slic
 	draw_sprite_ext(Spr_BillyFoxOver,image_index,x,y-2,image_xscale,image_yscale,0,c_white,image_alpha);	
 }
 
-if (global.costume == "Billy (Fox)" || global.costume == "Miley (Fox)") and slicing_side {
+if (global.costume == "Billy (Fox)" || global.costume == "Miley (Fox)") and slicing_side and room != Level_BossFinal {
 	draw_sprite_ext(Spr_BillyFoxOver,image_index,x+facing,y-1,image_xscale,image_yscale,0,c_white,image_alpha);	
 }
 
