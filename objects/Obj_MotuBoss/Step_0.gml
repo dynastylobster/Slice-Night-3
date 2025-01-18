@@ -23,7 +23,7 @@ if state = "slicing" sprite_index = Spr_MotuSliceBoss;
 
 if !global.paused and active {
 	
-if place_meeting(x,y+3,Obj_Wall) {
+if place_meeting(x,y+3,[Obj_Wall, autoTileCol]) {
 if state != "drop winding"	{
 		if yspeed > 0 yspeed = 0;
 	}
@@ -68,17 +68,17 @@ if state != "slicing" and state != "drop winding" and state != "dropping" {
 	} else xspeed = 0;
 	
 if state!= "drop winding" {
-		if !place_meeting(x,y+abs(yspeed)+2,Obj_Wall) {
+		if !place_meeting(x,y+abs(yspeed)+2,[Obj_Wall, autoTileCol]) {
 		yspeed += grav
 		}
 	}
 
 	if state!= "slicing" {
-	if place_meeting(x-5,y,Obj_Wall) {
+	if place_meeting(x-5,y,[Obj_Wall, autoTileCol]) {
 		xspeed = 5
 	}
 	
-		if place_meeting(x+5,y,Obj_Wall) {
+		if place_meeting(x+5,y,[Obj_Wall, autoTileCol]) {
 		xspeed = -5
 	}
 	}
@@ -93,7 +93,7 @@ audio_play_sound(Snd_Booster,0,0);
 }
 
 if state = "dropping" {
-if place_meeting(x,y+7,Obj_Wall)	
+if place_meeting(x,y+7,[Obj_Wall, autoTileCol])	
 	{
 		audio_play_sound(Snd_BlockBreak,0,0,global.SFXvolume*2)
 		audio_play_sound(Snd_land,0,0);
@@ -112,9 +112,9 @@ if place_meeting(x,y+7,Obj_Wall)
 if state = "slicing"
 {
 	yspeed = 0;
-if place_meeting(x,y+14,Obj_Wall) y-= 1
+if place_meeting(x,y+14,[Obj_Wall, autoTileCol]) y-= 1
 
-if !place_meeting(x,y+24,Obj_Wall) {
+if !place_meeting(x,y+24,[Obj_Wall, autoTileCol]) {
 		if !audio_is_playing(Snd_Booster) {
 	state = "drop winding"
 	image_index = 0;
@@ -130,7 +130,7 @@ if state != "dropping" {
 
 if state = "jumping" {
 		alarm[1]-=3
-		if place_meeting(x,y+5,Obj_Wall) or place_meeting(x,y+5,Obj_Billy)
+		if place_meeting(x,y+5,[Obj_Wall, autoTileCol]) or place_meeting(x,y+5,Obj_Billy)
 		{
 		audio_play_sound(Snd_jump,0,0,global.SFXvolume,0,0.8)
 		audio_play_sound(Snd_land,0,0);
@@ -145,7 +145,7 @@ if y <= 95 {
 	}
 }
 if instance_exists(Obj_Billy) {
-if distance_to_object(Obj_Billy) < 12 and y >= Obj_Billy.y-4 and place_meeting(x,y+24,Obj_Wall){
+if distance_to_object(Obj_Billy) < 12 and y >= Obj_Billy.y-4 and place_meeting(x,y+24,[Obj_Wall, autoTileCol]){
 	if state != "dropping" {
 		image_index = 0;
 		state = "slicing"
@@ -160,7 +160,7 @@ if global.paused {
 		if active alarm[1]++
 	}
 	
-while place_meeting(x,y+0.25,Obj_Wall) {
+while place_meeting(x,y+0.25,[Obj_Wall, autoTileCol]) {
 	y-= 0.25
 }
 

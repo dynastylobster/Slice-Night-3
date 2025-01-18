@@ -3,7 +3,7 @@
 
 
 if place_meeting(x,y,enemy) {
-if !place_meeting(x,y,[Obj_Wall,Obj_EnemyOnlyBlock]) 
+if !place_meeting(x,y,[Obj_Wall, Obj_EnemyOnlyBlock, autoTileCol]) 
 {
 	
 enemy.dir *= -1	

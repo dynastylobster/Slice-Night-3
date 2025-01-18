@@ -8,7 +8,7 @@ if instance_exists(Obj_Billy) {
 			if Obj_Billy.x < x {
 			xspeed = 2.5
 		}
-			if !place_meeting(x,y-5,Obj_Wall) {
+			if !place_meeting(x,y-5,[Obj_Wall, autoTileCol]) {
 			yspeed -= pi 
 			}
 		other.done_slicing = true

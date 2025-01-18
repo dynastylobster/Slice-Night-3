@@ -9,11 +9,11 @@ if !global.paused {
 			y += yspeed
 			x += xspeed
 		
-	if !place_meeting(x,y+abs(yspeed),[Obj_Wall,Obj_EnemyOnlyBlock]) {
+	if !place_meeting(x,y+abs(yspeed),[Obj_Wall, Obj_EnemyOnlyBlock, autoTileCol]) {
 			yspeed += grav 
 		}
 		
-	if place_meeting(x,y+2,[Obj_Wall,Obj_EnemyOnlyBlock]) {
+	if place_meeting(x,y+2,[Obj_Wall, Obj_EnemyOnlyBlock, autoTileCol]) {
 			xspeed = dir*2
 			yspeed = -jumpspeed
 			dir = choose(-1,1)
@@ -21,11 +21,11 @@ if !global.paused {
 		
 	}
 	
-	if place_meeting(x+3,y,[Obj_Wall,Obj_EnemyOnlyBlock]) {
+	if place_meeting(x+3,y,[Obj_Wall, Obj_EnemyOnlyBlock, autoTileCol]) {
 		xspeed = -2
 		dir = -1
 	}
-	if place_meeting(x-3,y,[Obj_Wall,Obj_EnemyOnlyBlock]) {
+	if place_meeting(x-3,y,[Obj_Wall, Obj_EnemyOnlyBlock, autoTileCol]) {
 		xspeed = 2
 		dir = 1
 	}

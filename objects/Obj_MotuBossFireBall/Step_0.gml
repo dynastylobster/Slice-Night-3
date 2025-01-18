@@ -5,7 +5,7 @@ if !global.paused {
 	x += xspeed
 	y+= yspeed
 	
-	if place_meeting(x,y,Obj_Wall) {
+	if place_meeting(x,y,[Obj_Wall, autoTileCol]) {
 		yspeed = -4;
 		}
 	

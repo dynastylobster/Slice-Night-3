@@ -12,7 +12,7 @@ if instance_exists(Obj_Billy)
 				if dir = -1 image_index = 0
 				if dir = 1 image_index = 2
 				
-				if !place_meeting(x+xspeed*1.25,y,Obj_Wall) {
+				if !place_meeting(x+xspeed*1.25,y,[Obj_Wall, autoTileCol]) {
 						if abs(xspeed) < max_xspeed then xspeed += dir*0.25
 					} else {
 							xspeed = 0
@@ -32,7 +32,7 @@ if instance_exists(Obj_Billy)
 			if distance_to_object(Obj_BasketBallSpikey) <= 64 and Obj_BasketBallSpikey.y > y-36 {
 			if Obj_BasketBallSpikey.x > x then dir = -1
 			if Obj_BasketBallSpikey.x < x then dir = 1
-			if !place_meeting(x+xspeed*1.25,y,Obj_Wall) {
+			if !place_meeting(x+xspeed*1.25,y,[Obj_Wall, autoTileCol]) {
 					//	if abs(xspeed) < max_xspeed then xspeed += dir*0.25
 					}
 			if Obj_BasketBallSpikey.x > x then xspeed -=0.05125
@@ -40,7 +40,7 @@ if instance_exists(Obj_Billy)
 			}
 	}
 }
-	while place_meeting(x,y,Obj_Wall) {
+	while place_meeting(x,y,[Obj_Wall, autoTileCol]) {
 		if x < 200 x+= 0.25
 		if x > 200 x-= 0.25
 	}

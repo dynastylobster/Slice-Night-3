@@ -13,7 +13,7 @@ if alarm[0] < 45 and alarm[0] != -4 and grounded {
 	image_index = 2
 }
 
-if place_meeting(x,y+abs(yspeed),[Obj_Wall,Obj_EnemyOnlyBlock]) {
+if place_meeting(x,y+abs(yspeed),[Obj_Wall, Obj_EnemyOnlyBlock, autoTileCol]) {
 	if !grounded {
 		alarm[0] = 120	
 	}
@@ -42,7 +42,7 @@ if !global.paused {
 		y+= yspeed
 	}
 if yspeed < 0 {
-if place_meeting(x,y-4,[Obj_Wall,Obj_EnemyOnlyBlock]) {
+if place_meeting(x,y-4,[Obj_Wall, Obj_EnemyOnlyBlock, autoTileCol]) {
 		yspeed = 0;
 	}
 }
@@ -52,7 +52,7 @@ if instance_exists(Obj_Billy){
 		if Obj_Billy.x > x then facing = 1
 	}
 	
-if place_meeting(x,y+3,[Obj_Wall,Obj_EnemyOnlyBlock]) and !place_meeting(x,y+1,[Obj_Wall,Obj_EnemyOnlyBlock]) {
+if place_meeting(x,y+3,[Obj_Wall, Obj_EnemyOnlyBlock, autoTileCol]) and !place_meeting(x,y+1,[Obj_Wall, Obj_EnemyOnlyBlock, autoTileCol]) {
 		if yspeed = 0 {
 			y+= 1;	
 		}

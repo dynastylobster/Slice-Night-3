@@ -8,7 +8,7 @@ if !global.paused
 	}
 
 if !place_meeting(x,y,Obj_DebrisPlatform) {
-if place_meeting(x,y,Obj_Wall)
+if place_meeting(x,y,[Obj_Wall, autoTileCol])
 	{
 		audio_play_sound(Snd_land,0,0,2)
 		audio_play_sound(Snd_BlockBreak,0,0,1)

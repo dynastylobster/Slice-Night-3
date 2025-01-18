@@ -60,18 +60,18 @@ slicing_down = true
 if !grounded {
 yspeed += grav
 }
-if !place_meeting(x,y-4,Obj_Wall) 
+if !place_meeting(x,y-4,[Obj_Wall, autoTileCol]) 
 {
 y += yspeed	
 }
 
-if ( place_meeting(x,y+1.2,Obj_Wall) or place_meeting(x,y+1.2,Obj_Slope) ) and yspeed >= 0 {
+if ( place_meeting(x,y+1.2, [Obj_Wall, autoTileCol]) or place_meeting(x,y+1.2,Obj_Slope) ) and yspeed >= 0 {
 	var slopetooclose = (yspeed > 1);
 	if !grounded and !dead audio_play_sound(Snd_land,0,0,slopetooclose*global.SFXvolume)
 	grounded = true
 } else if !place_meeting(x,y+2.5+abs(yspeed),Obj_MovePlatform) grounded = false
 
-if place_meeting(x,y-5,Obj_Wall) {
+if place_meeting(x,y-5,[Obj_Wall, autoTileCol]) {
 	y+= 1
 	yspeed = max_fallspeed/4
 	}
@@ -124,7 +124,7 @@ if abs(xspeed) > 0 {
 	if !walking and xspeed>0 xspeed -= deccell
 	if !walking and xspeed<0 xspeed += deccell
 	}
-if !place_meeting(x+1.5*xspeed,y,Obj_Wall) 
+if !place_meeting(x+1.5*xspeed,y,[Obj_Wall, autoTileCol]) 
 {
 x+= xspeed
 }
@@ -132,9 +132,10 @@ x+= xspeed
 //jump queuing and koyote time
 if !global.paused {
 
-if ( (place_meeting(x,y+16,Obj_Wall)) or (place_meeting(x,y+16,Obj_Slope)) ) and !grounded and yspeed >= 0 {
+if ( (place_meeting(x,y+16,[Obj_Wall, autoTileCol])) or (place_meeting(x,y+16,Obj_Slope)) ) and !grounded and yspeed >= 0 {
 if global.key_Z_pressed and GameObject.unpausetimer = 0 then about_to_jump = true	
 }
+
 if grounded and about_to_jump and !dead {
 	if !audio_is_playing(Snd_jump) audio_play_sound(Snd_jump,0,0)
 	yspeed = -jumpspeed
@@ -238,7 +239,7 @@ if !global.key_Z {yspeed = yspeed/1.2}
 }
 
 
-while place_meeting(x,y+0.125,Obj_Wall) and grounded
+while place_meeting(x,y+0.125,[Obj_Wall, autoTileCol]) and grounded
 	{
 		if place_meeting(x,y-5,Obj_RegenSliceBlock) {x-=4}
 	if !place_meeting(x,y,Obj_PushOuttaWall) {
@@ -261,7 +262,7 @@ if place_meeting(x,y+4,Obj_MovePlatform) {
 
 //walljumping
 if global.walljump and !place_meeting(x+8,y,Obj_NoWallJumpBlock) and !place_meeting(x-8,y,Obj_NoWallJumpBlock){
-	if place_meeting(x+sign(xspeed)*6,y,Obj_Wall) and !place_meeting(x,y+8,Obj_Wall) {
+	if place_meeting(x+sign(xspeed)*6,y,[Obj_Wall, autoTileCol]) and !place_meeting(x,y+8,[Obj_Wall, autoTileCol]) {
 		if instance_exists(Obj_WallJumpEffect) {
 		if alarm[0] <= 0 or distance_to_object(Obj_WallJumpEffect) > 48 {
 		if facing = -1 then sliding = global.key_left
@@ -286,10 +287,10 @@ if global.walljump and !place_meeting(x+8,y,Obj_NoWallJumpBlock) and !place_meet
 				if !place_meeting(x,y,Obj_WallJumpEffect) and sprite_index = Spr_BillyWallSlide {
 					alarm[0] = 35
 					
-					if place_meeting(x+10,y,Obj_Wall) {
+					if place_meeting(x+10,y,[Obj_Wall, autoTileCol]) {
 						facing = 1
 					}
-					if place_meeting(x-10,y,Obj_Wall) {
+					if place_meeting(x-10,y,[Obj_Wall, autoTileCol]) {
 						facing = -1
 					}
 					
@@ -313,13 +314,13 @@ if global.walljump and !place_meeting(x+8,y,Obj_NoWallJumpBlock) and !place_meet
 		} else sliding = false
 		
 	} if grounded sliding = false
-	if place_meeting(x,y+8,Obj_Wall) sliding = false
+	if place_meeting(x,y+8,[Obj_Wall, autoTileCol]) sliding = false
 	if grounded deccell_air = 0.25
 
 					if instance_exists(Obj_WallJumpEffect) 
 					{
 						facing = sign(x - Obj_WallJumpEffect.x)
-						//xspeed = (sign(instance_nearest(x,y,Obj_WallJumpEffect).x)-x)*abs(xspeed)
+						//xspeed = (sign(instance_nearest(x,y,[Obj_Wall, autoTileCol]JumpEffect).x)-x)*abs(xspeed)
 						}
 
 
@@ -340,7 +341,7 @@ if dashing {
 	dashingfor++
 	grav = 0
 	yspeed = 0
-	if place_meeting(x,y+2,Obj_Wall) {
+	if place_meeting(x,y+2,[Obj_Wall, autoTileCol]) {
 	y-= 5	
 	}
 	sprite_index = Spr_BillyDash;
@@ -374,7 +375,7 @@ if place_meeting(x,y,Obj_BillyChargeEffect) {
 		dashing = true
 		}
 	}
-if place_meeting(x+image_xscale*7,y,Obj_Wall) {
+if place_meeting(x+image_xscale*7,y,[Obj_Wall, autoTileCol]) {
 dashing = false	
 }
 

@@ -6,6 +6,7 @@ yspeed = 0
 grav = 0.1
 startx = x 
 dest_x = x
+try { autoTileCol = layer_tilemap_get_id("TileCollision"); } catch (err) { autoTileCol = -4; }
 if instance_exists(BossParentObject) {
 if BossParentObject.x > x then dest_x = startx+19
 if BossParentObject.x < x then dest_x = startx-19

@@ -9,7 +9,7 @@ if !global.paused {
 	whizyardDeathTimer++;
 	}
 yspeed += grav
-if place_meeting(x,y+1*sign(grav),[Obj_Wall,Obj_EnemyOnlyBlock]) {
+if place_meeting(x,y+1*sign(grav), [Obj_Wall, Obj_EnemyOnlyBlock, autoTileCol]) {
 yspeed = -jumpspeed *sign(grav)
 }
 

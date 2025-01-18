@@ -12,7 +12,7 @@ if instance_exists(Obj_Billy) {
 
 event_inherited();
 
-if place_meeting(x,y+4,Obj_Wall) {
+if place_meeting(x,y+4,[Obj_Wall, autoTileCol]) {
 	if abs(xspeed) < 1 sprite_index = Spr_model1_idle
 	if abs(xspeed) > 1 sprite_index = Spr_model1_walk
 } else if !TP{
@@ -60,7 +60,7 @@ if yanking and !TP {
 	speed = 0	
 	}
 	
-	if place_meeting(x,y+4,Obj_Wall) {
+	if place_meeting(x,y+4,[Obj_Wall, autoTileCol]) {
 		if abs(xspeed) <= 2 {
 		if Obj_Billy.x > x xspeed += 0.25
 		if Obj_Billy.x < x xspeed -= 0.25
@@ -80,14 +80,14 @@ if yanking and !TP {
 			}
 	}
 	
-	if !place_meeting(x,y+yspeed,Obj_Wall) {
+	if !place_meeting(x,y+yspeed,[Obj_Wall, autoTileCol]) {
 		yspeed += grav
 	} else {
 	yspeed = 0	
 	}
 		y+= yspeed
 	
-	if !place_meeting(x+xspeed,y,Obj_Wall) {
+	if !place_meeting(x+xspeed,y,[Obj_Wall, autoTileCol]) {
 		x+= xspeed
 	}
 	
@@ -124,7 +124,7 @@ if yanking and !TP {
 	}
 	
 }
-while place_meeting(x,y+1,Obj_Wall) {
+while place_meeting(x,y+1,[Obj_Wall, autoTileCol]) {
 	yspeed = 0
 	y-= 0.25	
 }
@@ -151,9 +151,9 @@ if hp <= 4 {
 
 }
 
-if place_meeting(x-4,y,Obj_Wall) {
+if place_meeting(x-4,y,[Obj_Wall, autoTileCol]) {
 	xspeed = clamp(xspeed,0,4)	
 }
-if place_meeting(x+4,y,Obj_Wall) {
+if place_meeting(x+4,y,[Obj_Wall, autoTileCol]) {
 xspeed = clamp(xspeed,-4,0)	
 }

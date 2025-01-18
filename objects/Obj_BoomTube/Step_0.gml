@@ -22,7 +22,7 @@ if place_meeting(x,y,Obj_CannonBall) {
 	}
 
 if !global.paused {
-if !place_meeting(x,y+yspeed,Obj_Wall) 
+if !place_meeting(x,y+yspeed,[Obj_Wall, autoTileCol]) 
 {
 y += yspeed
 }

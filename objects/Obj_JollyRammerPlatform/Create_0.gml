@@ -6,3 +6,4 @@ destination_x = 0
 platform_speed = 0;
 destination_y = 0
 forward = true
+try { autoTileCol = layer_tilemap_get_id("TileCollision"); } catch (err) { autoTileCol = -4; }

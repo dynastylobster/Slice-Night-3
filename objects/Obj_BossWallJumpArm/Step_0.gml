@@ -8,7 +8,7 @@ if instance_exists(BossParentObject) and !global.paused {
 	yspeed += grav 
 	}
 	
-	if place_meeting(x,y,Obj_Wall) {
+	if place_meeting(x,y,[Obj_Wall, autoTileCol]) {
 		if !place_meeting(x,y,Obj_NoWallJumpBlock) and !place_meeting(x,y,Obj_DebrisPlatform) {
 		yspeed = -4
 		}

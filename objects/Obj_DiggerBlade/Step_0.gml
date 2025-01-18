@@ -26,7 +26,7 @@ x += sin(age/5)*1.5 *dir
 
 
 }
-if place_meeting(x,y,Obj_Wall) {
+if place_meeting(x,y,[Obj_Wall, autoTileCol]) {
 draw_x = x+irandom_range(-1,1)
 draw_y = y+irandom_range(-1,1) 
 if !place_meeting(x,y,Obj_SliceBlockParticle) {

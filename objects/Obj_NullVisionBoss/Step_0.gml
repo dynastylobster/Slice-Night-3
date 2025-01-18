@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-if place_meeting(x,y,Obj_Wall) {
+if place_meeting(x,y,[Obj_Wall, autoTileCol]) {
 touchingwall = true	
 } else touchingwall = false;
 

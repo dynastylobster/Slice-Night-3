@@ -7,6 +7,7 @@ yspeed = 0
 xspeed = 0
 sliced = false;
 age = 0;
+try { autoTileCol = layer_tilemap_get_id("TileCollision"); } catch (err) { autoTileCol = -4; }
 
 if instance_exists(Obj_Billy) {
 	var _dir

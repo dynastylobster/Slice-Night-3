@@ -52,3 +52,5 @@ xspeed = 0
 yspeed = 0
 
 grounded = true;
+
+try { autoTileCol = layer_tilemap_get_id("TileCollision"); } catch (err) { autoTileCol = -4; }

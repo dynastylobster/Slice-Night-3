@@ -28,7 +28,7 @@ if instance_exists(Obj_Billy) {
 }
 	
 	
-if !place_meeting(x,y+8,Obj_Wall) {
+if !place_meeting(x,y+8,[Obj_Wall, autoTileCol]) {
 yspeed+=grav
 y+=yspeed
 }

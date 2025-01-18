@@ -8,6 +8,7 @@ prevHP = hp
 timer = 0
 max_fallspeed = 3
 jumpspeed = 3
+
 if !jumping or StillJump {
 instance_create_layer(x,y,layer,Obj_CheckDown);
 }

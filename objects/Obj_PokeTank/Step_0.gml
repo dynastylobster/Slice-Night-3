@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 if !global.paused {
-if place_meeting(x+(xspeed*2),y,[Obj_Wall,Obj_EnemyOnlyBlock]) {
+if place_meeting(x+(xspeed*2),y,[Obj_Wall, Obj_EnemyOnlyBlock, autoTileCol]) {
 xspeed *= -1	
 }
 x+= xspeed

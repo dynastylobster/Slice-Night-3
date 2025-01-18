@@ -12,34 +12,34 @@ if !place_meeting(x,y,Obj_BillyShipBullet) and image_speed = 0
 	}
 }
 
-if !place_meeting(x+5,y,Obj_Wall) {
+if !place_meeting(x+5,y,[Obj_Wall, autoTileCol]) {
 if global.key_right	{
 	xspeed +=0.25  
 	}
 }
 
-if !place_meeting(x-5,y,Obj_Wall) {
+if !place_meeting(x-5,y,[Obj_Wall, autoTileCol]) {
 if global.key_left	{
 	 xspeed -=0.25 
 	}
 }
 
-if !place_meeting(x,y+5,Obj_Wall) {
+if !place_meeting(x,y+5,[Obj_Wall, autoTileCol]) {
 if global.key_down	{
 	 yspeed +=0.25 
 	}
 }
 
-if !place_meeting(x,y-5,Obj_Wall) {
+if !place_meeting(x,y-5,[Obj_Wall, autoTileCol]) {
 if global.key_up {
 	 yspeed -=0.25
 	}
 }
 
-if !place_meeting(x+xspeed*2,y,Obj_Wall) {
+if !place_meeting(x+xspeed*2,y,[Obj_Wall, autoTileCol]) {
 x+= xspeed	
 }
-if !place_meeting(x,y+yspeed*2,Obj_Wall) {
+if !place_meeting(x,y+yspeed*2,[Obj_Wall, autoTileCol]) {
 y+= yspeed
 }
 

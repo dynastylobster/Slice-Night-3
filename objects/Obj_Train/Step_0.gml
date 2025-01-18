@@ -14,7 +14,7 @@ if !place_meeting(x,y,Obj_BillyShipBullet) and image_speed = 0
 	}
 }*/
 
-if place_meeting(x+xspeed*2,y+4,Obj_Wall) {
+if place_meeting(x+xspeed*2,y+4,[Obj_Wall, autoTileCol]) {
 		instance_create_layer(x,y,layer,Obj_EnemyHurtEffect)
 		
 		repeat(5) {

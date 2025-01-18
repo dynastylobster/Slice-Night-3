@@ -12,3 +12,4 @@ start_y = y
 
 
 age = 0
+try { autoTileCol = layer_tilemap_get_id("TileCollision"); } catch (err) { autoTileCol = -4; }

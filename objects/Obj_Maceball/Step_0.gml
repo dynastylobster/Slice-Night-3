@@ -5,12 +5,12 @@ if !global.paused {
 	
 	age++
 
-if !place_meeting(x,y+yspeed+1,Obj_Wall) {
+if !place_meeting(x,y+yspeed+1,[Obj_Wall, autoTileCol]) {
 		yspeed += grav
 		if yspeed > max_fallspeed yspeed = max_fallspeed
 	}
 
-if place_meeting(x,y+yspeed+1,Obj_Wall) {
+if place_meeting(x,y+yspeed+1,[Obj_Wall, autoTileCol]) {
 		if yspeed> 1.5 {
 				audio_play_sound(Snd_land,0,0,global.SFXvolume*3,0,0.75)
 				audio_play_sound(Snd_land,0,0,global.SFXvolume*2,0,0.8)
@@ -24,7 +24,7 @@ if place_meeting(x,y+yspeed+1,Obj_Wall) {
 	}
 
 
-if place_meeting(x+xspeed,y,Obj_Wall) {
+if place_meeting(x+xspeed,y,[Obj_Wall, autoTileCol]) {
 	xspeed = xspeed*-0.5
 }
 x+= xspeed

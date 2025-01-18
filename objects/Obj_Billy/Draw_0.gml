@@ -24,7 +24,7 @@ if global.music = Snd_FinalBoss or room = Level_BossFinal {
 	if x < 77 then blackholeleft = true
 	if x > 250 then blackholeright = true
 	
-	if grounded or place_meeting(x,y+6,Obj_Wall){
+	if grounded or place_meeting(x,y+6,[Obj_Wall, autoTileCol]){
 		if !blackholeleft and !blackholeright 	draw_sprite(Spr_BillyShadow,0,x,y+(floor(image_index)));	
 		if blackholeleft draw_sprite(Spr_BillyShadow,1,x,y+(floor(image_index)));	
 		if blackholeright draw_sprite(Spr_BillyShadow,2,x,y+(floor(image_index)));	
