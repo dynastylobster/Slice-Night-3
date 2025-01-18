@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if other.done_slicing = false {
-instance_create_depth(x,y,depth,Obj_EnemyHurtEffect)
+
 
 var dam = other.damageType;
 var damage = 1;
@@ -46,11 +46,13 @@ if (array_length(resistances) > 1) {
 }
 
 if (global.character == "Robot") {
-damage *= 1;
+damage *= 1.6;
 }
 if (global.character == "Coyote") {
 damage /= 2;	
 }
+
+if damage > 0 instance_create_depth(x,y,depth,Obj_EnemyHurtEffect)
 
 hp -= damage;
 

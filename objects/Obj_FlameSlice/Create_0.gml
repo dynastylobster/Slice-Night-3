@@ -18,6 +18,6 @@ alarm[1] = 120;
 image_alpha = 0.5
 
 if global.character = "Robot" {
-		xspeed = 0;
-		alarm[1] = 20;
+		xspeed = 2;
+		alarm[1] = 30;
 	}

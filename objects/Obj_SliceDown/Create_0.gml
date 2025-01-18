@@ -10,3 +10,6 @@ image_xscale = Obj_Billy.image_xscale
 if global.character = "Robot" {
 		sprite_index = Spr_SliceDownMotu
 	}
+if global.character = "Coyote" {
+		sprite_index = Spr_SliceDownVoid
+	}

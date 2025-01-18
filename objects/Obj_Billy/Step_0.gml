@@ -1,5 +1,35 @@
 /// @description Insert description here
 // You can write your code in this editor
+if global.character = "Robot" {
+	doublejump = false;
+		jumpspeed = 6.5
+		max_runspeed = 2.1
+	}
+if global.character = "Human" {
+	doublejump = false;
+		jumpspeed = 6
+		max_runspeed = 2.3 
+	}
+if global.character = "Coyote" {
+	doublejump = true;
+		max_runspeed = 3.15
+		jumpspeed = 5
+		
+	if !place_meeting(x,y+4,[Obj_MovePlatform,Obj_Wall,autoTileCol]) {
+			if global.key_Z_pressed {
+				if has_double_jumped = false {
+						audio_play_sound(Snd_jump,0,0,global.SFXvolume*2,0,1.1)
+						yspeed = -jumpspeed/1.08
+					has_double_jumped = true
+				}
+			}
+		}
+		
+	if grounded has_double_jumped = false
+		
+	}
+
+
 if !global.paused {
 if grounded {deccell = deccell_ground} else deccell = deccell_air
 age += 0.5

@@ -23,7 +23,13 @@ if done_slicing{
 	
 	}
 	
- if parryball or abs(Obj_Billy.xspeed) > 0.125	Obj_Billy.xspeed *= 1.3
+ if parryball or abs(Obj_Billy.xspeed) > 0.125 
+ {	
+	 if global.character = "Human"  Obj_Billy.xspeed *= 1.3
+	if global.character = "Robot" Obj_Billy.xspeed *= 1.65
+	if global.character = "Coyote" Obj_Billy.xspeed *= 1.2
+	 
+	 }
 	
 		}
 	if Obj_Billy.yspeed > -1 Obj_Billy.yspeed = -3
