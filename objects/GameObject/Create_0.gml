@@ -5,8 +5,7 @@ global.motu = false
 characters = ["Human", "Robot", "Coyote"]
 costumes = ["Billy", "Miley", "Billy (Fox)", "Miley (Fox)", "Motu", "Void"];
 //charDesc = ["Human.\nNothing special.", "Robotic.\nMoves slower, but attacks harder.\nIncreased trick speed, cannot flameslice.", "Coyote.\nMassively increased movement abilities.\nIneffective damage."];
-global.character = 0;
-maxCharacters = 2;
+global.character = characters[0];
 global.costume = costumes[0];
 
 

@@ -33,7 +33,7 @@ if floating {
 
 if place_meeting(x,y,Obj_BillyShip) {
 sprite_index = Spr_SliceSideShip	
-if global.motu sprite_index = Spr_SliceSideShipMotu
+if global.character = "Robot" sprite_index = Spr_SliceSideShipMotu
 }
 
 if !flamesliced and !dont_flameslice {

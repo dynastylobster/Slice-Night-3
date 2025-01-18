@@ -9,6 +9,6 @@ if instance_exists(Obj_Billy) {
 image_xscale = Obj_Billy.image_xscale	
 }
 floating = false;
-if global.motu = true {
+if global.character = "Robot" {
 		sprite_index = Spr_SliceSideMotu
 	}

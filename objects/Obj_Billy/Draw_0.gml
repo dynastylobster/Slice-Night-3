@@ -39,7 +39,7 @@ if global.music = Snd_FinalBoss or room = Level_BossFinal {
 
 if global.costume != "Motu" {
 	
-if global.character = "Human" and !dead and !sliding and !slicing_side and !slicing_down{
+if (global.costume == "Billy (Fox)" || global.costume == "Miley (Fox)") and !dead and !sliding and !slicing_side and !slicing_down{
 	
 if grounded and !running {
 if walking draw_sprite_ext(Spr_BillyFoxUnder,image_index,x,y,image_xscale,image_yscale,0,c_white,image_alpha);	
@@ -59,22 +59,22 @@ if !grounded {
 
 }
 
-if global.character = "Human" and slicing_down {
+if (global.costume == "Billy (Fox)" || global.costume == "Miley (Fox)") and slicing_down {
 	draw_sprite_ext(Spr_BillyFoxUnder,image_index,x,y-2,image_xscale,image_yscale,0,c_white,image_alpha);	
 }
 
 
-if global.character = "Human" and slicing_side {
+if (global.costume == "Billy (Fox)" || global.costume == "Miley (Fox)") and slicing_side {
 	draw_sprite_ext(Spr_BillyFoxUnder,image_index,x+facing,y,image_xscale,image_yscale,0,c_white,image_alpha);	
 }
 
-if global.character = "Human" and sliding and !slicing_side and !slicing_down {
+if (global.costume == "Billy (Fox)" || global.costume == "Miley (Fox)") and sliding and !slicing_side and !slicing_down {
 	draw_sprite_ext(Spr_BillyFoxSlideUnder,image_index,x,y,image_xscale,image_yscale,0,c_white,image_alpha);	
 }
 
 }
 //girl billy
-if (global.costume == "Miley")
+if (global.costume == "Miley" or global.costume = "Miley (Fox)")
 {
 if sprite_index = Spr_BillyDie then sprite_index = Spr_BillyDieF
 if sprite_index = Spr_BillyWalk then sprite_index = Spr_BillyWalkF
@@ -127,8 +127,8 @@ if sprite_index = Spr_BillyWallSlide then sprite_index = Spr_PMotuWallSlide
 draw_self();
 
 
-if global.character != "Motu" {
-if global.character = ["Billy (Fox)","Miley (Fox)"] and !dead and !sliding and !slicing_side and !slicing_down{
+if global.costume != "Motu" {
+if (global.costume == "Billy (Fox)" || global.costume == "Miley (Fox)") and !dead and !sliding and !slicing_side and !slicing_down{
 	if grounded and !running {
 if walking draw_sprite_ext(Spr_BillyFoxOver,image_index,x,y,image_xscale,image_yscale,0,c_white,image_alpha);	
 if !walking draw_sprite_ext(Spr_BillyFoxOver,image_index,x,y+1,image_xscale,image_yscale,0,c_white,image_alpha);	
@@ -146,15 +146,15 @@ if !grounded {
 
 } 
 
-if global.character = ["Billy (Fox)","Miley (Fox)"] and sliding and !slicing_side and !slicing_down {
+if (global.costume == "Billy (Fox)" || global.costume == "Miley (Fox)") and sliding and !slicing_side and !slicing_down {
 	draw_sprite_ext(Spr_BillyFoxSlideOver,image_index,x,y,image_xscale,image_yscale,0,c_white,image_alpha);	
 }
 
-if global.character = ["Billy (Fox)","Miley (Fox)"] and slicing_down {
+if (global.costume == "Billy (Fox)" || global.costume == "Miley (Fox)") and slicing_down {
 	draw_sprite_ext(Spr_BillyFoxOver,image_index,x,y-2,image_xscale,image_yscale,0,c_white,image_alpha);	
 }
 
-if global.character = ["Billy (Fox)","Miley (Fox)"] and slicing_side {
+if (global.costume == "Billy (Fox)" || global.costume == "Miley (Fox)") and slicing_side {
 	draw_sprite_ext(Spr_BillyFoxOver,image_index,x+facing,y-1,image_xscale,image_yscale,0,c_white,image_alpha);	
 }
 

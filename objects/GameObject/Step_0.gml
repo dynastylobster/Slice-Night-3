@@ -255,11 +255,23 @@ if global.fem {
 			nextChar = 0;
 			}
 			global.character = characters[nextChar];
-			menu_text[5] = ("Character: " + global.character)
+			
 			// save
+			
+			if global.character = "Robot" {
+					global.costume = "Motu"
+				}
+			if global.character = "Coyote" {
+				 global.costume = "Void"
+				}
+			if global.character = "Human" {
+					if (global.costume = "Motu" || global.costume = "Void") global.costume = "Billy"
+				}
 		}
 
 	}
+	
+	menu_text[5] = ("Character: " + global.character)
 	if (menu_index = 8) {
 		if global.key_Z_pressed or global.key_X_pressed {
 			var nextCos = (array_get_index(costumes, global.costume) + 1)
@@ -267,11 +279,24 @@ if global.fem {
 				nextCos = 0;
 			}
 			global.costume = costumes[nextCos];
-			menu_text[8] = ("Costume: " + global.costume);
+			
 			// save
+			if global.character = "Human" {
+					if (global.costume = "Motu" || global.costume = "Void") global.costume = "Billy"
+				}
+			if global.character = "Robot" {
+					global.costume = "Motu"
+				}
+				
+			if global.character = "Coyote" {
+					global.costume = "Void"
+				}
+			
 		}
 
 	}
+	
+	menu_text[8] = ("Costume: " + global.costume);
 	
 audio_sound_gain(global.music,global.musicvolume,0); 
 

@@ -157,6 +157,12 @@ if global.paused {
 		
 	draw_text(_menux,_menuy+48,string(menu_text[4]))
 	
+	draw_set_color(c_blue)
+	draw_text(_menux,_menuy+80,menu_text[5])
+	draw_set_color(c_white)
+	draw_text(_menux,_menuy+79,menu_text[5])
+	
+	
 	/*if !global.secondserving {
 	if global.billyfox
 		{draw_text(_menux,_menuy+80,string(menu_text[5])+"Yes!")} else 
@@ -186,6 +192,10 @@ if global.paused {
 	} else {
 		draw_text(_menux,_menuy+128,string(menu_text[8])+"No")
 	}*/
+	draw_set_color(c_blue)
+	draw_text(_menux,_menuy+129,menu_text[8])
+	draw_set_color(c_white)
+	draw_text(_menux,_menuy+128,menu_text[8])
 	
 	
 }
