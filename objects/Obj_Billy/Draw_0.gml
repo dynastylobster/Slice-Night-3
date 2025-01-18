@@ -37,9 +37,9 @@ if global.music = Snd_FinalBoss or room = Level_BossFinal {
 		
 	}
 
-if global.character != "Motu" {
+if global.costume != "Motu" {
 	
-if global.character = ["Billy (Fox)","Miley (Fox)"] and !dead and !sliding and !slicing_side and !slicing_down{
+if global.character = "Human" and !dead and !sliding and !slicing_side and !slicing_down{
 	
 if grounded and !running {
 if walking draw_sprite_ext(Spr_BillyFoxUnder,image_index,x,y,image_xscale,image_yscale,0,c_white,image_alpha);	
@@ -59,16 +59,16 @@ if !grounded {
 
 }
 
-if global.character = ["Billy (Fox)","Miley (Fox)"] and slicing_down {
+if global.character = "Human" and slicing_down {
 	draw_sprite_ext(Spr_BillyFoxUnder,image_index,x,y-2,image_xscale,image_yscale,0,c_white,image_alpha);	
 }
 
 
-if global.character = ["Billy (Fox)","Miley (Fox)"] and slicing_side {
+if global.character = "Human" and slicing_side {
 	draw_sprite_ext(Spr_BillyFoxUnder,image_index,x+facing,y,image_xscale,image_yscale,0,c_white,image_alpha);	
 }
 
-if global.character = ["Billy (Fox)","Miley (Fox)"] and sliding and !slicing_side and !slicing_down {
+if global.character = "Human" and sliding and !slicing_side and !slicing_down {
 	draw_sprite_ext(Spr_BillyFoxSlideUnder,image_index,x,y,image_xscale,image_yscale,0,c_white,image_alpha);	
 }
 

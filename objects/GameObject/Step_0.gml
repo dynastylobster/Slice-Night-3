@@ -235,7 +235,7 @@ if menu_index = 7 {
 	
 }
 
-if menu_index = 8 {
+/*if menu_index = 8 {
 		if global.key_Z_pressed or global.key_X_pressed {
 			global.fem = !global.fem
 		}
@@ -246,27 +246,28 @@ if global.fem {
 	menu_text[8] = "Feminine Miley: "
 } else {
 	menu_text[8] = "Feminine Billy: "
-	}
+	}*/
 
 	if (menu_index = 5) {
 		if global.key_Z_pressed or global.key_X_pressed {
-			var nextChar = global.character + 1;
-			if (nextChar > array_length(characters)) {
+			var nextChar = (array_get_index(characters, global.character) + 1);
+			if (nextChar >= array_length(characters)) {
 			nextChar = 0;
 			}
-			global.character = nextChar;
+			global.character = characters[nextChar];
+			menu_text[5] = ("Character: " + global.character)
 			// save
 		}
 
 	}
 	if (menu_index = 8) {
 		if global.key_Z_pressed or global.key_X_pressed {
-			var curChar = global.character;
-			var nextCos = array_find_index(characters[curChar], global.costume) + 1;
-			if (nextCos > array_length(characters[curChar])) {
-			nextCos = 0;
+			var nextCos = (array_get_index(costumes, global.costume) + 1)
+			if (nextCos >= array_length(costumes)) {
+				nextCos = 0;
 			}
-			global.costume = characters[curChar][nextCos];
+			global.costume = costumes[nextCos];
+			menu_text[8] = ("Costume: " + global.costume);
 			// save
 		}
 
@@ -374,14 +375,14 @@ audio_stop_sound(Snd_Key)
 		
 		
 		}
-if global.secondserving {
+/*if global.secondserving {
 	menu_text[5] = "Playable Motu: "
 		global.billyfox = true
 	} else {
 	
 	if !global.fem menu_text[5] = "Billy Is A Fennec Fox: "	
 	if global.fem menu_text[5] = "Miley Is A Fennec Fox: "	
-	}
+	}*/
 if global.paused {
 	if global.key_up_pressed or global.key_down_pressed or global.key_left or global.key_right or global.key_X_pressed or global.key_Z_pressed {
 			if global.fem = true {

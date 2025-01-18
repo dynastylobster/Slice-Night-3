@@ -45,10 +45,10 @@ if (array_length(resistances) > 1) {
 
 }
 
-if (global.character == 1) {
+if (global.character == "Robot") {
 damage *= 2;	
 }
-if (global.character == 2) {
+if (global.character == "Coyote") {
 damage /= 2;	
 }
 

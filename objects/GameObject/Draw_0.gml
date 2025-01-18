@@ -126,9 +126,9 @@ if global.paused {
 	
 	
 	draw_text(_menux+1,_menuy+49,string(menu_text[4]))
-	if global.billyfox
+	/*if global.billyfox
 		{draw_text(_menux+1,_menuy+81,string(menu_text[5])+"Yes!")} else 
-		{draw_text(_menux+1,_menuy+81,string(menu_text[5])+"No.")}
+		{draw_text(_menux+1,_menuy+81,string(menu_text[5])+"No.")}*/
 	
 	if room != TitleScreenOptionsRoom draw_text(_menux+1,_menuy+97,string(menu_text[6]))
 	
@@ -157,7 +157,7 @@ if global.paused {
 		
 	draw_text(_menux,_menuy+48,string(menu_text[4]))
 	
-	if !global.secondserving {
+	/*if !global.secondserving {
 	if global.billyfox
 		{draw_text(_menux,_menuy+80,string(menu_text[5])+"Yes!")} else 
 		{draw_text(_menux,_menuy+80,string(menu_text[5])+"No.")}
@@ -167,7 +167,7 @@ if global.paused {
 	if global.motu
 		{draw_text(_menux,_menuy+80,string(menu_text[5])+"Yes!")} else 
 		{draw_text(_menux,_menuy+80,string(menu_text[5])+"No.")}
-	}
+	}*/
 		
 		draw_set_color(c_blue)
 	draw_text(_menux+1,_menuy+114,string(menu_text[7]))
@@ -175,7 +175,7 @@ if global.paused {
 	draw_text(_menux,_menuy+113,string(menu_text[7]))
 	
 	draw_set_color(c_blue)
-	if global.fem {
+	/*if global.fem {
 		draw_text(_menux+1,_menuy+129,string(menu_text[8])+"Yes")
 	} else {
 		draw_text(_menux+1,_menuy+129,string(menu_text[8])+"No")
@@ -185,7 +185,7 @@ if global.paused {
 		draw_text(_menux,_menuy+128,string(menu_text[8])+"Yes")
 	} else {
 		draw_text(_menux,_menuy+128,string(menu_text[8])+"No")
-	}
+	}*/
 	
 	
 }

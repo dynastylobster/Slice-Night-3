@@ -2,11 +2,12 @@
 hpsprite = Spr_HP
 global.motu = false
 
-characters = [["Billy", "Miley", "Billy (Fox)", "Miley (Fox)"], ["Motu"], ["Void"]];
-charDesc = ["Human.\nNothing special.", "Robotic.\nMoves slower, but attacks harder.\nIncreased trick speed, cannot flameslice.", "Coyote.\nMassively increased movement abilities.\nIneffective damage."];
-// Humans, Robots, Coyotes
+characters = ["Human", "Robot", "Coyote"]
+costumes = ["Billy", "Miley", "Billy (Fox)", "Miley (Fox)", "Motu", "Void"];
+//charDesc = ["Human.\nNothing special.", "Robotic.\nMoves slower, but attacks harder.\nIncreased trick speed, cannot flameslice.", "Coyote.\nMassively increased movement abilities.\nIneffective damage."];
 global.character = 0;
-global.costume = characters[0][0];
+maxCharacters = 2;
+global.costume = costumes[0];
 
 
 
@@ -48,16 +49,14 @@ menu_text[1] = "Music Volume"
 menu_text[2] = "Jump/Slice Mapping:"
 menu_text[3] = "SFX Volume"
 menu_text[4] = "Exit To Title Screen"
-menu_text[5] = "Billy Is A Fennec Fox: "
+menu_text[5] = "Character: "
 menu_text[6] = "Delete Save File:" + string(global.save)
 	if global.vsync = true {
 	menu_text[7] = "Vsync: ON"
 	} else {
 	menu_text[7] = "Vsync: OFF"
 	}
-menu_text[8] = "Feminine Billy: "
-menu_text[9] = "Switch Character";
-menu_text[10] = "Switch Costume";
+menu_text[8] = "Costume: "
 
 //global.jumpslicemap = 0
 //global.musicvolume = 1
