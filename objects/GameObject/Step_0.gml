@@ -108,14 +108,14 @@ if menu_index = 2 {
 	if global.key_Z_pressed or global.key_X_pressed then global.jumpslicemap = !global.jumpslicemap
 	}
 	
-if menu_index = 5 {
+ /* if menu_index = 5 {
 		if !global.secondserving {
 if global.key_Z_pressed or global.key_X_pressed then global.billyfox = !global.billyfox	
 		} else {
 		if global.key_Z_pressed or global.key_X_pressed then global.motu = !global.motu		
 		}
 		
-}
+} */
 }
 
 if !instance_exists(Obj_Key) {
@@ -248,7 +248,7 @@ if global.fem {
 	menu_text[8] = "Feminine Billy: "
 	}
 
-	if (menu_index = 9) {
+	if (menu_index = 5) {
 		if global.key_Z_pressed or global.key_X_pressed {
 			var nextChar = global.character + 1;
 			if (nextChar > array_length(characters)) {
@@ -259,7 +259,7 @@ if global.fem {
 		}
 
 	}
-	if (menu_index = 10) {
+	if (menu_index = 8) {
 		if global.key_Z_pressed or global.key_X_pressed {
 			var curChar = global.character;
 			var nextCos = array_find_index(characters[curChar], global.costume) + 1;

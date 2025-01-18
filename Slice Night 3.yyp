@@ -674,6 +674,7 @@
     {"id":{"name":"Spr_PMotuSliceSide","path":"sprites/Spr_PMotuSliceSide/Spr_PMotuSliceSide.yy",},},
     {"id":{"name":"Spr_PMotuWallSlide","path":"sprites/Spr_PMotuWallSlide/Spr_PMotuWallSlide.yy",},},
     {"id":{"name":"Spr_PokeTank","path":"sprites/Spr_PokeTank/Spr_PokeTank.yy",},},
+    {"id":{"name":"Spr_PokeTankAir","path":"sprites/Spr_PokeTankAir/Spr_PokeTankAir.yy",},},
     {"id":{"name":"Spr_QuestionPickup","path":"sprites/Spr_QuestionPickup/Spr_QuestionPickup.yy",},},
     {"id":{"name":"Spr_Radio","path":"sprites/Spr_Radio/Spr_Radio.yy",},},
     {"id":{"name":"Spr_RailFlat","path":"sprites/Spr_RailFlat/Spr_RailFlat.yy",},},

@@ -615,6 +615,7 @@
     {"name":"Spr_PMotuSlicePrepare","order":7,"path":"sprites/Spr_PMotuSlicePrepare/Spr_PMotuSlicePrepare.yy",},
     {"name":"Spr_PMotuSliceSide","order":8,"path":"sprites/Spr_PMotuSliceSide/Spr_PMotuSliceSide.yy",},
     {"name":"Spr_PMotuWallSlide","order":9,"path":"sprites/Spr_PMotuWallSlide/Spr_PMotuWallSlide.yy",},
+    {"name":"Spr_PokeTankAir","order":37,"path":"sprites/Spr_PokeTankAir/Spr_PokeTankAir.yy",},
     {"name":"Spr_QuestionPickup","order":1,"path":"sprites/Spr_QuestionPickup/Spr_QuestionPickup.yy",},
     {"name":"Spr_Radio","order":25,"path":"sprites/Spr_Radio/Spr_Radio.yy",},
     {"name":"Spr_RailFlat","order":28,"path":"sprites/Spr_RailFlat/Spr_RailFlat.yy",},

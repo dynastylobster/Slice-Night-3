@@ -11,3 +11,9 @@ x+= xspeed
 } else {
 if alarm[0] > 0 alarm[0]++	
 }
+
+if !place_meeting(x,y+2,[Obj_Wall, Obj_EnemyOnlyBlock, autoTileCol]) {
+		sprite_index = Spr_PokeTankAir;
+	} else {
+		sprite_index = Spr_PokeTank;	
+	}
