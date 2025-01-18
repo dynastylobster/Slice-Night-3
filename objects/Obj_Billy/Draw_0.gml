@@ -121,6 +121,18 @@ if sprite_index = Spr_BillyWallSlide then sprite_index = Spr_PMotuWallSlide
 
 }
 
+if global.costume = "Void" {
+		if sprite_index = Spr_BillyDie then sprite_index = Spr_VoidDie
+		if sprite_index = Spr_BillyWalk sprite_index = Spr_VoidWalk
+	if sprite_index = Spr_BillyRun then sprite_index = Spr_VoidRun
+	if sprite_index = Spr_BillyIdle sprite_index = Spr_VoidIdle
+	if sprite_index = Spr_BillyJump sprite_index = Spr_VoidJump
+	if sprite_index = Spr_BillyWallSlide sprite_index = Spr_VoidWallSlide
+	if sprite_index = Spr_BillyHurt sprite_index = Spr_VoidHurt
+	if sprite_index = Spr_BillySliceDown sprite_index = Spr_VoidSliceDown
+	if sprite_index = Spr_BillySliceSide sprite_index = Spr_VoidSliceSide
+	}
+
 
 
 

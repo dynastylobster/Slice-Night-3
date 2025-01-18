@@ -11,6 +11,9 @@ if global.character = "Human" {
 		max_runspeed = 2.3 
 	}
 if global.character = "Coyote" {
+	if !instance_exists(Obj_VoidTail) {
+			instance_create_layer(x,y,layer,Obj_VoidTail)
+		}
 	doublejump = true;
 		max_runspeed = 3.15
 		jumpspeed = 5
