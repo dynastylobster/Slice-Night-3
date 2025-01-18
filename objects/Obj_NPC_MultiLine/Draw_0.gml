@@ -16,8 +16,10 @@ draw_set_font(UndertaleFont)
 draw_set_halign(fa_center) 
 draw_set_color(c_black) 
 
-	draw_set_color(c_white) 
 	if (line < array_length(textToSay)) {
+	draw_set_color(c_black) 
+	draw_text(text_x, text_y+1, string(textToSay[line]));	
+		draw_set_color(c_white) 
 	draw_text(text_x, text_y, string(textToSay[line]));	
 	} else {
 		drawing = false;
@@ -28,5 +30,5 @@ draw_set_color(c_black)
 
 draw_self();
 draw_set_halign(fa_left)
-
+draw_set_color(c_white) 
 //depth = layer_get_id("Instances_1")

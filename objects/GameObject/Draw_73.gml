@@ -10,7 +10,6 @@ if instance_exists(Obj_Billy) and instance_exists(Obj_NPC) {
 	 thisx = Obj_Billy.x 
 	 thisy = Obj_Billy.y 
 	thisNPC = instance_nearest(thisx,thisy,Obj_NPC)
-
 	}
 if !instance_exists(Obj_NPC) or (instance_exists(Obj_NPC) and thisNPC.drawing = false)
 {
