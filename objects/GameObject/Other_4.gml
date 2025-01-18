@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 if global.secondserving = true then hpsprite = Spr_HPSecondServing
 if global.secondserving = false then hpsprite = Spr_HP
 

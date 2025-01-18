@@ -1,0 +1,34 @@
+/// @description Insert description here
+// You can write your code in this editor
+draw_x = x+irandom_range(-1,1);
+
+if place_meeting(x,y-2,Obj_Billy) {
+		
+		if Obj_Billy.grounded {
+				
+				if instance_exists(Obj_ShiftPillarOrange) {
+					
+				with(Obj_ShiftPillarOrange) {
+					
+				if image_yscale <= 0 {
+					y += 1.5	
+				}
+					
+				if !place_meeting(x,y-2,Obj_Billy)
+				{
+						y -= (sign(image_yscale)*1.5)
+					}
+						
+				}
+		}
+						y+= 1.5
+				
+		}
+		
+	} else {
+		if y > starty y-= 1
+		y = floor(y)
+		if y < starty y+= 1
+	}
+
+	

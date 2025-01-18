@@ -46,7 +46,7 @@ if (array_length(resistances) > 1) {
 }
 
 if (global.character == "Robot") {
-damage *= 2;	
+damage *= 1;
 }
 if (global.character == "Coyote") {
 damage /= 2;	
