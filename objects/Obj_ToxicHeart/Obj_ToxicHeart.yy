@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_DiggerBlade",
-    "path":"sprites/Spr_DiggerBlade/Spr_DiggerBlade.yy",
+    "name":"Spr_ToxicHeart",
+    "path":"sprites/Spr_ToxicHeart/Spr_ToxicHeart.yy",
   },
   "spriteMaskId":null,
   "visible":true,
