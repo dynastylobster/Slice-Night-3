@@ -462,7 +462,6 @@
     {"id":{"name":"Bg_SunTempleEnter","path":"sprites/Bg_SunTempleEnter/Bg_SunTempleEnter.yy",},},
     {"id":{"name":"Bg_SunTempleStill","path":"sprites/Bg_SunTempleStill/Bg_SunTempleStill.yy",},},
     {"id":{"name":"Bg_TitleScreen","path":"sprites/Bg_TitleScreen/Bg_TitleScreen.yy",},},
-    {"id":{"name":"boop","path":"sprites/boop/boop.yy",},},
     {"id":{"name":"CastleOfPromiseTileSprite","path":"sprites/CastleOfPromiseTileSprite/CastleOfPromiseTileSprite.yy",},},
     {"id":{"name":"CastlePurpleTileSprite","path":"sprites/CastlePurpleTileSprite/CastlePurpleTileSprite.yy",},},
     {"id":{"name":"CastleYellowTileSprite","path":"sprites/CastleYellowTileSprite/CastleYellowTileSprite.yy",},},
