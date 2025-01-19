@@ -414,6 +414,7 @@
     {"name":"Bg_SunTempleEnter","order":32,"path":"sprites/Bg_SunTempleEnter/Bg_SunTempleEnter.yy",},
     {"name":"Bg_SunTempleStill","order":30,"path":"sprites/Bg_SunTempleStill/Bg_SunTempleStill.yy",},
     {"name":"Bg_TitleScreen","order":5,"path":"sprites/Bg_TitleScreen/Bg_TitleScreen.yy",},
+    {"name":"boop","order":23,"path":"sprites/boop/boop.yy",},
     {"name":"CastleOfPromiseTileSprite","order":21,"path":"sprites/CastleOfPromiseTileSprite/CastleOfPromiseTileSprite.yy",},
     {"name":"CastlePurpleTileSprite","order":23,"path":"sprites/CastlePurpleTileSprite/CastlePurpleTileSprite.yy",},
     {"name":"CastleYellowTileSprite","order":31,"path":"sprites/CastleYellowTileSprite/CastleYellowTileSprite.yy",},
