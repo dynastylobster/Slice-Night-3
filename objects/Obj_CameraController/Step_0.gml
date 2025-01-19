@@ -17,15 +17,15 @@ if (array_length(yLock) > 0) {
             camera_set_view_pos(view_camera[0], camera_get_view_x(view_camera[0]), yLock[1]);
 
         } 
-    if (goUp)
+ //   if (goUp)
     {
-        if (camera_get_view_y(view_camera[0]) > yLock[0] - rising - 240) {
-            camera_set_view_pos(view_camera[0], camera_get_view_x(view_camera[0]), yLock[0] - rising - 240);
+        if (camera_get_view_y(view_camera[0]) > yLock[0] - rising ) {
+            camera_set_view_pos(view_camera[0], camera_get_view_x(view_camera[0]), yLock[0] - rising );
     }
 }
 }
 }
 
-if (goUp) {
+if (goUp) and !global.paused {
 rising += risingSpeed * 0.05;
 }

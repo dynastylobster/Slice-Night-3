@@ -1,16 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
 if global.character = "Robot" {
+	base_koyote_time = 9
 	doublejump = false;
 		jumpspeed = 6.5
 		max_runspeed = 2.1
 	}
 if global.character = "Human" {
+	base_koyote_time = 9
 	doublejump = false;
 		jumpspeed = 6
 		max_runspeed = 2.3 
 	}
 if global.character = "Coyote" {
+	base_koyote_time = 20
 	if !instance_exists(Obj_VoidTail) {
 			instance_create_layer(x,y,layer,Obj_VoidTail)
 		}
@@ -175,8 +178,8 @@ if grounded and about_to_jump and !dead {
 	about_to_jump = false
 }
 
-if grounded {koyote_time = 9; }
-if (grounded && global.character == 2) {koyote_time = 90; canDoubleJump = true; }
+if grounded {koyote_time = base_koyote_time; }
+//if (grounded && global.character == 2) {koyote_time = 90; canDoubleJump = true; }
 if (!grounded && koyote_time > 0 && global.character != 2) then koyote_time-=1;}
 if (!grounded && koyote_time > 0 && global.character == 2 && canDoubleJump) { koyote_time--; }
 
@@ -451,12 +454,37 @@ if grounded and walking and !dead {
 	if running { if image_index >=0 and image_index <= 0.6  {if !audio_is_playing(Snd_Step) then audio_play_sound(Snd_Step,0,0)} } 
 	if !running { if image_index <=1 and image_index >= 0.5  {if !audio_is_playing(Snd_Step) then audio_play_sound(Snd_Step,0,0)} } 
 }
-if !global.fem and !global.motu {
-if sprite_index = Spr_BillyDie and !audio_is_playing(Snd_Die) audio_play_sound(Snd_Die,0,0)}
-if global.fem and !global.motu {
-	if sprite_index = Spr_BillyDie and !audio_is_playing(Snd_DieF) audio_play_sound(Snd_DieF,0,0)}
-if global.motu {
-	if sprite_index = Spr_BillyDie and !audio_is_playing(Snd_Die) audio_play_sound(Snd_Die,0,0)}
+
+if dead {
+		if sprite_index = Spr_BillyDie {
+				if global.character = "Human"
+				{
+					if global.costume = "Billy" || global.costume = "Billy (Fox)" {
+						if !audio_is_playing(Snd_Die) {
+							audio_play_sound(Snd_Die,0,0)
+							}
+					}
+						if global.costume = "Miley" || global.costume = "Miley (Fox)" {
+					if !audio_is_playing(Snd_DieF) {
+							audio_play_sound(Snd_DieF,0,0)
+							}
+					}
+				}
+				if global.character = "Robot" 
+				{
+							if !audio_is_playing(Snd_Die) {
+							audio_play_sound(Snd_Die,0,0)
+							}
+				}
+				if global.character = "Coyote" 
+				{
+							if !audio_is_playing(Snd_DieV) {
+							audio_play_sound(Snd_DieV,0,0)
+							}
+				}
+		}
+	}
+
 if dead and image_index > 4 and image_index < 5 with(GameObject) {alarm[0] = 40}
 if dead and image_index < 5 image_alpha = 1
 if dead and image_index > 5 image_alpha = 0
@@ -466,7 +494,7 @@ if spinning and !hit and !dead {
 if spinning and grounded image_index = 0
 
 //camera
-
+if !instance_exists(Obj_CameraController) {
 if alarm[3] <= 0 {
 cam_x = clamp(x-213,0,room_width-426)
 
@@ -500,6 +528,8 @@ if instance_exists(Obj_Train) {
 	}
 
 camera_set_view_pos(view_camera[0],cam_x,cam_y);
+
+}
 //}
 
 if place_meeting(x,y,Obj_WarpBox) {

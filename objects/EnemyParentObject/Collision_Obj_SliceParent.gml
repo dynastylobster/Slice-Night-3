@@ -6,6 +6,9 @@ if other.done_slicing = false {
 var dam = other.damageType;
 var damage = 1;
 if (array_length(resistances) > 1) {
+			if global.character = "Coyote" {
+				damage = 0.5;	
+			}
 	if (dam == "Normal") {
 		if (array_contains(resistances, "Immune To Normal")) {
 		damage *= 0;
@@ -32,6 +35,9 @@ if (array_length(resistances) > 1) {
 	
 	if (dam == "Flame") {
 		damage = 0.5;
+		if global.character = "Coyote" {
+			damage = 1;	
+		}
 		if (array_contains(resistances, "Immune To Flame")) {
 		damage *= 0;
 	}
@@ -47,9 +53,6 @@ if (array_length(resistances) > 1) {
 
 if (global.character == "Robot") {
 damage *= 1.6;
-}
-if (global.character == "Coyote") {
-damage /= 2;	
 }
 
 if damage > 0 instance_create_depth(x,y,depth,Obj_EnemyHurtEffect)

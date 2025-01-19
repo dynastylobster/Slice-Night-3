@@ -12,6 +12,10 @@ if damage mask_index = sprite_index
 if !global.paused {
 		if dir = 1 then x+=xspeed
 		if dir = -1 then x-=xspeed
+		y+= yspeed
+	} else {
+	alarm[0]++
+	alarm[1]++
 	}
 
 if !instance_exists(Obj_Billy) {

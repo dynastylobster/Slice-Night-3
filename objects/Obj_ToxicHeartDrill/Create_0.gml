@@ -7,3 +7,4 @@ max_yspeed = 1;
 
 depth -= 50
 instance_create_depth(x,y,depth,Obj_FishBubble);
+sliced = false;
