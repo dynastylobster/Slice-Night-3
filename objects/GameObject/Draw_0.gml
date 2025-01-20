@@ -113,23 +113,23 @@ if global.paused {
 	for (var i = 0; i < array_length(menuOp); i++) {
 		switch(menuOp[i]){
 			case "Change Character":
-			extraText = (": " + global.character);
+			extraText = (": " +  string(global.character));
 			break;
 			case "Change Costume":
-			extraText = (": " + global.costume);
+			extraText = (": " +  string(global.costume));
 			break;
 			case "Music Volume":
 				if (global.musicvolume == 2) {
 					extraText = "Dropping Something At 4AM";
 				} else {
-				extraText = (": " + global.musicvolume + "%");
+				extraText = (": " + string(global.musicvolume*100) + "%");
 				}
 			break;
 			case "SFX Volume":
 				if (global.SFXvolume == 2) {
 					extraText = "Bubsy.";
 				} else {
-				extraText = (": " + global.SFXvolume + "%");
+				extraText = (": " +  string(global.SFXvolume*100) + "%");
 				}
 			break;
 			case "Button Mapping":
@@ -140,7 +140,7 @@ if global.paused {
 				}
 			break;
 			case "VSync":
-			extraText = (": " + global.vsync ? "On" : "Off");
+			extraText = (": " + (global.vsync ? "On" : "Off"));
 			break;
 			case "Erase Save File":
 			switch (deletePhase) {
@@ -166,15 +166,16 @@ if global.paused {
 			break;
 		}
 		draw_set_color(c_blue);
-		draw_text(_menux, _menuy + (16 * (i + 1)), menuOp[i]);
+		draw_text(_menux, _menuy-14 + (16 * (i + 1)), menuOp[i]+extraText);
 		draw_set_color(c_white);
-		draw_text(_menux, _menuy + (16 * (i + 1)) + 1, menuOp[i]);
+		draw_text(_menux, _menuy-16 + (16 * (i + 1)) + 1, menuOp[i]+extraText);
+		extraText = ""
 	}
+}
 	
 	
 	
-	
-	
+	/*
 	draw_set_color(c_blue);
 	draw_set_font(UndertaleFont)
 	if room != TitleScreenOptionsRoom draw_text(_menux+1,_menuy+1,string(menu_text[0]))
@@ -195,10 +196,10 @@ if global.paused {
 	
 	
 	draw_text(_menux+1,_menuy+49,string(menu_text[4]))
-	/*if global.billyfox
+	if global.billyfox
 		{draw_text(_menux+1,_menuy+81,string(menu_text[5])+"Yes!")} else 
 		{draw_text(_menux+1,_menuy+81,string(menu_text[5])+"No.")}*/
-	
+	/*
 	if room != TitleScreenOptionsRoom draw_text(_menux+1,_menuy+97,string(menu_text[6]))
 	
 	
@@ -242,7 +243,7 @@ if global.paused {
 	if global.motu
 		{draw_text(_menux,_menuy+80,string(menu_text[5])+"Yes!")} else 
 		{draw_text(_menux,_menuy+80,string(menu_text[5])+"No.")}
-	}*/
+	}
 		
 		draw_set_color(c_blue)
 	draw_text(_menux+1,_menuy+114,string(menu_text[7]))
@@ -260,7 +261,7 @@ if global.paused {
 		draw_text(_menux,_menuy+128,string(menu_text[8])+"Yes")
 	} else {
 		draw_text(_menux,_menuy+128,string(menu_text[8])+"No")
-	}*/
+	}
 	draw_set_color(c_blue)
 	draw_text(_menux,_menuy+129,menu_text[8])
 	draw_set_color(c_white)
@@ -268,3 +269,5 @@ if global.paused {
 	
 	
 }
+
+*/
