@@ -8,7 +8,8 @@ costumes = ["Billy", "Miley", "Billy (Fox)", "Miley (Fox)", "Motu", "Void"];
 global.character = characters[0];
 global.costume = costumes[0];
 
-
+menuOp = ["Resume", "Change Character", "Change Costume", "Music Volume", "SFX Volume", "Button Mapping", "VSync", "Erase Save File", "Return To Title Screen"];
+deletePhase = 0;
 
 
 

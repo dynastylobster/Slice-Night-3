@@ -106,6 +106,75 @@ if global.paused {
 	}
 
 if global.paused {
+	
+	/// Draw code! Woohoo!
+	draw_set_font(UndertaleFont)
+	var extraText = "";
+	for (var i = 0; i < array_length(menuOp); i++) {
+		switch(menuOp[i]){
+			case "Change Character":
+			extraText = (": " + global.character);
+			break;
+			case "Change Costume":
+			extraText = (": " + global.costume);
+			break;
+			case "Music Volume":
+				if (global.musicvolume == 2) {
+					extraText = "Dropping Something At 4AM";
+				} else {
+				extraText = (": " + global.musicvolume + "%");
+				}
+			break;
+			case "SFX Volume":
+				if (global.SFXvolume == 2) {
+					extraText = "Bubsy.";
+				} else {
+				extraText = (": " + global.SFXvolume + "%");
+				}
+			break;
+			case "Button Mapping":
+				if (global.jumpslicemap == 1) {
+				extraText = "I have two right hands.";
+				} else {
+				extraText = "SMBX Style";
+				}
+			break;
+			case "VSync":
+			extraText = (": " + global.vsync ? "On" : "Off");
+			break;
+			case "Erase Save File":
+			switch (deletePhase) {
+				case 1:
+				extraText = ": Are you sure?";
+				break;
+				case 2:
+				extraText = ": Are you really sure?";
+				break;
+				case 3:
+				extraText = ": Are you absolutely sure?";
+				break;
+				case 4:
+				extraText = ": Make sure you want this.";
+				break;
+				case 5:
+				extraText = ": Last chance.";
+				break;
+				case 6:
+				extraText = ": File erased.";
+				break;
+			}
+			break;
+		}
+		draw_set_color(c_blue);
+		draw_text(_menux, _menuy + (16 * (i + 1)), menuOp[i]);
+		draw_set_color(c_white);
+		draw_text(_menux, _menuy + (16 * (i + 1)) + 1, menuOp[i]);
+	}
+	
+	
+	
+	
+	
 	draw_set_color(c_blue);
 	draw_set_font(UndertaleFont)
 	if room != TitleScreenOptionsRoom draw_text(_menux+1,_menuy+1,string(menu_text[0]))

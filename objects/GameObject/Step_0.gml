@@ -103,6 +103,79 @@ global.paused = !global.paused
 menu_index = 0
 }
 
+
+/// Hey Ashley!
+var confirmed = (global.key_Z_pressed || global.key_X_pressed);
+var acceptableCostumes = [["Billy", "Miley", "Billy (Fox)", "Miley (Fox)"], ["Motu"], ["Void"]];
+if (confirmed) {
+switch(menuIndex) {
+	case "Resume":
+	global.paused = false;
+	break;
+	case "Change Character":
+		var nextChar = (array_get_index(characters, global.character) + 1);
+			if (nextChar >= array_length(characters)) {
+			nextChar = 0;
+			}
+			global.character = characters[nextChar];
+			
+			// SAVE TO FILE
+	break;
+	case "Change Costume":
+		var curCos = array_get_index(acceptableCostumes[array_get_index(characters, global.character)], global.costume)
+		if (curCos != -1) {
+		var nextCos = (array_get_index(costumes, global.costume) + 1)
+			if (nextCos >= array_length(costumes)) {
+				nextCos = 0;
+			}
+			global.costume = costumes[nextCos];
+			
+			// SAVE TO FILE
+		} else {
+			global.costume = acceptableCostumes[array_get_index(characters, global.character)][0];
+		}
+	break;
+	case "Music Volume":
+	global.musicvolume += 0.05;
+	if (global.musicvolume > 2) {global.musicvolume = 0; }
+	break;
+	case "SFX Volume":
+	global.SFXvolume += 0.05;
+	if (global.SFXvolume > 2) {global.SFXvolume = 0; }
+	break;
+	case "Button Mapping":
+	global.jumpslicemap = !global.jumpslicemap;
+	break;
+	case "VSync":
+	global.vsync = !global.vsync;
+	ini_open("save.ini");
+	ini_write_real("Prefrence", "Vsync", global.vsync);
+	ini_close();
+	break;
+	case "Erase Save File":
+		deletePhase++;
+		if (deletePhase == 6) {
+			// Delete file.
+			// Play scary noise.
+		} else {
+			audio_sound_gain(Snd_BillyHurt,2,0);
+			audio_sound_gain(Snd_BerryShoot,2,0);
+			audio_play_sound(Snd_BerryShoot,0,0,2);
+			audio_play_sound(Snd_BillyHurt,0,0,2);
+		}
+	break;
+	case "Return To Title Screen":
+	room_goto(TitleScreenRoom);
+	break;
+	}
+	
+	if (array_contains(acceptableCostumes[array_get_index(characters, global.character)], global.costume)) {
+		global.costume = acceptableCostumes[array_get_index(characters, global.character)][0];		
+	}
+}
+
+/// Here's the menu code! ^^^
+
 if global.paused {
 if menu_index = 2 {
 	if global.key_Z_pressed or global.key_X_pressed then global.jumpslicemap = !global.jumpslicemap
@@ -215,7 +288,7 @@ if room = TitleScreenOptionsRoom {
 		}
 	}
 	
-if menu_index = 7 {
+/*if menu_index = 7 {
 	if global.key_Z_pressed or global.key_X_pressed then global.vsync = !global.vsync
 	if global.key_Z_pressed or global.key_X_pressed
 		{
@@ -233,7 +306,7 @@ if menu_index = 7 {
 	
 	
 	
-}
+}*/
 
 /*if menu_index = 8 {
 		if global.key_Z_pressed or global.key_X_pressed {
@@ -248,7 +321,7 @@ if global.fem {
 	menu_text[8] = "Feminine Billy: "
 	}*/
 
-	if (menu_index = 5) {
+	/*if (menu_index = 5) {
 		if global.key_Z_pressed or global.key_X_pressed {
 			var nextChar = (array_get_index(characters, global.character) + 1);
 			if (nextChar >= array_length(characters)) {
@@ -296,7 +369,7 @@ if global.fem {
 
 	}
 	
-	menu_text[8] = ("Costume: " + global.costume);
+	menu_text[8] = ("Costume: " + global.costume);*/
 	
 audio_sound_gain(global.music,global.musicvolume,0); 
 
