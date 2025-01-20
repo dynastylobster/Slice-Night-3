@@ -13,7 +13,6 @@ deletePhase = 0;
 
 
 
-
 ini_open("save.ini") 
 	global.vsync = ini_read_real("Prefrence","Vsync",false);
 ini_close();

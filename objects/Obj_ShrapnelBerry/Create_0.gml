@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+try { autoTileCol = layer_tilemap_get_id("TileCollision"); } catch (err) { autoTileCol = -4; }
 shrub = noone
 if instance_exists(Obj_ShrapnelShrub) {
 	shrub = instance_nearest(x,y,Obj_ShrapnelShrub);
