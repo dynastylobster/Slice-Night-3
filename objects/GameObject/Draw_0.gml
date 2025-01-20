@@ -122,14 +122,14 @@ if global.paused {
 				if (global.musicvolume == 2) {
 					extraText = "Dropping Something At 4AM";
 				} else {
-				extraText = (": <" + string(global.musicvolume*100) + "%>");
+				extraText = (": <" + string(int64(global.musicvolume*100.25)) + "%>");
 				}
 			break;
 			case "SFX Volume":
 				if (global.SFXvolume == 2) {
 					extraText = "Bubsy.";
 				} else {
-				extraText = (": <" +  string(global.SFXvolume*100) + "%>");
+				extraText = (": <" +  string(int64(global.SFXvolume*100.25)) + "%>");
 				}
 			break;
 			case "Button Mapping":
