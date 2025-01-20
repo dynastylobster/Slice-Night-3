@@ -28,7 +28,8 @@ global.key_left = keyboard_check(vk_left) + keyboard_check(ord("A"));
 global.key_down = keyboard_check(vk_down) + keyboard_check(ord("S"));
 global.key_down_pressed = keyboard_check_pressed(vk_down) + keyboard_check_pressed(ord("S"));
 global.key_start = keyboard_check_pressed(vk_enter) + keyboard_check_pressed(vk_escape) + keyboard_check_pressed(ord("P"));
-
+global.key_right_pressed = keyboard_check_pressed(vk_right)  + keyboard_check_pressed(ord("D"));
+global.key_left_pressed = keyboard_check_pressed(vk_left)  + keyboard_check_pressed(ord("A"));
 
 global.key_right_released = keyboard_check_released(vk_right);
 global.key_left_released = keyboard_check_released(vk_left);
@@ -54,15 +55,18 @@ global.key_X_pressed = keyboard_check_pressed(ord("Z")) + gamepad_button_check_p
 global.key_C = keyboard_check(ord("C")) + gamepad_button_check(0,gp_face2) + mouse_check_button(mb_right) +keyboard_check(vk_control) + gamepad_button_check(0,gp_shoulderl) + gamepad_button_check(0,gp_shoulderr);
 global.key_C_pressed = keyboard_check_pressed(ord("C")) + gamepad_button_check_pressed(0,gp_face2);
 global.key_right = keyboard_check(vk_right) + gamepad_button_check(0,gp_padr) + keyboard_check(ord("D"));
+global.key_left = keyboard_check(vk_left) + gamepad_button_check(0,gp_padl) + keyboard_check(ord("A"));
 global.key_up = keyboard_check(vk_up) + gamepad_button_check(0,gp_padu) + keyboard_check(ord("W"));
 global.key_up_pressed = keyboard_check_pressed(vk_up) + gamepad_button_check_pressed(0,gp_padu) + keyboard_check_pressed(ord("W"));
-global.key_left = keyboard_check(vk_left) + gamepad_button_check(0,gp_padl) + keyboard_check(ord("A"));
+
 global.key_down = keyboard_check(vk_down) + gamepad_button_check(0,gp_padd) + keyboard_check(ord("S")) ;
 global.key_down_pressed = keyboard_check_pressed(vk_down) + gamepad_button_check_pressed(0,gp_padd) + keyboard_check_pressed(ord("S"));
-global.key_start = keyboard_check_pressed(vk_enter)+ gamepad_button_check_pressed(0,gp_start) + keyboard_check_pressed(vk_escape) + keyboard_check_pressed(ord("P"));;
-		
+global.key_start = keyboard_check_pressed(vk_enter)+ gamepad_button_check_pressed(0,gp_start) + keyboard_check_pressed(vk_escape) + keyboard_check_pressed(ord("P"));
 global.key_right_released = keyboard_check_released(vk_right) + gamepad_button_check_released(0,gp_padr);
 global.key_left_released = keyboard_check_released(vk_left) + gamepad_button_check_released(0,gp_padl);
+
+global.key_right_pressed = keyboard_check_pressed(vk_right) + gamepad_button_check(0,gp_padr) + keyboard_check_pressed(ord("D"));
+global.key_left_pressed = keyboard_check_pressed(vk_left) + gamepad_button_check(0,gp_padl) + keyboard_check_pressed(ord("A"));
 	}
 
 if instance_exists(Obj_FlatBoofer) {
@@ -105,8 +109,36 @@ menu_index = 0
 
 
 /// Hey Ashley!
+
+if global.paused {
 var confirmed = (global.key_Z_pressed || global.key_X_pressed);
+var updown = (global.key_down_pressed - global.key_up_pressed);
+var leftright = (global.key_right_pressed - global.key_left_pressed);
+if (updown != 0) {
+		_index += updown 
+		menuIndex = menuOp[_index]
+	}
+
 var acceptableCostumes = [["Billy", "Miley", "Billy (Fox)", "Miley (Fox)"], ["Motu"], ["Void"]];
+
+if leftright != 0 {
+		switch(menuIndex) {
+		case "Music Volume": 
+		global.musicvolume += leftright *0.05
+		if global.musicvolume > 2 global.musicvolume = 2
+		if global.musicvolume < 0 global.musicvolume = 0
+		audio_play_sound(Snd_jump,0,0,global.musicvolume)
+		break;
+		case "SFX Volume":
+		global.SFXvolume += leftright *0.05
+		if global.SFXvolume > 2 global.SFXvolume = 2
+		if global.SFXvolume < 0 global.SFXvolume = 0
+		audio_play_sound(Snd_jump,0,0,global.SFXvolume)
+		break;		
+		
+		}
+	}
+
 if (confirmed) {
 switch(menuIndex) {
 	case "Resume":
@@ -173,13 +205,13 @@ switch(menuIndex) {
 		global.costume = acceptableCostumes[array_get_index(characters, global.character)][0];		
 	}
 }
-
+}
 /// Here's the menu code! ^^^
 
-if global.paused {
-if menu_index = 2 {
-	if global.key_Z_pressed or global.key_X_pressed then global.jumpslicemap = !global.jumpslicemap
-	}
+//if global.paused {
+//if menu_index = 2 {
+//	if global.key_Z_pressed or global.key_X_pressed then global.jumpslicemap = !global.jumpslicemap
+//	}
 	
  /* if menu_index = 5 {
 		if !global.secondserving {
@@ -189,7 +221,7 @@ if global.key_Z_pressed or global.key_X_pressed then global.billyfox = !global.b
 		}
 		
 } */
-}
+//}
 
 if !instance_exists(Obj_Key) {
 	if instance_exists(Obj_LockBlock) {
@@ -250,8 +282,15 @@ if instance_exists(Obj_SilentRoomChange) {
 if global.paused {
 	if global.key_up_pressed or global.key_down_pressed audio_play_sound(Snd_jump,0,0);
 	if global.key_X_pressed or global.key_Z_pressed audio_play_sound(Snd_Slice,0,0,0.6,0,1.2);
+	//if global.key_up_pressed menu_index -= 1
+	//	if global.key_down_pressed menu_index += 1
+	//	if menu_index <0 then menu_index = 8
+	//	if menu_index >8 then menu_index = 0
+		}
+/*
 	if global.key_up_pressed then menu_index -= 1
 	if global.key_down_pressed then menu_index += 1
+
 if menu_index <0 then menu_index = 8
 if menu_index >8 then menu_index = 0
 
@@ -286,7 +325,7 @@ if room = TitleScreenOptionsRoom {
 			if global.key_down menu_index = 7
 			if global.key_up menu_index = 5
 		}
-	}
+	}*/
 	
 /*if menu_index = 7 {
 	if global.key_Z_pressed or global.key_X_pressed then global.vsync = !global.vsync
@@ -412,7 +451,7 @@ if global.paused {
 unpausetimer = 4	
 }
 
-if menu_index = 6 {
+/*if menu_index = 6 {
 	if global.key_Z or global.key_X {
 		deletetimer += 2;
 		audio_sound_gain(Snd_BillyHurt,2,0)
@@ -423,7 +462,7 @@ if menu_index = 6 {
 			}
 		
 		} else if deletetimer > 0 deletetimer-= 5
-	} else deletetimer = 0;
+	} else deletetimer = 0;*/
 	
 	
 	if deletetimer >= 426 {

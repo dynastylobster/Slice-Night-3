@@ -10,7 +10,9 @@ global.costume = costumes[0];
 
 menuOp = ["Resume", "Change Character", "Change Costume", "Music Volume", "SFX Volume", "Button Mapping", "VSync", "Erase Save File", "Return To Title Screen"];
 deletePhase = 0;
-menuIndex = menuOp[0]
+_index = 0;
+menuIndex = menuOp[_index]
+
 
 
 ini_open("save.ini") 
@@ -75,7 +77,8 @@ global.key_up = keyboard_check(vk_up);
 global.key_left = keyboard_check(vk_left);
 global.key_down = keyboard_check(vk_down);
 global.key_start = keyboard_check_pressed(vk_enter);
-
+global.key_left_pressed = keyboard_check_pressed(vk_left);
+global.key_right_released = keyboard_check_released(vk_right);
 global.key_right_released = keyboard_check_released(vk_right);
 global.key_left_released = keyboard_check_released(vk_left);
 
@@ -91,7 +94,8 @@ global.key_up = keyboard_check(vk_up) + gamepad_button_check(0,gp_padu);
 global.key_left = keyboard_check(vk_left) + gamepad_button_check(0,gp_padl);
 global.key_down = keyboard_check(vk_down) + gamepad_button_check(0,gp_padd);
 global.key_start = keyboard_check_pressed(vk_enter)+ gamepad_button_check_pressed(0,gp_start);
-		
+global.key_right_pressed = keyboard_check_pressed(vk_right) + gamepad_button_check_pressed(0,gp_padr);
+global.key_left_pressed = keyboard_check_pressed(vk_left) + gamepad_button_check_pressed(0,gp_padl);
 global.key_right_released = keyboard_check_released(vk_right) + gamepad_button_check_released(0,gp_padr);
 global.key_left_released = keyboard_check_released(vk_left) + gamepad_button_check_released(0,gp_padl);
 		

@@ -74,10 +74,10 @@ gpu_set_tex_filter(false);
 if global.paused {
 		draw_set_color(c_purple)
 		draw_set_alpha(0.5)
-		draw_rectangle(0,_menuy+(menu_index*16),room_width,_menuy+(menu_index*16)+16,false)
+		draw_rectangle(0,_menuy+(_index*16),room_width,_menuy+(_index*16)+16,false)
 		draw_set_color(c_black)
 		draw_set_alpha(0.25)
-		draw_rectangle(0,_menuy+(menu_index*16),room_width,_menuy+(menu_index*16)+16,false)
+		draw_rectangle(0,_menuy+(_index*16),room_width,_menuy+(_index*16)+16,false)
 		draw_set_color(c_white)
 		draw_set_alpha(1)
 	}
@@ -122,14 +122,14 @@ if global.paused {
 				if (global.musicvolume == 2) {
 					extraText = "Dropping Something At 4AM";
 				} else {
-				extraText = (": " + string(global.musicvolume*100) + "%");
+				extraText = (": <" + string(global.musicvolume*100) + "%>");
 				}
 			break;
 			case "SFX Volume":
 				if (global.SFXvolume == 2) {
 					extraText = "Bubsy.";
 				} else {
-				extraText = (": " +  string(global.SFXvolume*100) + "%");
+				extraText = (": <" +  string(global.SFXvolume*100) + "%>");
 				}
 			break;
 			case "Button Mapping":
