@@ -115,7 +115,9 @@ var confirmed = (global.key_Z_pressed || global.key_X_pressed);
 var updown = (global.key_down_pressed - global.key_up_pressed);
 var leftright = (global.key_right_pressed - global.key_left_pressed);
 if (updown != 0) {
-		_index += updown 
+		_index += updown;
+		if (_index < 0) { _index = array_length(menuOp) - 1; }
+		if (_index >= array_length(menuOp)) { _index = 0; }
 		menuIndex = menuOp[_index]
 	}
 
@@ -150,22 +152,18 @@ switch(menuIndex) {
 			nextChar = 0;
 			}
 			global.character = characters[nextChar];
-			
+			global.costume = acceptableCostumes[array_get_index(characters, global.character)][0];
 			// SAVE TO FILE
 	break;
 	case "Change Costume":
-		var curCos = array_get_index(acceptableCostumes[array_get_index(characters, global.character)], global.costume)
-		if (curCos != -1) {
-		var nextCos = (array_get_index(costumes, global.costume) + 1)
-			if (nextCos >= array_length(costumes)) {
+		var ourCosts = acceptableCostumes[array_get_index(characters, global.character)];
+		var nextCos = (array_get_index(ourCosts, global.costume) + 1)
+			if (nextCos >= array_length(ourCosts)) {
 				nextCos = 0;
 			}
-			global.costume = costumes[nextCos];
+			global.costume = ourCosts[nextCos];
 			
 			// SAVE TO FILE
-		} else {
-			global.costume = acceptableCostumes[array_get_index(characters, global.character)][0];
-		}
 	break;
 	case "Music Volume":
 	global.musicvolume += 0.05;
@@ -189,6 +187,7 @@ switch(menuIndex) {
 		if (deletePhase == 6) {
 			// Delete file.
 			// Play scary noise.
+			deletePhase = 0;
 		} else {
 			audio_sound_gain(Snd_BillyHurt,2,0);
 			audio_sound_gain(Snd_BerryShoot,2,0);
@@ -199,10 +198,6 @@ switch(menuIndex) {
 	case "Return To Title Screen":
 	room_goto(TitleScreenRoom);
 	break;
-	}
-	
-	if (array_contains(acceptableCostumes[array_get_index(characters, global.character)], global.costume)) {
-		global.costume = acceptableCostumes[array_get_index(characters, global.character)][0];		
 	}
 }
 }

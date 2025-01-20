@@ -120,7 +120,7 @@ if global.paused {
 			break;
 			case "Music Volume":
 				if (global.musicvolume == 2) {
-					extraText = "Dropping Something At 4AM";
+					extraText = "Dropping Something At 4 AM";
 				} else {
 				extraText = (": <" + string(int64(global.musicvolume*100.25)) + "%>");
 				}
@@ -134,9 +134,9 @@ if global.paused {
 			break;
 			case "Button Mapping":
 				if (global.jumpslicemap == 1) {
-				extraText = "I have two right hands.";
+				extraText = ": I have two right hands.";
 				} else {
-				extraText = "SMBX Style";
+				extraText = ": SMBX Style";
 				}
 			break;
 			case "VSync":

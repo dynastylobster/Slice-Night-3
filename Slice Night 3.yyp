@@ -325,6 +325,7 @@
     {"id":{"name":"Level_Sun2","path":"rooms/Level_Sun2/Level_Sun2.yy",},},
     {"id":{"name":"Level_Sun3","path":"rooms/Level_Sun3/Level_Sun3.yy",},},
     {"id":{"name":"Level_Sun4","path":"rooms/Level_Sun4/Level_Sun4.yy",},},
+    {"id":{"name":"LF_O_1","path":"rooms/LF_O_1/LF_O_1.yy",},},
     {"id":{"name":"MotuCutsceneRoom1","path":"rooms/MotuCutsceneRoom1/MotuCutsceneRoom1.yy",},},
     {"id":{"name":"MotuCutsceneRoom2","path":"rooms/MotuCutsceneRoom2/MotuCutsceneRoom2.yy",},},
     {"id":{"name":"MotuCutsceneRoom3","path":"rooms/MotuCutsceneRoom3/MotuCutsceneRoom3.yy",},},
@@ -904,6 +905,7 @@
     {"roomId":{"name":"L_Tabuli_2","path":"rooms/L_Tabuli_2/L_Tabuli_2.yy",},},
     {"roomId":{"name":"L_Tabuli_Boss","path":"rooms/L_Tabuli_Boss/L_Tabuli_Boss.yy",},},
     {"roomId":{"name":"L_Tabuli_3","path":"rooms/L_Tabuli_3/L_Tabuli_3.yy",},},
+    {"roomId":{"name":"LF_O_1","path":"rooms/LF_O_1/LF_O_1.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

@@ -68,6 +68,7 @@
     {"name":"inst_23DAF206","path":"rooms/Click_here_for_level_select/Click_here_for_level_select.yy",},
     {"name":"inst_A19FA32","path":"rooms/Click_here_for_level_select/Click_here_for_level_select.yy",},
     {"name":"inst_36FE513A","path":"rooms/Click_here_for_level_select/Click_here_for_level_select.yy",},
+    {"name":"inst_91C600C","path":"rooms/Click_here_for_level_select/Click_here_for_level_select.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -259,6 +260,9 @@
         {"$GMRInstance":"v1","%Name":"inst_36FE513A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_36FE513A","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"propertyId":{"name":"destination","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"resource":{"name":"L_Tabuli_3","path":"rooms/L_Tabuli_3/L_Tabuli_3.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"L_Tabuli_3",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":1.0909091,"x":16.0,"y":672.0,},
+        {"$GMRInstance":"v1","%Name":"inst_91C600C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_91C600C","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"propertyId":{"name":"destination","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"resource":{"name":"LF_O_1","path":"rooms/LF_O_1/LF_O_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"LF_O_1",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":1.0,"x":16.0,"y":72.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_13141DE5","animationSpeed":1.0,"colour":4290740223,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_13141DE5","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":1.0,"spriteId":{"name":"Spr_ClickRoom","path":"sprites/Spr_ClickRoom/Spr_ClickRoom.yy",},"x":304.0,"y":392.0,},
