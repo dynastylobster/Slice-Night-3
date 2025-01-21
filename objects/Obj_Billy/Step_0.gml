@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 if global.character = "Robot" {
 	base_koyote_time = 9
 	doublejump = false;
