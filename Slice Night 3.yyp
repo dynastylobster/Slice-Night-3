@@ -340,6 +340,7 @@
     {"id":{"name":"TitleScreenRoom2","path":"rooms/TitleScreenRoom2/TitleScreenRoom2.yy",},},
     {"id":{"name":"TitleScreenRoom3","path":"rooms/TitleScreenRoom3/TitleScreenRoom3.yy",},},
     {"id":{"name":"TitleScreenRoomSecondServing","path":"rooms/TitleScreenRoomSecondServing/TitleScreenRoomSecondServing.yy",},},
+    {"id":{"name":"Void_Boss_Room","path":"rooms/Void_Boss_Room/Void_Boss_Room.yy",},},
     {"id":{"name":"CheckOnscreen","path":"scripts/CheckOnscreen/CheckOnscreen.yy",},},
     {"id":{"name":"GetSlicedNuanced","path":"scripts/GetSlicedNuanced/GetSlicedNuanced.yy",},},
     {"id":{"name":"HitPlayer","path":"scripts/HitPlayer/HitPlayer.yy",},},
@@ -908,6 +909,7 @@
     {"roomId":{"name":"L_Tabuli_Boss","path":"rooms/L_Tabuli_Boss/L_Tabuli_Boss.yy",},},
     {"roomId":{"name":"L_Tabuli_4","path":"rooms/L_Tabuli_4/L_Tabuli_4.yy",},},
     {"roomId":{"name":"L_Tabuli_3","path":"rooms/L_Tabuli_3/L_Tabuli_3.yy",},},
+    {"roomId":{"name":"Void_Boss_Room","path":"rooms/Void_Boss_Room/Void_Boss_Room.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

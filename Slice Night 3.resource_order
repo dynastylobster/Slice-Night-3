@@ -295,6 +295,7 @@
     {"name":"TitleScreenRoom2","order":34,"path":"rooms/TitleScreenRoom2/TitleScreenRoom2.yy",},
     {"name":"TitleScreenRoom3","order":51,"path":"rooms/TitleScreenRoom3/TitleScreenRoom3.yy",},
     {"name":"TitleScreenRoomSecondServing","order":54,"path":"rooms/TitleScreenRoomSecondServing/TitleScreenRoomSecondServing.yy",},
+    {"name":"Void_Boss_Room","order":22,"path":"rooms/Void_Boss_Room/Void_Boss_Room.yy",},
     {"name":"CheckOnscreen","order":1,"path":"scripts/CheckOnscreen/CheckOnscreen.yy",},
     {"name":"GetSlicedNuanced","order":2,"path":"scripts/GetSlicedNuanced/GetSlicedNuanced.yy",},
     {"name":"Snd_Absorption","order":27,"path":"sounds/Snd_Absorption/Snd_Absorption.yy",},

@@ -10,3 +10,7 @@ if age >= 256 then age = 0
 if !place_meeting(x,y,Obj_Billy) {
 	drawing = false
 	}
+	
+if (y >= 450 && room_get_name(room) == "L_Tabuli_2") {
+room_goto(Void_Boss_Room);
+}
