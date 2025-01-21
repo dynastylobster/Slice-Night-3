@@ -3,6 +3,7 @@
   "%Name":"Obj_EnemyOnlyBlock",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_FlameSlice","path":"objects/Obj_FlameSlice/Obj_FlameSlice.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_Billy","path":"objects/Obj_Billy/Obj_Billy.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Obj_EnemyOnlyBlock",

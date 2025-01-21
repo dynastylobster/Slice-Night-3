@@ -8,3 +8,4 @@ yspeed = 0;
 xspeed = 0;
 
 alarm[0] = 1
+sprite_index = Spr_ShiftPillarBlack
