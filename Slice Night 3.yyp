@@ -649,6 +649,7 @@
     {"id":{"name":"Spr_maceball","path":"sprites/Spr_maceball/Spr_maceball.yy",},},
     {"id":{"name":"Spr_MenaceContainer","path":"sprites/Spr_MenaceContainer/Spr_MenaceContainer.yy",},},
     {"id":{"name":"Spr_MenaceOrb","path":"sprites/Spr_MenaceOrb/Spr_MenaceOrb.yy",},},
+    {"id":{"name":"Spr_MenaceOrbW","path":"sprites/Spr_MenaceOrbW/Spr_MenaceOrbW.yy",},},
     {"id":{"name":"Spr_MenuArrow","path":"sprites/Spr_MenuArrow/Spr_MenuArrow.yy",},},
     {"id":{"name":"Spr_model1_attack","path":"sprites/Spr_model1_attack/Spr_model1_attack.yy",},},
     {"id":{"name":"Spr_model1_defeat","path":"sprites/Spr_model1_defeat/Spr_model1_defeat.yy",},},

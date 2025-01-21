@@ -593,6 +593,7 @@
     {"name":"Spr_maceball","order":6,"path":"sprites/Spr_maceball/Spr_maceball.yy",},
     {"name":"Spr_MenaceContainer","order":32,"path":"sprites/Spr_MenaceContainer/Spr_MenaceContainer.yy",},
     {"name":"Spr_MenaceOrb","order":2,"path":"sprites/Spr_MenaceOrb/Spr_MenaceOrb.yy",},
+    {"name":"Spr_MenaceOrbW","order":38,"path":"sprites/Spr_MenaceOrbW/Spr_MenaceOrbW.yy",},
     {"name":"Spr_MenuArrow","order":6,"path":"sprites/Spr_MenuArrow/Spr_MenuArrow.yy",},
     {"name":"Spr_model1_attack","order":3,"path":"sprites/Spr_model1_attack/Spr_model1_attack.yy",},
     {"name":"Spr_model1_defeat","order":9,"path":"sprites/Spr_model1_defeat/Spr_model1_defeat.yy",},
