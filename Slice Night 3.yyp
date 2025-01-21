@@ -680,6 +680,7 @@
     {"id":{"name":"Spr_NPCMotuBillyTextBothF","path":"sprites/Spr_NPCMotuBillyTextBothF/Spr_NPCMotuBillyTextBothF.yy",},},
     {"id":{"name":"Spr_NPCMotuBillyTextF","path":"sprites/Spr_NPCMotuBillyTextF/Spr_NPCMotuBillyTextF.yy",},},
     {"id":{"name":"Spr_NPCMotuBillyTextnochange","path":"sprites/Spr_NPCMotuBillyTextnochange/Spr_NPCMotuBillyTextnochange.yy",},},
+    {"id":{"name":"Spr_NPCStrawby","path":"sprites/Spr_NPCStrawby/Spr_NPCStrawby.yy",},},
     {"id":{"name":"Spr_NPCText","path":"sprites/Spr_NPCText/Spr_NPCText.yy",},},
     {"id":{"name":"Spr_NuclearPaint","path":"sprites/Spr_NuclearPaint/Spr_NuclearPaint.yy",},},
     {"id":{"name":"Spr_NullBulletGreen","path":"sprites/Spr_NullBulletGreen/Spr_NullBulletGreen.yy",},},

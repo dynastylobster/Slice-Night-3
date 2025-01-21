@@ -622,6 +622,7 @@
     {"name":"Spr_NPCMotuBillyTextBothF","order":15,"path":"sprites/Spr_NPCMotuBillyTextBothF/Spr_NPCMotuBillyTextBothF.yy",},
     {"name":"Spr_NPCMotuBillyTextF","order":14,"path":"sprites/Spr_NPCMotuBillyTextF/Spr_NPCMotuBillyTextF.yy",},
     {"name":"Spr_NPCMotuBillyTextnochange","order":18,"path":"sprites/Spr_NPCMotuBillyTextnochange/Spr_NPCMotuBillyTextnochange.yy",},
+    {"name":"Spr_NPCStrawby","order":19,"path":"sprites/Spr_NPCStrawby/Spr_NPCStrawby.yy",},
     {"name":"Spr_NPCText","order":4,"path":"sprites/Spr_NPCText/Spr_NPCText.yy",},
     {"name":"Spr_NuclearPaint","order":33,"path":"sprites/Spr_NuclearPaint/Spr_NuclearPaint.yy",},
     {"name":"Spr_NullBulletGreen","order":15,"path":"sprites/Spr_NullBulletGreen/Spr_NullBulletGreen.yy",},

@@ -27,8 +27,15 @@ draw_set_color(c_black)
 	}
 }
 
-
+if image_index = 15 {
+		sprite_index = Spr_NPCStrawby
+	}
 draw_self();
+if sprite_index = Spr_NPCStrawby {
+sprite_index = Spr_NPC 
+image_index = 15
+}
+
 draw_set_halign(fa_left)
 draw_set_color(c_white) 
 //depth = layer_get_id("Instances_1")
