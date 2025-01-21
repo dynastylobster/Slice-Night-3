@@ -605,3 +605,7 @@ if place_meeting(x,y+4,Obj_NuclearPaint) or place_meeting(x+4,y,Obj_NuclearPaint
 } else audio_stop_sound(Snd_NuclearPaint)
 
 }
+
+if place_meeting(x+xspeed,y+0.5,[Obj_ShiftPillar,Obj_ShiftPillarBlack,Obj_ShiftPillarWhite,Obj_ShiftPillarOrange]) {
+		if !sliding	y-=1
+	}
