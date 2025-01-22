@@ -251,6 +251,7 @@
     {"id":{"name":"Obj_UFOBullet","path":"objects/Obj_UFOBullet/Obj_UFOBullet.yy",},},
     {"id":{"name":"Obj_UFOEnemy","path":"objects/Obj_UFOEnemy/Obj_UFOEnemy.yy",},},
     {"id":{"name":"Obj_UFOWaypoint","path":"objects/Obj_UFOWaypoint/Obj_UFOWaypoint.yy",},},
+    {"id":{"name":"Obj_VoidBoss","path":"objects/Obj_VoidBoss/Obj_VoidBoss.yy",},},
     {"id":{"name":"Obj_VoidTail","path":"objects/Obj_VoidTail/Obj_VoidTail.yy",},},
     {"id":{"name":"Obj_Wall","path":"objects/Obj_Wall/Obj_Wall.yy",},},
     {"id":{"name":"Obj_WallJumpEffect","path":"objects/Obj_WallJumpEffect/Obj_WallJumpEffect.yy",},},

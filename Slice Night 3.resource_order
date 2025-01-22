@@ -210,6 +210,7 @@
     {"name":"Obj_UFOBullet","order":24,"path":"objects/Obj_UFOBullet/Obj_UFOBullet.yy",},
     {"name":"Obj_UFOEnemy","order":18,"path":"objects/Obj_UFOEnemy/Obj_UFOEnemy.yy",},
     {"name":"Obj_UFOWaypoint","order":25,"path":"objects/Obj_UFOWaypoint/Obj_UFOWaypoint.yy",},
+    {"name":"Obj_VoidBoss","order":30,"path":"objects/Obj_VoidBoss/Obj_VoidBoss.yy",},
     {"name":"Obj_VoidTail","order":28,"path":"objects/Obj_VoidTail/Obj_VoidTail.yy",},
     {"name":"Obj_Wall","order":1,"path":"objects/Obj_Wall/Obj_Wall.yy",},
     {"name":"Obj_WallJumpEffect","order":6,"path":"objects/Obj_WallJumpEffect/Obj_WallJumpEffect.yy",},
