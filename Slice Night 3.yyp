@@ -353,6 +353,7 @@
     {"id":{"name":"Snd_AlienMusic","path":"sounds/Snd_AlienMusic/Snd_AlienMusic.yy",},},
     {"id":{"name":"Snd_AntHillOfConfessionMusic","path":"sounds/Snd_AntHillOfConfessionMusic/Snd_AntHillOfConfessionMusic.yy",},},
     {"id":{"name":"Snd_AStepUp","path":"sounds/Snd_AStepUp/Snd_AStepUp.yy",},},
+    {"id":{"name":"Snd_AttackFromAboveMusic","path":"sounds/Snd_AttackFromAboveMusic/Snd_AttackFromAboveMusic.yy",},},
     {"id":{"name":"Snd_Back2ActionMusic","path":"sounds/Snd_Back2ActionMusic/Snd_Back2ActionMusic.yy",},},
     {"id":{"name":"Snd_BalladOfDisparCredits","path":"sounds/Snd_BalladOfDisparCredits/Snd_BalladOfDisparCredits.yy",},},
     {"id":{"name":"Snd_BalladOfTheSnowBunnies","path":"sounds/Snd_BalladOfTheSnowBunnies/Snd_BalladOfTheSnowBunnies.yy",},},

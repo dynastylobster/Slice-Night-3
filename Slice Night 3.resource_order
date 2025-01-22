@@ -306,6 +306,7 @@
     {"name":"Snd_AlienMusic","order":43,"path":"sounds/Snd_AlienMusic/Snd_AlienMusic.yy",},
     {"name":"Snd_AntHillOfConfessionMusic","order":28,"path":"sounds/Snd_AntHillOfConfessionMusic/Snd_AntHillOfConfessionMusic.yy",},
     {"name":"Snd_AStepUp","order":57,"path":"sounds/Snd_AStepUp/Snd_AStepUp.yy",},
+    {"name":"Snd_AttackFromAboveMusic","order":65,"path":"sounds/Snd_AttackFromAboveMusic/Snd_AttackFromAboveMusic.yy",},
     {"name":"Snd_Back2ActionMusic","order":50,"path":"sounds/Snd_Back2ActionMusic/Snd_Back2ActionMusic.yy",},
     {"name":"Snd_BalladOfDisparCredits","order":36,"path":"sounds/Snd_BalladOfDisparCredits/Snd_BalladOfDisparCredits.yy",},
     {"name":"Snd_BalladOfTheSnowBunnies","order":26,"path":"sounds/Snd_BalladOfTheSnowBunnies/Snd_BalladOfTheSnowBunnies.yy",},
