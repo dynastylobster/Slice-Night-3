@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Bosses","order":18,"path":"folders/Objects/Bosses.yy",},
+    {"name":"Cardy boss","order":29,"path":"folders/Objects/Bosses/Cardy boss.yy",},
     {"name":"model1 boss","order":26,"path":"folders/Objects/Bosses/model1 boss.yy",},
     {"name":"Dont Place","order":6,"path":"folders/Objects/Dont Place.yy",},
     {"name":"Effects","order":3,"path":"folders/Objects/Effects.yy",},
@@ -79,6 +80,8 @@
     {"name":"Obj_CannonTrackerBall","order":15,"path":"objects/Obj_CannonTrackerBall/Obj_CannonTrackerBall.yy",},
     {"name":"Obj_CannonTrackerBallParryStar","order":19,"path":"objects/Obj_CannonTrackerBallParryStar/Obj_CannonTrackerBallParryStar.yy",},
     {"name":"Obj_CannonTrackerWall","order":7,"path":"objects/Obj_CannonTrackerWall/Obj_CannonTrackerWall.yy",},
+    {"name":"Obj_CardlyDice","order":1,"path":"objects/Obj_CardlyDice/Obj_CardlyDice.yy",},
+    {"name":"Obj_CardlySpade","order":2,"path":"objects/Obj_CardlySpade/Obj_CardlySpade.yy",},
     {"name":"Obj_CheckDown","order":16,"path":"objects/Obj_CheckDown/Obj_CheckDown.yy",},
     {"name":"Obj_Checkpoint","order":24,"path":"objects/Obj_Checkpoint/Obj_Checkpoint.yy",},
     {"name":"Obj_CheckSpear","order":17,"path":"objects/Obj_CheckSpear/Obj_CheckSpear.yy",},

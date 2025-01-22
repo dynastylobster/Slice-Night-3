@@ -139,6 +139,24 @@ if destination = TitleScreenRoomSecondServing {
 			}
 	}
 	
+	if !instance_exists(Obj_BonusContent) {
 	if destination = TitleScreenRoomSecondServing {
+	if !global.beaten {
+			y = -200
+		} else y = starty
 	displaytext = "Second Serving"
+	} 
+	} else {
+	if destination = TitleScreenRoomSecondServing {
+	if Obj_BonusContent.image_alpha = 0 {
+			y = -200
+		} else 
+		{
+			if place_meeting(x,y,[Obj_Billy,Obj_SliceParent]) {room_goto(TitleScreenRoomSecondServing)}
+			y = starty
+		}
+		displaytext = "Second Serving"
+	} 	
+		
 	}
+	

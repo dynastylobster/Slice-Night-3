@@ -65,8 +65,8 @@ global.key_start = keyboard_check_pressed(vk_enter)+ gamepad_button_check_presse
 global.key_right_released = keyboard_check_released(vk_right) + gamepad_button_check_released(0,gp_padr);
 global.key_left_released = keyboard_check_released(vk_left) + gamepad_button_check_released(0,gp_padl);
 
-global.key_right_pressed = keyboard_check_pressed(vk_right) + gamepad_button_check(0,gp_padr) + keyboard_check_pressed(ord("D"));
-global.key_left_pressed = keyboard_check_pressed(vk_left) + gamepad_button_check(0,gp_padl) + keyboard_check_pressed(ord("A"));
+global.key_right_pressed = keyboard_check_pressed(vk_right) + gamepad_button_check_pressed(0,gp_padr) + keyboard_check_pressed(ord("D"));
+global.key_left_pressed = keyboard_check_pressed(vk_left) + gamepad_button_check_pressed(0,gp_padl) + keyboard_check_pressed(ord("A"));
 	}
 
 if instance_exists(Obj_FlatBoofer) {

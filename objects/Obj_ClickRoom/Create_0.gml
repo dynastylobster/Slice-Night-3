@@ -93,3 +93,4 @@ if destination = TitleScreenRoomSecondServing {
 	func = "roomselect"
 	displaytext = "Second Serving"
 	}
+starty = y 
