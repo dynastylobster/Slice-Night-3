@@ -322,6 +322,7 @@
     {"name":"Snd_BossDefeat","order":14,"path":"sounds/Snd_BossDefeat/Snd_BossDefeat.yy",},
     {"name":"Snd_BossMusic","order":13,"path":"sounds/Snd_BossMusic/Snd_BossMusic.yy",},
     {"name":"Snd_Bounce","order":31,"path":"sounds/Snd_Bounce/Snd_Bounce.yy",},
+    {"name":"Snd_CardlyLaugh","order":67,"path":"sounds/Snd_CardlyLaugh/Snd_CardlyLaugh.yy",},
     {"name":"Snd_cardlymusic","order":61,"path":"sounds/Snd_cardlymusic/Snd_cardlymusic.yy",},
     {"name":"Snd_CastleOfPromiseMusic","order":29,"path":"sounds/Snd_CastleOfPromiseMusic/Snd_CastleOfPromiseMusic.yy",},
     {"name":"Snd_Checkpoint","order":23,"path":"sounds/Snd_Checkpoint/Snd_Checkpoint.yy",},

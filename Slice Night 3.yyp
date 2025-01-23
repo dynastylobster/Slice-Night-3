@@ -369,6 +369,7 @@
     {"id":{"name":"Snd_BossDefeat","path":"sounds/Snd_BossDefeat/Snd_BossDefeat.yy",},},
     {"id":{"name":"Snd_BossMusic","path":"sounds/Snd_BossMusic/Snd_BossMusic.yy",},},
     {"id":{"name":"Snd_Bounce","path":"sounds/Snd_Bounce/Snd_Bounce.yy",},},
+    {"id":{"name":"Snd_CardlyLaugh","path":"sounds/Snd_CardlyLaugh/Snd_CardlyLaugh.yy",},},
     {"id":{"name":"Snd_cardlymusic","path":"sounds/Snd_cardlymusic/Snd_cardlymusic.yy",},},
     {"id":{"name":"Snd_CastleOfPromiseMusic","path":"sounds/Snd_CastleOfPromiseMusic/Snd_CastleOfPromiseMusic.yy",},},
     {"id":{"name":"Snd_Checkpoint","path":"sounds/Snd_Checkpoint/Snd_Checkpoint.yy",},},

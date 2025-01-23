@@ -12,6 +12,9 @@ if !global.paused {
 	
 	if alarm[2] {
 		if alarm[2] < 60 {
+				if alarm[2] = 59 {
+				audio_play_sound(Snd_CardlyLaugh,0,0,global.SFXvolume*3);	
+				}
 				sprite_index = Spr_CardlyLaugh
 			}
 		}
