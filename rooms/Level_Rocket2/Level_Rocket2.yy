@@ -60,6 +60,7 @@
     {"name":"inst_4DE4914","path":"rooms/Level_Rocket2/Level_Rocket2.yy",},
     {"name":"inst_36498D8B","path":"rooms/Level_Rocket2/Level_Rocket2.yy",},
     {"name":"inst_1D61395","path":"rooms/Level_Rocket2/Level_Rocket2.yy",},
+    {"name":"inst_72F4849D","path":"rooms/Level_Rocket2/Level_Rocket2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -129,6 +130,7 @@
         {"$GMRInstance":"v1","%Name":"inst_1D61395","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1D61395","objectId":{"name":"Obj_NPC_MultiLine","path":"objects/Obj_NPC_MultiLine/Obj_NPC_MultiLine.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_NPC_MultiLine","path":"objects/Obj_NPC_MultiLine/Obj_NPC_MultiLine.yy",},"propertyId":{"name":"textToSay","path":"objects/Obj_NPC_MultiLine/Obj_NPC_MultiLine.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[\"Planet: Tabuli\\nMass: 2.1 Earths\\nRotational period: 27 hours\\nClass: Cold Lucastrine Terra\",\"Atmosphere Composition : 70% N, 26% O2, 4% CO2 (3 bars)\",\"Crust composition: silicates, quartzes, and organics\",\"With high concentratons of Silver, Copper\\n and Iron Oxides, the planet is glistening with a Rich blue hue\",\"due to unusual amounts of sulphuric acid in geysers\\n near the planet's equator\\nerosion on this planet is high\",\"while the surface of tabuli is extremely cold,\\ndue to immense Core heating, tidal heating\\naswell as high chemical activity\\nthe subsurface life experiences temperatures\\nbetween 4 and 110 degrees celcius,\",\"and many species have migrated to the surface\"]",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":1952.0,},
+        {"$GMRInstance":"v1","%Name":"inst_72F4849D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_72F4849D","objectId":{"name":"Obj_MusicSilence","path":"objects/Obj_MusicSilence/Obj_MusicSilence.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.75,"scaleY":2.0,"x":0.0,"y":1872.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_2EE52939_1_1","animationSpeed":1.0,"colour":4278190080,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2EE52939_1_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":6.0,"scaleY":1.625,"spriteId":{"name":"Spr_ClickRoom","path":"sprites/Spr_ClickRoom/Spr_ClickRoom.yy",},"x":1744.0,"y":454.0,},
