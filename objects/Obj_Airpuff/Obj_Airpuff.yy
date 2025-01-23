@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_MotuBoss_Defeat",
+  "%Name":"Obj_Airpuff",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_Billy","path":"objects/Obj_Billy/Obj_Billy.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_MotuBoss_Defeat",
+  "name":"Obj_Airpuff",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bosses",
-    "path":"folders/Objects/Bosses.yy",
+    "name":"Gimmicks",
+    "path":"folders/Objects/Gimmicks.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_MotuBoss_Defeated",
-    "path":"sprites/Spr_MotuBoss_Defeated/Spr_MotuBoss_Defeated.yy",
+    "name":"Spr_airpuff",
+    "path":"sprites/Spr_airpuff/Spr_airpuff.yy",
   },
   "spriteMaskId":null,
   "visible":true,

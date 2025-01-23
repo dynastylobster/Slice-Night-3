@@ -3,6 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
+try { autoTileCol = layer_tilemap_get_id("TileCollision"); } catch (err) { autoTileCol = -4; }
 alarm[0] = 120
 hp = 16;
 
