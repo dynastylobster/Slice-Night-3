@@ -227,6 +227,65 @@ if (menuType == 1) {
 	}
 }
 }
+
+/*keysbinded[]
+0 = up
+1 = left
+2 = down
+3 = right
+4 = run
+5 = jump
+6 = slice
+[12:50 AM]
+*/
+if !gamepad_is_connected(0) 
+{
+global.key_up = keyboard_check(keysBinded[0]) + keyboard_check(vk_up)
+global.key_left = keyboard_check(keysBinded[1]) + keyboard_check(vk_left)
+global.key_down = keyboard_check(keysBinded[2]) + keyboard_check(vk_down)
+global.key_right = keyboard_check(keysBinded[3]) + keyboard_check(vk_right)
+global.key_up_pressed = keyboard_check_pressed(keysBinded[0]) + keyboard_check_pressed(vk_up)
+global.key_left_pressed = keyboard_check_pressed(keysBinded[1]) + keyboard_check_pressed(vk_left)
+global.key_down_pressed = keyboard_check_pressed(keysBinded[2]) + keyboard_check_pressed(vk_down)
+global.key_right_pressed = keyboard_check_pressed(keysBinded[3]) + keyboard_check_pressed(vk_right)
+global.key_C = keyboard_check(keysBinded[4])
+global.key_C_pressed = keyboard_check_pressed(keysBinded[4])
+global.key_Z = keyboard_check(keysBinded[5])
+global.key_Z_pressed = keyboard_check_pressed(keysBinded[5])
+global.key_X = keyboard_check(keysBinded[6])
+global.key_X_pressed = keyboard_check_pressed(keysBinded[6])
+} else {
+	var	key_up = keyboard_check(keysBinded[0]) + keyboard_check(vk_up)
+	var	key_left = keyboard_check(keysBinded[1]) + keyboard_check(vk_left)
+	var	key_down = keyboard_check(keysBinded[2]) + keyboard_check(vk_down)
+	var	key_right = keyboard_check(keysBinded[3]) + keyboard_check(vk_right)
+    var	key_up_pressed = keyboard_check_pressed(keysBinded[0]) + keyboard_check_pressed(vk_up)
+	var	key_left_pressed = keyboard_check_pressed(keysBinded[1]) + keyboard_check_pressed(vk_left)
+	var	key_down_pressed = keyboard_check_pressed(keysBinded[2])  + keyboard_check_pressed(vk_down)
+	var	key_right_pressed = keyboard_check_pressed(keysBinded[3]) + keyboard_check_pressed(vk_right)
+	var	key_C = keyboard_check(keysBinded[4])
+	var	key_C_pressed = keyboard_check_pressed(keysBinded[4])
+	var	key_Z = keyboard_check(keysBinded[5])
+	var	key_Z_pressed = keyboard_check_pressed(keysBinded[5])
+	var	key_X = keyboard_check(keysBinded[6])
+	var	key_X_pressed = keyboard_check_pressed(keysBinded[6])
+	
+	global.key_up = key_up + gamepad_button_check(0,gp_padu)
+	global.key_left = key_left + gamepad_button_check(0,gp_padl)
+	global.key_down = key_down + gamepad_button_check(0,gp_padu)
+	global.key_right = key_right + gamepad_button_check(0,gp_padl)	
+		global.key_up_pressed = key_up_pressed + gamepad_button_check_pressed(0,gp_padu)
+	global.key_left_pressed = key_left_pressed + gamepad_button_check_pressed(0,gp_padl)
+	global.key_down_pressed = key_down_pressed + gamepad_button_check_pressed(0,gp_padu)
+	global.key_right_pressed = key_right_pressed + gamepad_button_check_pressed(0,gp_padl)	
+	global.key_Z = key_Z + gamepad_button_check(0,gp_face1)
+	global.key_Z_pressed = key_Z_pressed + gamepad_button_check_pressed(0,gp_face1)
+	global.key_X = key_X + gamepad_button_check(0,gp_face3)
+	global.key_X_pressed = key_X_pressed + gamepad_button_check_pressed(0,gp_face3)
+	global.key_C = key_C + gamepad_button_check(0,gp_face2) +gamepad_button_check(0,gp_shoulderl) + gamepad_button_check(0,gp_shoulderr)
+	global.key_C_pressed = key_C_pressed + gamepad_button_check_pressed(0,gp_face2) +gamepad_button_check_pressed(0,gp_shoulderl) + gamepad_button_check_pressed(0,gp_shoulderr)
+	}
+
 /// Here's the menu code! ^^^
 
 //if global.paused {
