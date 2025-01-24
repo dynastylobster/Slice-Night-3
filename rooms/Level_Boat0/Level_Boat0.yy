@@ -73,6 +73,7 @@
     {"name":"inst_493B9222","path":"rooms/Level_Boat0/Level_Boat0.yy",},
     {"name":"inst_57E524C","path":"rooms/Level_Boat0/Level_Boat0.yy",},
     {"name":"inst_7B68ABED","path":"rooms/Level_Boat0/Level_Boat0.yy",},
+    {"name":"inst_7FBD39C8","path":"rooms/Level_Boat0/Level_Boat0.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -163,6 +164,9 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_NPC","path":"objects/Obj_NPC/Obj_NPC.yy",},"propertyId":{"name":"text_1","path":"objects/Obj_NPC/Obj_NPC.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"I didn't find any of them for like an hour.",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_NPC","path":"objects/Obj_NPC/Obj_NPC.yy",},"propertyId":{"name":"text_2","path":"objects/Obj_NPC/Obj_NPC.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"don't ask how i didn't, but thats why I'm here.",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":256.0,},
+        {"$GMRInstance":"v1","%Name":"inst_7FBD39C8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7FBD39C8","objectId":{"name":"Obj_CameraController","path":"objects/Obj_CameraController/Obj_CameraController.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_CameraController","path":"objects/Obj_CameraController/Obj_CameraController.yy",},"propertyId":{"name":"boat","path":"objects/Obj_CameraController/Obj_CameraController.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":192.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":134,"TileCompressedData":[
           -683,0,7,19,20,1073741850,1073741843,7,1073741850,1073741843,-127,0,7,26,27,1073741851,1073741844,14,

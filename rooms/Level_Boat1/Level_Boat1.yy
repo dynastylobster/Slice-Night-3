@@ -98,6 +98,7 @@
     {"name":"inst_7759E865","path":"rooms/Level_Boat1/Level_Boat1.yy",},
     {"name":"inst_725ACF71","path":"rooms/Level_Boat1/Level_Boat1.yy",},
     {"name":"inst_33356BD","path":"rooms/Level_Boat1/Level_Boat1.yy",},
+    {"name":"inst_316FA061","path":"rooms/Level_Boat1/Level_Boat1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -216,6 +217,9 @@
         {"$GMRInstance":"v1","%Name":"inst_33356BD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_33356BD","objectId":{"name":"Obj_Radio","path":"objects/Obj_Radio/Obj_Radio.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_Radio","path":"objects/Obj_Radio/Obj_Radio.yy",},"propertyId":{"name":"music","path":"objects/Obj_Radio/Obj_Radio.yy",},"resource":{"name":"Snd_YonkSlicerOfThe7Dreams","path":"sounds/Snd_YonkSlicerOfThe7Dreams/Snd_YonkSlicerOfThe7Dreams.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Snd_YonkSlicerOfThe7Dreams",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":880.0,"y":224.0,},
+        {"$GMRInstance":"v1","%Name":"inst_316FA061","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_316FA061","objectId":{"name":"Obj_CameraController","path":"objects/Obj_CameraController/Obj_CameraController.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_CameraController","path":"objects/Obj_CameraController/Obj_CameraController.yy",},"propertyId":{"name":"boat","path":"objects/Obj_CameraController/Obj_CameraController.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":192.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":134,"TileCompressedData":[
           -74,0,2,1073741851,1073741844,-49,0,-9,-2147483648,-74,0,2,19,20,-49,0,-9,-2147483648,-74,0,2,26,27,

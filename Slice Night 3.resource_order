@@ -749,6 +749,7 @@
     {"name":"Spr_YinBang","order":32,"path":"sprites/Spr_YinBang/Spr_YinBang.yy",},
     {"name":"TabuliSurfaceTileSprite","order":54,"path":"sprites/TabuliSurfaceTileSprite/TabuliSurfaceTileSprite.yy",},
     {"name":"TabuliTileSprite","order":49,"path":"sprites/TabuliTileSprite/TabuliTileSprite.yy",},
+    {"name":"VoidTileSprite","order":56,"path":"sprites/VoidTileSprite/VoidTileSprite.yy",},
     {"name":"AlienTileSet","order":37,"path":"tilesets/AlienTileSet/AlienTileSet.yy",},
     {"name":"AlienTileSetNight","order":40,"path":"tilesets/AlienTileSetNight/AlienTileSetNight.yy",},
     {"name":"BoatTileSet","order":1,"path":"tilesets/BoatTileSet/BoatTileSet.yy",},
@@ -776,5 +777,6 @@
     {"name":"TabuliSurfaceTileSet","order":55,"path":"tilesets/TabuliSurfaceTileSet/TabuliSurfaceTileSet.yy",},
     {"name":"TabuliTileSet","order":50,"path":"tilesets/TabuliTileSet/TabuliTileSet.yy",},
     {"name":"TEST_TILE_SET","order":51,"path":"tilesets/TEST_TILE_SET/TEST_TILE_SET.yy",},
+    {"name":"VoidTileSet","order":57,"path":"tilesets/VoidTileSet/VoidTileSet.yy",},
   ],
 }
