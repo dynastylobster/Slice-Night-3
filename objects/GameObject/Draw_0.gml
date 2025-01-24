@@ -137,7 +137,7 @@ if global.paused {
 					if (global.jumpslicemap == 1) {
 					extraText = ": I have two right hands.";
 					} else {
-					extraText = ": SMBX Style";
+					extraText = "";
 					}
 				break;
 				case "VSync":
