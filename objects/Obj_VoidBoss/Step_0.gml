@@ -1,6 +1,8 @@
 // Inherit the parent event
 event_inherited();
 
+y = camera_get_view_y(view_camera[0]) + 75;
+
 /*
 Phase 1: Tears.
 Phase 2: Knives.
@@ -59,6 +61,17 @@ instance_destroy(inst_4369BF1B);
 }
 ephase = 2.5;
 }
+
+var camx = camera_get_view_x(view_camera[0]);
+var camy = camera_get_view_y(view_camera[0]);
+var vcamx = camx + 120;
+var vcamy = camy + 213;
+
+if (locPoints[phase][0] != camera_get_view_x(view_camera[0]) + 120) { camera_set_view_pos(view_camera[0],  camera_get_view_x(view_camera[0]) + (locPoints[phase][0] > camera_get_view_x(view_camera[0]) + 120 ? 1 : -1), camera_get_view_y(view_camera[0])); }
+if (locPoints[phase][1] != camera_get_view_y(view_camera[0]) + 213) { camera_set_view_pos(view_camera[0],  camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]) + (locPoints[phase][1] > camera_get_view_y(view_camera[0]) + 213 ? 1 : -1)); }
+
+if (camera_get_view_x(view_camera[0]) < 0) { camera_set_view_pos(view_camera[0], 0, camera_get_view_y(view_camera[0])); } else if (camera_get_view_x(view_camera[0]) > room_width) { camera_set_view_pos(view_camera[0], room_width, camera_get_view_y(view_camera[0])); }
+if (camera_get_view_y(view_camera[0]) < 0) { camera_set_view_pos(view_camera[0], camera_get_view_x(view_camera[0]), 0); } else if (camera_get_view_y(view_camera[0]) > room_height - 240) { camera_set_view_pos(view_camera[0], camera_get_view_x(view_camera[0]), room_height - 240); }
 
 
 attackTimer++;

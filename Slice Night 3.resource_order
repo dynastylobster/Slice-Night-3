@@ -2,6 +2,7 @@
   "FolderOrderSettings":[
     {"name":"Bosses","order":18,"path":"folders/Objects/Bosses.yy",},
     {"name":"Cardy boss","order":29,"path":"folders/Objects/Bosses/Cardy boss.yy",},
+    {"name":"Void Boss","order":31,"path":"folders/Objects/Bosses/Void Boss.yy",},
     {"name":"model1 boss","order":26,"path":"folders/Objects/Bosses/model1 boss.yy",},
     {"name":"Dont Place","order":6,"path":"folders/Objects/Dont Place.yy",},
     {"name":"Effects","order":3,"path":"folders/Objects/Effects.yy",},
@@ -212,7 +213,6 @@
     {"name":"Obj_UFOBullet","order":24,"path":"objects/Obj_UFOBullet/Obj_UFOBullet.yy",},
     {"name":"Obj_UFOEnemy","order":18,"path":"objects/Obj_UFOEnemy/Obj_UFOEnemy.yy",},
     {"name":"Obj_UFOWaypoint","order":25,"path":"objects/Obj_UFOWaypoint/Obj_UFOWaypoint.yy",},
-    {"name":"Obj_VoidBoss","order":30,"path":"objects/Obj_VoidBoss/Obj_VoidBoss.yy",},
     {"name":"Obj_VoidTail","order":28,"path":"objects/Obj_VoidTail/Obj_VoidTail.yy",},
     {"name":"Obj_Wall","order":1,"path":"objects/Obj_Wall/Obj_Wall.yy",},
     {"name":"Obj_WallJumpEffect","order":6,"path":"objects/Obj_WallJumpEffect/Obj_WallJumpEffect.yy",},

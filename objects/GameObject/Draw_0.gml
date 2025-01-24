@@ -110,7 +110,7 @@ if global.paused {
 	/// Draw code! Woohoo!
 	draw_set_font(UndertaleFont)
 	var extraText = "";
-	if (menuType == 0) {
+	if (menuType == "Start") {
 		for (var i = 0; i < array_length(menuOp); i++) {
 			switch(menuOp[i]) {
 				case "Change Character":
@@ -137,7 +137,7 @@ if global.paused {
 					if (global.jumpslicemap == 1) {
 					extraText = ": I have two right hands.";
 					} else {
-					extraText = "";
+					extraText = ": SMBX Style";
 					}
 				break;
 				case "VSync":
@@ -173,7 +173,7 @@ if global.paused {
 		extraText = ""
 	}
 	}
-	if (menuType == 1) {
+	/*if (menuType == 1) {
 		for (var i = 0; i < array_length(keybindOp); i++) {
 			try {
 		extraText = ": " + string_upper(chr(keysBinded[i]));
@@ -196,6 +196,7 @@ if global.paused {
 		}
 		}
 	}
+	*/
 }
 	
 	

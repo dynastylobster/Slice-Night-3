@@ -1,7 +1,8 @@
 // Inherit the parent event
 event_inherited();
 
-if (counter == holdit + 120) {
+
+if (attackTimer == holdit + 120) {
 
 switch (ephase) {
 case 0:
@@ -38,8 +39,10 @@ break;
 }
 
 
-holdit = counter;
+holdit = attackTimer;
 }
+
+draw_text(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), string([x, y]));
 
 if (text != "") {
 // draw text

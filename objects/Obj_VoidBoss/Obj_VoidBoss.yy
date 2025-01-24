@@ -11,8 +11,8 @@
   "name":"Obj_VoidBoss",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bosses",
-    "path":"folders/Objects/Bosses.yy",
+    "name":"Void Boss",
+    "path":"folders/Objects/Bosses/Void Boss.yy",
   },
   "parentObjectId":{
     "name":"BossParentObject",

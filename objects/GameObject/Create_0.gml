@@ -14,14 +14,14 @@ menuOp = ["Resume", "Change Character", "Change Costume", "Music Volume", "SFX V
 deletePhase = 0;
 _index = 0;
 menuIndex = menuOp[_index];
-menuType = 0;
+menuType = "Start";
 
-lastKey = 0;
+/*lastKey = 0;
 keyBeingRebinded = 0;
 keybindOp = ["Up", "Left", "Down", "Right", "Jump", "Run", "Slice"];
 
 // load the settings file and change these to that!
-keysBinded = ["w", "a", "s", "d", "z", "x", "c"];
+keysBinded = ["w", "a", "s", "d", "z", "x", "c"];*/
 
 
 ini_open("save.ini") 
