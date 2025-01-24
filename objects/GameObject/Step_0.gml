@@ -238,6 +238,8 @@ if (menuType == 1) {
 6 = slice
 [12:50 AM]
 */
+
+/*
 if !gamepad_is_connected(0) 
 {
 global.key_up = keyboard_check(keysBinded[0]) + keyboard_check(vk_up)
@@ -284,7 +286,7 @@ global.key_X_pressed = keyboard_check_pressed(keysBinded[6])
 	global.key_X_pressed = key_X_pressed + gamepad_button_check_pressed(0,gp_face3)
 	global.key_C = key_C + gamepad_button_check(0,gp_face2) +gamepad_button_check(0,gp_shoulderl) + gamepad_button_check(0,gp_shoulderr)
 	global.key_C_pressed = key_C_pressed + gamepad_button_check_pressed(0,gp_face2) +gamepad_button_check_pressed(0,gp_shoulderl) + gamepad_button_check_pressed(0,gp_shoulderr)
-	}
+	} */
 
 /// Here's the menu code! ^^^
 
