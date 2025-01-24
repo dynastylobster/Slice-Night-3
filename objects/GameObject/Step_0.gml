@@ -123,7 +123,7 @@ if (updown != 0) {
 
 var acceptableCostumes = [["Billy", "Miley", "Billy (Fox)", "Miley (Fox)"], ["Motu"], ["Void"]];
 
-if leftright != 0 {
+if (leftright != 0 && menuType == 0) {
 		switch(menuIndex) {
 		case "Music Volume": 
 		global.musicvolume += leftright *0.05
@@ -140,8 +140,11 @@ if leftright != 0 {
 		
 		}
 	}
+if (menuType == 0.9) {
+menuType = 1;
+}
 
-if (confirmed) {
+if (confirmed && menuType == 0) {
 switch(menuIndex) {
 	case "Resume":
 	global.paused = false;
@@ -174,7 +177,8 @@ switch(menuIndex) {
 	if (global.SFXvolume > 2) {global.SFXvolume = 0; }
 	break;
 	case "Button Mapping":
-	global.jumpslicemap = !global.jumpslicemap;
+	lastKey = keyboard_lastchar;
+	menuType = 0.9;
 	break;
 	case "VSync":
 	global.vsync = !global.vsync;
@@ -198,6 +202,28 @@ switch(menuIndex) {
 	case "Return To Title Screen":
 	room_goto(TitleScreenRoom);
 	break;
+	}
+}
+if (menuType == 1) {
+	_index = keyBeingRebinded;
+	
+	if (keyboard_check_pressed(vk_anykey)) {
+		if (keyBeingRebinded + 1 < array_length(keysBinded)) {
+			keysBinded[keyBeingRebinded] = keyboard_key;
+			keyBeingRebinded++;
+		} else {
+			menuType = 0;
+			keyBeingRebinded = 0;
+		}
+	}
+	else if (mouse_check_button_pressed(mb_any)) {
+		if (keyBeingRebinded + 1 < array_length(keysBinded)) {
+			keysBinded[keyBeingRebinded] = mouse_button;
+			keyBeingRebinded++;
+		} else {
+			menuType = 0;
+			keyBeingRebinded = 0;
+		}
 	}
 }
 }

@@ -5,14 +5,23 @@ global.motu = false
 characters = ["Human", "Robot", "Coyote"]
 costumes = ["Billy", "Miley", "Billy (Fox)", "Miley (Fox)", "Motu", "Void"];
 //charDesc = ["Human.\nNothing special.", "Robotic.\nMoves slower, but attacks harder.\nIncreased trick speed, cannot flameslice.", "Coyote.\nMassively increased movement abilities.\nIneffective damage."];
+
+// load the settings file and change these to that!
 global.character = characters[0];
 global.costume = costumes[0];
 
 menuOp = ["Resume", "Change Character", "Change Costume", "Music Volume", "SFX Volume", "Button Mapping", "VSync", "Erase Save File", "Return To Title Screen"];
 deletePhase = 0;
 _index = 0;
-menuIndex = menuOp[_index]
+menuIndex = menuOp[_index];
+menuType = 0;
 
+lastKey = 0;
+keyBeingRebinded = 0;
+keybindOp = ["Up", "Left", "Down", "Right", "Jump", "Run", "Slice"];
+
+// load the settings file and change these to that!
+keysBinded = ["w", "a", "s", "d", "z", "x", "c"];
 
 
 ini_open("save.ini") 

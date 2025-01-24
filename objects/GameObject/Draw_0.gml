@@ -110,58 +110,59 @@ if global.paused {
 	/// Draw code! Woohoo!
 	draw_set_font(UndertaleFont)
 	var extraText = "";
-	for (var i = 0; i < array_length(menuOp); i++) {
-		switch(menuOp[i]){
-			case "Change Character":
-			extraText = (": " +  string(global.character));
-			break;
-			case "Change Costume":
-			extraText = (": " +  string(global.costume));
-			break;
-			case "Music Volume":
-				if (global.musicvolume == 2) {
-					extraText = "Dropping Something At 4 AM";
-				} else {
-				extraText = (": <" + string(int64(global.musicvolume*100.25)) + "%>");
-				}
-			break;
-			case "SFX Volume":
-				if (global.SFXvolume == 2) {
-					extraText = "Bubsy.";
-				} else {
-				extraText = (": <" +  string(int64(global.SFXvolume*100.25)) + "%>");
-				}
-			break;
-			case "Button Mapping":
-				if (global.jumpslicemap == 1) {
-				extraText = ": I have two right hands.";
-				} else {
-				extraText = ": SMBX Style";
-				}
-			break;
-			case "VSync":
-			extraText = (": " + (global.vsync ? "On" : "Off"));
-			break;
-			case "Erase Save File":
-			switch (deletePhase) {
-				case 1:
-				extraText = ": Are you sure?";
+	if (menuType == 0) {
+		for (var i = 0; i < array_length(menuOp); i++) {
+			switch(menuOp[i]) {
+				case "Change Character":
+				extraText = (": " +  string(global.character));
 				break;
-				case 2:
-				extraText = ": Are you really sure?";
+				case "Change Costume":
+				extraText = (": " +  string(global.costume));
 				break;
-				case 3:
-				extraText = ": Are you absolutely sure?";
+				case "Music Volume":
+					if (global.musicvolume == 2) {
+						extraText = "Dropping Something At 4 AM";
+					} else {
+					extraText = (": <" + string(int64(global.musicvolume*100.25)) + "%>");
+					}
 				break;
-				case 4:
-				extraText = ": Make sure you want this.";
+				case "SFX Volume":
+					if (global.SFXvolume == 2) {
+						extraText = "Bubsy.";
+					} else {
+					extraText = (": <" +  string(int64(global.SFXvolume*100.25)) + "%>");
+					}
 				break;
-				case 5:
-				extraText = ": Last chance.";
+				case "Button Mapping":
+					if (global.jumpslicemap == 1) {
+					extraText = ": I have two right hands.";
+					} else {
+					extraText = ": SMBX Style";
+					}
 				break;
-				case 6:
-				extraText = ": File erased.";
+				case "VSync":
+				extraText = (": " + (global.vsync ? "On" : "Off"));
 				break;
+				case "Erase Save File":
+					switch (deletePhase) {
+					case 1:
+					extraText = ": Are you sure?";
+					break;
+					case 2:
+					extraText = ": Are you really sure?";
+					break;
+					case 3:
+					extraText = ": Are you absolutely sure?";
+					break;
+					case 4:
+					extraText = ": Make sure you want this.";
+					break;
+					case 5:
+					extraText = ": Last chance.";
+					break;
+					case 6:
+					extraText = ": File erased.";
+					break;
 			}
 			break;
 		}
@@ -170,6 +171,30 @@ if global.paused {
 		draw_set_color(c_white);
 		draw_text(_menux, _menuy-16 + (16 * (i + 1)) + 1, menuOp[i]+extraText);
 		extraText = ""
+	}
+	}
+	if (menuType == 1) {
+		for (var i = 0; i < array_length(keybindOp); i++) {
+			try {
+		extraText = ": " + string_upper(chr(keysBinded[i]));
+			} catch (err) {
+		extraText = ": " + string_upper(string(keysBinded[i]));
+		}
+		if (i == keyBeingRebinded) {
+			extraText = extraText + " <";
+		}
+		draw_set_color(c_blue);
+		draw_text(_menux, _menuy-14 + (16 * (i + 1)), keybindOp[i]+extraText);
+		draw_set_color(c_white);
+		draw_text(_menux, _menuy-16 + (16 * (i + 1)) + 1, keybindOp[i]+extraText);
+		extraText = ""
+		if (i = array_length(keybindOp) - 1) {
+			draw_set_color(c_blue);
+			draw_text(_menux, _menuy-14 + (16 * (i + 1)) + 16, "Select a button for " + string(keybindOp[keyBeingRebinded]) + ".");
+			draw_set_color(c_white);
+			draw_text(_menux, _menuy-14 + (16 * (i + 1)) + 17, "Select a button for " + string(keybindOp[keyBeingRebinded]) + ".");
+		}
+		}
 	}
 }
 	
