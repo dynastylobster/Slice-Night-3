@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"Spr_VoidEye",
   "bboxMode":0,
-  "bbox_bottom":21,
+  "bbox_bottom":26,
   "bbox_left":2,
   "bbox_right":29,
   "bbox_top":10,

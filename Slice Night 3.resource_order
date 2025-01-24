@@ -2,8 +2,8 @@
   "FolderOrderSettings":[
     {"name":"Bosses","order":18,"path":"folders/Objects/Bosses.yy",},
     {"name":"Cardy boss","order":29,"path":"folders/Objects/Bosses/Cardy boss.yy",},
-    {"name":"Void Boss","order":31,"path":"folders/Objects/Bosses/Void Boss.yy",},
     {"name":"model1 boss","order":26,"path":"folders/Objects/Bosses/model1 boss.yy",},
+    {"name":"Void Boss","order":31,"path":"folders/Objects/Bosses/Void Boss.yy",},
     {"name":"Dont Place","order":6,"path":"folders/Objects/Dont Place.yy",},
     {"name":"Effects","order":3,"path":"folders/Objects/Effects.yy",},
     {"name":"Enemies","order":5,"path":"folders/Objects/Enemies.yy",},
@@ -230,6 +230,7 @@
     {"name":"BillyCutsceneRoom1","order":23,"path":"rooms/BillyCutsceneRoom1/BillyCutsceneRoom1.yy",},
     {"name":"BillyCutsceneRoom2","order":35,"path":"rooms/BillyCutsceneRoom2/BillyCutsceneRoom2.yy",},
     {"name":"BillyCutsceneRoom3","order":40,"path":"rooms/BillyCutsceneRoom3/BillyCutsceneRoom3.yy",},
+    {"name":"Click_here_for_level_select","order":12,"path":"rooms/Click_here_for_level_select/Click_here_for_level_select.yy",},
     {"name":"Click_here_for_level_select","order":12,"path":"rooms/Click_here_for_level_select/Click_here_for_level_select.yy",},
     {"name":"CreditsRoom","order":42,"path":"rooms/CreditsRoom/CreditsRoom.yy",},
     {"name":"Extra_Level_Select","order":48,"path":"rooms/Extra_Level_Select/Extra_Level_Select.yy",},
