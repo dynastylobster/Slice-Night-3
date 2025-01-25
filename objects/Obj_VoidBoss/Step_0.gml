@@ -1,6 +1,10 @@
 // Inherit the parent event
 event_inherited();
 
+if instance_exists(Obj_Billy) {
+		if Obj_Billy.x < x then image_xscale = -1 else image_xscale = 1;
+	}
+
 //y = camera_get_view_y(view_camera[0]) + 75;
 
 /*
@@ -9,17 +13,29 @@ Phase 2: Knives.
 Phase 3: Tears and knives.
 Phase 4: Laser.
 */
+if !global.paused {
 
+if currentPhase >= 4 {
+		if instance_exists(Obj_VoidBullet) {
+			Obj_VoidBullet.sprite_index = Spr_VoidBullet2
+		}
+	}
 
 if (currentPhase == 1 ||currentPhase == 3 || currentPhase == 5) {
 if (attackTimer % 30 == 0) {
 // spawn tear attack
+instance_create_depth(x,y,depth,Obj_VoidBullet)
+instance_create_depth(x,y,depth,Obj_VoidBullet, {homing : true} )
+if (irandom_range(0, 18) == 0) { 
+		instance_create_depth(x,y,depth,Obj_VoidBullet)
+	}
 }
 }
 
 if (currentPhase == 3 || currentPhase == 5) {
 if (attackTimer % 75 == 0) {
 // spawn knife attack
+
 }
 }
 
@@ -64,6 +80,9 @@ if (cameraMoving == false) {
 	if (lookphase > 3) { lookphase = 3; }
 	}
 	break;
+	case 4: 
+		image_index = 1;
+		break;
 	case 5:
 	counter++;
 	if (counter >= 60 && lookphase > 0) {
@@ -132,3 +151,5 @@ void.y--;
 }
 
 attackTimer++;
+
+}
