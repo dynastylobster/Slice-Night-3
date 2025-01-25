@@ -4,9 +4,14 @@ event_inherited();
 if (phase >= 2) {
 if (random_range(0, 200) <= 2) {
 layer_background_blend(layer_background_get_id(layer_get_id("Bg_still")), c_white);
-lightningCounter = 5;
+lightningCounter = 16;
 }
-if (lightningCounter < 3) {
+
+if lightningCounter == 8 {
+ if !audio_is_playing(Snd_BlockBreak) then	audio_play_sound(Snd_BlockBreak,0,0,global.SFXvolume*2,0,0.8)	
+}
+if (lightningCounter < 8) {
+
 layer_background_blend(layer_background_get_id(layer_get_id("Bg_still")), c_grey);
 }
 if (lightningCounter == 0) {

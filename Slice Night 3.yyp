@@ -619,6 +619,7 @@
     {"id":{"name":"Spr_DashPickup3","path":"sprites/Spr_DashPickup3/Spr_DashPickup3.yy",},},
     {"id":{"name":"Spr_DaylightText","path":"sprites/Spr_DaylightText/Spr_DaylightText.yy",},},
     {"id":{"name":"Spr_DeathBlock","path":"sprites/Spr_DeathBlock/Spr_DeathBlock.yy",},},
+    {"id":{"name":"Spr_DeathBlockVoid","path":"sprites/Spr_DeathBlockVoid/Spr_DeathBlockVoid.yy",},},
     {"id":{"name":"Spr_DeathBlockWarning","path":"sprites/Spr_DeathBlockWarning/Spr_DeathBlockWarning.yy",},},
     {"id":{"name":"Spr_DiggerBlade","path":"sprites/Spr_DiggerBlade/Spr_DiggerBlade.yy",},},
     {"id":{"name":"Spr_Empty","path":"sprites/Spr_Empty/Spr_Empty.yy",},},

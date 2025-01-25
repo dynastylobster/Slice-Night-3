@@ -10,6 +10,8 @@ Phase 3: Tears and knives.
 Phase 4: Laser.
 */
 
+
+
 if (phase > ephase) {
 ephase = phase;
 attackTimer = 0;
