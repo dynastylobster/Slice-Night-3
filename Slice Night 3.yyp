@@ -795,6 +795,7 @@
     {"id":{"name":"Spr_TrampoMega","path":"sprites/Spr_TrampoMega/Spr_TrampoMega.yy",},},
     {"id":{"name":"Spr_UFOEnemy","path":"sprites/Spr_UFOEnemy/Spr_UFOEnemy.yy",},},
     {"id":{"name":"Spr_UpArrow","path":"sprites/Spr_UpArrow/Spr_UpArrow.yy",},},
+    {"id":{"name":"Spr_VoidBullet","path":"sprites/Spr_VoidBullet/Spr_VoidBullet.yy",},},
     {"id":{"name":"Spr_VoidDie","path":"sprites/Spr_VoidDie/Spr_VoidDie.yy",},},
     {"id":{"name":"Spr_VoidEye","path":"sprites/Spr_VoidEye/Spr_VoidEye.yy",},},
     {"id":{"name":"Spr_VoidHurt","path":"sprites/Spr_VoidHurt/Spr_VoidHurt.yy",},},
