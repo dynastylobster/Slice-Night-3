@@ -39,8 +39,8 @@ if (cameraMoving == false) {
 	switch(currentPhase) {
 	case 1:
 	counter++;
-	if (counter >= 600 && !instance_exists(Obj_FlashButton)) {
-		instance_create_layer(190, 414, "Instances_1", Obj_FlashButton);
+	if (counter >= 600 && instance_exists(inst_1C8C4C04)) {
+		inst_1C8C4C04.active = true;
 		counter = 0;
 	}
 	break;
@@ -55,8 +55,8 @@ if (cameraMoving == false) {
 	break;
 	case 3:
 	counter++;
-	if (counter >= 600 && !instance_exists(Obj_FlashButton)) {
-		instance_create_layer(190, 150, "Instances_1", Obj_FlashButton);
+	if (counter >= 600 && instance_exists(inst_6013D835)) {
+		inst_6013D835.active = true;
 		counter = 0;
 	}
 	if (!cameraMoving) {
@@ -70,8 +70,9 @@ if (cameraMoving == false) {
 		lookphase--;
 		counter = 0;
 	}
-		if (counter >= 300) {
-		instance_create_layer(190, 414, "Instances_1", Obj_FlashButton);
+		if (counter >= 300 && instance_exists(inst_7A7ABB2B)) {
+		inst_7A7ABB2B.active = true;
+		counter = 0;
 	}
 	break;
 	}
@@ -89,15 +90,45 @@ if (camera_get_view_y(view_camera[0]) <= 0) { ymoving = false; camera_set_view_p
 
 if (xmoving || ymoving) { cameraMoving = true; }
 
-if ((x < targX + 1 && x > targX - 1) && (y < targY + 1 && y > targY - 1)) {
-targX = camera_get_view_x(view_camera[0]) + 213 + random_range(-193, 193);
-targY = camera_get_view_y(view_camera[0]) + 120 + random_range(-100, 100);
+if (currentPhase < 6) {
+var mspd = floor(1 + (currentPhase / 2));
+if ((x < targX + mspd && x > targX - mspd) && (y < targY + mspd && y > targY - mspd)) {
+targX = camera_get_view_x(view_camera[0]) + 213 + random_range(-173, 173);
+targY = camera_get_view_y(view_camera[0]) + 120 + random_range(-80, 80);
 }
 if (x > targX + 1 || x < targX - 1) { 
-	x -= ((x - targX) * 0.08);
+	x -= ((x - targX) * (0.04 * mspd));
 }
 if (y > targY + 1 || y < targY - 1) {
-	y -= ((y - targY) * 0.08)
+	y -= ((y - targY) * (0.04 * mspd));
+}
+}
+if (currentPhase == 6) {
+targX = camera_get_view_x(view_camera[0]) + 213;
+targY = camera_get_view_y(view_camera[0]) + 50;
+if (x > targX + 1 || x < targX - 1) { 
+	x -= ((x - targX) * (0.04));
+}
+if (y > targY + 1 || y < targY - 1) {
+	y -= ((y - targY) * (0.04));
+}
+
+var wambis = inst_26BCC6FC;
+if (instance_exists(wambis)) {
+if (wambis.x < 32) {
+wambis.x++;
+}
+}
+}
+
+if (currentPhase == 7) {
+y += 4;
+var void = inst_CE46B08;
+if (instance_exists(void)) {
+if (void.y > 448) {
+void.y--;
+}
+}
 }
 
 attackTimer++;
