@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_SliceBlock",
-    "path":"sprites/Spr_SliceBlock/Spr_SliceBlock.yy",
+    "name":"Spr_BossVoid",
+    "path":"sprites/Spr_BossVoid/Spr_BossVoid.yy",
   },
   "spriteMaskId":null,
   "visible":true,
