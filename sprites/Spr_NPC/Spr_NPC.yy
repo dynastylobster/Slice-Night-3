@@ -35,7 +35,7 @@
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"389be2e9-52aa-42cb-9fd0-b0faea7527ae","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"389be2e9-52aa-42cb-9fd0-b0faea7527ae","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"2b8b2b1d-19c7-4ee1-9472-9216703e9ad7","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"2b8b2b1d-19c7-4ee1-9472-9216703e9ad7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_NPC",
   "nineSlice":null,

@@ -1,7 +1,9 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"Spr_BossVoid","order":2,"path":"sprites/Spr_BossVoid/Spr_BossVoid.yy",},
     {"name":"Spr_DeathBlockVoid","order":1,"path":"sprites/Spr_DeathBlockVoid/Spr_DeathBlockVoid.yy",},
+    {"name":"Spr_LightButton","order":2,"path":"sprites/Spr_LightButton/Spr_LightButton.yy",},
     {"name":"Spr_VoidBullet","order":1,"path":"sprites/Spr_VoidBullet/Spr_VoidBullet.yy",},
     {"name":"Spr_WhiteSquare","order":1,"path":"sprites/Spr_WhiteSquare/Spr_WhiteSquare.yy",},
   ],

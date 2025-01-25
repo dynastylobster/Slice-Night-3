@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_DiggerBlade",
-    "path":"sprites/Spr_DiggerBlade/Spr_DiggerBlade.yy",
+    "name":"Spr_LightButton",
+    "path":"sprites/Spr_LightButton/Spr_LightButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,
