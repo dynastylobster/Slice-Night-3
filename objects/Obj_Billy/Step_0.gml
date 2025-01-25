@@ -495,7 +495,7 @@ if spinning and !hit and !dead {
 if spinning and grounded image_index = 0
 
 //camera
-if !instance_exists(Obj_CameraController) || !instance_exists(Obj_VoidBoss) {
+if !instance_exists(Obj_CameraController) {
 if alarm[3] <= 0 {
 cam_x = clamp(x-213,0,room_width-426)
 

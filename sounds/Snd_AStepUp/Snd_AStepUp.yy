@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":16.000046,
+  "duration":86.04735,
   "name":"Snd_AStepUp",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Snd_AStepUp.wav",
+  "soundFile":"Snd_AStepUp.mp3",
   "type":1,
   "volume":1.0,
 }
