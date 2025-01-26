@@ -7,3 +7,5 @@ grav = 0.05;
 jumpspeed = 3.4;
 startx = x
 starty = y
+autoTileCol = -4;
+try { autoTileCol = layer_tilemap_get_id("TileCollision"); } catch (err) { autoTileCol = -4; }
