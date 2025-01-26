@@ -1,5 +1,4 @@
-// Inherit the parent event
-event_inherited();
+draw_self();
 
 if (currentPhase >= 2 && currentPhase <= 4) {
 if (random_range(0, 500 / currentPhase) <= 2) {
@@ -29,7 +28,7 @@ if (layer_background_get_alpha(layer_background_get_id(layer_get_id("Fg_White"))
 layer_background_alpha(layer_background_get_id(layer_get_id("Fg_White")), layer_background_get_alpha(layer_background_get_id(layer_get_id("Fg_White"))) - 0.1);
 }
 
-if (attackTimer >= holdit + 120) {
+if (attackTimer >= holdit + 120 && letter <= 0) {
 voidtalking = false;
 if (phases[currentPhase] == "Intro") {
 voidtalking = true;
@@ -77,13 +76,13 @@ if (phases[currentPhase] == "Talking 2") {
 voidtalking = true;
 switch (nextWord) {
 case 0:
-text = "Your persistence is admirable.";
+text = "Your persistence is...";
 break;
 case 1:
-text = "You should've given up already.";
+text = "...Almost admirable.";
 break;
 case 2:
-text = "But no, you keep annoying me.";
+text = "You should've given up already.";
 break;
 case 3:
 text = "";
@@ -112,7 +111,7 @@ case 3:
 text = "";
 break;
 case 4:
-text = "Fauxvoid! Are you trying to fight the player again?";
+text = "Void! No! Bad girl!";
 break;
 case 5:
 text = "I'm so sorry, player.";
@@ -142,12 +141,12 @@ nextWord++;
 
 if (phases[currentPhase] == "End") {
 switch (nextWord) {
-case 0:
+case 1:
 // play noise
 // save that you got void
 text = "Void joined your party!";
 break;
-case 5:
+case 10:
 // exit level
 text = "level exited";
 nextWord = -1;
@@ -158,9 +157,14 @@ nextWord++;
 
 attackTimer = 0;
 holdit = attackTimer;
+letter = string_length(text);
 }
 
-if (text != "" && voidtalking) {
+if (letter > 0 && voidtalking) {
+	if (!audio_is_playing(Snd_VoidVoice)) {
+	audio_play_sound(Snd_VoidVoice, 0, 0, global.SFXvolume * random_range(0.8, 1.2), 0, random_range(0.9, 1.1));
+	letter -= 2;
+	}
 	var text_x = camera_get_view_x(view_camera[0]) + 214;
 	var text_y = camera_get_view_y(view_camera[0]) + 220;
 	var randx = random_range(-1, 1);
@@ -181,7 +185,11 @@ if (text != "" && voidtalking) {
 	draw_text(text_x + (randx * -1), text_y + (randy * -1), text);
 	draw_set_halign(fa_left);
 }
-if (text != "" && !voidtalking) {
+if (letter > 0 && !voidtalking) {
+	if (!audio_is_playing(Snd_AmberVoice)) {
+	audio_play_sound(Snd_AmberVoice, 0, 0, global.SFXvolume * random_range(0.8, 1.2), 0, random_range(0.9, 1.1));
+	letter -= 2;
+	}
 	var text_x = camera_get_view_x(view_camera[0]) + 214;
 	var text_y = camera_get_view_y(view_camera[0]) + 220;
 	draw_set_halign(fa_center);

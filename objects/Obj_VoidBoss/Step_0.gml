@@ -1,9 +1,9 @@
-// Inherit the parent event
-event_inherited();
-
 if instance_exists(Obj_Billy) {
 		if Obj_Billy.x < x then image_xscale = -1 else image_xscale = 1;
 	}
+if (audio_is_playing(Snd_TitleMusic)) {
+audio_pause_sound(Snd_TitleMusic);
+}
 
 //y = camera_get_view_y(view_camera[0]) + 75;
 
@@ -15,17 +15,27 @@ Phase 4: Laser.
 */
 if !global.paused {
 
+var newph = false;
+if (lastPhase != currentPhase) {
+lastPhase = currentPhase;
+attackTimer = 0;
+counter = 0;
+newph = true;
+if (currentPhase == 2) { lightningCounter = 24; }
+}
+
 if currentPhase >= 4 {
 		if instance_exists(Obj_VoidBullet) {
 			Obj_VoidBullet.sprite_index = Spr_VoidBullet2
 		}
 	}
 
-if (currentPhase == 1 ||currentPhase == 3 || currentPhase == 5) {
-if (attackTimer % 30 == 0) {
-// spawn tear attack
-instance_create_depth(x,y,depth,Obj_VoidBullet)
+if (currentPhase == 1 || currentPhase == 3 || currentPhase == 5) {
+if (attackTimer % 30 == 0 && !(lookphase == 2 && currentPhase == 3)) {
 instance_create_depth(x,y,depth,Obj_VoidBullet, {homing : true} )
+if (irandom_range(0, 4) == 0) { 
+		instance_create_depth(x,y,depth,Obj_VoidBullet)
+	}
 if (irandom_range(0, 18) == 0) { 
 		instance_create_depth(x,y,depth,Obj_VoidBullet)
 	}
@@ -51,46 +61,63 @@ if (lasering) {
 // draw laser and damage touching
 }
 
-if (cameraMoving == false) {
+if (!cameraMoving) {
 	switch(currentPhase) {
 	case 1:
+	if (newph) {
+	global.music = Snd_VoidBossMusic;
+	audio_play_sound(Snd_VoidBossMusic, 0, true, global.musicvolume);
+	}
 	counter++;
-	if (counter >= 600 && instance_exists(inst_1C8C4C04)) {
-		inst_1C8C4C04.active = true;
-		counter = 0;
+	if (counter >= 600) {
+		if (instance_exists(Obj_FlashButton)) {
+		instance_nearest(193, 432, Obj_FlashButton).active = true;
+	}
+	counter = 0;
 	}
 	break;
 	case 2:
-	if (instance_exists(inst_6C7B7710) ){
-	instance_destroy(inst_6C7B7710);
+	if (newph) {
+	if (instance_exists(Obj_Wall)) {
+	instance_destroy(Obj_Wall);
 	}
-	if (layer_exists("WILLBEDESTROYED")) {
-	layer_destroy("WILLBEDESTROYED");
+	layer_set_visible("Dont_Mess_With", false);
 	}
-	lookphase = 1;
+	counter++;
+	if (counter >= 30) {
+	lookphase++;
+	counter = 0;
+	}
 	break;
 	case 3:
 	counter++;
-	if (counter >= 600 && instance_exists(inst_6013D835)) {
-		inst_6013D835.active = true;
-		counter = 0;
-	}
-	if (!cameraMoving) {
+	if (counter >= 60 && lookphase != 3) {
 	lookphase++;
+	counter = 0;
+	}
 	if (lookphase > 3) { lookphase = 3; }
+	if (counter >= 600) {
+		if (instance_exists(Obj_FlashButton)) {
+		instance_nearest(193, 48, Obj_FlashButton).active = true;
+	}
+		counter = 0;
 	}
 	break;
 	case 4: 
-		image_index = 1;
-		break;
+	if (newph) {
+	image_index = 1;
+	}
+	break;
 	case 5:
 	counter++;
-	if (counter >= 60 && lookphase > 0) {
+	if (counter >= 30 && lookphase > 0) {
 		lookphase--;
 		counter = 0;
 	}
-		if (counter >= 300 && instance_exists(inst_7A7ABB2B)) {
-		inst_7A7ABB2B.active = true;
+	if (counter >= 900) {
+		if (instance_exists(Obj_FlashButton)) {
+		instance_nearest(193, 320, Obj_FlashButton).active = true;
+	}
 		counter = 0;
 	}
 	break;
@@ -135,7 +162,7 @@ if (y > targY + 1 || y < targY - 1) {
 var wambis = inst_26BCC6FC;
 if (instance_exists(wambis)) {
 if (wambis.x < 32) {
-wambis.x++;
+wambis.x += 0.5;
 }
 }
 }
@@ -151,5 +178,4 @@ void.y--;
 }
 
 attackTimer++;
-
 }
