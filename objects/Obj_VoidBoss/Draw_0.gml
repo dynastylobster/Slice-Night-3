@@ -1,6 +1,6 @@
 draw_self();
 
-if (lasering) {
+if (laserPhase == 2) {
 var hand1 = instance_find(Obj_VoidHand, 1);
 var hand2 = instance_find(Obj_VoidHand, 0);
 draw_line_width_color(hand1.x, hand1.y - 2, hand2.x, hand2.y - 2, 1 + attackTimer % 16, c_black, c_black);
@@ -157,9 +157,10 @@ case 1:
 // save that you got void
 text = "Void joined your party!";
 break;
-case 10:
+case 2:
 // exit level
-text = "level exited";
+room_goto(L_Tabuli_3);
+text = "";
 nextWord = -1;
 break;
 }

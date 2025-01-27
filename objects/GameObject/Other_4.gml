@@ -21,6 +21,9 @@ if global.save = "file7" {
 
 fading_out = false
 fade_timer = 270
+if (room == Void_Boss_Room) {
+fade_timer = 0;
+}
 if global.music != noone {
 	if !audio_is_playing(global.music) {
 	audio_stop_all();

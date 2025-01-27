@@ -9,7 +9,7 @@ attackTimer = 60;
 lookphase = 0;
 holdit = 0;
 text = "";
-lasering = false;
+laserPhase = 0;
 cameraMoving = false;
 
 targX = x;

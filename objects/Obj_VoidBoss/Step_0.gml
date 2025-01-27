@@ -1,9 +1,6 @@
 if instance_exists(Obj_Billy) {
 		if Obj_Billy.x < x then image_xscale = -1 else image_xscale = 1;
 	}
-if (audio_is_playing(Snd_TitleMusic)) {
-audio_pause_sound(Snd_TitleMusic);
-}
 
 //y = camera_get_view_y(view_camera[0]) + 75;
 
@@ -37,31 +34,37 @@ if (irandom_range(0, 18) == 0) {
 }
 
 if (currentPhase == 3 || currentPhase == 5) {
-if (attackTimer % 75 == 0) {
+if (attackTimer % 120 == 0) {
 instance_create_depth(x, y, depth, Obj_VoidKnife);
+if (irandom_range(0, 4) == 0) { 
+		instance_create_depth(x,y,depth,Obj_VoidKnife)
+	}
 }
 }
 
 	if (currentPhase == 5) {
 		if (newph) {
-		hrandX = random_range(20, 75);
-		hrandY = random_range(5, 20);
+		hrandX = random_range(50, 125);
+		hrandY = random_range(5, 40);
 		}
 		var hand1 = instance_find(Obj_VoidHand, 1);
 		var hand2 = instance_find(Obj_VoidHand, 0);
-		if (attackTimer % 60 == 0) {
-			lasering = !lasering;
-			if (!lasering) {
-				hrandX = random_range(50, 100);
-				hrandY = random_range(50, 200);
+		if (attackTimer % 75 == 0) {
+			
+			laserPhase++;
+			if (laserPhase > 2) { laserPhase = 0; }
+			if (laserPhase == 0) {
+				hrandX = random_range(50, 125);
+				hrandY = random_range(5, 40);
 				if (choose(0, 1) == 0) { hrandY *= -1; }
 			}
 		}
-		if (lasering) {
+		if (laserPhase == 2) {
 			if (collision_line(hand1.x, hand1.y, hand2.x, hand2.y, Obj_Billy, true, false)) {
 				HitPlayer();
 			}
-		} else {
+		} 
+		if (laserPhase == 0) {
 		if (instance_exists(Obj_VoidHand) && instance_exists(Obj_Billy)) {
 					var htargX = Obj_Billy.x + hrandX;
 					var htargY = Obj_Billy.y + hrandY
@@ -90,7 +93,9 @@ if (!cameraMoving) {
 	case 1:
 	if (newph) {
 	global.music = Snd_VoidBossMusic;
+	if (!audio_is_playing(Snd_VoidBossMusic)) {
 	audio_play_sound(Snd_VoidBossMusic, 0, true, global.musicvolume);
+	}
 	}
 	counter++;
 	if (counter >= 600) {
@@ -155,7 +160,7 @@ if (camera_get_view_y(view_camera[0]) <= 0) { ymoving = false; camera_set_view_p
 
 if (xmoving || ymoving) { cameraMoving = true; }
 
-if (currentPhase < 6) {
+if (currentPhase < 6 && currentPhase != 0) {
 var mspd = floor(1 + (currentPhase / 2));
 if (((x < targX + mspd && x > targX - mspd) && (y < targY + mspd && y > targY - mspd)) || (Near(10) && attackTimer % 15 == 0)) {
 targX = camera_get_view_x(view_camera[0]) + 213 + random_range(-173, 173);
