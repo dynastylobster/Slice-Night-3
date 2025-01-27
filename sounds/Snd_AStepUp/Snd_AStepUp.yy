@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":86.04735,
+  "duration":102.03429,
   "name":"Snd_AStepUp",
   "parent":{
     "name":"Sounds",
