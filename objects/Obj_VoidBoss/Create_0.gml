@@ -15,6 +15,11 @@ cameraMoving = false;
 targX = x;
 targY = y;
 
+hrandX = 0;
+hrandY = 0;
+
+agecuzfuckyou = 0;
+
 lightningCounter = 0;
 voidtalking = false;
 letter = 0;

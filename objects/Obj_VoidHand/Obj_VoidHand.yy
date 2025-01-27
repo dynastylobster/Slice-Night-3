@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_VoidEye",
+  "%Name":"Obj_VoidHand",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_VoidEye",
+  "name":"Obj_VoidHand",
   "overriddenProperties":[],
   "parent":{
     "name":"Void Boss",
@@ -28,14 +26,14 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"test","filters":[],"listItems":[],"multiselect":false,"name":"test","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"right","filters":[],"listItems":[],"multiselect":false,"name":"right","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_VoidEye",
-    "path":"sprites/Spr_VoidEye/Spr_VoidEye.yy",
+    "name":"Spr_VoidHand",
+    "path":"sprites/Spr_VoidHand/Spr_VoidHand.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Effect Sprites",
-    "path":"folders/Sprites/Effect Sprites.yy",
+    "name":"Void Boss",
+    "path":"folders/Sprites/Boss Sprites/Void Boss.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
