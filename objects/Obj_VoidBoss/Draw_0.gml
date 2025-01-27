@@ -1,5 +1,16 @@
 draw_self();
 
+if (lasering) {
+var hand1 = instance_find(Obj_VoidHand, 1);
+var hand2 = instance_find(Obj_VoidHand, 0);
+draw_line_width_color(hand1.x, hand1.y - 2, hand2.x, hand2.y - 2, 1 + attackTimer % 16, c_black, c_black);
+if (attackTimer % 12 == 0) {
+			hand1.image_index = !hand1.image_index;
+			hand2.image_index = !hand2.image_index;
+
+}
+}
+
 if (currentPhase >= 2 && currentPhase <= 4) {
 if (random_range(0, 500 / currentPhase) <= 2) {
 layer_background_blend(layer_background_get_id(layer_get_id("Bg_still")), c_white);

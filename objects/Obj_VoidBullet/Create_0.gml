@@ -23,4 +23,7 @@ tempboost = false;
 spawnedPhase = 0
 if (instance_exists(Obj_VoidBoss)) {
 spawnedPhase = Obj_VoidBoss.currentPhase;
+if (Obj_VoidBoss.currentPhase >= 4) {
+sprite_index = Spr_VoidBullet2;
+}
 }

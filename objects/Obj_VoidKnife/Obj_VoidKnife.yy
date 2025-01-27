@@ -1,13 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_VoidEye",
+  "%Name":"Obj_VoidKnife",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_Billy","path":"objects/Obj_Billy/Obj_Billy.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_SliceParent","path":"objects/Obj_SliceParent/Obj_SliceParent.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_VoidEye",
+  "name":"Obj_VoidKnife",
   "overriddenProperties":[],
   "parent":{
     "name":"Void Boss",
@@ -27,15 +28,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"test","filters":[],"listItems":[],"multiselect":false,"name":"test","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_VoidEye",
-    "path":"sprites/Spr_VoidEye/Spr_VoidEye.yy",
+    "name":"Spr_VoidKnife",
+    "path":"sprites/Spr_VoidKnife/Spr_VoidKnife.yy",
   },
   "spriteMaskId":null,
   "visible":true,
