@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"Spr_VoidKnife",
+  "%Name":"Spr_VoidKnife2",
   "bboxMode":2,
   "bbox_bottom":10,
   "bbox_left":8,
@@ -22,7 +22,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"021670a9-2532-402b-b927-63fc9c929780","blendMode":0,"displayName":"default","isLocked":false,"name":"021670a9-2532-402b-b927-63fc9c929780","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Spr_VoidKnife",
+  "name":"Spr_VoidKnife2",
   "nineSlice":{
     "$GMNineSliceData":"",
     "bottom":0,
@@ -53,7 +53,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Spr_VoidKnife",
+    "%Name":"Spr_VoidKnife2",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -77,7 +77,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Spr_VoidKnife",
+    "name":"Spr_VoidKnife2",
     "playback":1,
     "playbackSpeed":0.0,
     "playbackSpeedType":0,
@@ -89,10 +89,10 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"52b737da-dcae-4a89-994c-16c7b68e4bc6","path":"sprites/Spr_VoidKnife/Spr_VoidKnife.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"52b737da-dcae-4a89-994c-16c7b68e4bc6","path":"sprites/Spr_VoidKnife2/Spr_VoidKnife2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"c9a8fd85-7194-4a8b-85b8-fd5d69650998","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"10a41361-af79-4680-8208-4ff256afc6b0","path":"sprites/Spr_VoidKnife/Spr_VoidKnife.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"10a41361-af79-4680-8208-4ff256afc6b0","path":"sprites/Spr_VoidKnife2/Spr_VoidKnife2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"78db3c1e-6831-4952-81f7-dca46d54b936","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
