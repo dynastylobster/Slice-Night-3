@@ -388,6 +388,7 @@
     {"id":{"name":"Snd_Die","path":"sounds/Snd_Die/Snd_Die.yy",},},
     {"id":{"name":"Snd_DieF","path":"sounds/Snd_DieF/Snd_DieF.yy",},},
     {"id":{"name":"Snd_DieV","path":"sounds/Snd_DieV/Snd_DieV.yy",},},
+    {"id":{"name":"Snd_dink","path":"sounds/Snd_dink/Snd_dink.yy",},},
     {"id":{"name":"Snd_EnemyExplode","path":"sounds/Snd_EnemyExplode/Snd_EnemyExplode.yy",},},
     {"id":{"name":"Snd_FantasyDroneMusic","path":"sounds/Snd_FantasyDroneMusic/Snd_FantasyDroneMusic.yy",},},
     {"id":{"name":"Snd_FinalBoss","path":"sounds/Snd_FinalBoss/Snd_FinalBoss.yy",},},
