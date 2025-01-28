@@ -15,6 +15,7 @@
     {"name":"Snd_VoidLazer","order":3,"path":"sounds/Snd_VoidLazer/Snd_VoidLazer.yy",},
     {"name":"Snd_VoidMusic","order":6,"path":"sounds/Snd_VoidMusic/Snd_VoidMusic.yy",},
     {"name":"Snd_VoidVoice","order":1,"path":"sounds/Snd_VoidVoice/Snd_VoidVoice.yy",},
+    {"name":"Bg_SunImplode","order":1,"path":"sprites/Bg_SunImplode/Bg_SunImplode.yy",},
     {"name":"Spr_BossVoid","order":3,"path":"sprites/Spr_BossVoid/Spr_BossVoid.yy",},
     {"name":"Spr_DeathBlockVoid","order":1,"path":"sprites/Spr_DeathBlockVoid/Spr_DeathBlockVoid.yy",},
     {"name":"Spr_LightButton","order":2,"path":"sprites/Spr_LightButton/Spr_LightButton.yy",},
