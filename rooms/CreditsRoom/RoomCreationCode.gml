@@ -2,3 +2,7 @@ audio_stop_all();
 global.music = noone
 global.walljump = true;
 audio_play_sound(Snd_BalladOfDisparCredits,0,0);
+global.motuunlocked = true;
+ini_open("save.ini");
+ini_write_real("save5","motu",true);
+ini_close();

@@ -17,7 +17,8 @@ global.SFXvolume = ini_read_real("Prefrence","SFXVolume",0.5);
 global.billyfox = ini_read_real("Prefrence","Fox",0);
 global.jumpslicemap = ini_read_real("Prefrence","ZXFlip",0);
 global.fem = ini_read_real("Prefrence","Fem",0);
-
+global.voidunlocked = ini_read_real("save5","void",false);
+global.motuunlocked = ini_read_real("save5","motu",false);
 /*
 ini_write_real("Prefrence","MusicVolume",global.musicvolume);
 ini_write_real("Prefrence","SFXVolume",global.SFXvolume);

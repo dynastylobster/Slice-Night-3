@@ -173,7 +173,11 @@ case 1:
 text = "Void joined your party!";
 break;
 case 2:
-room_goto(L_Tabuli_3);
+global.voidunlocked = true
+ini_open("save.ini");
+ini_write_real("save5","void",true)
+ini_close();
+room_goto(Coyote_Tutorial);
 text = "";
 nextWord = -1;
 break;
