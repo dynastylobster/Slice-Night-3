@@ -14,7 +14,7 @@ if global.character = "Human" {
 		max_runspeed = 2.3 
 	}
 if global.character = "Coyote" {
-	base_koyote_time = 20
+	base_koyote_time = 45
 	if !instance_exists(Obj_VoidTail) {
 			instance_create_layer(x,y,layer,Obj_VoidTail)
 		}
@@ -182,7 +182,7 @@ if grounded and about_to_jump and !dead {
 if grounded {koyote_time = base_koyote_time; }
 //if (grounded && global.character == 2) {koyote_time = 90; canDoubleJump = true; }
 if (!grounded && koyote_time > 0 && !canDoubleJump) then koyote_time-=1;
-if (!grounded && koyote_time > 0 && canDoubleJump && !has_double_jumped) { koyote_time--; }
+if (!grounded && koyote_time > 0 && canDoubleJump) { koyote_time--; }
 
 if !grounded and koyote_time > 0 and global.key_Z_pressed and !dead and GameObject.unpausetimer = 0{
 	if !audio_is_playing(Snd_jump) audio_play_sound(Snd_jump,0,0)

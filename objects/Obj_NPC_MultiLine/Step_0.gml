@@ -9,6 +9,7 @@ if age >= 256 then age = 0
 
 if !place_meeting(x,y,Obj_Billy) {
 	drawing = false
+	line = 0;
 	}
 	
 if (!global.paused) {
