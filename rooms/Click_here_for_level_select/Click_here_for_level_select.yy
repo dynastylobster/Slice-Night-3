@@ -70,6 +70,8 @@
     {"name":"inst_36FE513A","path":"rooms/Click_here_for_level_select/Click_here_for_level_select.yy",},
     {"name":"inst_91C600C","path":"rooms/Click_here_for_level_select/Click_here_for_level_select.yy",},
     {"name":"inst_55CCFEE5","path":"rooms/Click_here_for_level_select/Click_here_for_level_select.yy",},
+    {"name":"inst_13A3CE15","path":"rooms/Click_here_for_level_select/Click_here_for_level_select.yy",},
+    {"name":"inst_146106CF","path":"rooms/Click_here_for_level_select/Click_here_for_level_select.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -266,6 +268,12 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":1.0,"x":112.0,"y":672.0,},
         {"$GMRInstance":"v1","%Name":"inst_55CCFEE5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_55CCFEE5","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"propertyId":{"name":"destination","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"resource":{"name":"Coyote_Tutorial","path":"rooms/Coyote_Tutorial/Coyote_Tutorial.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Coyote_Tutorial",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":1.0909091,"x":16.0,"y":704.0,},
+        {"$GMRInstance":"v1","%Name":"inst_13A3CE15","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_13A3CE15","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"propertyId":{"name":"destination","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"resource":{"name":"Robot_Tutorial","path":"rooms/Robot_Tutorial/Robot_Tutorial.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Robot_Tutorial",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":1.0909091,"x":112.0,"y":704.0,},
+        {"$GMRInstance":"v1","%Name":"inst_146106CF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_146106CF","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"propertyId":{"name":"destination","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"resource":{"name":"faux_testing","path":"rooms/faux_testing/faux_testing.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"faux_testing",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":1.0909091,"x":16.0,"y":72.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
