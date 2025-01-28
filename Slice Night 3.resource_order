@@ -3,6 +3,7 @@
     {"name":"Void Boss","order":5,"path":"folders/Sprites/Boss Sprites/Void Boss.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Obj_NailShip","order":2,"path":"objects/Obj_NailShip/Obj_NailShip.yy",},
     {"name":"Obj_VoidBullet","order":1,"path":"objects/Obj_VoidBullet/Obj_VoidBullet.yy",},
     {"name":"Obj_VoidHand","order":3,"path":"objects/Obj_VoidHand/Obj_VoidHand.yy",},
     {"name":"Obj_VoidKnife","order":2,"path":"objects/Obj_VoidKnife/Obj_VoidKnife.yy",},
@@ -18,6 +19,7 @@
     {"name":"Spr_BossVoid","order":3,"path":"sprites/Spr_BossVoid/Spr_BossVoid.yy",},
     {"name":"Spr_DeathBlockVoid","order":1,"path":"sprites/Spr_DeathBlockVoid/Spr_DeathBlockVoid.yy",},
     {"name":"Spr_LightButton","order":2,"path":"sprites/Spr_LightButton/Spr_LightButton.yy",},
+    {"name":"Spr_NailShip","order":1,"path":"sprites/Spr_NailShip/Spr_NailShip.yy",},
     {"name":"Spr_VoidBullet2","order":2,"path":"sprites/Spr_VoidBullet2/Spr_VoidBullet2.yy",},
     {"name":"Spr_VoidEye","order":4,"path":"sprites/Spr_VoidEye/Spr_VoidEye.yy",},
     {"name":"Spr_VoidHand","order":5,"path":"sprites/Spr_VoidHand/Spr_VoidHand.yy",},
