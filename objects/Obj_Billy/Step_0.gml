@@ -14,7 +14,7 @@ if global.character = "Human" {
 		max_runspeed = 2.3 
 	}
 if global.character = "Coyote" {
-	base_koyote_time = 20
+	base_koyote_time = 45
 	if !instance_exists(Obj_VoidTail) {
 			instance_create_layer(x,y,layer,Obj_VoidTail)
 		}
@@ -181,18 +181,18 @@ if grounded and about_to_jump and !dead {
 
 if grounded {koyote_time = base_koyote_time; }
 //if (grounded && global.character == 2) {koyote_time = 90; canDoubleJump = true; }
-if (!grounded && koyote_time > 0 && global.character != 2) then koyote_time-=1;}
-if (!grounded && koyote_time > 0 && global.character == 2 && canDoubleJump) { koyote_time--; }
+if (!grounded && koyote_time > 0 && !canDoubleJump) then koyote_time-=1;
+if (!grounded && koyote_time > 0 && canDoubleJump) { koyote_time--; }
 
-if !grounded and koyote_time >0 and global.key_Z_pressed and !dead and GameObject.unpausetimer = 0{
+if !grounded and koyote_time > 0 and global.key_Z_pressed and !dead and GameObject.unpausetimer = 0{
 	if !audio_is_playing(Snd_jump) audio_play_sound(Snd_jump,0,0)
 	yspeed = -jumpspeed
 	about_to_jump = false
 	
-	if (!grounded && canDoubleJump && global.key_Z_pressed && !dead && GameObject.unpausetimer == 0) {
+	/*if (!grounded && canDoubleJump && global.key_Z_pressed && !dead && GameObject.unpausetimer == 0) {
 	if !audio_is_playing(Snd_jump) audio_play_sound(Snd_jump,0,0)
 	yspeed = -jumpspeed
-	about_to_jump = false
+	about_to_jump = false*/
 }
 
 }
@@ -343,6 +343,8 @@ if global.walljump and !place_meeting(x+8,y,Obj_NoWallJumpBlock) and !place_meet
 				facing = sign(xspeed)
 				deccell_air = 0.0125
 				sliding = false
+				
+				has_double_jumped = false;
 				}
 			
 			if yspeed > 1 then yspeed = 1

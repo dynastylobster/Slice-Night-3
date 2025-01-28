@@ -1,16 +1,30 @@
+if instance_exists(Obj_Billy) {
+		if (Obj_Billy.x < x) {
+			image_xscale = -1
+			if (image_index > 0) {
+				image_index = 2;
+				}
+			} else {
+			image_xscale = 1;
+			if (image_index > 0) {
+				image_index = 1;
+				}
+			}
+		
+	}
 draw_self();
 
+if (laserPhase == 1) {
+if (!audio_is_playing(Snd_LazerWarning)) {
+audio_play_sound(Snd_LazerWarning, 0, 0, global.SFXvolume);
+}
+}
 if (laserPhase == 2) {
-var hand1 = instance_find(Obj_VoidHand, 1);
-var hand2 = instance_find(Obj_VoidHand, 0);
-draw_line_width_color(hand1.x, hand1.y - 2, hand2.x, hand2.y - 2, 1 + attackTimer % 16, c_black, c_black);
-if (attackTimer % 12 == 0) {
-			hand1.image_index = !hand1.image_index;
-			hand2.image_index = !hand2.image_index;
-
+if (!audio_is_playing(Snd_VoidLazer)) {
+audio_play_sound(Snd_VoidLazer,0,0,global.SFXvolume);
 }
+draw_line_width_color(hand1.x, hand1.y - 2, hand2.x, hand2.y - 2, sin(agecuzfuckyou / 10) * 8, c_black, c_black);
 }
-
 if (currentPhase >= 2 && currentPhase <= 4) {
 if (random_range(0, 500 / currentPhase) <= 2) {
 layer_background_blend(layer_background_get_id(layer_get_id("Bg_still")), c_white);
@@ -36,10 +50,11 @@ layer_set_visible("Tiles_FG", true);
 }
 
 if (layer_background_get_alpha(layer_background_get_id(layer_get_id("Fg_White"))) > 0) {
-layer_background_alpha(layer_background_get_id(layer_get_id("Fg_White")), layer_background_get_alpha(layer_background_get_id(layer_get_id("Fg_White"))) - 0.1);
+layer_background_alpha(layer_background_get_id(layer_get_id("Fg_White")), layer_background_get_alpha(layer_background_get_id(layer_get_id("Fg_White"))) - 0.05);
 }
 
-if (attackTimer >= holdit + 120 && letter <= 0) {
+if (letter >= 10) { holdit = agecuzfuckyou; }
+if (agecuzfuckyou >= holdit + 120 && letter <= 0) {
 voidtalking = false;
 if (phases[currentPhase] == "Intro") {
 voidtalking = true;
@@ -158,7 +173,6 @@ case 1:
 text = "Void joined your party!";
 break;
 case 2:
-// exit level
 room_goto(L_Tabuli_3);
 text = "";
 nextWord = -1;
@@ -168,7 +182,7 @@ nextWord++;
 }
 
 attackTimer = 0;
-holdit = attackTimer;
+holdit = agecuzfuckyou;
 letter = string_length(text);
 }
 
