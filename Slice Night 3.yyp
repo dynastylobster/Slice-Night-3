@@ -494,6 +494,7 @@
     {"id":{"name":"Bg_SecondServingStory1","path":"sprites/Bg_SecondServingStory1/Bg_SecondServingStory1.yy",},},
     {"id":{"name":"Bg_SecondServingStory2","path":"sprites/Bg_SecondServingStory2/Bg_SecondServingStory2.yy",},},
     {"id":{"name":"Bg_SnowHills","path":"sprites/Bg_SnowHills/Bg_SnowHills.yy",},},
+    {"id":{"name":"Bg_SunImplode","path":"sprites/Bg_SunImplode/Bg_SunImplode.yy",},},
     {"id":{"name":"Bg_SunSet","path":"sprites/Bg_SunSet/Bg_SunSet.yy",},},
     {"id":{"name":"Bg_SunTemple1","path":"sprites/Bg_SunTemple1/Bg_SunTemple1.yy",},},
     {"id":{"name":"Bg_SunTempleEnter","path":"sprites/Bg_SunTempleEnter/Bg_SunTempleEnter.yy",},},
