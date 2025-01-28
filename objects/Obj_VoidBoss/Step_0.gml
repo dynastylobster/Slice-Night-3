@@ -1,15 +1,3 @@
-if instance_exists(Obj_Billy) {
-		if Obj_Billy.x < x then image_xscale = -1 else image_xscale = 1;
-	}
-
-//y = camera_get_view_y(view_camera[0]) + 75;
-
-/*
-Phase 1: Tears.
-Phase 2: Knives.
-Phase 3: Tears and knives.
-Phase 4: Laser.
-*/
 if !global.paused {
 
 var newph = false;
@@ -37,7 +25,7 @@ if (currentPhase == 3 || currentPhase == 5) {
 if (attackTimer % 120 == 0) {
 instance_create_depth(x, y, depth, Obj_VoidKnife);
 if (irandom_range(0, 4) == 0) { 
-		instance_create_depth(x,y,depth,Obj_VoidKnife)
+		instance_create_depth(x,y,depth,Obj_VoidKnife);
 	}
 }
 }
@@ -47,8 +35,6 @@ if (irandom_range(0, 4) == 0) {
 		hrandX = random_range(50, 125);
 		hrandY = random_range(5, 40);
 		}
-		var hand1 = instance_find(Obj_VoidHand, 1);
-		var hand2 = instance_find(Obj_VoidHand, 0);
 		if (attackTimer % 75 == 0) {
 			
 			laserPhase++;
@@ -62,6 +48,9 @@ if (irandom_range(0, 4) == 0) {
 		if (laserPhase == 2) {
 			if (collision_line(hand1.x, hand1.y, hand2.x, hand2.y, Obj_Billy, true, false)) {
 				HitPlayer();
+			}
+			if (collision_line(hand1.x, hand1.y, hand2.x, hand2.y, Obj_SliceDown, true, false)) {
+				Obj_SliceDown.done_slicing = true;
 			}
 		} 
 		if (laserPhase == 0) {
@@ -79,8 +68,6 @@ if (irandom_range(0, 4) == 0) {
 		}
 	} else {
 	var mspd = floor(1 + (currentPhase / 2));
-	var hand1 = instance_find(Obj_VoidHand, 1);
-	var hand2 = instance_find(Obj_VoidHand, 0);
 	var sine = ((agecuzfuckyou * 0.01) / (1 / mspd))
 	hand1.x = Obj_VoidBoss.x + 50 + sin(sine) * 1 * mspd;
 	hand2.x = Obj_VoidBoss.x - 50 + sin(sine) * 1 * mspd;
@@ -174,8 +161,11 @@ if (y > targY + 1 || y < targY - 1) {
 }
 }
 if (currentPhase == 6) {
+if (newph) {
+laserPhase = 0;
 targX = camera_get_view_x(view_camera[0]) + 213;
 targY = camera_get_view_y(view_camera[0]) + 50;
+}
 if (x > targX + 1 || x < targX - 1) { 
 	x -= ((x - targX) * (0.04));
 }

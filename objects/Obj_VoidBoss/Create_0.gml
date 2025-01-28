@@ -23,3 +23,6 @@ agecuzfuckyou = 0;
 lightningCounter = 0;
 voidtalking = false;
 letter = 0;
+
+hand1 = instance_create_layer(x, y, "Instances_Bg", Obj_VoidHand, { right : false });
+hand2 = instance_create_layer(x, y, "Instances_Bg", Obj_VoidHand);
