@@ -10,6 +10,7 @@
     {"name":"Obj_VoidKnife","order":2,"path":"objects/Obj_VoidKnife/Obj_VoidKnife.yy",},
     {"name":"Coyote_Tutorial","order":1,"path":"rooms/Coyote_Tutorial/Coyote_Tutorial.yy",},
     {"name":"faux_testing","order":3,"path":"rooms/faux_testing/faux_testing.yy",},
+    {"name":"L_LaserRoom","order":4,"path":"rooms/L_LaserRoom/L_LaserRoom.yy",},
     {"name":"Robot_Tutorial","order":2,"path":"rooms/Robot_Tutorial/Robot_Tutorial.yy",},
     {"name":"Blackscreen","order":2,"path":"scripts/Blackscreen/Blackscreen.yy",},
     {"name":"Near","order":1,"path":"scripts/Near/Near.yy",},

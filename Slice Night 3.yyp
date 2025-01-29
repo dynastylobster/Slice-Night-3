@@ -288,6 +288,7 @@
     {"id":{"name":"Extra_Level_Select","path":"rooms/Extra_Level_Select/Extra_Level_Select.yy",},},
     {"id":{"name":"faux_testing","path":"rooms/faux_testing/faux_testing.yy",},},
     {"id":{"name":"FinalCutsceneRoom","path":"rooms/FinalCutsceneRoom/FinalCutsceneRoom.yy",},},
+    {"id":{"name":"L_LaserRoom","path":"rooms/L_LaserRoom/L_LaserRoom.yy",},},
     {"id":{"name":"L_Tabuli_0","path":"rooms/L_Tabuli_0/L_Tabuli_0.yy",},},
     {"id":{"name":"L_Tabuli_1","path":"rooms/L_Tabuli_1/L_Tabuli_1.yy",},},
     {"id":{"name":"L_Tabuli_2","path":"rooms/L_Tabuli_2/L_Tabuli_2.yy",},},
@@ -966,6 +967,7 @@
     {"roomId":{"name":"Coyote_Tutorial","path":"rooms/Coyote_Tutorial/Coyote_Tutorial.yy",},},
     {"roomId":{"name":"Robot_Tutorial","path":"rooms/Robot_Tutorial/Robot_Tutorial.yy",},},
     {"roomId":{"name":"faux_testing","path":"rooms/faux_testing/faux_testing.yy",},},
+    {"roomId":{"name":"L_LaserRoom","path":"rooms/L_LaserRoom/L_LaserRoom.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

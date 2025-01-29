@@ -118,6 +118,7 @@ if place_meeting(x,y+1,Obj_MovePlatform) and yspeed > -1 {
 	grounded = true	
 }
 
+
 while place_meeting(x,y,Obj_Slope) {
 		y-= 0.125
 	}

@@ -6,14 +6,31 @@ if (!global.paused) {
 if (!stationary) {
 var nearx = true;
 var neary = true;
-if (x + 1.5 < targX || x - 1.5 > targX) {
+if (x + mspeed < targX || x - mspeed > targX) {
 nearx = false;
 }
-if (y + 1.5 < targY || y - 1.5 > targY) {
+if (y + mspeed < targY || y - mspeed > targY) {
 neary = false;
 }
 
-if (nearx && neary) {
+if (place_meeting(x + 8, y, [autoTileCol, Obj_Wall, Obj_EnemyOnlyBlock])) {
+x -= mspeed;
+nearx = true;
+}
+if (place_meeting(x - 8, y, [autoTileCol, Obj_Wall, Obj_EnemyOnlyBlock])) {
+x += mspeed;
+nearx = true;
+}
+if (place_meeting(x, y + 8, [autoTileCol, Obj_Wall, Obj_EnemyOnlyBlock])) {
+y -= mspeed;
+neary = true;
+}
+if (place_meeting(x, y - 8, [autoTileCol, Obj_Wall, Obj_EnemyOnlyBlock])) {
+y += mspeed;
+neary = true;
+}
+
+if ((nearx && neary) || follows) {
 if (follows && instance_exists(Obj_Billy)) {
 if (!vert) {
 targY = Obj_Billy.y;
@@ -30,9 +47,9 @@ if (x >= homeX) { targX = homeX - 100; } else { targX = homeX + 100; }
 }
 
 if (!vert) {
-if (!neary) { y += (y < targY) ? 1 : -1; }
+if (!neary) { y += (y < targY) ? mspeed : mspeed * -1; }
 } else {
-if (!nearx) { x += (x < targX) ? 1 : -1; }
+if (!nearx) { x += (x < targX) ? mspeed : mspeed * -1; }
 }
 }
 

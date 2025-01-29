@@ -16,5 +16,8 @@ homeX = x;
 homeY = y;
 
 lasering = false;
+if (oppositePhase) {
+lasering = true;
+}
 attackTimer = 0;
 age = 0;
