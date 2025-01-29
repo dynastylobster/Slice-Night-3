@@ -20,6 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":32000,
   "soundFile":"Snd_BalladOfDisparCredits.ogg",
-  "type":0,
+  "type":1,
   "volume":1.0,
 }
