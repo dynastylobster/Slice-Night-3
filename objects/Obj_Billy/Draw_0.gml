@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+var heatPercent = 255 - ((heat / maxHeat) * 255);
+var color = make_color_rgb(255, heatPercent, heatPercent);
+image_blend = color;
+
 if global.music = Snd_FinalBoss or room = Level_BossFinal { 
 	global.motu = false;
 	global.fem = false;

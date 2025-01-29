@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Thermodynamics",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Thermodynamics",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

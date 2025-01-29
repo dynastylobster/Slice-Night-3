@@ -17,6 +17,10 @@ dashes = 0
 //walljump_multipler = 3.5
 walljump_multipler = 4.14
 
+// hi washlums!!! :3
+heat = 0;
+maxHeat = 600;
+
 inwater = false
 dashingfor = 0
 charge_timer = 0

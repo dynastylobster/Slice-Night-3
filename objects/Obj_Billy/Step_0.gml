@@ -35,6 +35,9 @@ if global.character = "Coyote" {
 	if grounded has_double_jumped = false
 		
 	}
+	
+if (heat >= maxHeat) { HitPlayer(); heat = 0; }
+if (heat > 0) { heat--; }
 
 
 if !global.paused {
@@ -43,6 +46,7 @@ age += 0.5
 if age > 4096 age = 0
 
 if i_frames > 0 i_frames --
+if (i_frames == 1) { heat = 0; }
 if i_frames < 60 hit = false
 
 
@@ -162,10 +166,24 @@ if abs(xspeed) > 0 {
 	if !walking and xspeed>0 xspeed -= deccell
 	if !walking and xspeed<0 xspeed += deccell
 	}
+	
+/*
 if !place_meeting(x+1.5*xspeed,y,[Obj_Wall, autoTileCol]) 
 {
 x+= xspeed
+}*/
+
+//
+var feet = place_meeting(x + 1.5 * xspeed, y, [Obj_Wall, autoTileCol]);
+var ankles = place_meeting(x + 1.5 * xspeed, y - 1, [Obj_Wall, autoTileCol]);
+if (feet && !ankles) {
+y += 1;
+feet = false;
 }
+if (!feet) {
+x += xspeed;
+}
+//
 
 //jump queuing and koyote time
 if !global.paused {
