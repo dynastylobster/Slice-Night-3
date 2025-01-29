@@ -14,7 +14,7 @@ var exbo = 0;
 var eybo = 0;
 if (vert) { exbo = ((5) - i); } else { eybo = ((5) - i); }
 
-collision_line_list(x + exbo, y + eybo, xbon + 0.5 + exbo, ybon + 0.5 + eybo, [Obj_Wall, Obj_EnemyOnlyBlock], false, false, close, true);
+collision_line_list(x + exbo, y + eybo, xbon + 0.5 + exbo, ybon + 0.5 + eybo, [Obj_Wall, Obj_EnemyOnlyBlock, Obj_MetalBlock, Obj_MetalBlockLong], false, false, close, true);
 var obj = close[| 0];
 if (instance_exists(obj)) {
 if (vert) { ybon = obj.y + (obj.sprite_height / 2); } else { xbon = obj.x + (obj.sprite_width / 2); }
