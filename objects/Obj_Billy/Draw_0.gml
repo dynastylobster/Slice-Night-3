@@ -1,9 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var heatPercent = 255 - ((heat / maxHeat) * 255);
-var color = make_color_rgb(255, heatPercent, heatPercent);
-image_blend = color;
+if (abs(heat) > 10) {
+var heatPercent = (heat / maxHeat);
+var color = make_color_rgb(floor(heatPercent * 255), 0, 0);
+if (age % (1 + floor(abs(heatPercent) * 3)) != 2) {
+draw_line_width_color(x -1, y - 26, x -1, y - (32 + (8 * heatPercent)), 2, color, color);
+draw_sprite(Spr_Thermometer, 0, x, y - 32);
+}
+}
+
 
 if global.music = Snd_FinalBoss or room = Level_BossFinal { 
 	global.motu = false;

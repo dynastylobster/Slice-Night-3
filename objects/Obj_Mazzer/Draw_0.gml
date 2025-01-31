@@ -19,8 +19,14 @@ var obj = close[| 0];
 if (instance_exists(obj)) {
 if (vert) { ybon = obj.y + (obj.sprite_height / 2); } else { xbon = obj.x + (obj.sprite_width / 2); }
 }
-
-draw_line_width_color(truex + exbo, truey + eybo, xbon + exbo, ybon + eybo, 1 + age % 3, c_red, c_white);
+if (dir != "Spinning") {
+draw_line_width_color(truex + exbo, truey + eybo, xbon + exbo, ybon + eybo, 1 + age % 3, color1, color2);
+} else {
+var color = c_red;
+var secolor = c_white
+if (i == 0 || i == 6 || i == 11) { color = c_blue; secolor = c_green; }
+draw_line_width_color(truex + exbo + (opin * 2), truey + eybo + (spin * 4), truex + (spin * 100) + exbo, truey + (opin * 100) + eybo, 1 + age % 3, color, secolor);
+}
 ds_list_clear(close);
 }
 } else {
@@ -28,5 +34,5 @@ image_index = 0;
 }
 
 // Inherit the parent event
-depth = 800;
+depth = 550;
 event_inherited();

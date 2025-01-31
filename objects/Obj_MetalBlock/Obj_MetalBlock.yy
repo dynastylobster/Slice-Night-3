@@ -12,8 +12,8 @@
   "name":"Obj_MetalBlock",
   "overriddenProperties":[],
   "parent":{
-    "name":"Gimmicks",
-    "path":"folders/Objects/Gimmicks.yy",
+    "name":"Temperature",
+    "path":"folders/Objects/Gimmicks/Temperature.yy",
   },
   "parentObjectId":null,
   "persistent":false,

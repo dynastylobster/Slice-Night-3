@@ -36,8 +36,9 @@ if global.character = "Coyote" {
 		
 	}
 	
-if (heat >= maxHeat) { HitPlayer(); heat = 0; }
+if (abs(heat) >= maxHeat) { HitPlayer(); heat = 0; }
 if (heat > 0) { heat--; }
+if (heat < 0) { heat++; }
 
 
 if !global.paused {
@@ -46,7 +47,7 @@ age += 0.5
 if age > 4096 age = 0
 
 if i_frames > 0 i_frames --
-if (i_frames == 1) { heat = 0; }
+//if (i_frames == 1) { heat = 0; }
 if i_frames < 60 hit = false
 
 

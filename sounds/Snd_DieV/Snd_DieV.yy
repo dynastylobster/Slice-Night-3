@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"Snd_DieV.ogg",
   "type":0,
-  "volume":0.25,
+  "volume":0.1,
 }

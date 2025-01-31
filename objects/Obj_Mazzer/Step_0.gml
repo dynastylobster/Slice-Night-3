@@ -3,6 +3,16 @@ event_inherited();
 
 if (!global.paused) {
 
+if (rainbow) {
+var colors = [c_red, c_orange, c_yellow, c_lime, c_blue, c_fuchsia];
+color1 = colors[round((age / 20) % 5)];
+}
+
+if (dir == "Spinning") {
+spin = sin(age / 20);
+opin = cos(age / 20);
+}
+
 if (!stationary) {
 var nearx = true;
 var neary = true;
@@ -71,12 +81,14 @@ if (vert) { exbo = ((2) - i); } else { eybo = ((2) - i); }
 collision_line_list(x + exbo, y + eybo, xbon + 0.5 + exbo, ybon + 0.5 + eybo, [Obj_Billy, Obj_MetalBlock, Obj_MetalBlockLong, Obj_Wall, Obj_EnemyOnlyBlock], true, true, close, true);
 var obj = close[| 0];
 
+if (instance_exists(obj)) {
 if (obj.object_index == Obj_Billy || obj.object_index == Obj_MetalBlock || obj.object_index == Obj_MetalBlockLong) {
-obj.heat += obj.maxHeat / 60;
+obj.heat += obj.maxHeat / 300;
 }
 
 if (obj.object_index != Obj_Billy) {
 if (vert) { ybon = obj.y + (obj.sprite_height / 2); } else { xbon = obj.x + (obj.sprite_width / 2); }
+}
 }
 
 ds_list_clear(close);

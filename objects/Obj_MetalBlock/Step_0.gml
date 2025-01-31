@@ -1,2 +1,4 @@
 if (heat > maxHeat) { heat = maxHeat; }
-heat--;
+if (heat < (maxHeat * -1)) { heat = (maxHeat * -1); }
+if (heat > 0) { heat--; }
+if (heat < 0) { heat++; }

@@ -10,6 +10,9 @@ if (dir == "Down") { image_angle = 180; }
 if (dir == "Left") { image_angle = 90; }
 if (dir == "Right") { image_angle = 270; }
 
+spin = 1;
+opin = 1;
+
 stationary = false;
 follows = false;
 moving = false;
@@ -39,6 +42,9 @@ lasering = true;
 }
 
 close = ds_list_create();
+
+color1 = c_red;
+color2 = c_white;
 
 attackTimer = 0;
 age = 0;

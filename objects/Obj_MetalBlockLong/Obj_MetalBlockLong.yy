@@ -6,8 +6,8 @@
   "name":"Obj_MetalBlockLong",
   "overriddenProperties":[],
   "parent":{
-    "name":"Gimmicks",
-    "path":"folders/Objects/Gimmicks.yy",
+    "name":"Temperature",
+    "path":"folders/Objects/Gimmicks/Temperature.yy",
   },
   "parentObjectId":{
     "name":"Obj_MetalBlock",

@@ -1,13 +1,14 @@
 {
   "FolderOrderSettings":[
+    {"name":"Temperature","order":4,"path":"folders/Objects/Gimmicks/Temperature.yy",},
     {"name":"Void Boss","order":5,"path":"folders/Sprites/Boss Sprites/Void Boss.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"Obj_EmergencyAlarm","order":1,"path":"objects/Obj_EmergencyAlarm/Obj_EmergencyAlarm.yy",},
     {"name":"Obj_Mazzer","order":1,"path":"objects/Obj_Mazzer/Obj_Mazzer.yy",},
-    {"name":"Obj_MetalBlock","order":2,"path":"objects/Obj_MetalBlock/Obj_MetalBlock.yy",},
-    {"name":"Obj_MetalBlockLong","order":3,"path":"objects/Obj_MetalBlockLong/Obj_MetalBlockLong.yy",},
+    {"name":"Obj_MetalBlockLong","order":1,"path":"objects/Obj_MetalBlockLong/Obj_MetalBlockLong.yy",},
     {"name":"Obj_NailShip","order":2,"path":"objects/Obj_NailShip/Obj_NailShip.yy",},
+    {"name":"Obj_TemperatureZone","order":2,"path":"objects/Obj_TemperatureZone/Obj_TemperatureZone.yy",},
     {"name":"Obj_VoidBullet","order":1,"path":"objects/Obj_VoidBullet/Obj_VoidBullet.yy",},
     {"name":"Obj_VoidHand","order":3,"path":"objects/Obj_VoidHand/Obj_VoidHand.yy",},
     {"name":"Obj_VoidKnife","order":2,"path":"objects/Obj_VoidKnife/Obj_VoidKnife.yy",},
@@ -32,6 +33,7 @@
     {"name":"Spr_MetalBlock","order":1,"path":"sprites/Spr_MetalBlock/Spr_MetalBlock.yy",},
     {"name":"Spr_MetalBlockLong","order":2,"path":"sprites/Spr_MetalBlockLong/Spr_MetalBlockLong.yy",},
     {"name":"Spr_NailShip","order":1,"path":"sprites/Spr_NailShip/Spr_NailShip.yy",},
+    {"name":"Spr_Thermometer","order":3,"path":"sprites/Spr_Thermometer/Spr_Thermometer.yy",},
     {"name":"Spr_VoidBullet2","order":2,"path":"sprites/Spr_VoidBullet2/Spr_VoidBullet2.yy",},
     {"name":"Spr_VoidEye","order":4,"path":"sprites/Spr_VoidEye/Spr_VoidEye.yy",},
     {"name":"Spr_VoidHand","order":5,"path":"sprites/Spr_VoidHand/Spr_VoidHand.yy",},

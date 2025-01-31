@@ -30,7 +30,7 @@
     "name":"IceTileSprite",
     "path":"sprites/IceTileSprite/IceTileSprite.yy",
   },
-  "spriteNoExport":true,
+  "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",
     "path":"texturegroups/Default",
