@@ -517,6 +517,7 @@ if spinning and !hit and !dead {
 if spinning and grounded image_index = 0
 
 //camera
+if (global.cameraStyle) {
 if !instance_exists(Obj_CameraController) {
 if alarm[3] <= 0 {
 cam_x = clamp(x-213,0,room_width-426)
@@ -554,6 +555,17 @@ camera_set_view_pos(view_camera[0],cam_x,cam_y);
 
 }
 //}
+} else {
+var camx = x - 213;
+var camy = y - 120;
+var oldCamx = camera_get_view_x(view_camera[0]);
+var oldCamy = camera_get_view_y(view_camera[0]);
+camx += ((camx + (xspeed * 10)) - oldCamx) / 20;
+camy += ((camy + (yspeed * 10)) - oldCamy) / 20;
+camx = clamp(camx, 0, room_width - 426);
+camy = clamp(camy, 0, room_height - 240);
+camera_set_view_pos(view_camera[0], camx, camy);
+}
 
 if place_meeting(x,y,Obj_WarpBox) {
 image_alpha = 0	

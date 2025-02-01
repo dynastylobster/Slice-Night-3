@@ -114,16 +114,39 @@ if global.paused {
 var confirmed = (global.key_Z_pressed || global.key_X_pressed);
 var updown = (global.key_down_pressed - global.key_up_pressed);
 var leftright = (global.key_right_pressed - global.key_left_pressed);
+var esc = global.key_start;
+
+if (esc) {
+menuType = "Start";
+}
+
 if (updown != 0) {
+	var ourMenu;
+	switch (menuType) {
+		case "Start":
+		ourMenu = menuOp;
+		break;
+		case "Settings":
+		ourMenu = settingsSubmenuOp;
+		break;
+	}
 		_index += updown;
-		if (_index < 0) { _index = array_length(menuOp) - 1; }
-		if (_index >= array_length(menuOp)) { _index = 0; }
-		menuIndex = menuOp[_index]
+		if (_index < 0) { _index = array_length(ourMenu) - 1; }
+		if (_index >= array_length(ourMenu)) { _index = 0; }
+		menuIndex = ourMenu[_index];
 	}
 
-var acceptableCostumes = [["Billy", "Miley", "Billy (Fox)", "Miley (Fox)"], ["Motu"], ["Void"]];
 
-if (leftright != 0 && menuType == "Start") {
+var humanCostumes = ["Billy", "Miley", "Billy (Fox)", "Miley (Fox)"];
+//
+var robotCostumes = [];
+if (global.motuunlocked) { array_push(robotCostumes, "Motu"); }
+var coyoteCostumes = [];
+if (global.voidunlocked) { array_push(coyoteCostumes, "Void"); }
+
+var acceptableCostumes = [humanCostumes, robotCostumes, coyoteCostumes];
+
+if (leftright != 0 && menuType == "Settings") {
 		switch(menuIndex) {
 		case "Music Volume": 
 		global.musicvolume += leftright *0.05
@@ -148,9 +171,11 @@ switch(menuIndex) {
 	break;
 	case "Change Character":
 		var nextChar = (array_get_index(characters, global.character) + 1);
-			if (nextChar >= array_length(characters)) {
-			nextChar = 0;
+		try {
+			while (array_length(acceptableCostumes[nextChar]) == 0) {
+			nextChar++;
 			}
+		} catch (err) { nextChar = 0; }
 			global.character = characters[nextChar];
 			global.costume = acceptableCostumes[array_get_index(characters, global.character)][0];
 			// SAVE TO FILE
@@ -165,6 +190,18 @@ switch(menuIndex) {
 			
 			// SAVE TO FILE
 	break;
+	case "Settings":
+	_index = 0;
+	menuType = "Settings";
+	break;
+	case "Return To Title Screen":
+	room_goto(TitleScreenRoom);
+	break;
+	}
+}
+
+if (confirmed && menuType == "Settings") {
+switch (menuIndex) {
 	case "Music Volume":
 	global.musicvolume += 0.05;
 	if (global.musicvolume > 2) {global.musicvolume = 0; }
@@ -172,6 +209,10 @@ switch(menuIndex) {
 	case "SFX Volume":
 	global.SFXvolume += 0.05;
 	if (global.SFXvolume > 2) {global.SFXvolume = 0; }
+	break;
+	case "Camera Style":
+	global.cameraStyle = !global.cameraStyle;
+	// save it
 	break;
 	case "Button Mapping":
 	global.jumpslicemap = !global.jumpslicemap;
@@ -195,11 +236,13 @@ switch(menuIndex) {
 			audio_play_sound(Snd_BillyHurt,0,0,2);
 		}
 	break;
-	case "Return To Title Screen":
-	room_goto(TitleScreenRoom);
+	case "Main Menu":
+	_index = 0;
+	menuType = "Start"
 	break;
-	}
 }
+}
+
 /*if (menuType == 1) {
 	_index = keyBeingRebinded;
 	

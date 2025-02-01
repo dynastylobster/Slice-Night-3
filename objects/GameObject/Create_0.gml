@@ -10,18 +10,17 @@ costumes = ["Billy", "Miley", "Billy (Fox)", "Miley (Fox)", "Motu", "Void"];
 global.character = characters[0];
 global.costume = costumes[0];
 
-menuOp = ["Resume", "Change Character", "Change Costume", "Music Volume", "SFX Volume", "Button Mapping", "VSync", "Erase Save File", "Return To Title Screen"];
+// "Start"
+menuOp = ["Resume", "Change Character", "Change Costume", "Settings", "Return To Title Screen"];
 deletePhase = 0;
 _index = 0;
 menuIndex = menuOp[_index];
 menuType = "Start";
 
-/*lastKey = 0;
-keyBeingRebinded = 0;
-keybindOp = ["Up", "Left", "Down", "Right", "Jump", "Run", "Slice"];
+// "Settings"
+settingsSubmenuOp = ["Music Volume", "SFX Volume", "Camera Style", "Button Mapping", "VSync", "Erase Save File", "Main Menu"];
+global.cameraStyle = true;
 
-// load the settings file and change these to that!
-keysBinded = ["w", "a", "s", "d", "z", "x", "c"];*/
 
 
 ini_open("save.ini") 

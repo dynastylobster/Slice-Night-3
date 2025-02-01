@@ -110,6 +110,7 @@ if global.paused {
 	/// Draw code! Woohoo!
 	draw_set_font(UndertaleFont)
 	var extraText = "";
+	
 	if (menuType == "Start") {
 		for (var i = 0; i < array_length(menuOp); i++) {
 			switch(menuOp[i]) {
@@ -119,19 +120,38 @@ if global.paused {
 				case "Change Costume":
 				extraText = (": " +  string(global.costume));
 				break;
-				case "Music Volume":
+			}
+		draw_set_color(c_blue);
+		draw_text(_menux, _menuy-14 + (16 * (i + 1)), menuOp[i]+extraText);
+		draw_set_color(c_white);
+		draw_text(_menux, _menuy-16 + (16 * (i + 1)) + 1, menuOp[i]+extraText);
+		extraText = "";
+	}
+	}
+	
+	if (menuType == "Settings") {
+		for (var i = 0; i < array_length(settingsSubmenuOp); i++) {
+			switch(settingsSubmenuOp[i]) {
+			case "Music Volume":
 					if (global.musicvolume == 2) {
-						extraText = "Dropping Something At 4 AM";
+						extraText = ": Dropping Something At 4 AM";
 					} else {
 					extraText = (": <" + string(int64(global.musicvolume*100.25)) + "%>");
 					}
 				break;
 				case "SFX Volume":
 					if (global.SFXvolume == 2) {
-						extraText = "Bubsy.";
+						extraText = ": Bubsy.";
 					} else {
 					extraText = (": <" +  string(int64(global.SFXvolume*100.25)) + "%>");
 					}
+				break;
+				case "Camera Style":
+				if (global.cameraStyle) {
+				extraText = ": Classic";
+				} else {
+				extraText = ": Fauxvoid's Style";
+				}
 				break;
 				case "Button Mapping":
 					if (global.jumpslicemap == 1) {
@@ -166,37 +186,15 @@ if global.paused {
 			}
 			break;
 		}
+		
 		draw_set_color(c_blue);
-		draw_text(_menux, _menuy-14 + (16 * (i + 1)), menuOp[i]+extraText);
+		draw_text(_menux, _menuy-14 + (16 * (i + 1)), settingsSubmenuOp[i]+extraText);
 		draw_set_color(c_white);
-		draw_text(_menux, _menuy-16 + (16 * (i + 1)) + 1, menuOp[i]+extraText);
-		extraText = ""
-	}
-	}
-	/*if (menuType == 1) {
-		for (var i = 0; i < array_length(keybindOp); i++) {
-			try {
-		extraText = ": " + string_upper(chr(keysBinded[i]));
-			} catch (err) {
-		extraText = ": " + string_upper(string(keysBinded[i]));
-		}
-		if (i == keyBeingRebinded) {
-			extraText = extraText + " <";
-		}
-		draw_set_color(c_blue);
-		draw_text(_menux, _menuy-14 + (16 * (i + 1)), keybindOp[i]+extraText);
-		draw_set_color(c_white);
-		draw_text(_menux, _menuy-16 + (16 * (i + 1)) + 1, keybindOp[i]+extraText);
-		extraText = ""
-		if (i = array_length(keybindOp) - 1) {
-			draw_set_color(c_blue);
-			draw_text(_menux, _menuy-14 + (16 * (i + 1)) + 16, "Select a button for " + string(keybindOp[keyBeingRebinded]) + ".");
-			draw_set_color(c_white);
-			draw_text(_menux, _menuy-14 + (16 * (i + 1)) + 17, "Select a button for " + string(keybindOp[keyBeingRebinded]) + ".");
-		}
+		draw_text(_menux, _menuy-16 + (16 * (i + 1)) + 1, settingsSubmenuOp[i]+extraText);
+		extraText = "";
 		}
 	}
-	*/
+	
 }
 	
 	
