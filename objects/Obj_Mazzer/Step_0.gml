@@ -83,7 +83,7 @@ var obj = close[| 0];
 
 if (instance_exists(obj)) {
 if (obj.object_index == Obj_Billy || obj.object_index == Obj_MetalBlock || obj.object_index == Obj_MetalBlockLong) {
-obj.heat += obj.maxHeat / 300;
+obj.heat += 10;
 }
 
 if (obj.object_index != Obj_Billy) {
