@@ -2,6 +2,7 @@ if (!instance_exists(owner)) {
 instance_destroy();
 }
 
+if instance_exists(owner) {
 var nearx = true;
 var neary = true;
 if ((x + 1 < targX || x - 1 > targX)) {
@@ -10,7 +11,6 @@ nearx = false;
 if ((y + 1 < targY || y - 1 > targY)) {
 neary = false;
 }
-
 
 if ((nearx || neary) && age % 15 == 0) {
 	switch(phase) {
@@ -38,3 +38,4 @@ targY = y;
 }
 
 age++;
+}

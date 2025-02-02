@@ -40,6 +40,19 @@ phase = "Finding";
 }
 }
 
-
+if !instance_exists(mouth1) {
+mouth1 = instance_create_layer(x, y, "Instances_1", Obj_LeechMouth, { owner : id});
+}
+if !instance_exists(mouth2) {
+mouth2 = instance_create_layer(x, y, "Instances_1", Obj_LeechMouth, { owner : id});
+}
+if !instance_exists(mouth3) {
+mouth3 = instance_create_layer(x, y, "Instances_1", Obj_LeechMouth, { owner : id});
+}
+if !instance_exists(mouth4) {
+mouth4 = instance_create_layer(x, y, "Instances_1", Obj_LeechMouth, { owner : id});
+}
 
 age++;
+
+drawy = y+ sin(age/25) * 4

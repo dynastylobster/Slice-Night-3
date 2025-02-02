@@ -4,8 +4,8 @@ if other.done_slicing = false {
 
 
 var dam = other.damageType;
-var damage = 1;
-if (array_length(resistances) > 1) {
+var damage = 1.0;
+if (array_length(resistances) > 0) {
 			if global.character = "Coyote" {
 				damage = 0.5;	
 			}

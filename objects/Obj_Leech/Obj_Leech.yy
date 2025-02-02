@@ -8,7 +8,10 @@
   ],
   "managed":true,
   "name":"Obj_Leech",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"EnemyParentObject","path":"objects/EnemyParentObject/EnemyParentObject.yy",},"propertyId":{"name":"hp","path":"objects/EnemyParentObject/EnemyParentObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"EnemyParentObject","path":"objects/EnemyParentObject/EnemyParentObject.yy",},"propertyId":{"name":"resistances","path":"objects/EnemyParentObject/EnemyParentObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Resists Down\", \"Resists Flame\"",},
+  ],
   "parent":{
     "name":"Enemies",
     "path":"folders/Objects/Enemies.yy",
@@ -37,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Mazzer",
-    "path":"sprites/Spr_Mazzer/Spr_Mazzer.yy",
+    "name":"Spr_Leech",
+    "path":"sprites/Spr_Leech/Spr_Leech.yy",
   },
   "spriteMaskId":null,
   "visible":true,

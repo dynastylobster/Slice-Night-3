@@ -1,5 +1,12 @@
 // Inherit the parent event
-event_inherited();
+if place_meeting(x,y,Obj_EnemyHurtEffect) {
+gpu_set_blendmode(bm_add)
+draw_sprite(sprite_index,image_index,x,drawy)
+}
+draw_sprite(sprite_index,image_index,x,drawy)
+
+gpu_set_blendmode(bm_normal)
+
 
 if (object_exists(Obj_Billy)) {
 if (distance_to_object(Obj_Billy) <= 50) {

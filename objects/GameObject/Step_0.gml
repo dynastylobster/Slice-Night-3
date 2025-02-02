@@ -212,6 +212,9 @@ switch (menuIndex) {
 	break;
 	case "Camera Style":
 	global.cameraStyle = !global.cameraStyle;
+	ini_open("save.ini")
+	ini_write_real("Prefrence", "CameraStyle", global.cameraStyle)
+	ini_close()
 	// save it
 	break;
 	case "Button Mapping":

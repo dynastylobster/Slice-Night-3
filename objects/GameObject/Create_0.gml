@@ -19,7 +19,7 @@ menuType = "Start";
 
 // "Settings"
 settingsSubmenuOp = ["Music Volume", "SFX Volume", "Camera Style", "Button Mapping", "VSync", "Erase Save File", "Main Menu"];
-global.cameraStyle = true;
+//global.cameraStyle = true;
 
 
 
