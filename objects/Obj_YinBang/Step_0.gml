@@ -3,6 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
+CheckOnscreen();
 
 if !global.paused {
 		
@@ -15,6 +16,11 @@ if !global.paused {
 		
 	if place_meeting(x,y+2,[Obj_Wall, Obj_EnemyOnlyBlock, autoTileCol]) {
 			xspeed = dir*2
+			
+			if yspeed > 0 and onscreen{
+						audio_play_sound(Snd_Dink,0,0,global.SFXvolume,0,0.8);	
+			}
+			
 			yspeed = -jumpspeed
 			dir = choose(-1,1)
 		}

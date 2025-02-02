@@ -29,6 +29,9 @@ if instance_exists(Obj_Maceball) {
 		}
 	}
 if place_meeting(x,y-3,Obj_SliceDown) {
+	if sprite_index != Spr_model1_downslice {
+		audio_play_sound(Snd_Dink,0,0,global.SFXvolume)
+	}
 	downsliced = 30
 	sprite_index = Spr_model1_downslice;	
 }

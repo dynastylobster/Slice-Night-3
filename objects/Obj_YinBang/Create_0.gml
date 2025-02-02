@@ -6,4 +6,5 @@ dir = 1;
 xspeed = dir*2;
 yspeed = 0;
 jumpspeed = 4.5;
+onscreen = false;
 random_set_seed(45);

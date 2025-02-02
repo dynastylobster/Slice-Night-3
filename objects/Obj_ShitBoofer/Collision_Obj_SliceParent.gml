@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if sprite_index != Spr_ShitBoofer_Active {
+	audio_play_sound(Snd_Dink,0,0,global.SFXvolume*2);
 	if instance_exists(Obj_Billy) {
 	global.key_Z = true
 	Obj_Billy.yspeed = -5

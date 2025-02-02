@@ -25,6 +25,7 @@
     {"name":"Snd_Dink","order":5,"path":"sounds/Snd_Dink/Snd_Dink.yy",},
     {"name":"Snd_LazerWarning","order":4,"path":"sounds/Snd_LazerWarning/Snd_LazerWarning.yy",},
     {"name":"Snd_SpaceLevelMusic","order":7,"path":"sounds/Snd_SpaceLevelMusic/Snd_SpaceLevelMusic.yy",},
+    {"name":"Snd_SunImplode","order":8,"path":"sounds/Snd_SunImplode/Snd_SunImplode.yy",},
     {"name":"Snd_VoidLazer","order":3,"path":"sounds/Snd_VoidLazer/Snd_VoidLazer.yy",},
     {"name":"Snd_VoidMusic","order":6,"path":"sounds/Snd_VoidMusic/Snd_VoidMusic.yy",},
     {"name":"Snd_VoidVoice","order":1,"path":"sounds/Snd_VoidVoice/Snd_VoidVoice.yy",},

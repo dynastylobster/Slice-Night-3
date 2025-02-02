@@ -8,6 +8,9 @@ if instance_exists(Obj_Billy) {
 			x -= 4
 			xspeed = -3.95
 		}
+	if !other.done_slicing {
+	audio_play_sound(Snd_Dink,0,0,global.SFXvolume,0,0.9);	
+	}
 	other.done_slicing = true;
 	if instance_exists(Obj_FlameSlice) {
 			with(Obj_FlameSlice) {

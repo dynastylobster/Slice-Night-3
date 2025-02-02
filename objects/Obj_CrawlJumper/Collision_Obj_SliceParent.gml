@@ -5,6 +5,7 @@ if other.object_index = Obj_FlameSlice {
 	}
 prevHp = hp;
 if other.done_slicing = false {
+audio_play_sound(Snd_Dink,0,0,global.SFXvolume);
 other.done_slicing = true
 }
 

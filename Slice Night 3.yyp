@@ -440,6 +440,7 @@
     {"id":{"name":"Snd_SpecialClear","path":"sounds/Snd_SpecialClear/Snd_SpecialClear.yy",},},
     {"id":{"name":"Snd_Step","path":"sounds/Snd_Step/Snd_Step.yy",},},
     {"id":{"name":"Snd_SugarDamnation","path":"sounds/Snd_SugarDamnation/Snd_SugarDamnation.yy",},},
+    {"id":{"name":"Snd_SunImplode","path":"sounds/Snd_SunImplode/Snd_SunImplode.yy",},},
     {"id":{"name":"Snd_TenseDrone","path":"sounds/Snd_TenseDrone/Snd_TenseDrone.yy",},},
     {"id":{"name":"Snd_TitleMusic","path":"sounds/Snd_TitleMusic/Snd_TitleMusic.yy",},},
     {"id":{"name":"Snd_TrainLand","path":"sounds/Snd_TrainLand/Snd_TrainLand.yy",},},

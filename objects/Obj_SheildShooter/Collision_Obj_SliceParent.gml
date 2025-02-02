@@ -9,6 +9,10 @@ if other.done_slicing = false {
 if !sheilding {
 	instance_create_depth(x,y,depth,Obj_EnemyHurtEffect)
 	event_inherited();
+	} else {
+	if !audio_is_playing(Snd_Dink) {
+			audio_play_sound(Snd_Dink,0,0,global.SFXvolume);
+		}
 	}
 
 }
