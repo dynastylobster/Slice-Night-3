@@ -364,6 +364,7 @@
     {"id":{"name":"SecondServingStory1","path":"rooms/SecondServingStory1/SecondServingStory1.yy",},},
     {"id":{"name":"SecondServingStory2","path":"rooms/SecondServingStory2/SecondServingStory2.yy",},},
     {"id":{"name":"SecondServingStory3","path":"rooms/SecondServingStory3/SecondServingStory3.yy",},},
+    {"id":{"name":"SecondServingStory4","path":"rooms/SecondServingStory4/SecondServingStory4.yy",},},
     {"id":{"name":"TestRoom1","path":"rooms/TestRoom1/TestRoom1.yy",},},
     {"id":{"name":"TestRoom2","path":"rooms/TestRoom2/TestRoom2.yy",},},
     {"id":{"name":"TitleScreenOptionsRoom","path":"rooms/TitleScreenOptionsRoom/TitleScreenOptionsRoom.yy",},},
@@ -483,6 +484,7 @@
     {"id":{"name":"Bg_CutsceneBilly1","path":"sprites/Bg_CutsceneBilly1/Bg_CutsceneBilly1.yy",},},
     {"id":{"name":"Bg_CutsceneBilly2","path":"sprites/Bg_CutsceneBilly2/Bg_CutsceneBilly2.yy",},},
     {"id":{"name":"Bg_CutsceneModel1","path":"sprites/Bg_CutsceneModel1/Bg_CutsceneModel1.yy",},},
+    {"id":{"name":"Bg_CutsceneModel12","path":"sprites/Bg_CutsceneModel12/Bg_CutsceneModel12.yy",},},
     {"id":{"name":"Bg_CutsceneMotu1","path":"sprites/Bg_CutsceneMotu1/Bg_CutsceneMotu1.yy",},},
     {"id":{"name":"Bg_CutsceneMotu2","path":"sprites/Bg_CutsceneMotu2/Bg_CutsceneMotu2.yy",},},
     {"id":{"name":"Bg_CutsceneMotu351","path":"sprites/Bg_CutsceneMotu351/Bg_CutsceneMotu351.yy",},},
@@ -987,6 +989,7 @@
     {"roomId":{"name":"faux_testing","path":"rooms/faux_testing/faux_testing.yy",},},
     {"roomId":{"name":"L_LaserRoom","path":"rooms/L_LaserRoom/L_LaserRoom.yy",},},
     {"roomId":{"name":"L_SpaceBridge","path":"rooms/L_SpaceBridge/L_SpaceBridge.yy",},},
+    {"roomId":{"name":"SecondServingStory4","path":"rooms/SecondServingStory4/SecondServingStory4.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
