@@ -20,6 +20,12 @@ collision_line_list(x + exbo, y + eybo, xbon + 0.5 + exbo, ybon + 0.5 + eybo, [O
 var obj = close[| 0];
 if (instance_exists(obj)) {
 if (vert) { ybon = obj.y + (obj.sprite_height / 2); } else { xbon = obj.x + (obj.sprite_width / 2); }
+
+// Hello there, developer ahead of me.
+// I tried my hardest to make this damnable object spin.
+// I failed.
+// But if you wish, you can take my place.
+
 if (dir == "Spinning") {
 if (abs(ybon) > 0) {
 ybon = obj.y + (obj.sprite_height / 2);

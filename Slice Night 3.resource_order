@@ -5,6 +5,8 @@
   ],
   "ResourceOrderSettings":[
     {"name":"Obj_EmergencyAlarm","order":1,"path":"objects/Obj_EmergencyAlarm/Obj_EmergencyAlarm.yy",},
+    {"name":"Obj_Leech","order":2,"path":"objects/Obj_Leech/Obj_Leech.yy",},
+    {"name":"Obj_LeechMouth","order":3,"path":"objects/Obj_LeechMouth/Obj_LeechMouth.yy",},
     {"name":"Obj_Mazzer","order":1,"path":"objects/Obj_Mazzer/Obj_Mazzer.yy",},
     {"name":"Obj_MetalBlockLong","order":1,"path":"objects/Obj_MetalBlockLong/Obj_MetalBlockLong.yy",},
     {"name":"Obj_NailShip","order":2,"path":"objects/Obj_NailShip/Obj_NailShip.yy",},
@@ -33,6 +35,7 @@
     {"name":"SpaceBridgeTileSprite","order":1,"path":"sprites/SpaceBridgeTileSprite/SpaceBridgeTileSprite.yy",},
     {"name":"Spr_BossVoid","order":3,"path":"sprites/Spr_BossVoid/Spr_BossVoid.yy",},
     {"name":"Spr_DeathBlockVoid","order":1,"path":"sprites/Spr_DeathBlockVoid/Spr_DeathBlockVoid.yy",},
+    {"name":"Spr_LeechTentacle","order":2,"path":"sprites/Spr_LeechTentacle/Spr_LeechTentacle.yy",},
     {"name":"Spr_LightButton","order":2,"path":"sprites/Spr_LightButton/Spr_LightButton.yy",},
     {"name":"Spr_Mazzer","order":1,"path":"sprites/Spr_Mazzer/Spr_Mazzer.yy",},
     {"name":"Spr_MetalBlock","order":1,"path":"sprites/Spr_MetalBlock/Spr_MetalBlock.yy",},

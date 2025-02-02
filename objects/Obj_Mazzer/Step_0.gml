@@ -8,6 +8,11 @@ var colors = [c_red, c_orange, c_yellow, c_lime, c_blue, c_fuchsia];
 color1 = colors[round((age / 20) % 5)];
 }
 
+// Hello there, developer ahead of me.
+// I tried my hardest to make this damnable object spin.
+// I failed.
+// But if you wish, you can take my place.
+
 if (dir == "Spinning") {
 spin = sin(age / 20);
 opin = cos(age / 20);
