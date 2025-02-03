@@ -1,6 +1,6 @@
 // Inherit the parent event
 event_inherited();
-
+if !global.paused {
 if (collision_line(x, y, x, y + hoverHeight, [Obj_Wall, Obj_EnemyOnlyBlock, Obj_Slope, autoTileCol], false, true)) {
 y--;
 } else if (!collision_point(x, y + hoverHeight + 1, [Obj_Wall, Obj_EnemyOnlyBlock, Obj_Slope, autoTileCol], false, true)) {
@@ -55,4 +55,5 @@ mouth4 = instance_create_layer(x, y, "Instances_1", Obj_LeechMouth, { owner : id
 
 age++;
 
+}
 drawy = y+ sin(age/25) * 4

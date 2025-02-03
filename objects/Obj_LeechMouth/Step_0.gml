@@ -2,7 +2,7 @@ if (!instance_exists(owner)) {
 instance_destroy();
 }
 
-if instance_exists(owner) {
+if instance_exists(owner) and !global.paused {
 var nearx = true;
 var neary = true;
 if ((x + 1 < targX || x - 1 > targX)) {
