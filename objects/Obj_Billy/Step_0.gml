@@ -197,15 +197,17 @@ if grounded and about_to_jump and !dead {
 	if !audio_is_playing(Snd_jump) audio_play_sound(Snd_jump,0,0)
 	yspeed = -jumpspeed
 	about_to_jump = false
+	has_double_jumped = true;
 }
 
-if grounded {koyote_time = base_koyote_time; }
+if grounded {koyote_time = base_koyote_time; has_double_jumped = false; }
 //if (grounded && global.character == 2) {koyote_time = 90; canDoubleJump = true; }
 if (!grounded && koyote_time > 0 && !canDoubleJump) then koyote_time-=1;
-if (!grounded && koyote_time > 0 && canDoubleJump) { koyote_time--; }
+if (!grounded && koyote_time > 0 && canDoubleJump && has_double_jumped) { koyote_time--; }
 
 if !grounded and koyote_time > 0 and global.key_Z_pressed and !dead and GameObject.unpausetimer = 0{
 	if !audio_is_playing(Snd_jump) audio_play_sound(Snd_jump,0,0)
+	has_double_jumped = true;
 	yspeed = -jumpspeed
 	about_to_jump = false
 	
@@ -288,6 +290,7 @@ if instance_exists(Obj_WallJumpEffect) {
 
 if grounded and global.key_Z_pressed and !dead and GameObject.unpausetimer = 0 {
 if !audio_is_playing(Snd_jump) audio_play_sound(Snd_jump,0,0)
+has_double_jumped = true;
 yspeed = -jumpspeed
 grounded = false
 }

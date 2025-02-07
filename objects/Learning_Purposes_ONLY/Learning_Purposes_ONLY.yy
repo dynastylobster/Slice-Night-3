@@ -1,22 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_FlameSliceCollide",
+  "%Name":"Learning_Purposes_ONLY",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_FlameSliceCollide",
+  "name":"Learning_Purposes_ONLY",
   "overriddenProperties":[],
   "parent":{
     "name":"Dont Place",
     "path":"folders/Objects/Dont Place.yy",
   },
-  "parentObjectId":{
-    "name":"Obj_SliceSide",
-    "path":"objects/Obj_SliceSide/Obj_SliceSide.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -35,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_FlameSliceCollide",
-    "path":"sprites/Spr_FlameSliceCollide/Spr_FlameSliceCollide.yy",
+    "name":"Spr_BillyIdle",
+    "path":"sprites/Spr_BillyIdle/Spr_BillyIdle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

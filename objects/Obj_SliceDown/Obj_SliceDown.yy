@@ -8,9 +8,7 @@
   ],
   "managed":true,
   "name":"Obj_SliceDown",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_SliceParent","path":"objects/Obj_SliceParent/Obj_SliceParent.yy",},"propertyId":{"name":"damageType","path":"objects/Obj_SliceParent/Obj_SliceParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Down\"",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Dont Place",
     "path":"folders/Objects/Dont Place.yy",

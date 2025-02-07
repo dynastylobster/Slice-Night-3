@@ -1,22 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_FlameSliceCollide",
+  "%Name":"Obj_ProjectileParent",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_FlameSliceCollide",
+  "name":"Obj_ProjectileParent",
   "overriddenProperties":[],
   "parent":{
     "name":"Dont Place",
     "path":"folders/Objects/Dont Place.yy",
   },
-  "parentObjectId":{
-    "name":"Obj_SliceSide",
-    "path":"objects/Obj_SliceSide/Obj_SliceSide.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,14 +25,17 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"damageType","filters":[],"listItems":[
+        "\"Normal\"",
+        "\"Down\"",
+        "\"Flame\"",
+      ],"multiselect":false,"name":"damageType","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Normal\"","varType":6,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr_FlameSliceCollide",
-    "path":"sprites/Spr_FlameSliceCollide/Spr_FlameSliceCollide.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
