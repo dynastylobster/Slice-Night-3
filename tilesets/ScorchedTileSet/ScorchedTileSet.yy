@@ -1,0 +1,55 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"ScorchedTileSet",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        1,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,18,18,18,18,5,5,5,5,20,20,20,20,33,33,33,33,76,74,4,4,
+        6,6,34,34,32,32,62,73,90,75,48,
+      ],},
+    {"$GMAutoTileSet":"","%Name":"autotile_2","closed_edge":false,"name":"autotile_2","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        8,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,25,25,25,25,12,12,12,12,27,27,27,27,40,40,40,40,83,81,
+        11,11,13,13,41,41,39,39,69,80,97,82,55,
+      ],},
+    {"$GMAutoTileSet":"","%Name":"autotile_3","closed_edge":false,"name":"autotile_3","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        89,101,101,101,101,101,101,101,101,101,101,101,101,101,101,101,100,100,100,100,87,87,87,87,102,102,102,
+        102,115,115,115,115,101,101,86,86,88,88,116,116,114,114,101,101,101,101,101,
+      ],},
+    {"$GMAutoTileSet":"","%Name":"autotile_4","closed_edge":false,"name":"autotile_4","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        96,108,108,108,108,108,108,108,108,108,108,108,108,108,108,108,107,107,107,107,94,94,94,94,109,109,109,
+        109,122,122,122,122,108,108,93,93,95,95,123,123,121,121,108,108,108,108,108,
+      ],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"ScorchedTileSet",
+  "out_columns":14,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"ScorchedTileSprite",
+    "path":"sprites/ScorchedTileSprite/ScorchedTileSprite.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":196,
+}
