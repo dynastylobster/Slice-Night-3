@@ -8,12 +8,17 @@
   ],
   "managed":true,
   "name":"Obj_SliceParent",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_ProjectileParent","path":"objects/Obj_ProjectileParent/Obj_ProjectileParent.yy",},"propertyId":{"name":"damageType","path":"objects/Obj_ProjectileParent/Obj_ProjectileParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Normal\"",},
+  ],
   "parent":{
     "name":"Dont Place",
     "path":"folders/Objects/Dont Place.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_ProjectileParent",
+    "path":"objects/Obj_ProjectileParent/Obj_ProjectileParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,13 +32,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"damageType","filters":[],"listItems":[
-        "\"Normal\"",
-        "\"Down\"",
-        "\"Flame\"",
-      ],"multiselect":false,"name":"damageType","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Normal\"","varType":6,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
