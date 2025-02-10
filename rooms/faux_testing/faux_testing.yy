@@ -6,6 +6,7 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
+    {"name":"inst_1171AC97_1_2","path":"rooms/faux_testing/faux_testing.yy",},
     {"name":"inst_574813D9","path":"rooms/faux_testing/faux_testing.yy",},
     {"name":"inst_4E6AABB8","path":"rooms/faux_testing/faux_testing.yy",},
     {"name":"inst_6E01EEA7","path":"rooms/faux_testing/faux_testing.yy",},
@@ -79,7 +80,6 @@
     {"name":"inst_66A2FC10","path":"rooms/faux_testing/faux_testing.yy",},
     {"name":"inst_6FEB3E38","path":"rooms/faux_testing/faux_testing.yy",},
     {"name":"inst_6E6ADA46","path":"rooms/faux_testing/faux_testing.yy",},
-    {"name":"inst_3604BAF3","path":"rooms/faux_testing/faux_testing.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -87,6 +87,7 @@
     {"$GMRBackgroundLayer":"","%Name":"Fg_White","animationFPS":30.0,"animationSpeedType":0,"colour":16777215,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Fg_White","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"Spr_WhiteSquare","path":"sprites/Spr_WhiteSquare/Spr_WhiteSquare.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[],"depth":200,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v1","%Name":"inst_1171AC97_1_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1171AC97_1_2","objectId":{"name":"Obj_Billy","path":"objects/Obj_Billy/Obj_Billy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":432.0,"y":368.0,},
         {"$GMRInstance":"v1","%Name":"inst_574813D9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_574813D9","objectId":{"name":"Obj_Mazzer","path":"objects/Obj_Mazzer/Obj_Mazzer.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_Mazzer","path":"objects/Obj_Mazzer/Obj_Mazzer.yy",},"propertyId":{"name":"dir","path":"objects/Obj_Mazzer/Obj_Mazzer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Up\"",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_Mazzer","path":"objects/Obj_Mazzer/Obj_Mazzer.yy",},"propertyId":{"name":"type","path":"objects/Obj_Mazzer/Obj_Mazzer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Moving (Unbounded)\"",},
@@ -178,7 +179,6 @@
         {"$GMRInstance":"v1","%Name":"inst_66A2FC10","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_66A2FC10","objectId":{"name":"Obj_EnemyOnlyBlock","path":"objects/Obj_EnemyOnlyBlock/Obj_EnemyOnlyBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":112.0,"y":448.0,},
         {"$GMRInstance":"v1","%Name":"inst_6FEB3E38","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6FEB3E38","objectId":{"name":"Obj_EnemyOnlyBlock","path":"objects/Obj_EnemyOnlyBlock/Obj_EnemyOnlyBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":112.0,"y":432.0,},
         {"$GMRInstance":"v1","%Name":"inst_6E6ADA46","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6E6ADA46","objectId":{"name":"Obj_Leech","path":"objects/Obj_Leech/Obj_Leech.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1024.0,"y":288.0,},
-        {"$GMRInstance":"v1","%Name":"inst_3604BAF3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3604BAF3","objectId":{"name":"Obj_Billy","path":"objects/Obj_Billy/Obj_Billy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":368.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_FG","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_FG","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":114,"TileCompressedData":[
           -85,0,-29,-2147483648,-85,0,-29,-2147483648,-85,0,-29,-2147483648,-85,0,-29,-2147483648,-85,0,-29,-2147483648,

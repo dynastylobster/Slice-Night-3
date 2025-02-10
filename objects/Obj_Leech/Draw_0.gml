@@ -10,6 +10,6 @@ gpu_set_blendmode(bm_normal)
 
 if (object_exists(Obj_Billy)) {
 if (distance_to_object(Obj_Billy) <= 50) {
-	draw_sprite_pos(Spr_LeechTentacle, 0, x - 3, y, x + 3, y, Obj_Billy.x + 3, Obj_Billy.y, Obj_Billy.x - 3, Obj_Billy.y, 1);
+	draw_line_width_color(x, y, Obj_Billy.x, Obj_Billy.y, 1 + age % 3, c_red, c_red);
 }
 }
