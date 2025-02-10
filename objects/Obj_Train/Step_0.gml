@@ -26,6 +26,7 @@ if place_meeting(x+xspeed*2,y+4,[Obj_Wall, autoTileCol]) {
 		audio_play_sound(Snd_EnemyExplode,0,0,global.SFXvolume*1.25);
 		
 		if instance_exists(Obj_Billy) {
+		Obj_Billy.x -= xspeed*3
 		Obj_Billy.grav = 0.225
 		Obj_Billy.image_alpha = 1;
 		Obj_Billy.mask_index = Spr_BillyIdle

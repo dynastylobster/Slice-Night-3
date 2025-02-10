@@ -22,6 +22,7 @@
     {"name":"Robot_Tutorial","order":2,"path":"rooms/Robot_Tutorial/Robot_Tutorial.yy",},
     {"name":"SecondServingStory4","order":6,"path":"rooms/SecondServingStory4/SecondServingStory4.yy",},
     {"name":"Blackscreen","order":2,"path":"scripts/Blackscreen/Blackscreen.yy",},
+    {"name":"HitAnyone","order":4,"path":"scripts/HitAnyone/HitAnyone.yy",},
     {"name":"Near","order":1,"path":"scripts/Near/Near.yy",},
     {"name":"Thermodynamics","order":3,"path":"scripts/Thermodynamics/Thermodynamics.yy",},
     {"name":"Snd_AmberVoice","order":2,"path":"sounds/Snd_AmberVoice/Snd_AmberVoice.yy",},

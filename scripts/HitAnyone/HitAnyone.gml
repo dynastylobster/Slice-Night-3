@@ -1,3 +1,5 @@
+// Script assets have changed for v2.3.0 see
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function HitAnyone() {
 if (!array_contains(other.instancesHit, id)) {
 
@@ -31,4 +33,7 @@ if (damage > 0) { instance_create_depth(x,y,depth,Obj_EnemyHurtEffect); }
 self.hp -= damage;
 array_push(other.instancesHit, id);
 }
+if instance_exists(Obj_SliceDown) {
+		Obj_SliceDown.done_slicing = true
+	}
 }
