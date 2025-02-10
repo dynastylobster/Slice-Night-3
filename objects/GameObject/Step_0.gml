@@ -142,7 +142,7 @@ var humanCostumes = ["Billy", "Miley", "Billy (Fox)", "Miley (Fox)"];
 var robotCostumes = [];
 if (global.motuunlocked) { array_push(robotCostumes, "Motu"); }
 var coyoteCostumes = [];
-if (global.voidunlocked) { array_push(coyoteCostumes, "Void"); }
+if (global.voidunlocked) { array_push(coyoteCostumes, "Void", "Void (Clown)"); }
 
 var acceptableCostumes = [humanCostumes, robotCostumes, coyoteCostumes];
 

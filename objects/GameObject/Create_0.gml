@@ -3,7 +3,7 @@ hpsprite = Spr_HP
 global.motu = false
 
 characters = ["Human", "Robot", "Coyote"]
-costumes = ["Billy", "Miley", "Billy (Fox)", "Miley (Fox)", "Motu", "Void"];
+costumes = ["Billy", "Miley", "Billy (Fox)", "Miley (Fox)", "Motu", "Void", "Void (Clown)"];
 //charDesc = ["Human.\nNothing special.", "Robotic.\nMoves slower, but attacks harder.\nIncreased trick speed, cannot flameslice.", "Coyote.\nMassively increased movement abilities.\nIneffective damage."];
 
 // load the settings file and change these to that!

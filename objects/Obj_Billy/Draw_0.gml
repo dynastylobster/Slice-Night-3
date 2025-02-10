@@ -142,6 +142,17 @@ if global.costume = "Void" {
 	if sprite_index = Spr_BillySliceDown sprite_index = Spr_VoidSliceDown
 	if sprite_index = Spr_BillySliceSide sprite_index = Spr_VoidSliceSide
 	}
+if global.costume = "Void (Clown)" {
+		if sprite_index = Spr_BillyDie then sprite_index = Spr_VoidDieC
+		if sprite_index = Spr_BillyWalk sprite_index = Spr_VoidWalkC
+	if sprite_index = Spr_BillyRun then sprite_index = Spr_VoidRunC
+	if sprite_index = Spr_BillyIdle sprite_index = Spr_VoidIdleC
+	if sprite_index = Spr_BillyJump sprite_index = Spr_VoidJumpC
+	if sprite_index = Spr_BillyWallSlide sprite_index = Spr_VoidWallSlideC
+	if sprite_index = Spr_BillyHurt sprite_index = Spr_VoidHurtC
+	if sprite_index = Spr_BillySliceDown sprite_index = Spr_VoidSliceDownC
+	if sprite_index = Spr_BillySliceSide sprite_index = Spr_VoidSliceSideC
+	}
 
 
 

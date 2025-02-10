@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Temperature","order":4,"path":"folders/Objects/Gimmicks/Temperature.yy",},
+    {"name":"ClownVoid","order":1,"path":"folders/Sprites/Billy Sprites/VoidPlayerSprites/ClownVoid.yy",},
     {"name":"Void Boss","order":5,"path":"folders/Sprites/Boss Sprites/Void Boss.yy",},
   ],
   "ResourceOrderSettings":[
@@ -52,8 +53,17 @@
     {"name":"Spr_VoidBullet2","order":2,"path":"sprites/Spr_VoidBullet2/Spr_VoidBullet2.yy",},
     {"name":"Spr_VoidEye","order":4,"path":"sprites/Spr_VoidEye/Spr_VoidEye.yy",},
     {"name":"Spr_VoidHand","order":5,"path":"sprites/Spr_VoidHand/Spr_VoidHand.yy",},
+    {"name":"Spr_VoidHurtC","order":1,"path":"sprites/Spr_VoidHurtC/Spr_VoidHurtC.yy",},
+    {"name":"Spr_VoidIdleC","order":2,"path":"sprites/Spr_VoidIdleC/Spr_VoidIdleC.yy",},
+    {"name":"Spr_VoidJumpC","order":3,"path":"sprites/Spr_VoidJumpC/Spr_VoidJumpC.yy",},
     {"name":"Spr_VoidKnife","order":1,"path":"sprites/Spr_VoidKnife/Spr_VoidKnife.yy",},
     {"name":"Spr_VoidKnife2","order":6,"path":"sprites/Spr_VoidKnife2/Spr_VoidKnife2.yy",},
+    {"name":"Spr_VoidRunC","order":4,"path":"sprites/Spr_VoidRunC/Spr_VoidRunC.yy",},
+    {"name":"Spr_VoidSliceDownC","order":5,"path":"sprites/Spr_VoidSliceDownC/Spr_VoidSliceDownC.yy",},
+    {"name":"Spr_VoidSliceSideC","order":6,"path":"sprites/Spr_VoidSliceSideC/Spr_VoidSliceSideC.yy",},
+    {"name":"Spr_VoidTailC","order":7,"path":"sprites/Spr_VoidTailC/Spr_VoidTailC.yy",},
+    {"name":"Spr_VoidWalkC","order":8,"path":"sprites/Spr_VoidWalkC/Spr_VoidWalkC.yy",},
+    {"name":"Spr_VoidWallSlideC","order":9,"path":"sprites/Spr_VoidWallSlideC/Spr_VoidWallSlideC.yy",},
     {"name":"Spr_WhiteSquare","order":1,"path":"sprites/Spr_WhiteSquare/Spr_WhiteSquare.yy",},
     {"name":"LavaTileSetHot","order":5,"path":"tilesets/LavaTileSetHot/LavaTileSetHot.yy",},
     {"name":"ScorchedTileSet","order":6,"path":"tilesets/ScorchedTileSet/ScorchedTileSet.yy",},
