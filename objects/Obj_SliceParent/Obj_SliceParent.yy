@@ -34,6 +34,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"instancesHit","filters":[],"listItems":[],"multiselect":false,"name":"instancesHit","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[-4]","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"owner","filters":[],"listItems":[],"multiselect":false,"name":"owner","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Obj_Billy","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
