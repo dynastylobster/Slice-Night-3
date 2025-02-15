@@ -8,9 +8,10 @@
       ],},
   ],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":3,
+    "SerialiseWidth":6,
+    "TileCompressedData":[-2,0,2,38,37,-4,0,2,37,38,-8,0,],
+    "TileDataFormat":1,
   },
   "name":"CastlePurpleTileSet",
   "out_columns":9,
