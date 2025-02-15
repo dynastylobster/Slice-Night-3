@@ -18,5 +18,5 @@
   layer_y(layer_get_id("Bg_2"),camera_get_view_y(view_camera[0])/0.94);
  }
  
-    _menux = camera_get_view_x(view_camera[0])+100
+    _menux = camera_get_view_x(view_camera[0])+213
 	_menuy = camera_get_view_y(view_camera[0])+80

@@ -1,3 +1,10 @@
+if !global.paused and !igt_done {
+	igt_time++	
+}
+if !global.paused and !igt_done and instance_exists(Obj_Billy) and room != TitleScreenOptionsRoom{
+	igt_total_time++	
+}
+
 menu_text[6] = "Delete Save File: " + string(global.save) + " (hold)"
 if fading_out = true and fade_timer > 0 {
 	fade_timer--
@@ -104,6 +111,9 @@ if global.music != noone {
 
 if global.key_start and !instance_exists(Obj_Title) {
 global.paused = !global.paused	
+audio_play_sound(Snd_Wizard_TP,0,0,global.SFXvolume/2,0,0.75)
+audio_play_sound(Snd_SliceReverse,0,0,global.SFXvolume,0,0.75)
+audio_play_sound(Snd_Checkpoint,0,0,global.SFXvolume/1.5,0,1)
 menu_index = 0
 }
 
@@ -169,7 +179,7 @@ switch(menuIndex) {
 	case "Resume":
 	global.paused = false;
 	break;
-	case "Change Character":
+	case "Character":
 		var nextChar = (array_get_index(characters, global.character) + 1);
 		try {
 			while (array_length(acceptableCostumes[nextChar]) == 0) {
@@ -180,7 +190,7 @@ switch(menuIndex) {
 			global.costume = acceptableCostumes[array_get_index(characters, global.character)][0];
 			// SAVE TO FILE
 	break;
-	case "Change Costume":
+	case "Costume":
 		var ourCosts = acceptableCostumes[array_get_index(characters, global.character)];
 		var nextCos = (array_get_index(ourCosts, global.costume) + 1)
 			if (nextCos >= array_length(ourCosts)) {
@@ -220,6 +230,9 @@ switch (menuIndex) {
 	case "Button Mapping":
 	global.jumpslicemap = !global.jumpslicemap;
 	break;
+	case "Speedrun IGT":
+	global.igt = !global.igt
+	break;
 	case "VSync":
 	global.vsync = !global.vsync;
 	ini_open("save.ini");
@@ -231,6 +244,10 @@ switch (menuIndex) {
 		if (deletePhase == 6) {
 			// Delete file.
 			// Play scary noise.
+			ini_open("save.ini")
+			ini_section_delete(global.save)
+			ini_close();
+			game_restart();
 			deletePhase = 0;
 		} else {
 			audio_sound_gain(Snd_BillyHurt,2,0);

@@ -132,7 +132,26 @@ draw_sprite_ext(Spr_TerrariaDeathMessage,0,camera_get_view_x(view_camera[0]),cam
 }
 }
 
-
+if global.igt {
+	var _y = camera_get_view_y(view_camera[0])+224
+	var _x = camera_get_view_x(view_camera[0])+213
+	draw_set_halign(fa_center)
+		draw_set_font(UndertaleFont)
+		draw_set_color(c_blue)
+		draw_text(_x,_y,string(floor(igt_time/60/60)mod 60)+":"+string(floor(igt_time/60)mod 60)+":"+string(igt_time mod 100 mod 60))
+		draw_set_color(c_white)
+		draw_text(_x,_y-1,string(floor(igt_time/60/60)mod 60)+":"+string(floor(igt_time/60)mod 60)+":"+string(igt_time mod 100 mod 60))
+		
+		var top_y = camera_get_view_y(view_camera[0])+8
+			draw_set_font(UndertaleFont)
+		draw_set_color(c_blue)
+		draw_text(_x,top_y, string(floor(igt_total_time/60/60/60)) + ":"+string(floor(igt_total_time/60/60)mod 60)+":"+string(floor(igt_total_time/60)mod 60)+":"+string(igt_total_time mod 100 mod 60))
+		draw_set_color(#60FF99)
+		draw_text(_x,top_y-1,string(floor(igt_total_time/60/60/60)) + ":"+string(floor(igt_total_time/60/60)mod 60)+":"+string(floor(igt_total_time/60)mod 60)+":"+string(igt_total_time mod 100 mod 60))
+		
+		
+		draw_set_halign(fa_left)
+}
 
 gpu_set_texfilter(true);
 draw_set_color(c_black)
@@ -146,3 +165,4 @@ draw_set_color(c_white)
 if global.paused {
 draw_sprite_ext(Spr_Savedatadelete,image_index,cam_x,cam_y,deletetimer,1,0,c_white,1);
 	}
+	

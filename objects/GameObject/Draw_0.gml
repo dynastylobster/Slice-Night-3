@@ -96,8 +96,8 @@ if !global.paused {
 	}
 
 if global.paused {
-	draw_set_alpha(0.25)
-	draw_set_color(c_black)
+	draw_set_alpha(0.5)
+	draw_set_color(#230023)
 	draw_rectangle(0,0,room_width,room_height,false)
 	draw_set_color(c_white)
 	draw_set_alpha(1)
@@ -109,15 +109,19 @@ if global.paused {
 	
 	/// Draw code! Woohoo!
 	draw_set_font(UndertaleFont)
+	draw_set_halign(fa_center)
 	var extraText = "";
+	gpu_set_blendmode(bm_add)
+	draw_sprite(Spr_MenuBox,0,_menux-213,_menuy+(_index*16))
+	gpu_set_blendmode(bm_normal)
 	
 	if (menuType == "Start") {
 		for (var i = 0; i < array_length(menuOp); i++) {
 			switch(menuOp[i]) {
-				case "Change Character":
+				case "Character":
 				extraText = (": " +  string(global.character));
 				break;
-				case "Change Costume":
+				case "Costume":
 				extraText = (": " +  string(global.costume));
 				break;
 			}
@@ -145,6 +149,12 @@ if global.paused {
 					} else {
 					extraText = (": <" +  string(int64(global.SFXvolume*100.25)) + "%>");
 					}
+				break;
+				case "Speedrun IGT":
+				var onoff;
+				if global.igt onoff = ": ON"
+				if !global.igt onoff = ": OFF"
+				extraText = string(onoff)
 				break;
 				case "Camera Style":
 				if (global.cameraStyle) {
@@ -194,7 +204,7 @@ if global.paused {
 		extraText = "";
 		}
 	}
-	
+	draw_set_halign(fa_left)
 }
 	
 	

@@ -223,6 +223,7 @@
     {"name":"inst_375C37D9","path":"rooms/Level_Alien1/Level_Alien1.yy",},
     {"name":"inst_6C89B1C5","path":"rooms/Level_Alien1/Level_Alien1.yy",},
     {"name":"inst_6A7C98FB","path":"rooms/Level_Alien1/Level_Alien1.yy",},
+    {"name":"inst_2E12463D","path":"rooms/Level_Alien1/Level_Alien1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -490,6 +491,7 @@
         {"$GMRInstance":"v1","%Name":"inst_375C37D9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_375C37D9","objectId":{"name":"Obj_NailShip","path":"objects/Obj_NailShip/Obj_NailShip.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.598725,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":240.0,},
         {"$GMRInstance":"v1","%Name":"inst_6C89B1C5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6C89B1C5","objectId":{"name":"Obj_NailShip","path":"objects/Obj_NailShip/Obj_NailShip.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":31.045563,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":208.0,},
         {"$GMRInstance":"v1","%Name":"inst_6A7C98FB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A7C98FB","objectId":{"name":"Obj_NailShip","path":"objects/Obj_NailShip/Obj_NailShip.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":16.766459,"scaleX":1.0,"scaleY":1.0,"x":1792.0,"y":464.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2E12463D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E12463D","objectId":{"name":"Obj_Gem","path":"objects/Obj_Gem/Obj_Gem.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":64.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":209,"TileCompressedData":[
           1,19,-9,0,1,17,-4,18,1,19,-29,0,7,17,19,68,69,70,17,19,-19,0,1,53,-4,38,1,23,-22,0,1,37,-5,38,4,39,0,

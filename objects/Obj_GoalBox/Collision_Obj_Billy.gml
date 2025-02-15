@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+GameObject.igt_done = true;
 if !touched {
 	repeat(7) {
 	global.confetti_id += 1

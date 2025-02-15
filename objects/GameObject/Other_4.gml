@@ -1,5 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+if room != currentlevel {
+		igt_time = 0;
+		igt_done = false;
+		currentlevel = room;
+	}
+
 
 if global.secondserving = true then hpsprite = Spr_HPSecondServing
 if global.secondserving = false then hpsprite = Spr_HP

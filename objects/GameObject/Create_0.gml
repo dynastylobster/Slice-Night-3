@@ -1,6 +1,11 @@
 /// @description Set Up controls
 hpsprite = Spr_HP
+global.igt = false;
 global.motu = false
+igt_time = 0;
+igt_total_time = 0;
+igt_done = false;
+currentlevel = room;
 
 characters = ["Human", "Robot", "Coyote"]
 costumes = ["Billy", "Miley", "Billy (Fox)", "Miley (Fox)", "Motu", "Void", "Void (Clown)"];
@@ -11,14 +16,14 @@ global.character = characters[0];
 global.costume = costumes[0];
 
 // "Start"
-menuOp = ["Resume", "Change Character", "Change Costume", "Settings", "Return To Title Screen"];
+menuOp = ["Resume", "Character", "Costume", "Settings", "Return To Title Screen"];
 deletePhase = 0;
 _index = 0;
 menuIndex = menuOp[_index];
 menuType = "Start";
 
 // "Settings"
-settingsSubmenuOp = ["Music Volume", "SFX Volume", "Camera Style", "Button Mapping", "VSync", "Erase Save File", "Main Menu"];
+settingsSubmenuOp = ["Music Volume", "SFX Volume", "Camera Style", "Button Mapping", "VSync", "Speedrun IGT", "Erase Save File", "Main Menu"];
 //global.cameraStyle = true;
 
 
@@ -130,7 +135,7 @@ window_set_position(64,64)
 
 image_speed = 1
 
-    _menux = camera_get_view_x(view_camera[0])+100
+    _menux = camera_get_view_x(view_camera[0])+213
 	_menuy = camera_get_view_y(view_camera[0])+120
 	
 	alarm[3] = 2;
