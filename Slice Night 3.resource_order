@@ -14,6 +14,7 @@
     {"name":"Obj_LeechMouth","order":3,"path":"objects/Obj_LeechMouth/Obj_LeechMouth.yy",},
     {"name":"Obj_Mazzer","order":1,"path":"objects/Obj_Mazzer/Obj_Mazzer.yy",},
     {"name":"Obj_MetalBlockLong","order":1,"path":"objects/Obj_MetalBlockLong/Obj_MetalBlockLong.yy",},
+    {"name":"Obj_Model1Foreshadow","order":7,"path":"objects/Obj_Model1Foreshadow/Obj_Model1Foreshadow.yy",},
     {"name":"Obj_NailShip","order":2,"path":"objects/Obj_NailShip/Obj_NailShip.yy",},
     {"name":"Obj_Petal","order":5,"path":"objects/Obj_Petal/Obj_Petal.yy",},
     {"name":"Obj_PetalGenerator","order":6,"path":"objects/Obj_PetalGenerator/Obj_PetalGenerator.yy",},

@@ -190,6 +190,7 @@
     {"id":{"name":"Obj_model1_defeat","path":"objects/Obj_model1_defeat/Obj_model1_defeat.yy",},},
     {"id":{"name":"Obj_Model1_Scene","path":"objects/Obj_Model1_Scene/Obj_Model1_Scene.yy",},},
     {"id":{"name":"Obj_Model1Boss","path":"objects/Obj_Model1Boss/Obj_Model1Boss.yy",},},
+    {"id":{"name":"Obj_Model1Foreshadow","path":"objects/Obj_Model1Foreshadow/Obj_Model1Foreshadow.yy",},},
     {"id":{"name":"Obj_MotuAfterImage","path":"objects/Obj_MotuAfterImage/Obj_MotuAfterImage.yy",},},
     {"id":{"name":"Obj_MotuBoss_Defeat","path":"objects/Obj_MotuBoss_Defeat/Obj_MotuBoss_Defeat.yy",},},
     {"id":{"name":"Obj_MotuBoss","path":"objects/Obj_MotuBoss/Obj_MotuBoss.yy",},},
