@@ -1,6 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
+shiny = irandom_range(1,100)
+if shiny = 1 {
+	sprite_index = Spr_MenaceOrbShiny;	
+}
+epic = irandom_range(1,1000)
+if epic {
+	sprite_index = Spr_MenaceOrbEpic
+}
 hp = 2
 if belongsToWhizyard 
 {	

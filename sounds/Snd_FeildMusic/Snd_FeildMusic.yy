@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Snd_FeildMusic",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":63.36,
+  "name":"Snd_FeildMusic",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"Snd_FeildMusic.ogg",
+  "type":1,
+  "volume":1.0,
+}

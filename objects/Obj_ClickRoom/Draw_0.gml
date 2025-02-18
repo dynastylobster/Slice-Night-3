@@ -56,9 +56,9 @@ if place_meeting(x,y,Obj_ButtonSelect) {
 
 if menuthing = "file1" or menuthing = "file2" or menuthing = "file3" {
 	draw_set_color(c_blue)
-	if image_index >= 1 { draw_text(x+sprite_width+5+16,y+1,"Clears:"+string(totalstage)+"/34"); }
+	if image_index >= 1 { draw_text(x+sprite_width+5+16,y+1,"Clears:"+string(totalstage)+"/35"); }
 	if image_index >= 1 { draw_text(x+sprite_width+81+16,y+1,"?:"+string(totalsecret)+"/6");	}
 	draw_set_color(c_white)
-		if image_index >= 1 { draw_text(x+sprite_width+5+16,y,"Clears:"+string(totalstage)+"/34"); }
+		if image_index >= 1 { draw_text(x+sprite_width+5+16,y,"Clears:"+string(totalstage)+"/35"); }
 	if image_index >= 1 { draw_text(x+sprite_width+81+16,y,"?:"+string(totalsecret)+"/6");	}
 		}

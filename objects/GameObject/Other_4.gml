@@ -1,5 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+randomize();
+var trampocolor = choose(Spr_TrampoMega,Spr_TrampoMega,Spr_TrampoMegaP)
+if instance_exists(Obj_TrampoMega) {
+	Obj_TrampoMega.sprite_index = trampocolor;
+}
+
 if room != currentlevel {
 		igt_time = 0;
 		igt_done = false;
