@@ -1,5 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-cooldown = 30;
-onscreen = false
-CheckOnscreen();
+if gold sprite_index = Spr_SpikesGold	

@@ -6,7 +6,7 @@ if shiny = 1 {
 	sprite_index = Spr_MenaceOrbShiny;	
 }
 epic = irandom_range(1,1000)
-if epic {
+if epic = 1 {
 	sprite_index = Spr_MenaceOrbEpic
 }
 hp = 2
