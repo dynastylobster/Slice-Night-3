@@ -1,3 +1,7 @@
+if global.secondserving {
+	global.motuunlocked = true
+}
+
 if !global.paused and !igt_done {
 	igt_time++	
 }
