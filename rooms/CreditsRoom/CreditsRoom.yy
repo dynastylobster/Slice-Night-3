@@ -15,6 +15,7 @@
     {"name":"inst_7C8BF730","path":"rooms/CreditsRoom/CreditsRoom.yy",},
     {"name":"inst_3AD3EE65","path":"rooms/CreditsRoom/CreditsRoom.yy",},
     {"name":"inst_D178A11","path":"rooms/CreditsRoom/CreditsRoom.yy",},
+    {"name":"inst_3EB936E3","path":"rooms/CreditsRoom/CreditsRoom.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -36,6 +37,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"propertyId":{"name":"menuthing","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Start Game\"",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"propertyId":{"name":"locked","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":1.0,"x":320.0,"y":96.0,},
+        {"$GMRInstance":"v1","%Name":"inst_3EB936E3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3EB936E3","objectId":{"name":"Obj_Subtitles","path":"objects/Obj_Subtitles/Obj_Subtitles.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":16.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_2","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_301AAD0E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_301AAD0E","objectId":{"name":"Obj_TheEnd","path":"objects/Obj_TheEnd/Obj_TheEnd.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":218.0,"y":114.0,},

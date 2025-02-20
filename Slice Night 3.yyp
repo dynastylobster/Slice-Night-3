@@ -261,6 +261,7 @@
     {"id":{"name":"Obj_SpeedDeathBlock","path":"objects/Obj_SpeedDeathBlock/Obj_SpeedDeathBlock.yy",},},
     {"id":{"name":"Obj_Spikes","path":"objects/Obj_Spikes/Obj_Spikes.yy",},},
     {"id":{"name":"Obj_SpikeWall","path":"objects/Obj_SpikeWall/Obj_SpikeWall.yy",},},
+    {"id":{"name":"Obj_Subtitles","path":"objects/Obj_Subtitles/Obj_Subtitles.yy",},},
     {"id":{"name":"Obj_SunImplode","path":"objects/Obj_SunImplode/Obj_SunImplode.yy",},},
     {"id":{"name":"Obj_TemperatureZone","path":"objects/Obj_TemperatureZone/Obj_TemperatureZone.yy",},},
     {"id":{"name":"Obj_TheEnd","path":"objects/Obj_TheEnd/Obj_TheEnd.yy",},},

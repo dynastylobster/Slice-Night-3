@@ -18,6 +18,7 @@
     {"name":"Obj_NailShip","order":2,"path":"objects/Obj_NailShip/Obj_NailShip.yy",},
     {"name":"Obj_Petal","order":5,"path":"objects/Obj_Petal/Obj_Petal.yy",},
     {"name":"Obj_PetalGenerator","order":6,"path":"objects/Obj_PetalGenerator/Obj_PetalGenerator.yy",},
+    {"name":"Obj_Subtitles","order":5,"path":"objects/Obj_Subtitles/Obj_Subtitles.yy",},
     {"name":"Obj_SunImplode","order":3,"path":"objects/Obj_SunImplode/Obj_SunImplode.yy",},
     {"name":"Obj_TemperatureZone","order":2,"path":"objects/Obj_TemperatureZone/Obj_TemperatureZone.yy",},
     {"name":"Obj_VoidBullet","order":1,"path":"objects/Obj_VoidBullet/Obj_VoidBullet.yy",},
