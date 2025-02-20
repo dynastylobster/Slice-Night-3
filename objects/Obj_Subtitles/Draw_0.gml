@@ -1,5 +1,5 @@
 if (song == Snd_BalladOfDisparCredits) {
- switch(audio_sound_get_track_position(s)) {
+ switch(floor(audio_sound_get_track_position(s))) {
 	case 1:
 		w = "I talk about my life and I preach about my pain";
 	break;
@@ -10,7 +10,7 @@ if (song == Snd_BalladOfDisparCredits) {
 		w = "I'm horrified that you endured so much more"
 	break;
 	case 16:
-		w = "I'm guess I couldn't handle... something a lot smaller"
+		w = "I guess I couldn't handle... something a lot smaller"
 	break;
 	case 20:
 		w = "You..."
@@ -54,6 +54,10 @@ if (song == Snd_BalladOfDisparCredits) {
 	}
 }
 if (w != "") {
+	draw_set_color(#00132F)
+	draw_set_alpha(0.75)
+	draw_rectangle(0,227,426,250,false)
+	draw_set_alpha(1);
 	var text_x = camera_get_view_x(view_camera[0]) + 214;
 	var text_y = camera_get_view_y(view_camera[0]) + 220;
 	draw_set_halign(fa_center);

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":212.50658,
+  "duration":208.57896,
   "name":"Snd_BalladOfDisparCredits",
   "parent":{
     "name":"Sounds",
