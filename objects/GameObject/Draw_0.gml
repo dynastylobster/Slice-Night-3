@@ -170,6 +170,10 @@ if global.paused {
 					extraText = ": SMBX Style";
 					}
 				break;
+				case "Toggle Run":
+					if global.togglerun extraText = ": ON"
+					if !global.togglerun extraText = ": OFF"
+				break;
 				case "VSync":
 				extraText = (": " + (global.vsync ? "On" : "Off"));
 				break;

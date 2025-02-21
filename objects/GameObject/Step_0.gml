@@ -19,7 +19,7 @@ if !gamepad_is_connected(0) {
 if global.jumpslicemap = 0 {
 global.key_Z = keyboard_check(ord("Z")) + keyboard_check(vk_space);
 global.key_Z_pressed = keyboard_check_pressed(ord("Z")) + keyboard_check_pressed(vk_space);
-global.key_X = keyboard_check(ord("X")) + keyboard_check(vk_shift) + mouse_check_button(mb_left);
+global.key_X = keyboard_check(ord("X")) + keyboard_check(vk_shift) + mouse_check_button(mb_left)
 global.key_X_pressed = keyboard_check_pressed(ord("X")) + keyboard_check_pressed(vk_shift) + mouse_check_button_pressed(mb_left) ;
 }
 if global.jumpslicemap = 1 {
@@ -31,7 +31,7 @@ global.key_X_pressed = keyboard_check_pressed(ord("Z")) + keyboard_check_pressed
 
 
 global.key_C = keyboard_check(ord("C")) + mouse_check_button(mb_right) +keyboard_check(vk_control);
-global.key_C_pressed = keyboard_check_pressed(ord("C"));
+global.key_C_pressed = keyboard_check_pressed(ord("C")) + mouse_check_button_pressed(mb_right) +keyboard_check_pressed(vk_control) ;
 global.key_right = keyboard_check(vk_right) + keyboard_check(ord("D"));
 global.key_up = keyboard_check(vk_up) + keyboard_check(ord("W"));
 global.key_up_pressed = keyboard_check_pressed(vk_up) + keyboard_check_pressed(ord("W"));
@@ -64,7 +64,8 @@ global.key_X_pressed = keyboard_check_pressed(ord("Z")) + gamepad_button_check_p
 
 
 global.key_C = keyboard_check(ord("C")) + gamepad_button_check(0,gp_face2) + mouse_check_button(mb_right) +keyboard_check(vk_control) + gamepad_button_check(0,gp_shoulderl) + gamepad_button_check(0,gp_shoulderr);
-global.key_C_pressed = keyboard_check_pressed(ord("C")) + gamepad_button_check_pressed(0,gp_face2);
+global.key_C_pressed = keyboard_check_pressed(ord("C")) + mouse_check_button_pressed(mb_right) +keyboard_check_pressed(vk_control) + gamepad_button_check_pressed(0,gp_face2) + gamepad_button_check_pressed(0,gp_shoulderl) + gamepad_button_check_pressed(0,gp_shoulderr) ;
+//keyboard_check_pressed(ord("C")) + mouse_check_button_pressed(mb_right) +keyboard_check_pressed(vk_control)
 global.key_right = keyboard_check(vk_right) + gamepad_button_check(0,gp_padr) + keyboard_check(ord("D"));
 global.key_left = keyboard_check(vk_left) + gamepad_button_check(0,gp_padl) + keyboard_check(ord("A"));
 global.key_up = keyboard_check(vk_up) + gamepad_button_check(0,gp_padu) + keyboard_check(ord("W"));
@@ -230,6 +231,13 @@ switch (menuIndex) {
 	ini_write_real("Prefrence", "CameraStyle", global.cameraStyle)
 	ini_close()
 	// save it
+	break;
+	case "Toggle Run":
+	global.togglerun = !global.togglerun
+	ini_open("Save.ini")
+	ini_write_real("Prefrence", "togglerun", global.togglerun);
+	ini_close();
+	
 	break;
 	case "Button Mapping":
 	global.jumpslicemap = !global.jumpslicemap;

@@ -1,4 +1,7 @@
 /// @description Set Up controls
+ini_open("save.ini")
+global.togglerun = ini_read_real("Prefrence","togglerun",false);
+ini_close();
 hpsprite = Spr_HP
 global.igt = false;
 global.motu = false
@@ -23,7 +26,7 @@ menuIndex = menuOp[_index];
 menuType = "Start";
 
 // "Settings"
-settingsSubmenuOp = ["Music Volume", "SFX Volume", "Camera Style", "Button Mapping", "VSync", "Speedrun IGT", "Erase Save File", "Main Menu"];
+settingsSubmenuOp = ["Music Volume", "SFX Volume", "Camera Style", "Button Mapping", "Toggle Run", "VSync", "Speedrun IGT", "Erase Save File", "Main Menu"];
 //global.cameraStyle = true;
 
 

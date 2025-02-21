@@ -263,11 +263,12 @@ if running_timer > 0 and grounded {
 	if facing = -1 and xspeed < -1 and global.key_left {running = true}
 } */
 
+if !global.togglerun {
+
 	if !global.key_C running = false
 if !instance_exists(Obj_WallJumpEffect){
 	if global.key_C and grounded running = true
 	} else {
-
 
 if Obj_WallJumpEffect.x < x {
 		global.key_left = false
@@ -276,6 +277,23 @@ if Obj_WallJumpEffect.x < x {
 		global.key_right = false
 	}	
 }
+
+} else {
+	if global.key_C_pressed 
+	{
+		if grounded or bouncing
+		running = !running
+	} else if instance_exists(Obj_WallJumpEffect) {
+if Obj_WallJumpEffect.x < x {
+		global.key_left = false
+	}	
+	if Obj_WallJumpEffect.x > x {
+		global.key_right = false
+	}	
+
+
+}
+	}
 
 //walljump fix
 if instance_exists(Obj_WallJumpEffect) {
