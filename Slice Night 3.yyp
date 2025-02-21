@@ -625,6 +625,8 @@
     {"id":{"name":"Spr_BillyShipBullet","path":"sprites/Spr_BillyShipBullet/Spr_BillyShipBullet.yy",},},
     {"id":{"name":"Spr_BillyShipHitbox","path":"sprites/Spr_BillyShipHitbox/Spr_BillyShipHitbox.yy",},},
     {"id":{"name":"Spr_BillyShipShoot","path":"sprites/Spr_BillyShipShoot/Spr_BillyShipShoot.yy",},},
+    {"id":{"name":"Spr_BillyShipShootV2","path":"sprites/Spr_BillyShipShootV2/Spr_BillyShipShootV2.yy",},},
+    {"id":{"name":"Spr_BillyShipV2","path":"sprites/Spr_BillyShipV2/Spr_BillyShipV2.yy",},},
     {"id":{"name":"Spr_BillySliceDown","path":"sprites/Spr_BillySliceDown/Spr_BillySliceDown.yy",},},
     {"id":{"name":"Spr_BillySliceDownF","path":"sprites/Spr_BillySliceDownF/Spr_BillySliceDownF.yy",},},
     {"id":{"name":"Spr_BillySliceSide","path":"sprites/Spr_BillySliceSide/Spr_BillySliceSide.yy",},},

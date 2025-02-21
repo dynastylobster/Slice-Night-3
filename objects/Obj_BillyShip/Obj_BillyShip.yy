@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_BillyShip",
-    "path":"sprites/Spr_BillyShip/Spr_BillyShip.yy",
+    "name":"Spr_BillyShipV2",
+    "path":"sprites/Spr_BillyShipV2/Spr_BillyShipV2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

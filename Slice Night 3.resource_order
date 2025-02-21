@@ -67,6 +67,8 @@
     {"name":"Spr_AquaJumper_Funny","order":5,"path":"sprites/Spr_AquaJumper_Funny/Spr_AquaJumper_Funny.yy",},
     {"name":"Spr_ArmChainBig","order":7,"path":"sprites/Spr_ArmChainBig/Spr_ArmChainBig.yy",},
     {"name":"Spr_ArmChainSmall","order":19,"path":"sprites/Spr_ArmChainSmall/Spr_ArmChainSmall.yy",},
+    {"name":"Spr_BillyShipShootV2","order":2,"path":"sprites/Spr_BillyShipShootV2/Spr_BillyShipShootV2.yy",},
+    {"name":"Spr_BillyShipV2","order":1,"path":"sprites/Spr_BillyShipV2/Spr_BillyShipV2.yy",},
     {"name":"Spr_BladeBuggyShiny","order":31,"path":"sprites/Spr_BladeBuggyShiny/Spr_BladeBuggyShiny.yy",},
     {"name":"Spr_BlockRegenParticle","order":8,"path":"sprites/Spr_BlockRegenParticle/Spr_BlockRegenParticle.yy",},
     {"name":"Spr_BossDefeatExplosion","order":24,"path":"sprites/Spr_BossDefeatExplosion/Spr_BossDefeatExplosion.yy",},

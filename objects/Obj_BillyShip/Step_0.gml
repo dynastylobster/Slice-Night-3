@@ -60,5 +60,5 @@ if Obj_Billy.i_frames and !Obj_Billy.dead {
 
 
 if place_meeting(x,y,Obj_BillyShipBullet) {
-	if image_speed = 0 sprite_index = Spr_BillyShipShoot
-	} else sprite_index = Spr_BillyShip
+	if image_speed = 0 sprite_index = Spr_BillyShipShootV2
+	} else sprite_index = Spr_BillyShipV2
