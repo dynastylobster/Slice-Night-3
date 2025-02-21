@@ -15,7 +15,7 @@ if room = Level_Feild {
   layer_y(layer_get_id("Bg_1"), 16+ clamp((camera_get_view_y(view_camera[0])*0.94),room_height-480,room_height));
   
   if room = Level_Feild {
-	    layer_y(layer_get_id("Bg_1"),(camera_get_view_y(view_camera[0])/0.8) - (camera_get_view_x(view_camera[0])) / 32 );
+	    layer_y(layer_get_id("Bg_1"), 100+ clamp((camera_get_view_y(view_camera[0])*0.94),room_height-480,room_height) - (camera_get_view_x(view_camera[0])) / 32 );
   }
   
  }
