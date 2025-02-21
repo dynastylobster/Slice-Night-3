@@ -5,16 +5,18 @@ if !touched {
 	repeat(7) {
 	global.confetti_id += 1
 	instance_create_layer(x,y,layer,Obj_Confetti)
+	}
 	if sprite_index != Spr_SecretBox
-	{	
-		if image_index = 0 audio_play_sound(Snd_NormalClear,0,0)
-		if image_index = 1 audio_play_sound(Snd_SpecialClear,0,0)
-		if image_index = 2 audio_play_sound(Snd_NightmareClear,0,0)
-		if image_index = 3 audio_play_sound(Snd_Absorption,0,0)
+	{
+		
+		if image_index = 0 audio_play_sound(Snd_NormalClear,0,0,global.musicvolume)
+		if image_index = 1 audio_play_sound(Snd_SpecialClear,0,0,global.musicvolume)
+		if image_index = 2 audio_play_sound(Snd_NightmareClear,0,0,global.musicvolume)
+		if image_index = 3 audio_play_sound(Snd_Absorption,0,0,global.musicvolume)
+		
 		} else {
 		if !audio_is_playing(Snd_SecretClear) {
 	audio_play_sound(Snd_SecretClear,0,0)	}
-	}
 }
 	GameObject.fading_out = true
 	alarm[0] = 270

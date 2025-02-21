@@ -6,3 +6,8 @@ if !global.paused
 			yspeed += grav
 			x+= xspeed*dir
 	}
+if place_meeting(x,y,autoTileCol) {
+audio_play_sound(Snd_BlockBreak,0,0,global.SFXvolume);
+instance_create_depth(x,y,depth,Obj_BerryBoom)
+instance_destroy();	
+}

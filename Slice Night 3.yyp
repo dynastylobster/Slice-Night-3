@@ -355,6 +355,7 @@
     {"id":{"name":"Level_Ice0","path":"rooms/Level_Ice0/Level_Ice0.yy",},},
     {"id":{"name":"Level_Ice1","path":"rooms/Level_Ice1/Level_Ice1.yy",},},
     {"id":{"name":"Level_Ice2","path":"rooms/Level_Ice2/Level_Ice2.yy",},},
+    {"id":{"name":"Level_Ice3","path":"rooms/Level_Ice3/Level_Ice3.yy",},},
     {"id":{"name":"Level_Model1Boss","path":"rooms/Level_Model1Boss/Level_Model1Boss.yy",},},
     {"id":{"name":"Level_Moon1","path":"rooms/Level_Moon1/Level_Moon1.yy",},},
     {"id":{"name":"Level_Moon2","path":"rooms/Level_Moon2/Level_Moon2.yy",},},
@@ -523,6 +524,7 @@
     {"id":{"name":"Bg_ForestHope_stillPurple","path":"sprites/Bg_ForestHope_stillPurple/Bg_ForestHope_stillPurple.yy",},},
     {"id":{"name":"Bg_ForestTrees_0","path":"sprites/Bg_ForestTrees_0/Bg_ForestTrees_0.yy",},},
     {"id":{"name":"Bg_ForestTrees_1","path":"sprites/Bg_ForestTrees_1/Bg_ForestTrees_1.yy",},},
+    {"id":{"name":"Bg_IceCastle","path":"sprites/Bg_IceCastle/Bg_IceCastle.yy",},},
     {"id":{"name":"Bg_IceStill1","path":"sprites/Bg_IceStill1/Bg_IceStill1.yy",},},
     {"id":{"name":"Bg_IceStill2","path":"sprites/Bg_IceStill2/Bg_IceStill2.yy",},},
     {"id":{"name":"Bg_Moon1","path":"sprites/Bg_Moon1/Bg_Moon1.yy",},},
@@ -1055,6 +1057,7 @@
     {"roomId":{"name":"Level_Forest5","path":"rooms/Level_Forest5/Level_Forest5.yy",},},
     {"roomId":{"name":"Level_Feild","path":"rooms/Level_Feild/Level_Feild.yy",},},
     {"roomId":{"name":"BillyCutsceneRoom2B","path":"rooms/BillyCutsceneRoom2B/BillyCutsceneRoom2B.yy",},},
+    {"roomId":{"name":"Level_Ice3","path":"rooms/Level_Ice3/Level_Ice3.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

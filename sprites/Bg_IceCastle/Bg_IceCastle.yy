@@ -1,27 +1,27 @@
 {
   "$GMSprite":"",
-  "%Name":"Bg_IceStill2",
+  "%Name":"Bg_IceCastle",
   "bboxMode":0,
   "bbox_bottom":239,
   "bbox_left":0,
-  "bbox_right":425,
-  "bbox_top":0,
+  "bbox_right":799,
+  "bbox_top":54,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fb8f7342-3a31-4b7a-b791-17bc8c9cc91d","name":"fb8f7342-3a31-4b7a-b791-17bc8c9cc91d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"47a0f16d-5c42-4ac1-995a-b85286a1ba1a","name":"47a0f16d-5c42-4ac1-995a-b85286a1ba1a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":240,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"2ca73c30-51de-41dc-8bae-8d80f7d5c33d","blendMode":0,"displayName":"default","isLocked":false,"name":"2ca73c30-51de-41dc-8bae-8d80f7d5c33d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"a797ae0d-7f52-49b9-8411-ff6958aa99d0","blendMode":0,"displayName":"default","isLocked":false,"name":"a797ae0d-7f52-49b9-8411-ff6958aa99d0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Bg_IceStill2",
+  "name":"Bg_IceCastle",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Bg_IceStill2",
+    "%Name":"Bg_IceCastle",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Bg_IceStill2",
+    "name":"Bg_IceCastle",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fb8f7342-3a31-4b7a-b791-17bc8c9cc91d","path":"sprites/Bg_IceStill2/Bg_IceStill2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1f1e09a9-ecb4-4b87-8dad-84545dac6c53","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"47a0f16d-5c42-4ac1-995a-b85286a1ba1a","path":"sprites/Bg_IceCastle/Bg_IceCastle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"91353203-8f97-4785-a601-64509332b786","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":426,
+  "width":800,
 }
