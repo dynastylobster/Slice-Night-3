@@ -582,7 +582,7 @@ audio_sound_gain(Snd_Bounce,global.SFXvolume,0);
 audio_sound_gain(Snd_Booster,global.SFXvolume,0);
 audio_sound_gain(Snd_Checkpoint,global.SFXvolume,0);
 audio_sound_gain(Snd_Key,global.SFXvolume,0);
-audio_sound_gain(Snd_Step,global.SFXvolume,0);
+audio_sound_gain(Snd_Step,global.SFXvolume*!global.paused,0);
 audio_sound_gain(Snd_Die,global.SFXvolume,0);
 audio_sound_gain(Snd_land,global.SFXvolume,0);
 audio_sound_gain(Snd_BillyHurt,global.SFXvolume,0);

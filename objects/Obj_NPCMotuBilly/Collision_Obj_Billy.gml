@@ -2,5 +2,12 @@
 // You can write your code in this editor
 event_inherited();
 if global.key_X_pressed {
-		global.motu = !global.motu
+		if global.character = "Human" {
+			global.character = "Robot"
+			global.costume = "Motu"
+		} else {
+			global.character = "Human"	
+			global.costume = "Billy (Fox)"
+		}
+	global.motu = !global.motu
 	}

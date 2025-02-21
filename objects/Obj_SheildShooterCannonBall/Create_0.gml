@@ -10,7 +10,7 @@ if homeguy != noone {
 	
 xspeed = 1.5
 age = 0;
-agespeed = age = 0.0725
+agespeed = 0.0725
 agedistance = 32
 starty = y
 yspeed = 0

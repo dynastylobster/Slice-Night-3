@@ -11,7 +11,7 @@ if room = Level_Feild {
   
    if layer_exists(layer_get_id("Bg_1"))
  {
- layer_x(layer_get_id("Bg_1"),camera_get_view_x(view_camera[0])/2);
+ layer_x(layer_get_id("Bg_1"),camera_get_view_x(view_camera[0])/1.25);
   layer_y(layer_get_id("Bg_1"), 16+ clamp((camera_get_view_y(view_camera[0])*0.94),room_height-480,room_height));
   
   if room = Level_Feild {
@@ -21,7 +21,7 @@ if room = Level_Feild {
  }
  
  if layer_exists(layer_get_id("Bg_2")) {
- layer_x(layer_get_id("Bg_2"),camera_get_view_x(view_camera[0])/4);
+ layer_x(layer_get_id("Bg_2"),camera_get_view_x(view_camera[0])/2.5);
   layer_y(layer_get_id("Bg_2"), 72+ clamp((camera_get_view_y(view_camera[0])*0.7),room_height-480,room_height));
   
  }
