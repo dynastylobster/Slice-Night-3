@@ -11,3 +11,7 @@ particleDist = alarm[1]
 if image_index >= 1{
 image_index -= 0.0125	
 }
+
+if global.paused and alarm[1] != -4 {
+		alarm[1]++
+	}
