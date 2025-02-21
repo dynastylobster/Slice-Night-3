@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"Snd_SecretClear.ogg",
   "type":0,
-  "volume":0.2,
+  "volume":1.0,
 }
