@@ -410,8 +410,12 @@ if dashing {
 	xspeed = facing * 5.2;
 	if dashingfor = 90 then dashing = false
 	} else if !inwater grav = 0.225;
+	
 
 }
+
+if !dashing dashingfor = 0;
+
 if place_meeting(x,y,Obj_BillyChargeEffect) and !global.key_X{
 	if charge_timer >= 90 {
 	dashes -= 1
@@ -422,7 +426,7 @@ if place_meeting(x,y,Obj_BillyChargeEffect) and !global.key_X{
 		}
 	}
 }
-if instance_exists(Obj_SliceParent) {
+if global.key_X_pressed and dashing {
 dashing = false
 }
 
