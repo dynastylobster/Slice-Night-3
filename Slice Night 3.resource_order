@@ -31,6 +31,7 @@
     {"name":"faux_testing","order":3,"path":"rooms/faux_testing/faux_testing.yy",},
     {"name":"L_LaserRoom","order":4,"path":"rooms/L_LaserRoom/L_LaserRoom.yy",},
     {"name":"L_Scorch_0","order":7,"path":"rooms/L_Scorch_0/L_Scorch_0.yy",},
+    {"name":"L_Scorch_F","order":8,"path":"rooms/L_Scorch_F/L_Scorch_F.yy",},
     {"name":"L_SpaceBridge","order":5,"path":"rooms/L_SpaceBridge/L_SpaceBridge.yy",},
     {"name":"Level_Feild","order":2,"path":"rooms/Level_Feild/Level_Feild.yy",},
     {"name":"Level_Forest5","order":1,"path":"rooms/Level_Forest5/Level_Forest5.yy",},
@@ -137,5 +138,6 @@
     {"name":"LavaTileSetHot","order":5,"path":"tilesets/LavaTileSetHot/LavaTileSetHot.yy",},
     {"name":"ScorchedTileSet","order":6,"path":"tilesets/ScorchedTileSet/ScorchedTileSet.yy",},
     {"name":"SpaceBrideTileSet","order":2,"path":"tilesets/SpaceBrideTileSet/SpaceBrideTileSet.yy",},
+    {"name":"TileSet34","order":9,"path":"tilesets/TileSet34/TileSet34.yy",},
   ],
 }

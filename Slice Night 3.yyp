@@ -315,6 +315,7 @@
     {"id":{"name":"FinalCutsceneRoom","path":"rooms/FinalCutsceneRoom/FinalCutsceneRoom.yy",},},
     {"id":{"name":"L_LaserRoom","path":"rooms/L_LaserRoom/L_LaserRoom.yy",},},
     {"id":{"name":"L_Scorch_0","path":"rooms/L_Scorch_0/L_Scorch_0.yy",},},
+    {"id":{"name":"L_Scorch_F","path":"rooms/L_Scorch_F/L_Scorch_F.yy",},},
     {"id":{"name":"L_SpaceBridge","path":"rooms/L_SpaceBridge/L_SpaceBridge.yy",},},
     {"id":{"name":"L_Tabuli_0","path":"rooms/L_Tabuli_0/L_Tabuli_0.yy",},},
     {"id":{"name":"L_Tabuli_1","path":"rooms/L_Tabuli_1/L_Tabuli_1.yy",},},
@@ -964,6 +965,7 @@
     {"id":{"name":"TabuliSurfaceTileSet","path":"tilesets/TabuliSurfaceTileSet/TabuliSurfaceTileSet.yy",},},
     {"id":{"name":"TabuliTileSet","path":"tilesets/TabuliTileSet/TabuliTileSet.yy",},},
     {"id":{"name":"TEST_TILE_SET","path":"tilesets/TEST_TILE_SET/TEST_TILE_SET.yy",},},
+    {"id":{"name":"TileSet34","path":"tilesets/TileSet34/TileSet34.yy",},},
     {"id":{"name":"VoidTileSet","path":"tilesets/VoidTileSet/VoidTileSet.yy",},},
   ],
   "resourceType":"GMProject",
@@ -1061,6 +1063,7 @@
     {"roomId":{"name":"Level_Feild","path":"rooms/Level_Feild/Level_Feild.yy",},},
     {"roomId":{"name":"BillyCutsceneRoom2B","path":"rooms/BillyCutsceneRoom2B/BillyCutsceneRoom2B.yy",},},
     {"roomId":{"name":"Level_Ice3","path":"rooms/Level_Ice3/Level_Ice3.yy",},},
+    {"roomId":{"name":"L_Scorch_F","path":"rooms/L_Scorch_F/L_Scorch_F.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
