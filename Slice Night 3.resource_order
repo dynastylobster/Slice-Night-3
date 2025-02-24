@@ -138,6 +138,5 @@
     {"name":"LavaTileSetHot","order":5,"path":"tilesets/LavaTileSetHot/LavaTileSetHot.yy",},
     {"name":"ScorchedTileSet","order":6,"path":"tilesets/ScorchedTileSet/ScorchedTileSet.yy",},
     {"name":"SpaceBrideTileSet","order":2,"path":"tilesets/SpaceBrideTileSet/SpaceBrideTileSet.yy",},
-    {"name":"TileSet34","order":9,"path":"tilesets/TileSet34/TileSet34.yy",},
   ],
 }

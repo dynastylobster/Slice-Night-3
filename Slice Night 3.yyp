@@ -965,7 +965,6 @@
     {"id":{"name":"TabuliSurfaceTileSet","path":"tilesets/TabuliSurfaceTileSet/TabuliSurfaceTileSet.yy",},},
     {"id":{"name":"TabuliTileSet","path":"tilesets/TabuliTileSet/TabuliTileSet.yy",},},
     {"id":{"name":"TEST_TILE_SET","path":"tilesets/TEST_TILE_SET/TEST_TILE_SET.yy",},},
-    {"id":{"name":"TileSet34","path":"tilesets/TileSet34/TileSet34.yy",},},
     {"id":{"name":"VoidTileSet","path":"tilesets/VoidTileSet/VoidTileSet.yy",},},
   ],
   "resourceType":"GMProject",
