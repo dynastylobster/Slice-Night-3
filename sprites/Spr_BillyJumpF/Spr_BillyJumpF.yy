@@ -21,6 +21,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"c46973b8-577c-4700-94f2-03363b4af414","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"c46973b8-577c-4700-94f2-03363b4af414","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f343a5ea-beea-4e15-a1df-da7b54f355cf","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"f343a5ea-beea-4e15-a1df-da7b54f355cf","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_BillyJumpF",
   "nineSlice":null,

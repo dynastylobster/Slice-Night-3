@@ -2,6 +2,14 @@
 // You can write your code in this editor
 draw_self()
 
+		if displaytext = "NEW GAME" {
+		if (GameObject.a_timer) != -4 {
+			if GameObject.a_timer < 1500 or GameObject.a_timer > 4000 {
+					global.costume = "Billy (Fox)"
+				}
+			}
+		}
+
 draw_sprite_ext(sprite_index,2,x,y,-1,1,0,c_white,1)
 draw_sprite_ext(sprite_index,2,x+sprite_width,y,1,1,0,c_white,1)
 draw_set_font(SliceSans)

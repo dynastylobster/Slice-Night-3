@@ -20,6 +20,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"b1cdfdbc-0a85-4289-869e-406ed2356859","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"b1cdfdbc-0a85-4289-869e-406ed2356859","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"918bc2c2-9653-4327-8837-8bb6d8c48613","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"918bc2c2-9653-4327-8837-8bb6d8c48613","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_BillySliceDownF",
   "nineSlice":null,

@@ -1,4 +1,6 @@
 /// @description Set Up controls
+
+a_timer = 0
 ini_open("save.ini")
 global.togglerun = ini_read_real("Prefrence","togglerun",false);
 ini_close();

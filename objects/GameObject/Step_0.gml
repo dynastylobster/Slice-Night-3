@@ -1,3 +1,9 @@
+if room = TitleScreenRoom or room = TitleScreenRoom2 or room = TitleScreenOptionsRoom {
+		if a_timer != -4 {
+			a_timer ++
+		}
+	}
+
 if global.secondserving {
 	global.motuunlocked = true
 }
@@ -196,6 +202,7 @@ switch(menuIndex) {
 			// SAVE TO FILE
 	break;
 	case "Costume":
+		a_timer = -4;
 		var ourCosts = acceptableCostumes[array_get_index(characters, global.character)];
 		var nextCos = (array_get_index(ourCosts, global.costume) + 1)
 			if (nextCos >= array_length(ourCosts)) {
@@ -686,4 +693,10 @@ if global.paused {
 			ini_close();	
 			}	
 	}
+}
+
+if a_timer != -4 {
+if global.key_up_pressed or global.key_down_pressed or global.key_right_pressed or global.key_left_pressed or global.key_Z_pressed or global.key_X_pressed {
+    a_timer += 200		
+  }
 }

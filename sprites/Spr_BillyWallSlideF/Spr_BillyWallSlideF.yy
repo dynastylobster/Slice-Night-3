@@ -20,6 +20,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"0d73a620-7b15-4495-beed-845ce2590397","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"0d73a620-7b15-4495-beed-845ce2590397","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"26ad03d1-d4b6-4206-91b0-60981f903e48","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"26ad03d1-d4b6-4206-91b0-60981f903e48","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_BillyWallSlideF",
   "nineSlice":null,

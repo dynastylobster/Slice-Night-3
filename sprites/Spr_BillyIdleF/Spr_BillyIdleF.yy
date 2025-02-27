@@ -19,7 +19,7 @@
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"cfb26869-d751-437d-be47-cbf58167c916","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"cfb26869-d751-437d-be47-cbf58167c916","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"297daebf-0692-4bce-934a-863816dad538","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"297daebf-0692-4bce-934a-863816dad538","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_BillyIdleF",
   "nineSlice":null,
