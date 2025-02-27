@@ -4,7 +4,7 @@ draw_self()
 
 		if displaytext = "NEW GAME" {
 		if (GameObject.a_timer) != -4 {
-			if GameObject.a_timer < 1500 or GameObject.a_timer > 4000 {
+			if GameObject.a_timer < 1500 or GameObject.a_timer > 2900 {
 					global.costume = "Billy (Fox)"
 				}
 			}
