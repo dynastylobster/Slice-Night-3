@@ -310,4 +310,4 @@ if global.paused {
 
 */
 
-///draw_text(0,0,string(a_timer)) :3c
+draw_text(0,0,string(a_timer))

@@ -697,6 +697,6 @@ if global.paused {
 
 if a_timer != -4 {
 if global.key_up_pressed or global.key_down_pressed or global.key_right_pressed or global.key_left_pressed or global.key_Z_pressed or global.key_X_pressed {
-    a_timer += 200		
+    a_timer += 100	
   }
 }
