@@ -449,6 +449,7 @@
     {"id":{"name":"Snd_LightToTheTempleMusic","path":"sounds/Snd_LightToTheTempleMusic/Snd_LightToTheTempleMusic.yy",},},
     {"id":{"name":"Snd_MicroSteam_music","path":"sounds/Snd_MicroSteam_music/Snd_MicroSteam_music.yy",},},
     {"id":{"name":"Snd_Model1Music","path":"sounds/Snd_Model1Music/Snd_Model1Music.yy",},},
+    {"id":{"name":"Snd_MotusThemeMusic","path":"sounds/Snd_MotusThemeMusic/Snd_MotusThemeMusic.yy",},},
     {"id":{"name":"Snd_NightmareClear","path":"sounds/Snd_NightmareClear/Snd_NightmareClear.yy",},},
     {"id":{"name":"Snd_NightmareOfTheDisturbedMusic","path":"sounds/Snd_NightmareOfTheDisturbedMusic/Snd_NightmareOfTheDisturbedMusic.yy",},},
     {"id":{"name":"Snd_NormalClear","path":"sounds/Snd_NormalClear/Snd_NormalClear.yy",},},

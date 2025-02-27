@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"MotuCutsceneRoom3",
-  "creationCodeFile":"${project_dir}/rooms/MotuCutsceneRoom2/RoomCreationCode.gml",
+  "creationCodeFile":"rooms/MotuCutsceneRoom3/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,

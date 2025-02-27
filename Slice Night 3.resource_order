@@ -50,6 +50,7 @@
     {"name":"Snd_Dink","order":5,"path":"sounds/Snd_Dink/Snd_Dink.yy",},
     {"name":"Snd_FeildMusic","order":11,"path":"sounds/Snd_FeildMusic/Snd_FeildMusic.yy",},
     {"name":"Snd_LazerWarning","order":4,"path":"sounds/Snd_LazerWarning/Snd_LazerWarning.yy",},
+    {"name":"Snd_MotusThemeMusic","order":13,"path":"sounds/Snd_MotusThemeMusic/Snd_MotusThemeMusic.yy",},
     {"name":"Snd_SpaceLevelMusic","order":7,"path":"sounds/Snd_SpaceLevelMusic/Snd_SpaceLevelMusic.yy",},
     {"name":"Snd_SunImplode","order":8,"path":"sounds/Snd_SunImplode/Snd_SunImplode.yy",},
     {"name":"Snd_VoidLazer","order":3,"path":"sounds/Snd_VoidLazer/Snd_VoidLazer.yy",},
