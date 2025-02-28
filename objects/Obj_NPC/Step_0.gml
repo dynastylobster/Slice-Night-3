@@ -42,3 +42,12 @@ text_5 = "AAAAAAAAAAAAAAAAAAAA"
 }
 
 }
+
+if image_index = 7 and room = Level_Boat2 {
+if global.character = "Coyote" {
+		text_0 = "Hi Mom!"
+		text_1 = ":3c"
+		text_2 = " "
+		text_3 = " "
+	}	
+}

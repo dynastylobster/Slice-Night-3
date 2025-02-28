@@ -12,3 +12,4 @@ repeat(7) {
 	}
 	Obj_Billy.x = dest_x
 	Obj_Billy.y = dest_y
+	instance_create_layer(dest_x,dest_y,layer,Obj_WarpBoxEffect)
