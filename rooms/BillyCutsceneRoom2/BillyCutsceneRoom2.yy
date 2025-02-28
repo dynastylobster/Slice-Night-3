@@ -12,6 +12,7 @@
     {"name":"inst_5EC6F75F_1_1_1","path":"rooms/BillyCutsceneRoom2/BillyCutsceneRoom2.yy",},
     {"name":"inst_3E85B8B9_1_1_1","path":"rooms/BillyCutsceneRoom2/BillyCutsceneRoom2.yy",},
     {"name":"inst_2915AAF2_1_1_1","path":"rooms/BillyCutsceneRoom2/BillyCutsceneRoom2.yy",},
+    {"name":"inst_6B06DFB3","path":"rooms/BillyCutsceneRoom2/BillyCutsceneRoom2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -27,6 +28,9 @@
         {"$GMRInstance":"v1","%Name":"inst_2915AAF2_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2915AAF2_1_1_1","objectId":{"name":"Obj_SilentRoomChange","path":"objects/Obj_SilentRoomChange/Obj_SilentRoomChange.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_SilentRoomChange","path":"objects/Obj_SilentRoomChange/Obj_SilentRoomChange.yy",},"propertyId":{"name":"destination","path":"objects/Obj_SilentRoomChange/Obj_SilentRoomChange.yy",},"resource":{"name":"Level_Feild","path":"rooms/Level_Feild/Level_Feild.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Level_Feild",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.75,"scaleY":0.75,"x":368.0,"y":192.0,},
+        {"$GMRInstance":"v1","%Name":"inst_6B06DFB3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B06DFB3","objectId":{"name":"Obj_MileyOverlay","path":"objects/Obj_MileyOverlay/Obj_MileyOverlay.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_MileyOverlay","path":"objects/Obj_MileyOverlay/Obj_MileyOverlay.yy",},"propertyId":{"name":"overlay_img","path":"objects/Obj_MileyOverlay/Obj_MileyOverlay.yy",},"resource":{"name":"Bg_MileyStory6A","path":"sprites/Bg_MileyStory6A/Bg_MileyStory6A.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Bg_MileyStory6A",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":27,"TileCompressedData":[
           -297,0,-4,39,-4,0,1,39,-18,0,-3,39,2,0,39,-8,0,1,39,-13,0,-6,39,4,0,39,0,39,-17,0,-27,39,
