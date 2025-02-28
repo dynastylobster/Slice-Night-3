@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":81.6,
   "name":"Snd_SlicerOfThe7DreamsMusic",
   "parent":{
     "name":"Sounds",
@@ -18,8 +18,8 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":44100,
+  "sampleRate":48000,
   "soundFile":"Snd_SlicerOfThe7DreamsMusic.ogg",
-  "type":0,
+  "type":1,
   "volume":1.0,
 }
