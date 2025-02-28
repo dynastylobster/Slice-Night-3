@@ -908,6 +908,7 @@
     {"id":{"name":"Spr_UpArrow","path":"sprites/Spr_UpArrow/Spr_UpArrow.yy",},},
     {"id":{"name":"Spr_VoidBullet","path":"sprites/Spr_VoidBullet/Spr_VoidBullet.yy",},},
     {"id":{"name":"Spr_VoidBullet2","path":"sprites/Spr_VoidBullet2/Spr_VoidBullet2.yy",},},
+    {"id":{"name":"Spr_VoidDash","path":"sprites/Spr_VoidDash/Spr_VoidDash.yy",},},
     {"id":{"name":"Spr_VoidDie","path":"sprites/Spr_VoidDie/Spr_VoidDie.yy",},},
     {"id":{"name":"Spr_VoidDieC","path":"sprites/Spr_VoidDieC/Spr_VoidDieC.yy",},},
     {"id":{"name":"Spr_VoidEye","path":"sprites/Spr_VoidEye/Spr_VoidEye.yy",},},

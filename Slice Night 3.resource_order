@@ -134,6 +134,7 @@
     {"name":"Spr_TitleScreenStar","order":4,"path":"sprites/Spr_TitleScreenStar/Spr_TitleScreenStar.yy",},
     {"name":"Spr_TrampoMegaP","order":6,"path":"sprites/Spr_TrampoMegaP/Spr_TrampoMegaP.yy",},
     {"name":"Spr_VoidBullet2","order":2,"path":"sprites/Spr_VoidBullet2/Spr_VoidBullet2.yy",},
+    {"name":"Spr_VoidDash","order":2,"path":"sprites/Spr_VoidDash/Spr_VoidDash.yy",},
     {"name":"Spr_VoidEye","order":4,"path":"sprites/Spr_VoidEye/Spr_VoidEye.yy",},
     {"name":"Spr_VoidHand","order":5,"path":"sprites/Spr_VoidHand/Spr_VoidHand.yy",},
     {"name":"Spr_VoidHurtC","order":1,"path":"sprites/Spr_VoidHurtC/Spr_VoidHurtC.yy",},

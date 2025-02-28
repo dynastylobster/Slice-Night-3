@@ -153,6 +153,9 @@ if global.costume = "Void (Clown)" {
 	if sprite_index = Spr_BillySliceDown sprite_index = Spr_VoidSliceDownC
 	if sprite_index = Spr_BillySliceSide sprite_index = Spr_VoidSliceSideC
 	}
+if global.costume = "Void" or global.costume = "Void (Clown)" {
+	if sprite_index = Spr_BillyDash or sprite_index = Spr_BillyRunDash then sprite_index = Spr_VoidDash	
+}
 
 
 
