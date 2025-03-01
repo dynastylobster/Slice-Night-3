@@ -1,5 +1,7 @@
 // Inherit the parent event
 event_inherited();
+onscreen = false;
+Looper = -4
 
 vert = false;
 if (dir == "Up" || dir == "Down") {

@@ -1,6 +1,8 @@
 // Inherit the parent event
 event_inherited();
 
+CheckOnscreen();
+
 if (!global.paused) {
 
 if (rainbow) {
@@ -108,4 +110,17 @@ attackTimer = 0;
 
 attackTimer++;
 age++;
+}
+
+if !global.paused {
+	x+= AutoMoveSpd
+		if instance_place(x,y,Obj_MazzerLoop) {
+		 Looper = instance_place(x,y,Obj_MazzerLoop)
+		}
+	if Looper != -4 {
+		if place_meeting(x,y,Looper) {
+			if onscreen {audio_play_sound(Snd_SliceReverse,0,0,global.SFXvolume);}
+			x += Looper.TpDistance;	
+		}
+	}
 }

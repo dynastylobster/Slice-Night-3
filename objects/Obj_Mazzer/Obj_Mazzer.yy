@@ -52,6 +52,7 @@
     {"$GMObjectProperty":"v1","%Name":"oppositePhase","filters":[],"listItems":[],"multiselect":false,"name":"oppositePhase","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"spinSpeed","filters":[],"listItems":[],"multiselect":false,"name":"spinSpeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"rainbow","filters":[],"listItems":[],"multiselect":false,"name":"rainbow","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"AutoMoveSpd","filters":[],"listItems":[],"multiselect":false,"name":"AutoMoveSpd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

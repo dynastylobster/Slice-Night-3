@@ -1,4 +1,4 @@
 global.secondserving = true
-global.music = Snd_Sn1Remix
+global.music = Snd_MotusThemeMusic
 global.walljump = true
 global.dash = true
