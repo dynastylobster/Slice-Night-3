@@ -20,10 +20,6 @@ depth = layer_get_depth(layer_get_id("GameObjectLayer"))-200
 	depth = layer_get_depth(layer_get_id("Instances_1"))
 }
 
-if sprite_index = Spr_NPCStrawby {
-sprite_index = Spr_NPC 
-image_index = 15
-}
 
 draw_set_halign(fa_left)
 draw_set_color(c_white) 
@@ -31,6 +27,11 @@ draw_set_color(c_white)
 
 depth = layer_get_depth(layer_get_id("Instances_1"))+25
 draw_self();
+
+if sprite_index = Spr_NPCStrawby {
+sprite_index = Spr_NPC 
+image_index = 15
+}
 
 if drawing {
 depth = layer_get_depth(layer_get_id("GameObjectLayer"))

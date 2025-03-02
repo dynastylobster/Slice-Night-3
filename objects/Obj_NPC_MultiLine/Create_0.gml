@@ -1,3 +1,5 @@
+if image_index = 15 sprite_index = Spr_NPCStrawby;
+
 age = 0;
 drawing = false 
 line = 0;

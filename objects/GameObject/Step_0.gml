@@ -200,6 +200,10 @@ switch(menuIndex) {
 			global.character = characters[nextChar];
 			global.costume = acceptableCostumes[array_get_index(characters, global.character)][0];
 			// SAVE TO FILE
+				if instance_exists(Obj_NPCMotuBilly) {
+					if global.character = "Human" {Obj_NPCMotuBilly.image_index = 0; global.motu = false}
+					if global.character = "Robot" {Obj_NPCMotuBilly.image_index = 1; global.motu = true}
+				}
 	break;
 	case "Costume":
 		a_timer = -4;
