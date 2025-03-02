@@ -323,6 +323,7 @@
     {"id":{"name":"L_SpaceBridge","path":"rooms/L_SpaceBridge/L_SpaceBridge.yy",},},
     {"id":{"name":"L_SS_Secret0","path":"rooms/L_SS_Secret0/L_SS_Secret0.yy",},},
     {"id":{"name":"L_SS_Secret1","path":"rooms/L_SS_Secret1/L_SS_Secret1.yy",},},
+    {"id":{"name":"L_SS_Secret2","path":"rooms/L_SS_Secret2/L_SS_Secret2.yy",},},
     {"id":{"name":"L_Tabuli_0","path":"rooms/L_Tabuli_0/L_Tabuli_0.yy",},},
     {"id":{"name":"L_Tabuli_1","path":"rooms/L_Tabuli_1/L_Tabuli_1.yy",},},
     {"id":{"name":"L_Tabuli_2","path":"rooms/L_Tabuli_2/L_Tabuli_2.yy",},},
@@ -1089,6 +1090,7 @@
     {"roomId":{"name":"L_Scorch_1","path":"rooms/L_Scorch_1/L_Scorch_1.yy",},},
     {"roomId":{"name":"L_SS_Secret0","path":"rooms/L_SS_Secret0/L_SS_Secret0.yy",},},
     {"roomId":{"name":"L_SS_Secret1","path":"rooms/L_SS_Secret1/L_SS_Secret1.yy",},},
+    {"roomId":{"name":"L_SS_Secret2","path":"rooms/L_SS_Secret2/L_SS_Secret2.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
