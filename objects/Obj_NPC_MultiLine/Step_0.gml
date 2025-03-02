@@ -9,6 +9,15 @@ if !place_meeting(x,y,Obj_Billy) {
 	}
 	
 if (!global.paused) {
+	if (isGhost && fadingOut && !drawing) {
+		image_alpha -= 0.05;
+		y -= 0.5;
+		image_xscale -= 0.005;
+		image_yscale += 0.005;
+		if (image_alpha <= 0) {
+			instance_destroy();
+		} 
+	}
 if (hasGravity) {
 if !place_meeting(x,y+4,Obj_Wall) {
 yaceel += grav;

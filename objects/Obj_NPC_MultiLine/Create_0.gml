@@ -9,3 +9,4 @@ if instance_exists(Obj_Billy) {
 yaceel = 0;
 grav = 0.45;
 age2 = 0;
+fadingOut = false;
