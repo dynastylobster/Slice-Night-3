@@ -67,6 +67,7 @@
     {"name":"L_SS_Secret0","order":9,"path":"rooms/L_SS_Secret0/L_SS_Secret0.yy",},
     {"name":"L_SS_Secret1","order":10,"path":"rooms/L_SS_Secret1/L_SS_Secret1.yy",},
     {"name":"L_SS_Secret2","order":11,"path":"rooms/L_SS_Secret2/L_SS_Secret2.yy",},
+    {"name":"L_Tabuli_1","order":12,"path":"rooms/L_Tabuli_1/L_Tabuli_1.yy",},
     {"name":"Level_Feild","order":2,"path":"rooms/Level_Feild/Level_Feild.yy",},
     {"name":"Level_Forest5","order":1,"path":"rooms/Level_Forest5/Level_Forest5.yy",},
     {"name":"Level_Ice3","order":4,"path":"rooms/Level_Ice3/Level_Ice3.yy",},
