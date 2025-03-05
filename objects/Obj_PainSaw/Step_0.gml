@@ -50,7 +50,11 @@ y += yspeed
 	} else {
 		if alarm[1] != -4 {
 			x+= xspeed
+			
+			
 			if abs(xspeed) <= 5	xspeed += 0.125*image_xscale;	
+			if image_xscale = 1 xspeed = clamp(xspeed,xspeed,5)
+			if image_xscale = -1 xspeed = clamp(xspeed,-5,xspeed)
 			yspeed = 0;
 		}
 	}
@@ -60,4 +64,9 @@ y += yspeed
 	}
 	
  }
+ 
+ if place_meeting(x+xspeed,y,[Obj_Wall,autoTileCol,Obj_EnemyOnlyBlock]) {
+		 xspeed = 0
+	}
+ 
 }

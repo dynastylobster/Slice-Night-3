@@ -6,8 +6,8 @@ if !activated {
 	} 
 if activated {
 		image_index = 1;
-		draw_sprite_ext(sprite_index,2,x,y,image_xscale,1,age*6,c_white,1);
-		draw_sprite_ext(sprite_index,2,x,y,image_xscale,1,45+age*6,c_white,1);
+		draw_sprite_ext(sprite_index,2,x,y,image_xscale,1,age*-xspeed*0.25,c_white,1);
+		draw_sprite_ext(sprite_index,2,x,y,image_xscale,1,45+age*-xspeed*0.25,c_white,1);
 	}
 
 if place_meeting(x,y,Obj_EnemyHurtEffect) {
