@@ -567,6 +567,8 @@
     {"id":{"name":"Bg_Punkrock_still","path":"sprites/Bg_Punkrock_still/Bg_Punkrock_still.yy",},},
     {"id":{"name":"Bg_rocket","path":"sprites/Bg_rocket/Bg_rocket.yy",},},
     {"id":{"name":"Bg_RocketInside","path":"sprites/Bg_RocketInside/Bg_RocketInside.yy",},},
+    {"id":{"name":"Bg_Scorchcave_0","path":"sprites/Bg_Scorchcave_0/Bg_Scorchcave_0.yy",},},
+    {"id":{"name":"Bg_Scorchcave_Still","path":"sprites/Bg_Scorchcave_Still/Bg_Scorchcave_Still.yy",},},
     {"id":{"name":"Bg_Scorched_1","path":"sprites/Bg_Scorched_1/Bg_Scorched_1.yy",},},
     {"id":{"name":"Bg_Scorched_Still","path":"sprites/Bg_Scorched_Still/Bg_Scorched_Still.yy",},},
     {"id":{"name":"Bg_SecondServing","path":"sprites/Bg_SecondServing/Bg_SecondServing.yy",},},

@@ -115,6 +115,8 @@
     {"name":"Bg_MileyStory6B","order":20,"path":"sprites/Bg_MileyStory6B/Bg_MileyStory6B.yy",},
     {"name":"Bg_MileyStory8","order":21,"path":"sprites/Bg_MileyStory8/Bg_MileyStory8.yy",},
     {"name":"Bg_MileyStory9","order":13,"path":"sprites/Bg_MileyStory9/Bg_MileyStory9.yy",},
+    {"name":"Bg_Scorchcave_0","order":23,"path":"sprites/Bg_Scorchcave_0/Bg_Scorchcave_0.yy",},
+    {"name":"Bg_Scorchcave_Still","order":22,"path":"sprites/Bg_Scorchcave_Still/Bg_Scorchcave_Still.yy",},
     {"name":"Bg_Scorched_1","order":4,"path":"sprites/Bg_Scorched_1/Bg_Scorched_1.yy",},
     {"name":"Bg_Scorched_Still","order":3,"path":"sprites/Bg_Scorched_Still/Bg_Scorched_Still.yy",},
     {"name":"Bg_SS_Special_0","order":17,"path":"sprites/Bg_SS_Special_0/Bg_SS_Special_0.yy",},
