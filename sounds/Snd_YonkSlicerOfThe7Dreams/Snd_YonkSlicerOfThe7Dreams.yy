@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":46.416,
+  "duration":46.846416,
   "name":"Snd_YonkSlicerOfThe7Dreams",
   "parent":{
     "name":"Sounds",
@@ -18,8 +18,8 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":44100,
-  "soundFile":"Snd_YonkSlicerOfThe7Dreams.mp3",
-  "type":0,
+  "sampleRate":48000,
+  "soundFile":"Snd_YonkSlicerOfThe7Dreams.ogg",
+  "type":1,
   "volume":1.0,
 }
