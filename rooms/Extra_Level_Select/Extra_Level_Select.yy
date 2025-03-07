@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"Extra_Level_Select",
-  "creationCodeFile":"${project_dir}/rooms/Click_here_for_level_select/RoomCreationCode.gml",
+  "creationCodeFile":"rooms/Extra_Level_Select/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
