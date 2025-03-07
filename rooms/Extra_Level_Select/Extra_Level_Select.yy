@@ -15,6 +15,7 @@
     {"name":"inst_25F270B","path":"rooms/Extra_Level_Select/Extra_Level_Select.yy",},
     {"name":"inst_45396085","path":"rooms/Extra_Level_Select/Extra_Level_Select.yy",},
     {"name":"inst_195A6E5","path":"rooms/Extra_Level_Select/Extra_Level_Select.yy",},
+    {"name":"inst_428B72A1","path":"rooms/Extra_Level_Select/Extra_Level_Select.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -46,6 +47,12 @@
         {"$GMRInstance":"v1","%Name":"inst_195A6E5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_195A6E5","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"propertyId":{"name":"destination","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"resource":{"name":"Level_Parkour","path":"rooms/Level_Parkour/Level_Parkour.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Level_Parkour",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":1.0909091,"x":208.0,"y":104.0,},
+        {"$GMRInstance":"v1","%Name":"inst_428B72A1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_428B72A1","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"propertyId":{"name":"destination","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"resource":{"name":"L_BetaTrollCave","path":"rooms/L_BetaTrollCave/L_BetaTrollCave.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"L_BetaTrollCave",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"propertyId":{"name":"func","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"menu\"",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"propertyId":{"name":"displaytext","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"BACK\"",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_ClickRoom","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"propertyId":{"name":"menuthing","path":"objects/Obj_ClickRoom/Obj_ClickRoom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"back\"",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":1.0,"x":16.0,"y":152.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_69A57E_1","animationSpeed":1.0,"colour":4290740223,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_69A57E_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":1.0,"spriteId":{"name":"Spr_ClickRoom","path":"sprites/Spr_ClickRoom/Spr_ClickRoom.yy",},"x":16.0,"y":104.0,},
