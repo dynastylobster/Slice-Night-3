@@ -324,6 +324,7 @@
     {"id":{"name":"L_LaserRoom","path":"rooms/L_LaserRoom/L_LaserRoom.yy",},},
     {"id":{"name":"L_Scorch_0","path":"rooms/L_Scorch_0/L_Scorch_0.yy",},},
     {"id":{"name":"L_Scorch_1","path":"rooms/L_Scorch_1/L_Scorch_1.yy",},},
+    {"id":{"name":"L_Scorch_F","path":"rooms/L_Scorch_F/L_Scorch_F.yy",},},
     {"id":{"name":"L_SpaceBridge","path":"rooms/L_SpaceBridge/L_SpaceBridge.yy",},},
     {"id":{"name":"L_SS_Secret0","path":"rooms/L_SS_Secret0/L_SS_Secret0.yy",},},
     {"id":{"name":"L_SS_Secret1","path":"rooms/L_SS_Secret1/L_SS_Secret1.yy",},},
@@ -1102,6 +1103,7 @@
     {"roomId":{"name":"L_SS_Secret1","path":"rooms/L_SS_Secret1/L_SS_Secret1.yy",},},
     {"roomId":{"name":"L_SS_Secret2","path":"rooms/L_SS_Secret2/L_SS_Secret2.yy",},},
     {"roomId":{"name":"L_Tabuli_1","path":"rooms/L_Tabuli_1/L_Tabuli_1.yy",},},
+    {"roomId":{"name":"L_Scorch_F","path":"rooms/L_Scorch_F/L_Scorch_F.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

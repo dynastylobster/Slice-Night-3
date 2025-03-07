@@ -65,6 +65,7 @@
     {"name":"L_LaserRoom","order":4,"path":"rooms/L_LaserRoom/L_LaserRoom.yy",},
     {"name":"L_Scorch_0","order":7,"path":"rooms/L_Scorch_0/L_Scorch_0.yy",},
     {"name":"L_Scorch_1","order":8,"path":"rooms/L_Scorch_1/L_Scorch_1.yy",},
+    {"name":"L_Scorch_F","order":13,"path":"rooms/L_Scorch_F/L_Scorch_F.yy",},
     {"name":"L_SpaceBridge","order":5,"path":"rooms/L_SpaceBridge/L_SpaceBridge.yy",},
     {"name":"L_SS_Secret0","order":9,"path":"rooms/L_SS_Secret0/L_SS_Secret0.yy",},
     {"name":"L_SS_Secret1","order":10,"path":"rooms/L_SS_Secret1/L_SS_Secret1.yy",},
