@@ -6,6 +6,7 @@
     {"name":"Void Boss","order":5,"path":"folders/Sprites/Boss Sprites/Void Boss.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Dust_TemFlake","order":9,"path":"objects/Dust_TemFlake/Dust_TemFlake.yy",},
     {"name":"EnemyParentObject","order":12,"path":"objects/EnemyParentObject/EnemyParentObject.yy",},
     {"name":"Obj_AquaJumper","order":21,"path":"objects/Obj_AquaJumper/Obj_AquaJumper.yy",},
     {"name":"Obj_BladeBuggy","order":18,"path":"objects/Obj_BladeBuggy/Obj_BladeBuggy.yy",},
@@ -199,6 +200,7 @@
     {"name":"Spr_WarpBox_Animation","order":2,"path":"sprites/Spr_WarpBox_Animation/Spr_WarpBox_Animation.yy",},
     {"name":"Spr_WhiteSquare","order":1,"path":"sprites/Spr_WhiteSquare/Spr_WhiteSquare.yy",},
     {"name":"SS_SpecialTileSprite","order":13,"path":"sprites/SS_SpecialTileSprite/SS_SpecialTileSprite.yy",},
+    {"name":"TemFlakes","order":34,"path":"sprites/TemFlakes/TemFlakes.yy",},
     {"name":"BoatTileSetGreyD","order":12,"path":"tilesets/BoatTileSetGreyD/BoatTileSetGreyD.yy",},
     {"name":"FeildTileSet","order":10,"path":"tilesets/FeildTileSet/FeildTileSet.yy",},
     {"name":"ForestTileSetDark","order":8,"path":"tilesets/ForestTileSetDark/ForestTileSetDark.yy",},
