@@ -33,7 +33,7 @@ rising += risingSpeed * 0.05;
 }
 
 if boat {
-		age += 0.06
+		age += 0.04
 		boatcamy = sin(age)*2
 		cam_x = clamp(Obj_Billy.x-213,0,room_width-426)
 		if instance_exists(Obj_Billy) {
