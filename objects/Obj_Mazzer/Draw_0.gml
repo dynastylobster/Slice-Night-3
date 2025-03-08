@@ -50,6 +50,13 @@ if (dir == "Spinning") {
 image_angle = abs(spin) * 360;
 }
 
+if warning and !onscreen{
+		if instance_exists(Obj_Billy) {
+			if Obj_Billy.x < x then draw_sprite(Spr_DeathBlockWarning,age/5,camera_get_view_x(view_camera[0])+406,y);	
+			if Obj_Billy.x > x then draw_sprite(Spr_DeathBlockWarning,age/5,camera_get_view_x(view_camera[0])+8,y);	
+		}
+	}
+
 // Inherit the parent event
 depth = 550;
 event_inherited();
