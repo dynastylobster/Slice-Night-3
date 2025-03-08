@@ -66,6 +66,7 @@
     {"name":"inst_277A2489","path":"rooms/L_Tabuli_Boss/L_Tabuli_Boss.yy",},
     {"name":"inst_7AEB5E23","path":"rooms/L_Tabuli_Boss/L_Tabuli_Boss.yy",},
     {"name":"inst_1158DE44","path":"rooms/L_Tabuli_Boss/L_Tabuli_Boss.yy",},
+    {"name":"inst_1AABC30A","path":"rooms/L_Tabuli_Boss/L_Tabuli_Boss.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -141,6 +142,9 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_GoalBox","path":"objects/Obj_GoalBox/Obj_GoalBox.yy",},"propertyId":{"name":"destination_room","path":"objects/Obj_GoalBox/Obj_GoalBox.yy",},"resource":{"name":"L_Tabuli_3","path":"rooms/L_Tabuli_3/L_Tabuli_3.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"L_Tabuli_3",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":26.0,"y":164.0,},
         {"$GMRInstance":"v1","%Name":"inst_1158DE44","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1158DE44","objectId":{"name":"Obj_Wall","path":"objects/Obj_Wall/Obj_Wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":4.0,"x":0.0,"y":1792.0,},
+        {"$GMRInstance":"v1","%Name":"inst_1AABC30A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":13,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1AABC30A","objectId":{"name":"Obj_NPC_MultiLine","path":"objects/Obj_NPC_MultiLine/Obj_NPC_MultiLine.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_NPC_MultiLine","path":"objects/Obj_NPC_MultiLine/Obj_NPC_MultiLine.yy",},"propertyId":{"name":"textToSay","path":"objects/Obj_NPC_MultiLine/Obj_NPC_MultiLine.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[\"This floor is so comfortable... Zzzz...\"]",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":1696.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_FG","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_FG","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":120,"SerialiseWidth":27,"TileCompressedData":[
           -10,0,9,20,0,0,20,0,0,-2147483648,-2147483648,20,-8,-2147483648,-10,0,9,20,0,0,20,0,0,-2147483648,-2147483648,
