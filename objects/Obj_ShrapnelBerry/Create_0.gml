@@ -5,6 +5,9 @@ shrub = noone
 if instance_exists(Obj_ShrapnelShrub) {
 	shrub = instance_nearest(x,y,Obj_ShrapnelShrub);
 	}
+if instance_place(x,y,Obj_NovaFrag) {
+	shrub = instance_place(x,y,Obj_NovaFrag)
+}
 if shrub != noone {
 xspeed = 0
 yspeed = 0 
