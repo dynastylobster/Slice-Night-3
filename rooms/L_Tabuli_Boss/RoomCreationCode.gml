@@ -1,4 +1,4 @@
-global.music = Snd_AttackFromAboveMusic
+global.music = Snd_BattleAgainstARodentMusic
 global.walljump = true
 global.dash = true
 global.flameslice = true
