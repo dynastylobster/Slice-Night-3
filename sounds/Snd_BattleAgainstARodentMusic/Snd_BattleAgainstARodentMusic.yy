@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":68.49306,
+  "duration":96.94041,
   "name":"Snd_BattleAgainstARodentMusic",
   "parent":{
     "name":"Sounds",
