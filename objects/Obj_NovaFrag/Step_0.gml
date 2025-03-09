@@ -6,14 +6,16 @@ y+= 2;
 x+= xspeed
 if y > room_height then instance_destroy();
 
-if place_meeting(x,y,[Obj_Wall,autoTileCol,Obj_Slope]) {
+if place_meeting(x,y,[Obj_Wall,autoTileCol,Obj_Slope]) and !done {
 					instance_create_depth(x+8,y,depth,Obj_ShrapnelBerry)
 			instance_create_depth(x-2,y-8,depth,Obj_ShrapnelBerry)
 			instance_create_depth(x+2,y-8,depth,Obj_ShrapnelBerry)
+			
 			instance_create_depth(x,y,depth,Obj_GemCollectEffect)
+				alarm[0] = 2
 			instance_create_depth(x-8,y,depth,Obj_ShrapnelBerry)
-			instance_destroy();
-			audio_play_sound(Snd_BlockBreak,0,0,global.SFXvolume*2,0,0.75)
+			audio_play_sound(Snd_BlockBreak,0,0,global.SFXvolume*1.5,0,0.75)
+				done = true;
 }
 
 if instance_exists(Obj_Billy) {
