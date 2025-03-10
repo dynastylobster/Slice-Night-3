@@ -877,6 +877,7 @@
     {"id":{"name":"Spr_ShiftPillarBlack","path":"sprites/Spr_ShiftPillarBlack/Spr_ShiftPillarBlack.yy",},},
     {"id":{"name":"Spr_ShiftPillarOrange","path":"sprites/Spr_ShiftPillarOrange/Spr_ShiftPillarOrange.yy",},},
     {"id":{"name":"Spr_ShiftPillarWhite","path":"sprites/Spr_ShiftPillarWhite/Spr_ShiftPillarWhite.yy",},},
+    {"id":{"name":"Spr_ShinyBillySoul","path":"sprites/Spr_ShinyBillySoul/Spr_ShinyBillySoul.yy",},},
     {"id":{"name":"Spr_ShitBoofer_Active","path":"sprites/Spr_ShitBoofer_Active/Spr_ShitBoofer_Active.yy",},},
     {"id":{"name":"Spr_ShitBoofer","path":"sprites/Spr_ShitBoofer/Spr_ShitBoofer.yy",},},
     {"id":{"name":"Spr_ShrapnelShrub","path":"sprites/Spr_ShrapnelShrub/Spr_ShrapnelShrub.yy",},},

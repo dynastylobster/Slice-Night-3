@@ -176,6 +176,7 @@
     {"name":"Spr_RedSliceBlockV2","order":3,"path":"sprites/Spr_RedSliceBlockV2/Spr_RedSliceBlockV2.yy",},
     {"name":"Spr_SecondServingTitle","order":20,"path":"sprites/Spr_SecondServingTitle/Spr_SecondServingTitle.yy",},
     {"name":"Spr_SheildShooterBounce","order":7,"path":"sprites/Spr_SheildShooterBounce/Spr_SheildShooterBounce.yy",},
+    {"name":"Spr_ShinyBillySoul","order":36,"path":"sprites/Spr_ShinyBillySoul/Spr_ShinyBillySoul.yy",},
     {"name":"Spr_SliceBlockParticle","order":12,"path":"sprites/Spr_SliceBlockParticle/Spr_SliceBlockParticle.yy",},
     {"name":"Spr_SliceBlockRedParticle","order":14,"path":"sprites/Spr_SliceBlockRedParticle/Spr_SliceBlockRedParticle.yy",},
     {"name":"Spr_SliceBlockV2","order":6,"path":"sprites/Spr_SliceBlockV2/Spr_SliceBlockV2.yy",},
