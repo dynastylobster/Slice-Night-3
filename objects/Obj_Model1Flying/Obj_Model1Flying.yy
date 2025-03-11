@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_BillyShipV2",
-    "path":"sprites/Spr_BillyShipV2/Spr_BillyShipV2.yy",
+    "name":"Spr_Model1Ship",
+    "path":"sprites/Spr_Model1Ship/Spr_Model1Ship.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -808,6 +808,7 @@
     {"id":{"name":"Spr_model1_teleport","path":"sprites/Spr_model1_teleport/Spr_model1_teleport.yy",},},
     {"id":{"name":"Spr_model1_TPball1","path":"sprites/Spr_model1_TPball1/Spr_model1_TPball1.yy",},},
     {"id":{"name":"Spr_model1_walk","path":"sprites/Spr_model1_walk/Spr_model1_walk.yy",},},
+    {"id":{"name":"Spr_Model1Ship","path":"sprites/Spr_Model1Ship/Spr_Model1Ship.yy",},},
     {"id":{"name":"Spr_MotuAfterImage","path":"sprites/Spr_MotuAfterImage/Spr_MotuAfterImage.yy",},},
     {"id":{"name":"Spr_MotuBoss_Defeated","path":"sprites/Spr_MotuBoss_Defeated/Spr_MotuBoss_Defeated.yy",},},
     {"id":{"name":"Spr_MotuBoss_Dropdown","path":"sprites/Spr_MotuBoss_Dropdown/Spr_MotuBoss_Dropdown.yy",},},
