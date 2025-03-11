@@ -10,6 +10,12 @@ if (age % 240 == 0) {
 }
 if (railguntimer == 1) {
 	if (collision_line(x, y, targPosX, targPosY, Obj_Billy, true, true)) {
+		audio_play_sound(Snd_EnemyExplode,0,0,global.SFXvolume,0,1.15);
+		audio_play_sound(Snd_BlockBreak,0,0,global.SFXvolume,0,0.9);
+		repeat(3) {
+		instance_create_depth(Obj_Billy.x,Obj_Billy.y,depth,Obj_EnemyFlameSpark)
+		}
+		instance_create_layer(Obj_Billy.x,Obj_Billy.y,layer,Obj_EnemyHurtEffect);
 		HitPlayer();
 	}
 }

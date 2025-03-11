@@ -146,6 +146,7 @@
     {"name":"Spr_BossDefeatExplosion","order":24,"path":"sprites/Spr_BossDefeatExplosion/Spr_BossDefeatExplosion.yy",},
     {"name":"Spr_BossVoid","order":3,"path":"sprites/Spr_BossVoid/Spr_BossVoid.yy",},
     {"name":"Spr_CannonShooterReticle","order":9,"path":"sprites/Spr_CannonShooterReticle/Spr_CannonShooterReticle.yy",},
+    {"name":"Spr_CloudLighting","order":5,"path":"sprites/Spr_CloudLighting/Spr_CloudLighting.yy",},
     {"name":"Spr_Confetti","order":21,"path":"sprites/Spr_Confetti/Spr_Confetti.yy",},
     {"name":"Spr_CounterfeitEye","order":23,"path":"sprites/Spr_CounterfeitEye/Spr_CounterfeitEye.yy",},
     {"name":"Spr_DeathBlockVoid","order":1,"path":"sprites/Spr_DeathBlockVoid/Spr_DeathBlockVoid.yy",},
