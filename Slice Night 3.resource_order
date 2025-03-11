@@ -189,6 +189,7 @@
     {"name":"Spr_VoidBullet2","order":2,"path":"sprites/Spr_VoidBullet2/Spr_VoidBullet2.yy",},
     {"name":"Spr_VoidDash","order":2,"path":"sprites/Spr_VoidDash/Spr_VoidDash.yy",},
     {"name":"Spr_VoidEye","order":4,"path":"sprites/Spr_VoidEye/Spr_VoidEye.yy",},
+    {"name":"Spr_VoidFont","order":5,"path":"sprites/Spr_VoidFont/Spr_VoidFont.yy",},
     {"name":"Spr_VoidHand","order":5,"path":"sprites/Spr_VoidHand/Spr_VoidHand.yy",},
     {"name":"Spr_VoidHurtC","order":1,"path":"sprites/Spr_VoidHurtC/Spr_VoidHurtC.yy",},
     {"name":"Spr_VoidIdleC","order":2,"path":"sprites/Spr_VoidIdleC/Spr_VoidIdleC.yy",},

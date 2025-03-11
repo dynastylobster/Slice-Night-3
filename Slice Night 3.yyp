@@ -935,6 +935,7 @@
     {"id":{"name":"Spr_VoidDie","path":"sprites/Spr_VoidDie/Spr_VoidDie.yy",},},
     {"id":{"name":"Spr_VoidDieC","path":"sprites/Spr_VoidDieC/Spr_VoidDieC.yy",},},
     {"id":{"name":"Spr_VoidEye","path":"sprites/Spr_VoidEye/Spr_VoidEye.yy",},},
+    {"id":{"name":"Spr_VoidFont","path":"sprites/Spr_VoidFont/Spr_VoidFont.yy",},},
     {"id":{"name":"Spr_VoidHand","path":"sprites/Spr_VoidHand/Spr_VoidHand.yy",},},
     {"id":{"name":"Spr_VoidHurt","path":"sprites/Spr_VoidHurt/Spr_VoidHurt.yy",},},
     {"id":{"name":"Spr_VoidHurtC","path":"sprites/Spr_VoidHurtC/Spr_VoidHurtC.yy",},},

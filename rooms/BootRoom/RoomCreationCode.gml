@@ -1,3 +1,4 @@
+global.VoidFont = font_add_sprite_ext(Spr_VoidFont,"abcdefghijklmnopqrstuvwxyz.,ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 global.paused = false;
 global.music = Snd_TitleMusic
 global.SFXvolume = 0.5;
