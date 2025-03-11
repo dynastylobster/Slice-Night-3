@@ -86,6 +86,7 @@
     {"name":"HitAnyone","order":4,"path":"scripts/HitAnyone/HitAnyone.yy",},
     {"name":"Near","order":1,"path":"scripts/Near/Near.yy",},
     {"name":"Thermodynamics","order":3,"path":"scripts/Thermodynamics/Thermodynamics.yy",},
+    {"name":"SlicerOfthe7DreamsUpbeatRemix","order":17,"path":"sounds/SlicerOfthe7DreamsUpbeatRemix/SlicerOfthe7DreamsUpbeatRemix.yy",},
     {"name":"Snd_1000DegreeDance","order":9,"path":"sounds/Snd_1000DegreeDance/Snd_1000DegreeDance.yy",},
     {"name":"Snd_AmberVoice","order":2,"path":"sounds/Snd_AmberVoice/Snd_AmberVoice.yy",},
     {"name":"Snd_arowr","order":15,"path":"sounds/Snd_arowr/Snd_arowr.yy",},

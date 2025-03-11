@@ -416,6 +416,7 @@
     {"id":{"name":"HitPlayer","path":"scripts/HitPlayer/HitPlayer.yy",},},
     {"id":{"name":"Near","path":"scripts/Near/Near.yy",},},
     {"id":{"name":"Thermodynamics","path":"scripts/Thermodynamics/Thermodynamics.yy",},},
+    {"id":{"name":"SlicerOfthe7DreamsUpbeatRemix","path":"sounds/SlicerOfthe7DreamsUpbeatRemix/SlicerOfthe7DreamsUpbeatRemix.yy",},},
     {"id":{"name":"Snd_1000DegreeDance","path":"sounds/Snd_1000DegreeDance/Snd_1000DegreeDance.yy",},},
     {"id":{"name":"Snd_Absorption","path":"sounds/Snd_Absorption/Snd_Absorption.yy",},},
     {"id":{"name":"Snd_AlienMusic","path":"sounds/Snd_AlienMusic/Snd_AlienMusic.yy",},},
