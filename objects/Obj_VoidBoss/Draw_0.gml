@@ -200,7 +200,7 @@ if (letter > 0 && voidtalking) {
 	var randx = random_range(-1, 1);
 	var randy = random_range(-2, 2);
 	draw_set_halign(fa_center);
-	draw_set_font(UndertaleFont)
+	draw_set_font(global.VoidFont)
 	if (currentPhase >= 4) {
 	draw_set_color(c_white)
 	} else {
