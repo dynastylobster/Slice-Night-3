@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+if instance_exists(Obj_SliceParent) {audio_stop_sound(Snd_SliceNew)}
+if instance_exists(Obj_SliceSide) with(Obj_SliceSide) {instance_destroy();}
+if instance_exists(Obj_FlameSlice) with(Obj_FlameSlice) {instance_destroy();}
+
 if active {
 	
 	if instance_exists(Obj_Billy) {

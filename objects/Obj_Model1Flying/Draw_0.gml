@@ -1,6 +1,6 @@
 // Inherit the parent event
 event_inherited();
-draw_set_color(c_red)
+draw_set_color(#ED008C)
 if (railguntimer <= 3 && railguntimer >= 1) {
 	draw_line_width(x, y + 3, lengthdir_x(20000, point_direction(x, y, targPosX, targPosY)), lengthdir_y(20000, point_direction(x, y, targPosX, targPosY)),5);
 }

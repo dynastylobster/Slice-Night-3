@@ -17,3 +17,14 @@ instance_destroy();
 }
 if xspeed < 5 xspeed ++
 x+=xspeed
+
+if place_meeting(x,y,[Obj_Wall,autoTileCol]) {
+	walltimer--
+
+}
+if walltimer = 0 {
+instance_create_layer(x,y,layer,Obj_BillyShipBoom)
+audio_play_sound(Snd_land,0,0,1)
+audio_play_sound(Snd_BlockBreak,0,0,0.6)
+instance_destroy();
+}
