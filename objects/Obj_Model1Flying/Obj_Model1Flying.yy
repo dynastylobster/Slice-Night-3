@@ -16,8 +16,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"EnemyParentObject","path":"objects/EnemyParentObject/EnemyParentObject.yy",},"propertyId":{"name":"resistances","path":"objects/EnemyParentObject/EnemyParentObject.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Resists Flame\"",},
   ],
   "parent":{
-    "name":"Bosses",
-    "path":"folders/Objects/Bosses.yy",
+    "name":"model1 boss",
+    "path":"folders/Objects/Bosses/model1 boss.yy",
   },
   "parentObjectId":{
     "name":"BossParentObject",
