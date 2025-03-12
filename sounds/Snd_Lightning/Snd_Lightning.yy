@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":1.228594,
+  "duration":1.049524,
   "name":"Snd_Lightning",
   "parent":{
     "name":"Sounds",
