@@ -2,6 +2,7 @@
 event_inherited();
 origin_layer = layer
 depth -= 25
+alarm[0] = 12
 
 railguntimer = 0;
 targPosX = 0;
