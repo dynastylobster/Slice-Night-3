@@ -1,6 +1,6 @@
 // Inherit the parent event
 event_inherited();
-
+depth -= 25
 railguntimer = 0;
 targPosX = 0;
 targPosY = 0;

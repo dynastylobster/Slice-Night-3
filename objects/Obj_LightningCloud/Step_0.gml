@@ -17,3 +17,8 @@ if (lc > 0 && warning = 0) {
 	lc--;
 }
 
+
+
+if global.paused {
+	if lc != 0 lc ++;	
+}

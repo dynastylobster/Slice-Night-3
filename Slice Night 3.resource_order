@@ -222,6 +222,7 @@
     {"name":"Spr_WarpBox_Animation","order":2,"path":"sprites/Spr_WarpBox_Animation/Spr_WarpBox_Animation.yy",},
     {"name":"Spr_WhiteSquare","order":1,"path":"sprites/Spr_WhiteSquare/Spr_WhiteSquare.yy",},
     {"name":"SS_SpecialTileSprite","order":13,"path":"sprites/SS_SpecialTileSprite/SS_SpecialTileSprite.yy",},
+    {"name":"TabuliTileSpriteDark","order":15,"path":"sprites/TabuliTileSpriteDark/TabuliTileSpriteDark.yy",},
     {"name":"TemFlakes","order":34,"path":"sprites/TemFlakes/TemFlakes.yy",},
     {"name":"BoatTileSetGreyD","order":12,"path":"tilesets/BoatTileSetGreyD/BoatTileSetGreyD.yy",},
     {"name":"FeildTileSet","order":10,"path":"tilesets/FeildTileSet/FeildTileSet.yy",},
@@ -230,5 +231,6 @@
     {"name":"ScorchedTileSet","order":6,"path":"tilesets/ScorchedTileSet/ScorchedTileSet.yy",},
     {"name":"SpaceBrideTileSet","order":2,"path":"tilesets/SpaceBrideTileSet/SpaceBrideTileSet.yy",},
     {"name":"SS_SpecialTileSet","order":14,"path":"tilesets/SS_SpecialTileSet/SS_SpecialTileSet.yy",},
+    {"name":"TabuliTileSetDark","order":16,"path":"tilesets/TabuliTileSetDark/TabuliTileSetDark.yy",},
   ],
 }

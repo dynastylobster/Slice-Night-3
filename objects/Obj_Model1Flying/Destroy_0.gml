@@ -3,5 +3,5 @@
 
 // Inherit the parent event
 event_inherited();
-
+instance_create_depth(x,y,depth,Obj_BossDefeatExplosion);
 instance_create_depth(x,y,depth,Obj_model1_defeat);

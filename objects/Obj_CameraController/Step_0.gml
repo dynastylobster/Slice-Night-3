@@ -32,6 +32,16 @@ if (goUp) and !global.paused {
 rising += risingSpeed * 0.05;
 }
 
+if shooterfight {
+		if instance_exists(Obj_BillyShip) {
+			cam_x = clamp(Obj_BillyShip.x-58,0,room_width-426)
+			real_cam_y = clamp(lerp(Obj_BillyShip.y-120,real_cam_y,0.5),0,room_height-240)
+		}
+		camera_set_view_pos(view_camera[0],cam_x,real_cam_y);
+	
+	}
+
+
 if boat {
 		age += 0.04
 		boatcamy = sin(age)*2

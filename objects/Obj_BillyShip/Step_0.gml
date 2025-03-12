@@ -10,7 +10,7 @@ if !place_meeting(x,y,Obj_BillyShipBullet) and image_speed = 0
 	if global.key_Z_pressed or global.key_X_pressed and cooldown = 0 {
 	if instance_number(Obj_BillyShipBullet) <= 3 {
 		instance_create_layer(x,y,layer,Obj_BillyShipBullet);
-		cooldown = 15
+		cooldown = 30
 		}
 	}
 }
