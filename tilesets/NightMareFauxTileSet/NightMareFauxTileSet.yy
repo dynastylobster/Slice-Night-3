@@ -1,0 +1,49 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"NightMareFauxTileSet",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        52,154,154,154,154,154,154,154,154,154,154,154,154,154,154,154,51,51,51,51,2,2,2,2,53,53,53,53,102,102,
+        102,102,54,152,1,1,3,3,103,103,101,101,4,151,104,153,154,
+      ],},
+    {"$GMAutoTileSet":"","%Name":"autotile_2","closed_edge":false,"name":"autotile_2","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        351,154,154,154,154,154,154,154,154,154,154,154,154,154,154,154,350,350,350,350,301,301,301,301,352,
+        352,352,352,401,401,401,401,303,353,300,205,302,206,402,256,400,255,303,353,303,353,154,
+      ],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"NightMareFauxTileSet",
+  "out_columns":43,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"Spr_NightmareFauxTiles",
+    "path":"sprites/Spr_NightmareFauxTiles/Spr_NightmareFauxTiles.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[
+    {"$GMTileAnimation":"","%Name":"animation_1","frames":[453,403,503,403,],"name":"animation_1","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
+  ],
+  "tileAnimationSpeed":4.0,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":1850,
+}
