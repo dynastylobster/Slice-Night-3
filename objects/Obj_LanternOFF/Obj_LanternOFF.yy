@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Light",
-  "eventList":[],
+  "%Name":"Obj_LanternOFF",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_FlameSlice","path":"objects/Obj_FlameSlice/Obj_FlameSlice.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Obj_Light",
+  "name":"Obj_LanternOFF",
   "overriddenProperties":[],
   "parent":{
     "name":"Gimmicks",
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_lantern",
-    "path":"sprites/Spr_lantern/Spr_lantern.yy",
+    "name":"Spr_LanternOff",
+    "path":"sprites/Spr_LanternOff/Spr_LanternOff.yy",
   },
   "spriteMaskId":null,
   "visible":true,
