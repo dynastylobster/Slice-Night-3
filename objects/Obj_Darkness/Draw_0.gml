@@ -16,7 +16,7 @@ draw_set_color(c_black);
 draw_rectangle(0, 0, room_width, room_height, false);
 draw_set_alpha(1);
 gpu_set_blendmode(bm_subtract);
-draw_circle(billy.x, billy.y, 30, false);
+draw_circle(billy.x, billy.y, 54, false);
 
 for (var i = 0; i < instance_number(Obj_Light); i++) {
 	var l = instance_find(Obj_Light, i);

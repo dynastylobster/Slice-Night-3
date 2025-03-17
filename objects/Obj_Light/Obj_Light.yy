@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_ParryballBigHitbox",
-    "path":"sprites/Spr_ParryballBigHitbox/Spr_ParryballBigHitbox.yy",
+    "name":"Spr_lantern",
+    "path":"sprites/Spr_lantern/Spr_lantern.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -791,6 +791,7 @@
     {"id":{"name":"Spr_KeyDeathBlock","path":"sprites/Spr_KeyDeathBlock/Spr_KeyDeathBlock.yy",},},
     {"id":{"name":"Spr_KeyInactive","path":"sprites/Spr_KeyInactive/Spr_KeyInactive.yy",},},
     {"id":{"name":"spr_keyless_area","path":"sprites/spr_keyless_area/spr_keyless_area.yy",},},
+    {"id":{"name":"Spr_lantern","path":"sprites/Spr_lantern/Spr_lantern.yy",},},
     {"id":{"name":"Spr_Leech","path":"sprites/Spr_Leech/Spr_Leech.yy",},},
     {"id":{"name":"Spr_LeechMouth","path":"sprites/Spr_LeechMouth/Spr_LeechMouth.yy",},},
     {"id":{"name":"Spr_LeechTentacle","path":"sprites/Spr_LeechTentacle/Spr_LeechTentacle.yy",},},
