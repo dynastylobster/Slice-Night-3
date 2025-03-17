@@ -30,7 +30,7 @@
     "name":"Spr_NightmareFauxTiles",
     "path":"sprites/Spr_NightmareFauxTiles/Spr_NightmareFauxTiles.yy",
   },
-  "spriteNoExport":true,
+  "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",
     "path":"texturegroups/Default",
