@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":59.076916,
+  "duration":54.857143,
   "name":"Snd_cardlymusic",
   "parent":{
     "name":"Sounds",
