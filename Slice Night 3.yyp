@@ -419,6 +419,7 @@
     {"id":{"name":"SecondServingStory2","path":"rooms/SecondServingStory2/SecondServingStory2.yy",},},
     {"id":{"name":"SecondServingStory3","path":"rooms/SecondServingStory3/SecondServingStory3.yy",},},
     {"id":{"name":"SecondServingStory4","path":"rooms/SecondServingStory4/SecondServingStory4.yy",},},
+    {"id":{"name":"SecondServingStory4B","path":"rooms/SecondServingStory4B/SecondServingStory4B.yy",},},
     {"id":{"name":"TestRoom1","path":"rooms/TestRoom1/TestRoom1.yy",},},
     {"id":{"name":"TestRoom2","path":"rooms/TestRoom2/TestRoom2.yy",},},
     {"id":{"name":"TitleScreenOptionsRoom","path":"rooms/TitleScreenOptionsRoom/TitleScreenOptionsRoom.yy",},},
@@ -578,6 +579,7 @@
     {"id":{"name":"Bg_MileyStory6B","path":"sprites/Bg_MileyStory6B/Bg_MileyStory6B.yy",},},
     {"id":{"name":"Bg_MileyStory8","path":"sprites/Bg_MileyStory8/Bg_MileyStory8.yy",},},
     {"id":{"name":"Bg_MileyStory9","path":"sprites/Bg_MileyStory9/Bg_MileyStory9.yy",},},
+    {"id":{"name":"Bg_MileyStoryMasking","path":"sprites/Bg_MileyStoryMasking/Bg_MileyStoryMasking.yy",},},
     {"id":{"name":"Bg_Moon1","path":"sprites/Bg_Moon1/Bg_Moon1.yy",},},
     {"id":{"name":"Bg_Moon2","path":"sprites/Bg_Moon2/Bg_Moon2.yy",},},
     {"id":{"name":"Bg_MoonStill","path":"sprites/Bg_MoonStill/Bg_MoonStill.yy",},},
@@ -1158,6 +1160,7 @@
     {"roomId":{"name":"L_Tabuli_Boss2","path":"rooms/L_Tabuli_Boss2/L_Tabuli_Boss2.yy",},},
     {"roomId":{"name":"Level_Nightmare_F","path":"rooms/Level_Nightmare_F/Level_Nightmare_F.yy",},},
     {"roomId":{"name":"L_Nightmare_F","path":"rooms/L_Nightmare_F/L_Nightmare_F.yy",},},
+    {"roomId":{"name":"SecondServingStory4B","path":"rooms/SecondServingStory4B/SecondServingStory4B.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
