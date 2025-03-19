@@ -12,7 +12,7 @@ if (!surface_exists(darkMask)) {
 surface_set_target(darkMask);
 
 draw_set_color(c_black);
-draw_set_alpha(0.25);
+draw_set_alpha(0.15);
 gpu_set_blendmode(bm_add);
 draw_rectangle(0, 0, room_width, room_height, false);
 
@@ -24,6 +24,11 @@ DrawCircle(billy.x, billy.y, playerSight);
 for (var i = 0; i < instance_number(Obj_FlameSlice); i++) {
 	var l = instance_find(Obj_FlameSlice, i);
 	DrawCircle(l.x + (16 * l.image_xscale), l.y, playerSight / 2)
+}
+
+for (var i = 0; i < instance_number(Obj_LanternOFF); i++) {
+	var l = instance_find(Obj_LanternOFF, i);
+	draw_sprite(Spr_LanternOff, 0, l.x, l.y);
 }
 
 for (var i = 0; i < instance_number(Obj_Lantern); i++) {
@@ -40,7 +45,7 @@ draw_surface(darkMask, 0, 0);
 function DrawCircle(ex, wy, r) {
 	draw_set_alpha(0.5);
 	draw_circle(ex, wy, r, false);
-	draw_set_alpha(0.025);
+	draw_set_alpha(0.1);
 	draw_circle(ex, wy, r * 3, false);
 	draw_set_alpha(1);
 }
