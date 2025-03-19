@@ -747,6 +747,7 @@
     {"id":{"name":"Spr_CrawlHopperGreen","path":"sprites/Spr_CrawlHopperGreen/Spr_CrawlHopperGreen.yy",},},
     {"id":{"name":"Spr_CrawlHopperRed","path":"sprites/Spr_CrawlHopperRed/Spr_CrawlHopperRed.yy",},},
     {"id":{"name":"Spr_CutsceneMotu","path":"sprites/Spr_CutsceneMotu/Spr_CutsceneMotu.yy",},},
+    {"id":{"name":"Spr_DadSlice","path":"sprites/Spr_DadSlice/Spr_DadSlice.yy",},},
     {"id":{"name":"Spr_DashMeter","path":"sprites/Spr_DashMeter/Spr_DashMeter.yy",},},
     {"id":{"name":"Spr_DashPickup","path":"sprites/Spr_DashPickup/Spr_DashPickup.yy",},},
     {"id":{"name":"Spr_DashPickup3","path":"sprites/Spr_DashPickup3/Spr_DashPickup3.yy",},},

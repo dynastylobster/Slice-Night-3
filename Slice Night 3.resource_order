@@ -179,6 +179,7 @@
     {"name":"Spr_CrawlHopper","order":16,"path":"sprites/Spr_CrawlHopper/Spr_CrawlHopper.yy",},
     {"name":"Spr_CrawlHopperGreen","order":15,"path":"sprites/Spr_CrawlHopperGreen/Spr_CrawlHopperGreen.yy",},
     {"name":"Spr_CrawlHopperRed","order":36,"path":"sprites/Spr_CrawlHopperRed/Spr_CrawlHopperRed.yy",},
+    {"name":"Spr_DadSlice","order":6,"path":"sprites/Spr_DadSlice/Spr_DadSlice.yy",},
     {"name":"Spr_DeathBlockVoid","order":1,"path":"sprites/Spr_DeathBlockVoid/Spr_DeathBlockVoid.yy",},
     {"name":"Spr_DeathBlockWarning","order":17,"path":"sprites/Spr_DeathBlockWarning/Spr_DeathBlockWarning.yy",},
     {"name":"Spr_EnemyDeath","order":26,"path":"sprites/Spr_EnemyDeath/Spr_EnemyDeath.yy",},
