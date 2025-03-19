@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"playerSight","filters":[],"listItems":[],"multiselect":false,"name":"playerSight","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"54","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"playerSight","filters":[],"listItems":[],"multiselect":false,"name":"playerSight","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"36","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
