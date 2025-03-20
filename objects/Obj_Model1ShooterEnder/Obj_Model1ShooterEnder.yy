@@ -29,7 +29,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"dest_room","filters":[],"listItems":[],"multiselect":false,"name":"dest_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"L_SpaceBridge","path":"rooms/L_SpaceBridge/L_SpaceBridge.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"L_SpaceBridge","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"dest_room","filters":[],"listItems":[],"multiselect":false,"name":"dest_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"SecondServingStory4A","path":"rooms/SecondServingStory4A/SecondServingStory4A.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"SecondServingStory4A","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -1,3 +1,3 @@
 if global.costume = "Miley" or global.costume = "Miley (Fox)" {
-	destination = SecondServingStory4B;		
+	destination = SecondServingStory4C;		
 }
