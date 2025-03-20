@@ -1,7 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+if x > camera_get_view_x(view_camera[0]) and x < camera_get_view_x(view_camera[0])+426 {
+		onscreen = true;
+	} else onscreen = false;
 
-if !global.paused {
+
+if !global.paused and onscreen {
 y+= 2;
 x+= xspeed
 if y > room_height then instance_destroy();
