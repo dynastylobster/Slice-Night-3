@@ -37,6 +37,7 @@
     {"$GMObjectProperty":"v1","%Name":"textToSay","filters":[],"listItems":[],"multiselect":false,"name":"textToSay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[\" \"]","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"hasGravity","filters":[],"listItems":[],"multiselect":false,"name":"hasGravity","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"isGhost","filters":[],"listItems":[],"multiselect":false,"name":"isGhost","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"bikesin","filters":[],"listItems":[],"multiselect":false,"name":"bikesin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -25,6 +25,8 @@ draw_set_halign(fa_left)
 draw_set_color(c_white) 
 //depth = layer_get_id("Instances_1")
 
+if walled draw_set_color(#2020FF)
+
 depth = layer_get_depth(layer_get_id("Instances_1"))+25
 draw_self();
 

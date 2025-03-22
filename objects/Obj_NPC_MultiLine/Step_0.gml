@@ -1,7 +1,21 @@
-
-
 age += 0.125
 if age >= 256 then age = 0
+
+if bikesin {
+		if drawing and !audio_is_playing(Snd_Banan) {
+		riding = true
+		}
+		if place_meeting(x,y,Obj_Wall) {
+			walled = true
+			}
+		}
+		if riding
+		{
+				if xspeed = 0 audio_play_sound(Snd_GhostChomp,0,0,global.SFXvolume,0,1.1)
+		xspeed -= 0.5;
+		x+=xspeed
+		}
+		
 
 if !place_meeting(x,y,Obj_Billy) {
 	drawing = false
