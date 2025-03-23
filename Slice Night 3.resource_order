@@ -113,6 +113,7 @@
     {"name":"Thermodynamics","order":3,"path":"scripts/Thermodynamics/Thermodynamics.yy",},
     {"name":"SlicerOfthe7DreamsUpbeatRemix","order":17,"path":"sounds/SlicerOfthe7DreamsUpbeatRemix/SlicerOfthe7DreamsUpbeatRemix.yy",},
     {"name":"Snd_1000DegreeDance","order":9,"path":"sounds/Snd_1000DegreeDance/Snd_1000DegreeDance.yy",},
+    {"name":"Snd_90DegreeDanceMusic","order":22,"path":"sounds/Snd_90DegreeDanceMusic/Snd_90DegreeDanceMusic.yy",},
     {"name":"Snd_AmberVoice","order":2,"path":"sounds/Snd_AmberVoice/Snd_AmberVoice.yy",},
     {"name":"Snd_arowr","order":15,"path":"sounds/Snd_arowr/Snd_arowr.yy",},
     {"name":"Snd_Banan","order":21,"path":"sounds/Snd_Banan/Snd_Banan.yy",},

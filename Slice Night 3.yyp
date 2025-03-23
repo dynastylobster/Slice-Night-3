@@ -440,6 +440,7 @@
     {"id":{"name":"Thermodynamics","path":"scripts/Thermodynamics/Thermodynamics.yy",},},
     {"id":{"name":"SlicerOfthe7DreamsUpbeatRemix","path":"sounds/SlicerOfthe7DreamsUpbeatRemix/SlicerOfthe7DreamsUpbeatRemix.yy",},},
     {"id":{"name":"Snd_1000DegreeDance","path":"sounds/Snd_1000DegreeDance/Snd_1000DegreeDance.yy",},},
+    {"id":{"name":"Snd_90DegreeDanceMusic","path":"sounds/Snd_90DegreeDanceMusic/Snd_90DegreeDanceMusic.yy",},},
     {"id":{"name":"Snd_Absorption","path":"sounds/Snd_Absorption/Snd_Absorption.yy",},},
     {"id":{"name":"Snd_AlienMusic","path":"sounds/Snd_AlienMusic/Snd_AlienMusic.yy",},},
     {"id":{"name":"Snd_AmberVoice","path":"sounds/Snd_AmberVoice/Snd_AmberVoice.yy",},},
