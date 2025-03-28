@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-event_inherited();
 age = 0;
-starty = y
 startx = x
-alarm[4] = 6;
+
+grav = 0.0125
+yspeed = -1;
