@@ -41,8 +41,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_SMWPokeTank",
-    "path":"sprites/Spr_SMWPokeTank/Spr_SMWPokeTank.yy",
+    "name":"Spr_SMWPokeTank2",
+    "path":"sprites/Spr_SMWPokeTank2/Spr_SMWPokeTank2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
