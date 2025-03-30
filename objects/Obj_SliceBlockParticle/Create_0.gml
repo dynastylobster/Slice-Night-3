@@ -14,4 +14,9 @@ image_xscale = 3
 image_yscale = 3
 }
 }
+if global.costume = "Billy (SMW)" {
+	grav = 0.1
+yspeed = random_range(-0.3,-3)
+	sprite_index = Spr_SliceBlockParticleSMW	
+}
 purple = false

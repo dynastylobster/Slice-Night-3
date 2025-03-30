@@ -13,7 +13,7 @@ igt_done = false;
 currentlevel = room;
 
 characters = ["Human", "Robot", "Coyote"]
-costumes = ["Billy", "Miley", "Billy (Fox)", "Miley (Fox)", "Motu", "Void", "Void (Clown)"];
+costumes = ["Billy", "Miley", "Billy (Fox)", "Billy (SMW)", "Miley (Fox)", "Motu", "Void", "Void (Clown)"];
 //charDesc = ["Human.\nNothing special.", "Robotic.\nMoves slower, but attacks harder.\nIncreased trick speed, cannot flameslice.", "Coyote.\nMassively increased movement abilities.\nIneffective damage."];
 
 // load the settings file and change these to that!

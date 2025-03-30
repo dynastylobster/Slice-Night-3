@@ -157,7 +157,20 @@ if global.costume = "Void" or global.costume = "Void (Clown)" {
 	if sprite_index = Spr_BillyDash or sprite_index = Spr_BillyRunDash then sprite_index = Spr_VoidDash	
 }
 
+if global.costume = "Billy (SMW)" 
+	{
+	if sprite_index = Spr_BillyDie then sprite_index = Spr_BillyDieSMW
+if sprite_index = Spr_BillyWalk then sprite_index = Spr_BillyWalkSMW
+if sprite_index = Spr_BillyRun then sprite_index = Spr_BillyRunSMW
 
+if sprite_index = Spr_BillySliceSide then sprite_index = Spr_BillySliceSideSMW
+if sprite_index = Spr_BillySliceDown then sprite_index = Spr_BillySliceDownSMW
+
+if sprite_index = Spr_BillyHurt then sprite_index = Spr_BillyHurtSMW
+if sprite_index = Spr_BillyIdle then sprite_index = Spr_BillyIdleSMW
+if sprite_index = Spr_BillyJump then sprite_index = Spr_BillyJumpSMW
+if sprite_index = Spr_BillyWallSlide then sprite_index = Spr_BillyWallSlideSMW
+}
 
 
 draw_self();

@@ -158,7 +158,7 @@ if (updown != 0) {
 	}
 
 
-var humanCostumes = ["Billy", "Miley", "Billy (Fox)", "Miley (Fox)"];
+var humanCostumes = ["Billy", "Miley", "Billy (Fox)", "Miley (Fox)", "Billy (SMW)"];
 //
 var robotCostumes = [];
 if (global.motuunlocked) { array_push(robotCostumes, "Motu"); }
