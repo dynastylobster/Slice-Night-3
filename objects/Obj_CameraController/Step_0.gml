@@ -49,7 +49,9 @@ if boat {
 		if instance_exists(Obj_Billy) {
 			with(Obj_Billy) {
 					if !grounded {
-							real_cam_y = clamp(y-130,0,room_height-240)
+							real_cam_y = clamp(y-130,0,room_height-240)		
+							if Obj_Billy.y < camera_get_view_y(view_camera[0])+40 or Obj_Billy.y > camera_get_view_y(view_camera[0])+200 {
+							cam_y = lerp(cam_y,real_cam_y,0.0125)}
 					} else {
 						if cam_y < real_cam_y+3 then cam_y += 1
 						if cam_y > real_cam_y-3 then cam_y -= 1
