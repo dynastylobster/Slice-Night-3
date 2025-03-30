@@ -1,4 +1,4 @@
-global.music = Snd_BattleAgainstARodentLoop;
+global.music = -4;
 global.walljump = true
 global.dash = true
 global.flameslice = true
