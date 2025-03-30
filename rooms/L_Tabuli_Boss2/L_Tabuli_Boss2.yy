@@ -52,6 +52,7 @@
     {"name":"inst_660E6D6E","path":"rooms/L_Tabuli_Boss2/L_Tabuli_Boss2.yy",},
     {"name":"inst_1A3BBA96","path":"rooms/L_Tabuli_Boss2/L_Tabuli_Boss2.yy",},
     {"name":"inst_1212CCDC","path":"rooms/L_Tabuli_Boss2/L_Tabuli_Boss2.yy",},
+    {"name":"inst_55B6711E","path":"rooms/L_Tabuli_Boss2/L_Tabuli_Boss2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -116,6 +117,10 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_CameraController","path":"objects/Obj_CameraController/Obj_CameraController.yy",},"propertyId":{"name":"shooterfight","path":"objects/Obj_CameraController/Obj_CameraController.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":240.0,},
         {"$GMRInstance":"v1","%Name":"inst_1212CCDC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1212CCDC","objectId":{"name":"Obj_HeartPickup","path":"objects/Obj_HeartPickup/Obj_HeartPickup.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":288.0,},
+        {"$GMRInstance":"v1","%Name":"inst_55B6711E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_55B6711E","objectId":{"name":"Obj_MusicLoopPoint","path":"objects/Obj_MusicLoopPoint/Obj_MusicLoopPoint.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_MusicLoopPoint","path":"objects/Obj_MusicLoopPoint/Obj_MusicLoopPoint.yy",},"propertyId":{"name":"Intro","path":"objects/Obj_MusicLoopPoint/Obj_MusicLoopPoint.yy",},"resource":{"name":"Snd_BattleAgainstARodentIntro","path":"sounds/Snd_BattleAgainstARodentIntro/Snd_BattleAgainstARodentIntro.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Snd_BattleAgainstARodentIntro",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_MusicLoopPoint","path":"objects/Obj_MusicLoopPoint/Obj_MusicLoopPoint.yy",},"propertyId":{"name":"Loop","path":"objects/Obj_MusicLoopPoint/Obj_MusicLoopPoint.yy",},"resource":{"name":"Snd_BattleAgainstARodentLoop","path":"sounds/Snd_BattleAgainstARodentLoop/Snd_BattleAgainstARodentLoop.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Snd_BattleAgainstARodentLoop",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":272.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_377E8E7F","animationSpeed":1.0,"colour":2113929215,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_377E8E7F","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":2.6499999,"scaleY":2.6499999,"spriteId":{"name":"Spr_LightningCloud","path":"sprites/Spr_LightningCloud/Spr_LightningCloud.yy",},"x":336.0,"y":144.0,},

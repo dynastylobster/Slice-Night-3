@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Snd_BattleAgainstARodentMusic",
+  "%Name":"Snd_BattleAgainstARodentLoop",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":96.94041,
-  "name":"Snd_BattleAgainstARodentMusic",
+  "duration":85.340614,
+  "name":"Snd_BattleAgainstARodentLoop",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":48000,
-  "soundFile":"Snd_BattleAgainstARodentMusic.mp3",
+  "soundFile":"Snd_BattleAgainstARodentLoop.ogg",
   "type":1,
   "volume":1.0,
 }
