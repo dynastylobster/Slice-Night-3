@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+if global.costume = "Billy (SMW)" {instance_destroy();}
 dir = 0;
 angle = 0;
 if instance_exists(Obj_Billy) {

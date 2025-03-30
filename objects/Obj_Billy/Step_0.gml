@@ -507,7 +507,7 @@ if dead {
 		if sprite_index = Spr_BillyDie {
 				if global.character = "Human"
 				{
-					if global.costume = "Billy" || global.costume = "Billy (Fox)" {
+					if global.costume = "Billy" || global.costume = "Billy (Fox)" || global.costume = "Billy (SMW)"{
 						if !audio_is_playing(Snd_Die) {
 							audio_play_sound(Snd_Die,0,0)
 							}

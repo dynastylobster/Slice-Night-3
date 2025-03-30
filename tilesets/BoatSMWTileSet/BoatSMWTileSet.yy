@@ -1,0 +1,43 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"BoatSMWTileSet",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        24,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,23,23,23,23,2,2,2,2,25,25,25,25,46,46,46,46,4,89,1,1,
+        3,3,47,47,45,45,4,89,26,90,91,
+      ],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"BoatSMWTileSet",
+  "out_columns":22,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"BoatSMWTileSprite",
+    "path":"sprites/BoatSMWTileSprite/BoatSMWTileSprite.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":484,
+}

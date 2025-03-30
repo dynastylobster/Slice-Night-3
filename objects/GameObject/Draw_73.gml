@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor 
 
+if global.costume = "Billy (SMW)" hpsprite = Spr_HPSMW
 
 
 var thisNPC = noone;
@@ -18,14 +19,14 @@ if !instance_exists(Obj_NPC) or (instance_exists(Obj_NPC) and thisNPC.drawing = 
 if instance_exists(Obj_Billy) and !instance_exists(Obj_SilentRoomChange) and !instance_exists(Obj_TheEnd) {
 draw_set_font(UndertaleFont)
 
-if global.dash {
+if global.dash and global.costume != "Billy (SMW)" {
 	draw_sprite(Spr_DashMeter,Obj_Billy.dashes,clamp(camera_get_view_x(view_camera[0])+2,0,room_width-426)+4,camera_get_view_y(view_camera[0])+4)
 }
 
 draw_sprite(hpsprite,0,clamp(camera_get_view_x(view_camera[0])+2,0,room_width-426)+4,camera_get_view_y(view_camera[0])+4)
 if instance_exists(Obj_Billy) {
 draw_sprite(hpsprite,Obj_Billy.hp,clamp(camera_get_view_x(view_camera[0])+2,0,room_width-426)+4,camera_get_view_y(view_camera[0])+4)
-if Obj_Billy.sprite_index = Spr_BillyHurt or Obj_Billy.sprite_index = Spr_PMotuHurt {
+if Obj_Billy.hit = true and Obj_Billy.i_frames > 30 {
 draw_sprite(hpsprite,7,clamp(camera_get_view_x(view_camera[0])+2,0,room_width-426)+4,camera_get_view_y(view_camera[0])+4)	
 }
 }
