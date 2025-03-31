@@ -6,3 +6,4 @@ event_inherited();
 hp = 3;
 age = 0;
 startx = x
+drawx = x

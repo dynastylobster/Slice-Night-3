@@ -7,6 +7,7 @@ event_inherited();
 age += 0.125;
 
 x = startx + sin(age/2)*5
+drawx = floor(x)
 
 if !global.paused and image_index > 2 {
 	if !place_meeting(x,y,Obj_Bone) {
