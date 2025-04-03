@@ -1,0 +1,1 @@
+global.costume = "Billy (SMW)"

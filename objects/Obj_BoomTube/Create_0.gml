@@ -14,4 +14,7 @@ max_fallspeed = 5
 if floating jumps = false 
 
 if floating then sprite_index = Spr_BoomTubeFloat
+if global.costume = "Billy (SMW)" {
+		sprite_index = Spr_BoomTubeSMW
+	}
 if floating grav = 0

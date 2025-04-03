@@ -9,7 +9,7 @@ if instance_exists(Obj_BoomTube) {
 direction = point_direction(x,y,instance_nearest(x,y,Obj_BoomTube).x,instance_nearest(x,y,Obj_BoomTube).y)
 } else direction = 90
 speed = 3
-if sprite_index = Spr_CannonBallGreen {
+if sprite_index = Spr_CannonBallGreen or sprite_index = Spr_BoomTubeBallSMW {
 alarm[0] = 1
 }
 other.done_slicing = true

@@ -1,9 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-starty = y
-age = 0
-global.total_keys++
-alarm[0] = 2
 if global.costume = "Billy (SMW)" {
-		sprite_index = Spr_KeySMW
+		sprite_index = Spr_BossPhaseBlockSMW
 	}

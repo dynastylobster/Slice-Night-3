@@ -9,3 +9,7 @@ if abs(image_xscale) = 2 {
 		if image_xscale = 2 image_xscale = 1
 	}
 
+
+if global.costume = "Billy (SMW)" {
+	sprite_index = Spr_DeathBlockSMW;
+	}

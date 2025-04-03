@@ -29,3 +29,6 @@ if instance_exists(BossParentObject) {
 			direction = point_direction(x,y,Obj_Billy.x,Obj_Billy.y)
 		}
 	}
+if global.costume = "Billy (SMW)" {
+		sprite_index = Spr_BoomTubeBallSMW
+	}
