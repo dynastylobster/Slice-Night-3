@@ -1,6 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if global.costume = "Billy (SMW)" {
+		if room != L_SMWC then global.costume = "Billy"
+	}
+	if room = L_SMWC then global.costume = "Billy (SMW)"
+
 if global.character = "Robot" {
 	base_koyote_time = 9
 	doublejump = false;
