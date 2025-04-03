@@ -25,7 +25,7 @@ DrawCircle(billy.x, billy.y, playerSight);
 
 for (var i = 0; i < instance_number(Obj_FlameSlice); i++) {
 	var l = instance_find(Obj_FlameSlice, i);
-	DrawCircle(l.x + (16 * l.image_xscale), l.y, playerSight / 2)
+	DrawCircle(l.x + (16 * l.image_xscale), l.y, baseplayerSight*1.5 )
 }
 
 for (var i = 0; i < instance_number(Obj_LanternOFF); i++) {

@@ -4,8 +4,8 @@
     {"name":"Temperature","order":4,"path":"folders/Objects/Gimmicks/Temperature.yy",},
     {"name":"ClownVoid","order":1,"path":"folders/Sprites/Billy Sprites/VoidPlayerSprites/ClownVoid.yy",},
     {"name":"Void Boss","order":5,"path":"folders/Sprites/Boss Sprites/Void Boss.yy",},
-    {"name":"HP_Void","order":10,"path":"folders/Sprites/Hud sprites/HP_Void.yy",},
     {"name":"HP_Billy","order":9,"path":"folders/Sprites/Hud sprites/HP_Billy.yy",},
+    {"name":"HP_Void","order":10,"path":"folders/Sprites/Hud sprites/HP_Void.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"BossParentObject","order":9,"path":"objects/BossParentObject/BossParentObject.yy",},
