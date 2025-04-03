@@ -31,16 +31,26 @@ if (bar == -1) { bar = Spr_HPBar_Billy; }
 if (heart == -1) { heart = Spr_HPHeart_Billy; }
 var customHealthbarHavers = ["Billy_SMW"];
 
+if bar = Spr_HPBar_Billy and !global.secondserving then bar = Spr_HPBar_BillyFirstHalf
+if heart = Spr_HPHeart_Billy and !global.secondserving then heart = Spr_HPHeart_Billy_FirstHalf
+
 if (!array_contains(customHealthbarHavers, worncos)) {
-draw_sprite(bar, 0, clamp(camera_get_view_x(view_camera[0]) + 2, 0, room_width - 426) + 4, camera_get_view_y(view_camera[0]) + 4);
+draw_sprite(bar, (Obj_Billy.hp >= 3 ? Obj_Billy.hp - 3 : 0), clamp(camera_get_view_x(view_camera[0]) + 2, 0, room_width - 426) + 4, camera_get_view_y(view_camera[0]) + 4);
 if (instance_exists(Obj_Billy)) {
 	var b = Obj_Billy;
 	for (var i = 0; i < b.max_hp; i++) {
 		if (i < b.hp) {
 			draw_sprite(heart, clamp((i/3) + 1, 0, 3), clamp(camera_get_view_x(view_camera[0]) + 2, 0, room_width - 426) + 10 + (i * 16), camera_get_view_y(view_camera[0]) + 4);
+			if Obj_Billy.hit = true and Obj_Billy.i_frames > 30 {
+			draw_sprite(heart,3, clamp(camera_get_view_x(view_camera[0]) + 2, 0, room_width - 426) + 10 + (i * 16), camera_get_view_y(view_camera[0]) + 4);
+			}
 		}
 		if (i <= 3 && b.hp <= i) {
 			draw_sprite(heart, 0, clamp(camera_get_view_x(view_camera[0]) + 2, 0, room_width - 426) + 10 + (i * 16), camera_get_view_y(view_camera[0]) + 4);
+		
+		if Obj_Billy.hit = true and Obj_Billy.i_frames > 30 {
+			draw_sprite(heart,4, clamp(camera_get_view_x(view_camera[0]) + 2, 0, room_width - 426) + 10 + (i * 16), camera_get_view_y(view_camera[0]) + 4);
+			}
 		}
 	}
 }

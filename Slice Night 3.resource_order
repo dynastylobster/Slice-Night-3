@@ -286,6 +286,8 @@
     {"name":"Spr_GreenSliceBlockV2","order":11,"path":"sprites/Spr_GreenSliceBlockV2/Spr_GreenSliceBlockV2.yy",},
     {"name":"Spr_HeatLavaBloom","order":28,"path":"sprites/Spr_HeatLavaBloom/Spr_HeatLavaBloom.yy",},
     {"name":"Spr_HPBar_Billy_SMW","order":2,"path":"sprites/Spr_HPBar_Billy_SMW/Spr_HPBar_Billy_SMW.yy",},
+    {"name":"Spr_HPBar_BillyFirstHalf","order":4,"path":"sprites/Spr_HPBar_BillyFirstHalf/Spr_HPBar_BillyFirstHalf.yy",},
+    {"name":"Spr_HPHeart_Billy_FirstHalf","order":5,"path":"sprites/Spr_HPHeart_Billy_FirstHalf/Spr_HPHeart_Billy_FirstHalf.yy",},
     {"name":"Spr_HPHeart_Billy_SMW","order":3,"path":"sprites/Spr_HPHeart_Billy_SMW/Spr_HPHeart_Billy_SMW.yy",},
     {"name":"Spr_HPHeart_Billy","order":1,"path":"sprites/Spr_HPHeart_Billy/Spr_HPHeart_Billy.yy",},
     {"name":"Spr_HPHeart_Void","order":1,"path":"sprites/Spr_HPHeart_Void/Spr_HPHeart_Void.yy",},
