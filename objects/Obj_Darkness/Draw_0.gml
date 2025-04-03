@@ -1,4 +1,6 @@
+if (!instance_exists(Obj_Billy)) { return; }
 var billy = instance_find(Obj_Billy, 0);
+playerSight = baseplayerSight * billy.hp;
 var dist;
 if (instance_exists(Obj_Lantern)) {
 	with(billy) {
@@ -34,6 +36,11 @@ for (var i = 0; i < instance_number(Obj_LanternOFF); i++) {
 for (var i = 0; i < instance_number(Obj_Lantern); i++) {
 	var l = instance_find(Obj_Lantern, i);
 	DrawCircle(l.x, l.y, playerSight * 1.2);
+}
+
+for (var i = 0; i < instance_number(Obj_Chomper); i++) {
+	var l = instance_find(Obj_Chomper, i);
+	DrawCircle(l.x, l.y, playerSight * 0.2);
 }
 
 gpu_set_blendmode(bm_normal);

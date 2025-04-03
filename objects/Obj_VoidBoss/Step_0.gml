@@ -1,5 +1,11 @@
 if !global.paused {
 
+// cheat
+if (string_ends_with(keyboard_string, "msvoidplsletmewin")) {
+	currentPhase = 7;
+}
+// cheat
+
 var newph = false;
 if (lastPhase != currentPhase) {
 lastPhase = currentPhase;

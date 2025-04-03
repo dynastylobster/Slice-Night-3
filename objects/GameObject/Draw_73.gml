@@ -23,11 +23,44 @@ if global.dash and global.costume != "Billy (SMW)" {
 	draw_sprite(Spr_DashMeter,Obj_Billy.dashes,clamp(camera_get_view_x(view_camera[0])+2,0,room_width-426)+4,camera_get_view_y(view_camera[0])+4)
 }
 
-draw_sprite(hpsprite,0,clamp(camera_get_view_x(view_camera[0])+2,0,room_width-426)+4,camera_get_view_y(view_camera[0])+4)
+// Faux Hp Bar
+var worncos = string_format_to_filename(global.costume);
+var bar = asset_get_index("Spr_HPBar_" + worncos);
+var heart = asset_get_index("Spr_HPHeart_" + worncos);
+if (bar == -1) { bar = Spr_HPBar_Billy; }
+if (heart == -1) { heart = Spr_HPHeart_Billy; }
+var customHealthbarHavers = ["Billy_SMW"];
+
+if (!array_contains(customHealthbarHavers, worncos)) {
+draw_sprite(bar, 0, clamp(camera_get_view_x(view_camera[0]) + 2, 0, room_width - 426) + 4, camera_get_view_y(view_camera[0]) + 4);
+if (instance_exists(Obj_Billy)) {
+	var b = Obj_Billy;
+	for (var i = 0; i < b.max_hp; i++) {
+		if (i < b.hp) {
+			draw_sprite(heart, clamp((i/3) + 1, 0, 3), clamp(camera_get_view_x(view_camera[0]) + 2, 0, room_width - 426) + 10 + (i * 16), camera_get_view_y(view_camera[0]) + 4);
+		}
+		if (i <= 3 && b.hp <= i) {
+			draw_sprite(heart, 0, clamp(camera_get_view_x(view_camera[0]) + 2, 0, room_width - 426) + 10 + (i * 16), camera_get_view_y(view_camera[0]) + 4);
+		}
+	}
+}
+} else {
+if (instance_exists(Obj_Billy)) {
+	draw_sprite(hpsprite,0,clamp(camera_get_view_x(view_camera[0])+2,0,room_width-426)+4,camera_get_view_y(view_camera[0])+4)
+	draw_sprite(hpsprite,Obj_Billy.hp,clamp(camera_get_view_x(view_camera[0])+2,0,room_width-426)+4,camera_get_view_y(view_camera[0])+4)
+	if Obj_Billy.hit = true and Obj_Billy.i_frames > 30 {
+		draw_sprite(hpsprite,7,clamp(camera_get_view_x(view_camera[0])+2,0,room_width-426)+4,camera_get_view_y(view_camera[0])+4)	
+	}
+}
+}
+
+
+
+//draw_sprite(hpsprite,0,clamp(camera_get_view_x(view_camera[0])+2,0,room_width-426)+4,camera_get_view_y(view_camera[0])+4)
 if instance_exists(Obj_Billy) {
-draw_sprite(hpsprite,Obj_Billy.hp,clamp(camera_get_view_x(view_camera[0])+2,0,room_width-426)+4,camera_get_view_y(view_camera[0])+4)
+//draw_sprite(hpsprite,Obj_Billy.hp,clamp(camera_get_view_x(view_camera[0])+2,0,room_width-426)+4,camera_get_view_y(view_camera[0])+4)
 if Obj_Billy.hit = true and Obj_Billy.i_frames > 30 {
-draw_sprite(hpsprite,7,clamp(camera_get_view_x(view_camera[0])+2,0,room_width-426)+4,camera_get_view_y(view_camera[0])+4)	
+//draw_sprite(hpsprite,7,clamp(camera_get_view_x(view_camera[0])+2,0,room_width-426)+4,camera_get_view_y(view_camera[0])+4)	
 }
 }
 
