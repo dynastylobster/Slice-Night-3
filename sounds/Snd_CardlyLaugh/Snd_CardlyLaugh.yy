@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":0.811247,
+  "duration":0.669252,
   "name":"Snd_CardlyLaugh",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Snd_CardlyLaugh.ogg",
+  "soundFile":"Snd_CardlyLaugh.wav",
   "type":0,
   "volume":1.0,
 }
