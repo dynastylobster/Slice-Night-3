@@ -10,8 +10,8 @@
   "name":"Obj_SMWHeart",
   "overriddenProperties":[],
   "parent":{
-    "name":"Dont Place",
-    "path":"folders/Objects/Dont Place.yy",
+    "name":"Items",
+    "path":"folders/Objects/Items.yy",
   },
   "parentObjectId":{
     "name":"Obj_HeartPickup",
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Obj_WhimsyHeart",
-    "path":"sprites/Obj_WhimsyHeart/Obj_WhimsyHeart.yy",
+    "name":"Spr_WhimsyHeart",
+    "path":"sprites/Spr_WhimsyHeart/Spr_WhimsyHeart.yy",
   },
   "spriteMaskId":null,
   "visible":true,
