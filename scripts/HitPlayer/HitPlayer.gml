@@ -11,6 +11,10 @@ function HitPlayer(){
 			audio_play_sound(Snd_BillyHurt,0,0);
 			audio_play_sound(Snd_BillyHurt,0,0,1,0,1.15);
 		}
+		if global.character = "Jester" {
+			audio_play_sound(Snd_CardlyHit,0,0);
+			audio_play_sound(Snd_CardlyHit,0,0,1,0,1.15);
+		}
 		Obj_Billy.yspeed = -3
 		Obj_Billy.hp -= 1
 		Obj_Billy.i_frames = 90

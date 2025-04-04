@@ -16,3 +16,6 @@ if global.character = "Coyote" {
 if global.costume = "Billy (SMW)" {
 		sprite_index = Spr_SliceDownSMW
 	}
+if global.costume = "Cardly" {
+		sprite_index = Spr_SliceDownCard
+	}

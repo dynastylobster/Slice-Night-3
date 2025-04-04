@@ -37,7 +37,7 @@ if global.character = "Robot" sprite_index = Spr_SliceSideShipMotu
 }
 
 if !flamesliced and !dont_flameslice {
-if global.flameslice {
+if global.flameslice or global.costume = "Cardly" {
 if !global.paused {
 		if !place_meeting(x,y,Obj_FlameSlice) {
 			if image_index >0 and image_index < 1

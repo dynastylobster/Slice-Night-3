@@ -172,8 +172,30 @@ if sprite_index = Spr_BillyJump then sprite_index = Spr_BillyJumpSMW
 if sprite_index = Spr_BillyWallSlide then sprite_index = Spr_BillyWallSlideSMW
 }
 
-
+if global.costume = "Cardly" {	
+		if sprite_index = Spr_BillyDie then sprite_index = Spr_CardDie
+		if sprite_index = Spr_BillyWalk sprite_index = Spr_CardWalk
+	if sprite_index = Spr_BillyRun sprite_index = Spr_CardRun
+	if sprite_index = Spr_BillyIdle sprite_index = Spr_CardIdle
+	if sprite_index = Spr_BillyJump sprite_index = Spr_CardJump
+	if sprite_index = Spr_BillyWallSlide sprite_index = Spr_CardWallSlide
+	if sprite_index = Spr_BillyHurt sprite_index = Spr_CardHurt
+	if sprite_index = Spr_BillySliceDown sprite_index = Spr_CardSliceDown
+	if sprite_index = Spr_BillySliceSide sprite_index = Spr_CardSliceSide
+	if sprite_index = Spr_BillyRunDash sprite_index = Spr_CardDash
+	if sprite_index = Spr_BillyDash sprite_index = Spr_CardDash
+	}
+//normal drawing
 draw_self();
+// only for cardlys bounce frame
+if global.costume = "Cardly" {
+		if sprite_index = Spr_CardWalk or sprite_index = Spr_CardRun {
+			if image_index < 0.6 {
+				draw_sprite_ext(sprite_index,2,x,y,image_xscale,1,0,c_white,1);	
+			}
+		}
+	}
+if image_speed > 1 then image_speed = 1
 
 
 if global.costume != "Motu" {

@@ -46,7 +46,7 @@ if global.character = "Coyote" {
 	}
 	
 if global.character = "Jester" {
-	base_koyote_time = 9
+	base_koyote_time = 8
 	doublejump = false;
 	jumpspeed = 6
 	max_runspeed = 2.3
@@ -121,11 +121,16 @@ yspeed += grav
 }
 if !place_meeting(x,y-4,[Obj_Wall, autoTileCol]) 
 {
-	if (canglide && global.key_up) {
-		yspeed = 1;
-	} else {
-		y += yspeed	
+	if (canglide && global.key_Z) {
+		yspeed = clamp(yspeed,-99,1)
+		if yspeed > 0.25 {
+			if !place_meeting(x,y,Obj_GoalBoxSparkle) {
+				instance_create_depth(x+random_range(-10,10),y+random_range(12,16),depth,Obj_GoalBoxSparkle)	
+			}
+		}
 	}
+	y += yspeed	
+	
 }
 
 if ( place_meeting(x,y+1.2, [Obj_Wall, autoTileCol]) or place_meeting(x,y+1.2,Obj_Slope) ) and yspeed >= 0 {
@@ -551,6 +556,13 @@ if dead {
 							audio_play_sound(Snd_DieV,0,0)
 							}
 				}
+				if global.character = "Jester"
+				{
+							if !audio_is_playing(Snd_CardlyDie) {
+							audio_play_sound(Snd_CardlyDie,0,0)
+							}
+				}
+				
 		}
 	}
 

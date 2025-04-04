@@ -16,7 +16,12 @@ if global.character = "Robot" {
 if global.character = "Coyote" {
 		sprite_index = Spr_SliceSideVoid
 	}
-}
+
 if global.costume = "Billy (SMW)" {
 		sprite_index = Spr_SliceSideSMW
 	}
+
+if global.costume = "Cardly" {
+		sprite_index = Spr_SliceSideCard
+	}
+}
