@@ -5,6 +5,7 @@ if (!array_contains(other.instancesHit, id)) {
 
 var dam = other.damageType;
 var damage = other.damageBase;
+var jesterRand = 0;
 
 if (instance_exists(Obj_Billy)) {
 	if (other.owner == Obj_Billy.id) {
@@ -15,6 +16,10 @@ if (instance_exists(Obj_Billy)) {
 			if (dam == "Normal") { damage *= 0.75; }
 			if (dam == "Down") { damage *= 0.75; }
 			if (dam == "Flame") { damage *= 2; }
+		}
+		if (global.character == "Jester") {
+			if (dam == "Normal") { damage *= 0.5; }
+			if (dam == "Flame") { jesterRand = irandom_range(1, 6); damage += jesterRand; }
 		}
 	}
 }
@@ -30,6 +35,7 @@ if (array_contains(resistances, "Weak To " + dam)) {
 }
 
 if (damage > 0) { instance_create_depth(x,y,depth,Obj_EnemyHurtEffect); }
+if (jesterRand > 0) {draw_text(x, y, damage + "!"); }
 self.hp -= damage;
 array_push(other.instancesHit, id);
 }

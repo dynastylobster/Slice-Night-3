@@ -164,8 +164,9 @@ var robotCostumes = [];
 if (global.motuunlocked) { array_push(robotCostumes, "Motu"); }
 var coyoteCostumes = [];
 if (global.voidunlocked) { array_push(coyoteCostumes, "Void", "Void (Clown)"); }
+var jesterCostumes = ["Cardly"]
 
-var acceptableCostumes = [humanCostumes, robotCostumes, coyoteCostumes];
+var acceptableCostumes = [humanCostumes, robotCostumes, coyoteCostumes, jesterCostumes];
 
 if (leftright != 0 && menuType == "Settings") {
 		switch(menuIndex) {

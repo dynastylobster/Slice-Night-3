@@ -11,12 +11,15 @@ if global.character = "Robot" {
 	doublejump = false;
 		jumpspeed = 6.5
 		max_runspeed = 2.1
+		canglide = false;
+		canglide = false;
 	}
 if global.character = "Human" {
 	base_koyote_time = 9
 	doublejump = false;
 		jumpspeed = 6
 		max_runspeed = 2.3 
+		canglide = false;
 	}
 if global.character = "Coyote" {
 	base_koyote_time = 45
@@ -26,6 +29,7 @@ if global.character = "Coyote" {
 	doublejump = true;
 		max_runspeed = 3.15
 		jumpspeed = 5
+		canglide = false;
 		
 	if !place_meeting(x,y+4,[Obj_MovePlatform,Obj_Wall,autoTileCol]) {
 			if global.key_Z_pressed {
@@ -40,6 +44,14 @@ if global.character = "Coyote" {
 	if grounded has_double_jumped = false
 		
 	}
+	
+if global.character = "Jester" {
+	base_koyote_time = 9
+	doublejump = false;
+	jumpspeed = 6
+	max_runspeed = 2.3
+	canglide = true;
+}
 	
 if (abs(heat) >= maxHeat) { HitPlayer(); heat = 0; }
 if (heat > 0) { heat--; }
@@ -109,7 +121,11 @@ yspeed += grav
 }
 if !place_meeting(x,y-4,[Obj_Wall, autoTileCol]) 
 {
-y += yspeed	
+	if (canglide && global.key_up) {
+		yspeed = 1;
+	} else {
+		y += yspeed	
+	}
 }
 
 if ( place_meeting(x,y+1.2, [Obj_Wall, autoTileCol]) or place_meeting(x,y+1.2,Obj_Slope) ) and yspeed >= 0 {

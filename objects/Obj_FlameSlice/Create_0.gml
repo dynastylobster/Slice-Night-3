@@ -17,6 +17,7 @@ done_slicing = false
 
 alarm[1] = 120;
 image_alpha = 0.5
+try { autoTileCol = layer_tilemap_get_id("TileCollision"); } catch (err) { autoTileCol = -4; }
 
 if global.character = "Robot" {
 		xspeed = 2;
@@ -36,3 +37,11 @@ if global.character = "Coyote" {
 		alarm[3] = 6
 		image_alpha = 1
 	}
+if global.character = "Jester" {
+	if global.key_up {
+		yspeed = -4;	
+		}
+	sprite_index = Spr_FlameDice
+	alarm[1] = 240;
+	
+}

@@ -9,6 +9,7 @@ running = false
 jumpspeed = 6
 doublejump = false;
 has_double_jumped = false;
+canglide = false;
 max_fallspeed = 7
 bouncing = false
 max_walkspeed = 1.5
