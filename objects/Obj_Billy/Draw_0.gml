@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+	slideage += 0.25
+	if slideage > 2048 slideage = 0
+
 if (abs(heat) > 10) {
 var heatPercent = (heat / maxHeat);
 var color = make_color_rgb(floor(heatPercent * 255), 0, 0);
@@ -184,16 +187,21 @@ if global.costume = "Cardly" {
 	if sprite_index = Spr_BillySliceSide sprite_index = Spr_CardSliceSide
 	if sprite_index = Spr_BillyRunDash sprite_index = Spr_CardDash
 	if sprite_index = Spr_BillyDash sprite_index = Spr_CardDash
+	
 	}
 //normal drawing
 draw_self();
-// only for cardlys bounce frame
+// only for cardlys funny frames
 if global.costume = "Cardly" {
 		if sprite_index = Spr_CardWalk or sprite_index = Spr_CardRun {
 			if image_index < 0.6 {
 				draw_sprite_ext(sprite_index,2,x,y,image_xscale,1,0,c_white,1);	
 			}
 		}
+	if sliding {
+			draw_sprite_ext(Spr_CardWallSlide,slideage,x,y,facing,1,0,c_white,1);	
+			}
+
 	}
 if image_speed > 1 then image_speed = 1
 

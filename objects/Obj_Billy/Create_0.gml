@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 hp = 3;
+slideage = 0;
 max_hp = 3;
 spinning = false;
 sliding = false
