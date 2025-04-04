@@ -181,6 +181,9 @@ if global.costume = "Cardly" {
 	if sprite_index = Spr_BillyRun sprite_index = Spr_CardRun
 	if sprite_index = Spr_BillyIdle sprite_index = Spr_CardIdle
 	if sprite_index = Spr_BillyJump sprite_index = Spr_CardJump
+	if sprite_index = Spr_CardJump {
+	if yspeed > 0.01 and global.key_Z sprite_index = Spr_CardFloat	
+	}
 	if sprite_index = Spr_BillyWallSlide sprite_index = Spr_CardWallSlide
 	if sprite_index = Spr_BillyHurt sprite_index = Spr_CardHurt
 	if sprite_index = Spr_BillySliceDown sprite_index = Spr_CardSliceDown
