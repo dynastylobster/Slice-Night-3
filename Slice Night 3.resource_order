@@ -5,8 +5,8 @@
     {"name":"ClownVoid","order":1,"path":"folders/Sprites/Billy Sprites/VoidPlayerSprites/ClownVoid.yy",},
     {"name":"Void Boss","order":5,"path":"folders/Sprites/Boss Sprites/Void Boss.yy",},
     {"name":"HP_Billy","order":26,"path":"folders/Sprites/Hud sprites/HP_Billy.yy",},
-    {"name":"HP_Void","order":27,"path":"folders/Sprites/Hud sprites/HP_Void.yy",},
     {"name":"HP_Motu","order":28,"path":"folders/Sprites/Hud sprites/HP_Motu.yy",},
+    {"name":"HP_Void","order":27,"path":"folders/Sprites/Hud sprites/HP_Void.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"BossParentObject","order":9,"path":"objects/BossParentObject/BossParentObject.yy",},
@@ -284,6 +284,7 @@
     {"name":"Spr_FlameBall","order":31,"path":"sprites/Spr_FlameBall/Spr_FlameBall.yy",},
     {"name":"Spr_FlameballThrower","order":33,"path":"sprites/Spr_FlameballThrower/Spr_FlameballThrower.yy",},
     {"name":"Spr_FlameballThrowerTimed","order":24,"path":"sprites/Spr_FlameballThrowerTimed/Spr_FlameballThrowerTimed.yy",},
+    {"name":"Spr_FlameDice","order":1,"path":"sprites/Spr_FlameDice/Spr_FlameDice.yy",},
     {"name":"Spr_FlatBoofer_Active","order":27,"path":"sprites/Spr_FlatBoofer_Active/Spr_FlatBoofer_Active.yy",},
     {"name":"Spr_FlatBoofer","order":3,"path":"sprites/Spr_FlatBoofer/Spr_FlatBoofer.yy",},
     {"name":"Spr_FlatBooferPlatform","order":25,"path":"sprites/Spr_FlatBooferPlatform/Spr_FlatBooferPlatform.yy",},
