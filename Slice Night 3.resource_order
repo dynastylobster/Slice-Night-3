@@ -326,6 +326,7 @@
     {"name":"Spr_CannonShooterReticle","order":9,"path":"sprites/Spr_CannonShooterReticle/Spr_CannonShooterReticle.yy",},
     {"name":"Spr_CardDash","order":7,"path":"sprites/Spr_CardDash/Spr_CardDash.yy",},
     {"name":"Spr_CardDie","order":8,"path":"sprites/Spr_CardDie/Spr_CardDie.yy",},
+    {"name":"Spr_CardFloat","order":10,"path":"sprites/Spr_CardFloat/Spr_CardFloat.yy",},
     {"name":"Spr_CardHurt","order":6,"path":"sprites/Spr_CardHurt/Spr_CardHurt.yy",},
     {"name":"Spr_CardJump","order":2,"path":"sprites/Spr_CardJump/Spr_CardJump.yy",},
     {"name":"Spr_CardRun","order":9,"path":"sprites/Spr_CardRun/Spr_CardRun.yy",},

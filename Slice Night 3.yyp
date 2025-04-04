@@ -782,6 +782,7 @@
     {"id":{"name":"Spr_CannonTrackerBall","path":"sprites/Spr_CannonTrackerBall/Spr_CannonTrackerBall.yy",},},
     {"id":{"name":"Spr_CardDash","path":"sprites/Spr_CardDash/Spr_CardDash.yy",},},
     {"id":{"name":"Spr_CardDie","path":"sprites/Spr_CardDie/Spr_CardDie.yy",},},
+    {"id":{"name":"Spr_CardFloat","path":"sprites/Spr_CardFloat/Spr_CardFloat.yy",},},
     {"id":{"name":"Spr_CardHurt","path":"sprites/Spr_CardHurt/Spr_CardHurt.yy",},},
     {"id":{"name":"Spr_CardIdle","path":"sprites/Spr_CardIdle/Spr_CardIdle.yy",},},
     {"id":{"name":"Spr_CardJump","path":"sprites/Spr_CardJump/Spr_CardJump.yy",},},
