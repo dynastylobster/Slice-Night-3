@@ -16,12 +16,12 @@ if !global.paused {
 		
 		if sprite_index = Spr_FlameDice
 		{
-	if place_meeting(x + dir, y, [Obj_Wall, autoTileCol]) 
+	if place_meeting(x + dir, y, [Obj_Wall,Obj_EnemyOnlyBlock, autoTileCol]) 
 	{
 		x -= dir * 5;
 		dir *= -1;
 	}
-	if place_meeting(x, y + yspeed, [Obj_Wall, autoTileCol]) 
+	if place_meeting(x, y + yspeed, [Obj_Wall,Obj_EnemyOnlyBlock, autoTileCol]) 
 	{
 		y += yspeed;
 		yspeed *= -1;
