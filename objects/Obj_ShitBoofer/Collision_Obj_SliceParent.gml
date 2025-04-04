@@ -20,5 +20,13 @@ if sprite_index != Spr_ShitBoofer_Active {
 	}
 	alarm[0] = 45
 	instance_create_layer(x,y,layer,Obj_ParryBallEffect);
-
 	}
+if other.sprite_index = Spr_FlameDice and other.done_slicing = false {
+instance_create_depth(x-6,y,depth,Obj_DiceDMG)	
+instance_create_depth(x,y,depth,Obj_DiceDMG)	
+instance_create_depth(x+6,y,depth,Obj_DiceDMG)	
+with(Obj_DiceDMG) {
+	image_index = irandom_range(1,6);	
+}
+other.done_slicing = true;
+}

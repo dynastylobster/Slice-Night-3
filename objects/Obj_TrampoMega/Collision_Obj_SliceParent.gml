@@ -1,5 +1,5 @@
 /// @HALF DAMAGE FROM FLAMESLICE
-GetSlicedNuanced();
+HitAnyone();
 /*
 if place_meeting(x,y,Obj_SliceSide)or place_meeting(x,y,Obj_SliceDown) {
 

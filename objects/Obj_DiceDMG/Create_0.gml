@@ -5,3 +5,6 @@ startx = x
 
 grav = 0.0125
 yspeed = -1;
+depth = 25
+
+alarm[0] = 1;

@@ -7,7 +7,7 @@ if Obj_SliceParent.done_slicing = false {
 xspeed *= 0.125
 alarm[0] = 60
 }
-GetSlicedNuanced();
+HitAnyone();
 /*
 if other.done_slicing = false {
 instance_create_layer(x,y-10,layer,Obj_EnemyHurtEffect)
