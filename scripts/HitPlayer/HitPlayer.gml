@@ -1,9 +1,10 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function HitPlayer(){
-	if (global.character == "Jester" && irandom_range(1, 6) == 6) {
+	if (global.character == "Jester" && irandom_range(1, 6) == 6 && Obj_Billy.i_frames == 0) {
 		audio_play_sound(Snd_CardlyLaugh, 0, 0);
 		instance_create_depth(x, y, depth, Obj_DiceDMG, { image_index : 6 });
+		Obj_Billy.i_frames = 60;
 		return;
 		}
 	if instance_exists(Obj_Billy) {

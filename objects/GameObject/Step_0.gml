@@ -219,6 +219,7 @@ switch(menuIndex) {
 	break;
 	case "Settings":
 	_index = 0;
+	menuIndex = settingsSubmenuOp[_index];
 	menuType = "Settings";
 	break;
 	case "Return To Title Screen":
@@ -266,8 +267,6 @@ switch (menuIndex) {
 	case "Erase Save File":
 		deletePhase++;
 		if (deletePhase == 6) {
-			// Delete file.
-			// Play scary noise.
 			ini_open("save.ini")
 			ini_section_delete(global.save)
 			ini_close();
@@ -282,6 +281,7 @@ switch (menuIndex) {
 	break;
 	case "Main Menu":
 	_index = 0;
+	menuIndex = menuOp[_index];
 	menuType = "Start"
 	break;
 }
