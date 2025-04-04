@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Cardly Boss",
-    "path":"folders/Sprites/Boss Sprites/Cardly Boss.yy",
+    "name":"Billy Sprites",
+    "path":"folders/Sprites/Billy Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

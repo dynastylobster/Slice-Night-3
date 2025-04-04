@@ -10,6 +10,8 @@ if instance_exists(Obj_Billy) {
 	xspeed = 4
 	yspeed = 0;
 
+grav = 0.125
+
 image_xscale = dir
 
 damage = true
@@ -39,7 +41,8 @@ if global.character = "Coyote" {
 	}
 if global.character = "Jester" {
 	if global.key_up {
-		yspeed = -4;	
+		yspeed = -4;
+		xspeed = 3;
 		}
 	sprite_index = Spr_FlameDice
 	alarm[1] = 240;

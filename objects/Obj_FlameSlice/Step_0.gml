@@ -14,6 +14,8 @@ if !global.paused {
 		if dir = -1 then x-=xspeed
 		y+= yspeed
 		
+		if sprite_index = Spr_FlameDice
+		{
 	if place_meeting(x + dir, y, [Obj_Wall, autoTileCol]) 
 	{
 		x -= dir * 5;
@@ -25,6 +27,8 @@ if !global.paused {
 		yspeed *= -1;
 	}
 		
+		
+}
 	} else {
 	alarm[0]++
 	alarm[1]++
@@ -33,4 +37,11 @@ if !global.paused {
 if !instance_exists(Obj_Billy) {
 		instance_create_layer(x,y,layer,Obj_EnemyHurtEffect);
 		instance_destroy();
+	}
+	
+if !global.paused and sprite_index = Spr_FlameDice {
+		yspeed += grav
+		if place_meeting(x,y+yspeed,[Obj_Wall,Obj_Slope,autoTileCol]) {
+			yspeed = -yspeed	
+		}
 	}

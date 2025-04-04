@@ -24,7 +24,7 @@ if Obj_Billy.x >= x then dir = -1
 if Obj_Billy.x < x then dir = 1
 }
 
-hp -= 1	
+HitAnyone();
 
 	}
 }

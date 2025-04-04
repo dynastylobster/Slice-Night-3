@@ -10,7 +10,7 @@ var jesterRand = 0;
 if (instance_exists(Obj_Billy)) {
 	if (other.owner == Obj_Billy.id) {
 		if (global.character == "Robot") {
-			damage *= 1.6;
+			if (dam == "Normal") or (dam == "Down") { damage *= 1.6; }
 		}
 		if (global.character == "Coyote") {
 			if (dam == "Normal") { damage *= 0.75; }
@@ -35,7 +35,11 @@ if (array_contains(resistances, "Weak To " + dam)) {
 }
 
 if (damage > 0) { instance_create_depth(x,y,depth,Obj_EnemyHurtEffect); }
-if (jesterRand > 0) {draw_text(x, y, damage + "!"); }
+if (jesterRand > 0) {
+	//draw_text(x, y, damage + "!");
+	var indicator = instance_create_depth(x,y,depth,Obj_DiceDMG)
+	indicator.image_index = jesterRand;
+	}
 self.hp -= damage;
 array_push(other.instancesHit, id);
 }
