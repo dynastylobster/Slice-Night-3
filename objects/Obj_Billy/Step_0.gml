@@ -121,8 +121,9 @@ yspeed += grav
 }
 if !place_meeting(x,y-4,[Obj_Wall, autoTileCol]) 
 {
+	// gliding
 	if (canglide && global.key_Z) {
-		yspeed = clamp(yspeed,-99,1)
+		yspeed = clamp(yspeed,-99,0.2)
 		if yspeed > 0.25 {
 			if !place_meeting(x,y,Obj_GoalBoxSparkle) {
 				instance_create_depth(x+random_range(-10,10),y+random_range(12,16),depth,Obj_GoalBoxSparkle)	
@@ -614,6 +615,7 @@ camera_set_view_pos(view_camera[0],cam_x,cam_y);
 }
 //}
 } else {
+	if !instance_exists(Obj_CameraController) {
 var camx = x - 213;
 var camy = y - 120;
 var oldCamx = camera_get_view_x(view_camera[0]);
@@ -623,6 +625,7 @@ camy += ((camy + (yspeed * 10)) - oldCamy) / 20;
 camx = clamp(camx, 0, room_width - 426);
 camy = clamp(camy, 0, room_height - 240);
 camera_set_view_pos(view_camera[0], camx, camy);
+	}
 }
 
 if place_meeting(x,y,Obj_WarpBox) {

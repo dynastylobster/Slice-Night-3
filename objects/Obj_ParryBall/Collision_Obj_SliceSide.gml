@@ -3,7 +3,7 @@
 if instance_exists(Obj_Billy) {
 
 
-
+if (other == Obj_FlameSliceCollide) { return; }
 
 if other.done_slicing = false {
 	
