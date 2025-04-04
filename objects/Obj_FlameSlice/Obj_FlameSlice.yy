@@ -13,7 +13,9 @@
   ],
   "managed":true,
   "name":"Obj_FlameSlice",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_ProjectileParent","path":"objects/Obj_ProjectileParent/Obj_ProjectileParent.yy",},"propertyId":{"name":"damageType","path":"objects/Obj_ProjectileParent/Obj_ProjectileParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Flame\"",},
+  ],
   "parent":{
     "name":"Dont Place",
     "path":"folders/Objects/Dont Place.yy",

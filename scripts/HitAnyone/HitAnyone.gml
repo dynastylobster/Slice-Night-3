@@ -8,9 +8,9 @@ var damage = other.damageBase;
 var jesterRand = 0;
 
 if (instance_exists(Obj_Billy)) {
-	if (other.owner == Obj_Billy.id) {
+	if (other.owner == Obj_Billy) {
 		if (global.character == "Robot") {
-			if (dam == "Normal") or (dam == "Down") { damage *= 1.6; }
+			damage *= 1.6;
 		}
 		if (global.character == "Coyote") {
 			if (dam == "Normal") { damage *= 0.75; }
