@@ -201,6 +201,7 @@
     {"id":{"name":"Obj_LanternOFF","path":"objects/Obj_LanternOFF/Obj_LanternOFF.yy",},},
     {"id":{"name":"Obj_Leech","path":"objects/Obj_Leech/Obj_Leech.yy",},},
     {"id":{"name":"Obj_LeechMouth","path":"objects/Obj_LeechMouth/Obj_LeechMouth.yy",},},
+    {"id":{"name":"Obj_LevelUp","path":"objects/Obj_LevelUp/Obj_LevelUp.yy",},},
     {"id":{"name":"Obj_LightningCloud","path":"objects/Obj_LightningCloud/Obj_LightningCloud.yy",},},
     {"id":{"name":"Obj_LightningEffect","path":"objects/Obj_LightningEffect/Obj_LightningEffect.yy",},},
     {"id":{"name":"Obj_LockBlock","path":"objects/Obj_LockBlock/Obj_LockBlock.yy",},},

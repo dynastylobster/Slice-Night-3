@@ -73,6 +73,7 @@
     {"name":"Obj_LanternOFF","order":11,"path":"objects/Obj_LanternOFF/Obj_LanternOFF.yy",},
     {"name":"Obj_Leech","order":27,"path":"objects/Obj_Leech/Obj_Leech.yy",},
     {"name":"Obj_LeechMouth","order":28,"path":"objects/Obj_LeechMouth/Obj_LeechMouth.yy",},
+    {"name":"Obj_LevelUp","order":4,"path":"objects/Obj_LevelUp/Obj_LevelUp.yy",},
     {"name":"Obj_LightningCloud","order":9,"path":"objects/Obj_LightningCloud/Obj_LightningCloud.yy",},
     {"name":"Obj_LightningEffect","order":29,"path":"objects/Obj_LightningEffect/Obj_LightningEffect.yy",},
     {"name":"Obj_LongAquaJumper","order":7,"path":"objects/Obj_LongAquaJumper/Obj_LongAquaJumper.yy",},

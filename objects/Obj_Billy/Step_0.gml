@@ -124,7 +124,7 @@ if !place_meeting(x,y-4,[Obj_Wall, autoTileCol])
 	// gliding
 	if (canglide && global.key_Z) {
 		yspeed = clamp(yspeed,-99,0.2)
-		if yspeed > 0.25 {
+		if yspeed > 0.01 {
 			if !place_meeting(x,y,Obj_GoalBoxSparkle) {
 				instance_create_depth(x+random_range(-10,10),y+random_range(12,16),depth,Obj_GoalBoxSparkle)	
 			}

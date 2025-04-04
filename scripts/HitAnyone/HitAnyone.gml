@@ -9,6 +9,11 @@ var jesterRand = 0;
 
 if (instance_exists(Obj_Billy)) {
 	if (other.owner == Obj_Billy) {
+		// check [Pendant Bosses] for how many there are
+		// add that value * 0.25 to "damage"
+		
+		
+		
 		if (global.character == "Robot") {
 			damage *= 1.6;
 		}
@@ -19,7 +24,7 @@ if (instance_exists(Obj_Billy)) {
 		}
 		if (global.character == "Jester") {
 			if (dam == "Normal") { damage *= 0.5; }
-			if (dam == "Flame") { jesterRand = irandom_range(1, 6); damage += jesterRand; }
+			if (dam == "Flame") { jesterRand = irandom_range(1, 6); damage = jesterRand; }
 		}
 	}
 }
