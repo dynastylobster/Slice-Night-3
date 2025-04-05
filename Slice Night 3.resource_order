@@ -151,6 +151,7 @@
     {"name":"Path_LongOval","order":2,"path":"paths/Path_LongOval/Path_LongOval.yy",},
     {"name":"Path_TabuliBoss2Flight","order":1,"path":"paths/Path_TabuliBoss2Flight/Path_TabuliBoss2Flight.yy",},
     {"name":"BillyCutsceneRoom2B","order":3,"path":"rooms/BillyCutsceneRoom2B/BillyCutsceneRoom2B.yy",},
+    {"name":"Cardly_Tutorial","order":21,"path":"rooms/Cardly_Tutorial/Cardly_Tutorial.yy",},
     {"name":"Coyote_Tutorial","order":1,"path":"rooms/Coyote_Tutorial/Coyote_Tutorial.yy",},
     {"name":"faux_testing","order":3,"path":"rooms/faux_testing/faux_testing.yy",},
     {"name":"L_BetaTrollCave","order":5,"path":"rooms/L_BetaTrollCave/L_BetaTrollCave.yy",},
