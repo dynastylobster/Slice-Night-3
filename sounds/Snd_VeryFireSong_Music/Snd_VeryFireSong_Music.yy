@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Snd_VeryFireSong_Music",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":77.0,
+  "name":"Snd_VeryFireSong_Music",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Snd_VeryFireSong_Music.ogg",
+  "type":1,
+  "volume":1.0,
+}
