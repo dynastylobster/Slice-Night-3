@@ -223,6 +223,7 @@
     {"name":"Bg_Core_Still","order":35,"path":"sprites/Bg_Core_Still/Bg_Core_Still.yy",},
     {"name":"Bg_CutsceneBilly3","order":9,"path":"sprites/Bg_CutsceneBilly3/Bg_CutsceneBilly3.yy",},
     {"name":"Bg_CutsceneModel12","order":2,"path":"sprites/Bg_CutsceneModel12/Bg_CutsceneModel12.yy",},
+    {"name":"Bg_DarkOrb","order":38,"path":"sprites/Bg_DarkOrb/Bg_DarkOrb.yy",},
     {"name":"Bg_FakeWater","order":32,"path":"sprites/Bg_FakeWater/Bg_FakeWater.yy",},
     {"name":"Bg_Feild_1","order":8,"path":"sprites/Bg_Feild_1/Bg_Feild_1.yy",},
     {"name":"Bg_Feild_Still","order":7,"path":"sprites/Bg_Feild_Still/Bg_Feild_Still.yy",},
