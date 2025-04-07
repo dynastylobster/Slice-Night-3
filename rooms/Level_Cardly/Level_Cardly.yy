@@ -244,7 +244,9 @@
           131,-144,0,1,131,-144,0,1,131,-144,0,1,131,-144,0,1,131,-144,0,1,131,-144,0,1,131,-144,0,1,131,-144,
           0,1,131,-144,0,1,131,-144,0,1,131,-144,0,1,131,-144,0,1,131,-144,0,1,131,-144,0,1,131,-62,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"AlienTileSetNight","path":"tilesets/AlienTileSetNight/AlienTileSetNight.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":145,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":500,"effectEnabled":true,"effectType":"_effect_blend","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[
+        {"name":"g_Blend","type":0,"value":"2",},
+      ],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":145,"TileCompressedData":[
           2,0,105,-38,0,1,105,-9,0,1,105,-15,0,1,155,-4,0,-2,155,-4,0,1,155,-9,0,8,202,201,202,201,202,201,202,
           201,-10,0,1,101,-6,0,1,105,-8,0,1,105,-4,0,21,201,202,201,202,156,55,56,55,56,55,56,55,56,55,56,55,56,
           55,56,0,155,-38,0,1,155,-9,0,1,155,-15,0,1,105,-4,0,-2,105,-4,0,1,105,-10,0,7,201,202,201,202,201,202,

@@ -184,6 +184,8 @@
     {"name":"Blackscreen","order":2,"path":"scripts/Blackscreen/Blackscreen.yy",},
     {"name":"HitAnyone","order":4,"path":"scripts/HitAnyone/HitAnyone.yy",},
     {"name":"Near","order":1,"path":"scripts/Near/Near.yy",},
+    {"name":"Script10","order":38,"path":"scripts/Script10/Script10.yy",},
+    {"name":"Script9","order":37,"path":"scripts/Script9/Script9.yy",},
     {"name":"string_format_to_filename","order":5,"path":"scripts/string_format_to_filename/string_format_to_filename.yy",},
     {"name":"Thermodynamics","order":3,"path":"scripts/Thermodynamics/Thermodynamics.yy",},
     {"name":"SlicerOfthe7DreamsUpbeatRemix","order":17,"path":"sounds/SlicerOfthe7DreamsUpbeatRemix/SlicerOfthe7DreamsUpbeatRemix.yy",},

@@ -456,6 +456,8 @@
     {"id":{"name":"HitAnyone","path":"scripts/HitAnyone/HitAnyone.yy",},},
     {"id":{"name":"HitPlayer","path":"scripts/HitPlayer/HitPlayer.yy",},},
     {"id":{"name":"Near","path":"scripts/Near/Near.yy",},},
+    {"id":{"name":"Script10","path":"scripts/Script10/Script10.yy",},},
+    {"id":{"name":"Script9","path":"scripts/Script9/Script9.yy",},},
     {"id":{"name":"string_format_to_filename","path":"scripts/string_format_to_filename/string_format_to_filename.yy",},},
     {"id":{"name":"Thermodynamics","path":"scripts/Thermodynamics/Thermodynamics.yy",},},
     {"id":{"name":"SlicerOfthe7DreamsUpbeatRemix","path":"sounds/SlicerOfthe7DreamsUpbeatRemix/SlicerOfthe7DreamsUpbeatRemix.yy",},},
