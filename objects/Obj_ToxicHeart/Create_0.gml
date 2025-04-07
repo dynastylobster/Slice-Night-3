@@ -8,3 +8,5 @@ age = 0;
 startx = x
 
 immune = false
+
+alarm[1] = 3
