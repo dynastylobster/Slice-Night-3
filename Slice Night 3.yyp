@@ -495,6 +495,7 @@
     {"id":{"name":"Snd_celery","path":"sounds/Snd_celery/Snd_celery.yy",},},
     {"id":{"name":"Snd_Checkpoint","path":"sounds/Snd_Checkpoint/Snd_Checkpoint.yy",},},
     {"id":{"name":"Snd_Crickets","path":"sounds/Snd_Crickets/Snd_Crickets.yy",},},
+    {"id":{"name":"Snd_DashCrystal","path":"sounds/Snd_DashCrystal/Snd_DashCrystal.yy",},},
     {"id":{"name":"Snd_Die","path":"sounds/Snd_Die/Snd_Die.yy",},},
     {"id":{"name":"Snd_DieF","path":"sounds/Snd_DieF/Snd_DieF.yy",},},
     {"id":{"name":"Snd_DieV","path":"sounds/Snd_DieV/Snd_DieV.yy",},},
