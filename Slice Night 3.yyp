@@ -838,6 +838,7 @@
     {"id":{"name":"Spr_CutsceneMotu","path":"sprites/Spr_CutsceneMotu/Spr_CutsceneMotu.yy",},},
     {"id":{"name":"Spr_Dad_Hitbox","path":"sprites/Spr_Dad_Hitbox/Spr_Dad_Hitbox.yy",},},
     {"id":{"name":"Spr_Dad_Idle","path":"sprites/Spr_Dad_Idle/Spr_Dad_Idle.yy",},},
+    {"id":{"name":"Spr_Dad_Raise","path":"sprites/Spr_Dad_Raise/Spr_Dad_Raise.yy",},},
     {"id":{"name":"Spr_Dad_Slicing","path":"sprites/Spr_Dad_Slicing/Spr_Dad_Slicing.yy",},},
     {"id":{"name":"Spr_DadSlice","path":"sprites/Spr_DadSlice/Spr_DadSlice.yy",},},
     {"id":{"name":"Spr_DadSliceRebound","path":"sprites/Spr_DadSliceRebound/Spr_DadSliceRebound.yy",},},

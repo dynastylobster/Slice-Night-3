@@ -13,6 +13,14 @@ var blackholeright = false
 		if blackholeright draw_sprite_ext(Spr_BillyShadow,2,x,y+19+(floor(image_index)),2,1.5,0,c_black,1);	
 	}
 
+if phase = 1 and !instance_exists(Obj_MenaceOrb){
+	draw_sprite(Spr_DeathBlockWarning,alarm[2]/5,32,24)
+	draw_sprite(Spr_DeathBlockWarning,alarm[2]/5,88,24)
+	draw_sprite(Spr_DeathBlockWarning,alarm[2]/5,152,24)
+	draw_sprite(Spr_DeathBlockWarning,alarm[2]/5,216,24)
+	draw_sprite(Spr_DeathBlockWarning,alarm[2]/5,280,24)
+	draw_sprite(Spr_DeathBlockWarning,alarm[2]/5,344,24)
+	}
 
 draw_self();
 draw_sprite_ext(sprite_index,image_index,x,y,image_xscale,image_yscale,image_angle,c_black,fadein/60)

@@ -47,5 +47,6 @@
     {"name":"Snd_VoidVoice","order":5,"path":"sounds/Snd_VoidVoice/Snd_VoidVoice.yy",},
     {"name":"Snd_Warning","order":24,"path":"sounds/Snd_Warning/Snd_Warning.yy",},
     {"name":"Snd_Wizard_TP","order":16,"path":"sounds/Snd_Wizard_TP/Snd_Wizard_TP.yy",},
+    {"name":"Spr_Dad_Raise","order":1,"path":"sprites/Spr_Dad_Raise/Spr_Dad_Raise.yy",},
   ],
 }
