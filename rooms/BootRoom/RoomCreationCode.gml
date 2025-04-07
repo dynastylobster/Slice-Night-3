@@ -1,6 +1,6 @@
 global.VoidFont = font_add_sprite_ext(Spr_VoidFont,"abcdefghijklmnopqrstuvwxyz.,ABCDEFGHIJKLMNOPQRSTUVWXYZ",true,0)
 global.paused = false;
-global.music = Snd_TitleMusic
+global.music = Sng_TitleMusic
 global.SFXvolume = 0.5;
 global.confetti_id = 0
 global.walljump = true
@@ -37,6 +37,7 @@ global.save = "file7"
 
 if !instance_exists(GameObject) {
 instance_create_layer(0,0,layer_get_id("GameObjectLayer"),GameObject);
+instance_create_layer(0, 0, "GameObjectLayer", Obj_AudioSystem_F);
 }
 
 room_goto(TitleScreenRoom)

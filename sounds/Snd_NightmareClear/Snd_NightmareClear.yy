@@ -12,8 +12,8 @@
   "duration":4.772925,
   "name":"Snd_NightmareClear",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

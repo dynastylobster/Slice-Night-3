@@ -19,8 +19,8 @@ var _realcamy = lerp(camera_get_view_y(view_camera[0]),_camy,0.125);
 camera_set_view_pos(view_camera[0],0,clamp(_realcamy,0,room_height-240))
 	
 if image_index = 0 {
-	audio_stop_sound(Snd_jump)
-	audio_play_sound(Snd_jump,0,0)	
+	audio_stop_sound(Snd_Jump)
+	audio_play_sound(Snd_Jump,0,0)	
 	image_index = 1	
 	}
 }	
@@ -41,7 +41,7 @@ if place_meeting(x,y,Obj_ButtonSelect) {
 
 if global.key_Z_pressed or global.key_X_pressed {
 if !locked audio_play_sound(Snd_Slice,0,0)
-if locked audio_play_sound(Snd_land,0,0,global.SFXvolume*2);
+if locked audio_play_sound(Snd_Land,0,0,global.SFXvolume*2);
 if func = "roomselect" {
 room_goto(destination)
 }

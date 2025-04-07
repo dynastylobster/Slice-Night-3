@@ -1,2 +1,2 @@
-global.music = Snd_SecondServingTitleMusic
+global.music = Sng_SecondServingTitleMusic
 global.walljump = false 

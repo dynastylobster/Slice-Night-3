@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Snd_jump",
+  "%Name":"Snd_Jump",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.327982,
-  "name":"Snd_jump",
+  "duration":0.0,
+  "name":"Snd_Jump",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Billy",
+    "path":"folders/Sounds/SFX/PlayerSounds/Billy.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Snd_jump.ogg",
+  "soundFile":"Snd_Jump.ogg",
   "type":0,
   "volume":0.4,
 }

@@ -1,2 +1,2 @@
-global.music = Snd_ForestOfHopesMusic
+global.music = Sng_ForestOfHopesMusic
 global.walljump = true

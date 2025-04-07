@@ -12,8 +12,8 @@
   "duration":0.127528,
   "name":"Snd_AmberVoice",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

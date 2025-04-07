@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Sng_JadeSpaceMusic",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":88.68285,
+  "name":"Sng_JadeSpaceMusic",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"Sng_JadeSpaceMusic.ogg",
+  "type":1,
+  "volume":1.0,
+}

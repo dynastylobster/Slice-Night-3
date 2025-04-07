@@ -12,8 +12,8 @@
   "duration":6.155556,
   "name":"Snd_SunImplode",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

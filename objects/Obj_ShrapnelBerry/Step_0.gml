@@ -10,7 +10,7 @@ if !global.paused
 if !place_meeting(x,y,Obj_DebrisPlatform) {
 if place_meeting(x,y,[Obj_Wall, autoTileCol,Obj_Slope])
 	{
-		audio_play_sound(Snd_land,0,0,2)
+		audio_play_sound(Snd_Land,0,0,2)
 		audio_play_sound(Snd_BlockBreak,0,0,1)
 		audio_play_sound(Snd_Slice,0,0,0.5*global.SFXvolume,0,0.8)
 	instance_create_depth(x,y,depth,Obj_BerryBoom);
@@ -18,7 +18,7 @@ if place_meeting(x,y,[Obj_Wall, autoTileCol,Obj_Slope])
 }
 if place_meeting(x,y,Obj_Billy)
 	{
-		audio_play_sound(Snd_land,0,0,2)
+		audio_play_sound(Snd_Land,0,0,2)
 		audio_play_sound(Snd_BlockBreak,0,0,1)
 		audio_play_sound(Snd_Slice,0,0,0.25*global.SFXvolume,0,0.6)
 	instance_create_depth(x,y,depth,Obj_BerryBoom);

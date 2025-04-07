@@ -3,7 +3,7 @@
 if place_meeting(x,y-4,Obj_Billy) {
 	if Obj_Billy.grounded = true {
 		if broke = false alarm[0] = 45
-		if !broke audio_play_sound(Snd_land,0,0,global.SFXvolume*3,0,1.05)
+		if !broke audio_play_sound(Snd_Land,0,0,global.SFXvolume*3,0,1.05)
 		image_index =1
 		broke = true	
 	}

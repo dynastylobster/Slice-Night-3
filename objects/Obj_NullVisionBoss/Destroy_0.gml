@@ -3,4 +3,4 @@
 
 // Inherit the parent event
 event_inherited();
-audio_stop_sound(Snd_BossMusic);
+audio_stop_sound(Sng_BossMusic);

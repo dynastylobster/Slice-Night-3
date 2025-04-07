@@ -5,7 +5,7 @@ if !global.paused {
 //if onscreen x+= 2.5
 //if !onscreen x+= 6.9 }
 if instance_exists(Obj_Billy) {
-if audio_is_playing(Snd_land) {
+if audio_is_playing(Snd_Land) {
 x-= Obj_Billy.xspeed/28
 }
 if !audio_is_playing(Snd_SpecialClear) {

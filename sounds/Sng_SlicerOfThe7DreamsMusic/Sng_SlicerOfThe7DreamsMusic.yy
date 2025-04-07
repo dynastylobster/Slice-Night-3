@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Sng_SlicerOfThe7DreamsMusic",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":81.6,
+  "name":"Sng_SlicerOfThe7DreamsMusic",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"Sng_SlicerOfThe7DreamsMusic.ogg",
+  "type":1,
+  "volume":1.0,
+}

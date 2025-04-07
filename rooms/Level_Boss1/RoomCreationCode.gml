@@ -1,2 +1,2 @@
 global.walljump = false
-global.music = Snd_BossMusic
+global.music = Sng_BossMusic

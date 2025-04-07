@@ -12,8 +12,8 @@
   "duration":6.400045,
   "name":"Snd_TenseDrone",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

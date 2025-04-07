@@ -12,8 +12,8 @@
   "duration":2.583813,
   "name":"Snd_SpecialClear",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

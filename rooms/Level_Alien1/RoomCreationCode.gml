@@ -1,4 +1,4 @@
-global.music = Snd_AlienMusic
+global.music = Sng_AlienMusic
 global.walljump = true
 global.dash = true
 global.flameslice = true

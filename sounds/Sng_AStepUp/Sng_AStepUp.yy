@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Sng_AStepUp",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":102.03429,
+  "name":"Sng_AStepUp",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Sng_AStepUp.mp3",
+  "type":1,
+  "volume":1.0,
+}

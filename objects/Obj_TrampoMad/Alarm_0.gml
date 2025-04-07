@@ -4,7 +4,7 @@ CheckOnscreen();
 grounded = false;
 xspeed = forwardspeed*facing;
 if onscreen {
-audio_play_sound(Snd_jump,0,false,global.SFXvolume*2,0,0.7)
+audio_play_sound(Snd_Jump,0,false,global.SFXvolume*2,0,0.7)
 }
 yspeed = jumpspeed;
 y-= 6

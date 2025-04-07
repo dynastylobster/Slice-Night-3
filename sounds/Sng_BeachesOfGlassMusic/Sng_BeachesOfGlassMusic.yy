@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Sng_BeachesOfGlassMusic",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":119.77885,
+  "name":"Sng_BeachesOfGlassMusic",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Sng_BeachesOfGlassMusic.ogg",
+  "type":1,
+  "volume":1.0,
+}

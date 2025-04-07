@@ -12,8 +12,8 @@
   "duration":2.095625,
   "name":"Snd_CardlyDie",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Cardly",
+    "path":"folders/Sounds/SFX/PlayerSounds/Cardly.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

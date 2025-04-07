@@ -96,7 +96,7 @@ if state = "dropping" {
 if place_meeting(x,y+7,[Obj_Wall, autoTileCol])	
 	{
 		audio_play_sound(Snd_BlockBreak,0,0,global.SFXvolume*2)
-		audio_play_sound(Snd_land,0,0);
+		audio_play_sound(Snd_Land,0,0);
 			instance_create_layer(x,y,layer,Obj_SliceBlockParticle);
 			instance_create_layer(x,y,layer,Obj_SliceBlockParticle);
 			instance_create_layer(x,y,layer,Obj_SliceBlockParticle);
@@ -132,8 +132,8 @@ if state = "jumping" {
 		alarm[1]-=3
 		if place_meeting(x,y+5,[Obj_Wall, autoTileCol]) or place_meeting(x,y+5,Obj_Billy)
 		{
-		audio_play_sound(Snd_jump,0,0,global.SFXvolume,0,0.8)
-		audio_play_sound(Snd_land,0,0);
+		audio_play_sound(Snd_Jump,0,0,global.SFXvolume,0,0.8)
+		audio_play_sound(Snd_Land,0,0);
 		yspeed = -jumpspeed
 		}
 	}

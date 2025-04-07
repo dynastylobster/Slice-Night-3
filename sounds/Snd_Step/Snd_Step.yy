@@ -12,8 +12,8 @@
   "duration":0.066576,
   "name":"Snd_Step",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Billy",
+    "path":"folders/Sounds/SFX/PlayerSounds/Billy.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

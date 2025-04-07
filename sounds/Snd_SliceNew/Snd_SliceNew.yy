@@ -12,8 +12,8 @@
   "duration":0.29415,
   "name":"Snd_SliceNew",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Billy",
+    "path":"folders/Sounds/SFX/PlayerSounds/Billy.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

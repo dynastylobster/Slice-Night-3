@@ -12,8 +12,8 @@
   "duration":0.64288,
   "name":"Snd_Wizard_TP",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

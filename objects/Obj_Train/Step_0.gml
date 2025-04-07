@@ -46,7 +46,7 @@ if place_meeting(x+xspeed*2,y+4,[Obj_Wall, autoTileCol]) {
 	if place_meeting(x,y+3,Obj_Rail) {
 				if global.key_Z_pressed
 			{
-				audio_play_sound(Snd_jump,0,0,global.SFXvolume,0,0.75)
+				audio_play_sound(Snd_Jump,0,0,global.SFXvolume,0,0.75)
 				yspeed = -5; y-= 6
 				}	
 	}

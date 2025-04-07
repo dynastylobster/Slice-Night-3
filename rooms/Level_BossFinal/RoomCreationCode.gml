@@ -1,4 +1,4 @@
-global.music = Snd_FinalBoss
+global.music = Sng_FinalBoss
 global.walljump = true
 global.dash = true
 global.flameslice = true

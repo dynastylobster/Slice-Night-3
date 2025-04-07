@@ -14,8 +14,8 @@ if image_index >= 5
 {
 	if !place_meeting(x,y,Obj_DebrisPlatform) {
 		if onscreen audio_play_sound(Snd_BlockBreak,0,0,0.25,0,1)
-		if onscreen audio_play_sound(Snd_land,0,0)
-		if onscreen audio_play_sound(Snd_land,0,0,1,0,1.3)
+		if onscreen audio_play_sound(Snd_Land,0,0)
+		if onscreen audio_play_sound(Snd_Land,0,0,1,0,1.3)
 		instance_create_depth(x,y,depth-100,Obj_EnemyFlameSpark) 
 		if single {
 			instance_create_depth(x+SpawnDirection,y+10,depth-100,Obj_DebrisPlatform);	

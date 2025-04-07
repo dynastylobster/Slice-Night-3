@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Sng_BalladOfDisparCredits",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":0,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":208.57896,
+  "name":"Sng_BalladOfDisparCredits",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":32000,
+  "soundFile":"Sng_BalladOfDisparCredits.ogg",
+  "type":1,
+  "volume":1.0,
+}

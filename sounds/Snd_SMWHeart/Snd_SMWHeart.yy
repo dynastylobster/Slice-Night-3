@@ -12,8 +12,8 @@
   "duration":0.661769,
   "name":"Snd_SMWHeart",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

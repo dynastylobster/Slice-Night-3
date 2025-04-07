@@ -12,8 +12,8 @@
   "duration":1.455828,
   "name":"Snd_Checkpoint",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

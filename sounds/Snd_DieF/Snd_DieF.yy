@@ -12,8 +12,8 @@
   "duration":1.448186,
   "name":"Snd_DieF",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Billy",
+    "path":"folders/Sounds/SFX/PlayerSounds/Billy.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

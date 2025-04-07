@@ -37,7 +37,7 @@ ini_open("save.ini")
 	global.vsync = ini_read_real("Prefrence","Vsync",false);
 ini_close();
 
-global.music = Snd_TitleMusic
+global.music = Sng_TitleMusic
 global.extracheckpoints = false;
 showkeys = false
 fastONOFF = false
@@ -45,7 +45,7 @@ alarm[1] = 100
 global.total_keys = 0
 global.total_question = 0
 global.total_Bkeys = 0
-prevmusic = Snd_TitleMusic;
+prevmusic = Sng_TitleMusic;
 global.music = prevmusic;
 enterpresses = 0;
 

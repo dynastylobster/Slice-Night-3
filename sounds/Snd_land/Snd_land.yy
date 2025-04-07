@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Snd_land",
+  "%Name":"Snd_Land",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,16 +10,16 @@
   "compression":0,
   "conversionMode":0,
   "duration":0.168367,
-  "name":"Snd_land",
+  "name":"Snd_Land",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Snd_land.ogg",
+  "soundFile":"Snd_Land.ogg",
   "type":0,
   "volume":0.71,
 }

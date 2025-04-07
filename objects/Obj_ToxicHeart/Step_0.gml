@@ -1,6 +1,18 @@
 // Inherit the parent event
 event_inherited();
 
+if (camera_get_view_y(view_camera[0]) > y - 50) {
+camera_set_view_pos(view_camera[0], 0, y - 50);
+}
+if (camera_get_view_y(view_camera[0]) < y - 150) {
+camera_set_view_pos(view_camera[0], 0, y - 150);
+}
+path_speed = (51 - hp) * 0.05;
+
+if (path_position == 1) {
+	path_start(CirclePath, path_speed, path_action_restart, false);
+}
+
 if y > 600 and hp < 25 {
 		immune = true
 	} else immune = false
@@ -35,7 +47,7 @@ age += 0.125
 
 if global.paused alarm[0]++
 if _camy > 0 {
-y = camera_get_view_y(view_camera[0]) + 75;
+//y = camera_get_view_y(view_camera[0]) + 75;
 
 if hp <= 25 {
 		if alarm[0] <= 30 {

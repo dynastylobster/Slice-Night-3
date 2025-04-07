@@ -12,8 +12,8 @@
   "duration":1.355057,
   "name":"Snd_GhostChomp",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -25,7 +25,7 @@ if place_meeting(x-8,y,[Obj_Wall, autoTileCol]) {
 	
 	if dribbling {
 	if place_meeting(x,y+5,[Obj_Wall, autoTileCol]) {
-			audio_play_sound(Snd_land,0,0);
+			audio_play_sound(Snd_Land,0,0);
 			yspeed = -jumpspeed 
 			dribbling = false;
 		}

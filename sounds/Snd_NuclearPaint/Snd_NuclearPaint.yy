@@ -12,8 +12,8 @@
   "duration":2.0,
   "name":"Snd_NuclearPaint",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

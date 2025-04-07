@@ -104,7 +104,7 @@ if Obj_FlatBoofer.sprite_index = Spr_FlatBoofer_Active or  Obj_FlatBoofer.sprite
 }
 
 	
-if global.paused {
+/*if global.paused {
 	if keyboard_check(ord("R")) {
 		audio_stop_all();
 		room_restart();
@@ -118,7 +118,7 @@ if global.music != noone {
 	if Obj_Radio.playing = false then audio_resume_sound(global.music)
 	}
 }
-}
+}*/
 
 if global.key_start and !instance_exists(Obj_Title) {
 global.paused = !global.paused	
@@ -174,13 +174,13 @@ if (leftright != 0 && menuType == "Settings") {
 		global.musicvolume += leftright *0.05
 		if global.musicvolume > 2 global.musicvolume = 2
 		if global.musicvolume < 0 global.musicvolume = 0
-		audio_play_sound(Snd_jump,0,0,global.musicvolume)
+		audio_play_sound(Snd_Jump,0,0,global.musicvolume)
 		break;
 		case "SFX Volume":
 		global.SFXvolume += leftright *0.05
 		if global.SFXvolume > 2 global.SFXvolume = 2
 		if global.SFXvolume < 0 global.SFXvolume = 0
-		audio_play_sound(Snd_jump,0,0,global.SFXvolume)
+		audio_play_sound(Snd_Jump,0,0,global.SFXvolume)
 		break;		
 		
 		}
@@ -446,7 +446,7 @@ if instance_exists(Obj_SilentRoomChange) {
 	}
 
 if global.paused {
-	if global.key_up_pressed or global.key_down_pressed audio_play_sound(Snd_jump,0,0);
+	if global.key_up_pressed or global.key_down_pressed audio_play_sound(Snd_Jump,0,0);
 	if global.key_X_pressed or global.key_Z_pressed audio_play_sound(Snd_Slice,0,0,0.6,0,1.2);
 	//if global.key_up_pressed menu_index -= 1
 	//	if global.key_down_pressed menu_index += 1
@@ -585,9 +585,9 @@ audio_sound_gain(Snd_SecretUnlock, ini_read_real("Prefrence","MusicVolume",1) ,0
 ini_close();
 audio_sound_gain(Snd_SpecialClear,global.musicvolume,0); 
 
-audio_sound_gain(Snd_jump,global.SFXvolume,0);
+audio_sound_gain(Snd_Jump,global.SFXvolume,0);
 audio_sound_gain(Snd_Slice,global.SFXvolume,0);
-audio_sound_gain(Snd_land,global.SFXvolume,0);
+audio_sound_gain(Snd_Land,global.SFXvolume,0);
 audio_sound_gain(Snd_BlockBreak,global.SFXvolume,0);
 audio_sound_gain(Snd_EnemyExplode,global.SFXvolume,0);
 audio_sound_gain(Snd_Bounce,global.SFXvolume,0);
@@ -596,7 +596,7 @@ audio_sound_gain(Snd_Checkpoint,global.SFXvolume,0);
 audio_sound_gain(Snd_Key,global.SFXvolume,0);
 audio_sound_gain(Snd_Step,global.SFXvolume*!global.paused,0);
 audio_sound_gain(Snd_Die,global.SFXvolume,0);
-audio_sound_gain(Snd_land,global.SFXvolume,0);
+audio_sound_gain(Snd_Land,global.SFXvolume,0);
 audio_sound_gain(Snd_BillyHurt,global.SFXvolume,0);
 audio_sound_gain(Snd_BerryShoot,global.SFXvolume,0);
 audio_sound_gain(Snd_FishJump,global.SFXvolume*2,0);

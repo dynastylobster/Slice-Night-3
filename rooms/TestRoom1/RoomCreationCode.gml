@@ -1,1 +1,1 @@
-global.music = Snd_SlicerOfThe7DreamsMusic
+global.music = Sng_SlicerOfThe7DreamsMusic

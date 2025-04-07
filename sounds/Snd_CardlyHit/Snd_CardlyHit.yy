@@ -12,8 +12,8 @@
   "duration":0.220625,
   "name":"Snd_CardlyHit",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Cardly",
+    "path":"folders/Sounds/SFX/PlayerSounds/Cardly.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

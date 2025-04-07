@@ -85,9 +85,9 @@ if (!cameraMoving) {
 	switch(currentPhase) {
 	case 1:
 	if (newph) {
-	global.music = Snd_VoidBossMusic;
-	if (!audio_is_playing(Snd_VoidBossMusic)) {
-	audio_play_sound(Snd_VoidBossMusic, 0, true, global.musicvolume);
+	global.music = Sng_VoidBossMusic;
+	if (!audio_is_playing(Sng_VoidBossMusic)) {
+	audio_play_sound(Sng_VoidBossMusic, 0, true, global.musicvolume);
 	}
 	}
 	counter++;

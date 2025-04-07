@@ -12,8 +12,8 @@
   "duration":1.295034,
   "name":"Snd_DashCrystal",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

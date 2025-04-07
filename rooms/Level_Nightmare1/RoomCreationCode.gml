@@ -1,4 +1,4 @@
-global.music = Snd_NightmareOfTheDisturbedMusic;
+global.music = Sng_NightmareOfTheDisturbedMusic;
 global.walljump = true
 global.dash = true
 GameObject.fastONOFF = true

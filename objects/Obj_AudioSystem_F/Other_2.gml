@@ -1,0 +1,2 @@
+audio_sound_loop_start(Snd_BattleAgainstATrueRodent_Full, 17.6);
+audio_sound_loop_end(Snd_BattleAgainstATrueRodent_Full, 88);

@@ -1,4 +1,4 @@
-global.music = Snd_Back2ActionMusic
+global.music = Sng_Back2ActionMusic
 global.walljump = true
 global.dash = true
 global.flameslice = true

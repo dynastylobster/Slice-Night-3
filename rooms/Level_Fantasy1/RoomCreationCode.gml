@@ -1,2 +1,2 @@
-global.music = Snd_FantasyDroneMusic
+global.music = Sng_FantasyDroneMusic
 global.walljump = false

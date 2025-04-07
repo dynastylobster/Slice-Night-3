@@ -14,7 +14,7 @@ draw_sprite(Spr_Thermometer, 0, x, y - 32);
 }
 
 
-if global.music = Snd_FinalBoss or room = Level_BossFinal { 
+if global.music = Sng_FinalBoss or room = Level_BossFinal { 
 	global.motu = false;
 	global.fem = false;
 	
@@ -29,7 +29,7 @@ if global.music = Snd_FinalBoss or room = Level_BossFinal {
 	}
 
 
-if global.music = Snd_FinalBoss or room = Level_BossFinal {
+if global.music = Sng_FinalBoss or room = Level_BossFinal {
 	
 	var blackholeleft = false
 	var blackholeright = false
@@ -243,7 +243,7 @@ if (global.costume == "Billy (Fox)" || global.costume == "Miley (Fox)") and slic
 }
 
 
-if global.music = Snd_FinalBoss or room = Level_BossFinal {
+if global.music = Sng_FinalBoss or room = Level_BossFinal {
 		if sprite_index = Spr_BillyRun {
 			draw_sprite_ext(Spr_BillyRunSwoTop,image_index,x,y,image_xscale,image_yscale,image_angle,c_white,1);	
 		}

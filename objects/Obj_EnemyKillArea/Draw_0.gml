@@ -2,7 +2,7 @@
 // You can write your code in this editor
 draw_self();
 draw_set_color(c_white)
-if global.music = Snd_LightToTheTempleMusic then draw_set_color(c_black);
+if global.music = Sng_LightToTheTempleMusic then draw_set_color(c_black);
 
 draw_line_width(x,y,x+sprite_width,y,1);
 draw_line_width(x,y,x,y+sprite_height,1);

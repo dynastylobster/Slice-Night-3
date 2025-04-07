@@ -12,8 +12,8 @@
   "duration":0.287188,
   "name":"Snd_BillyShipShoot",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

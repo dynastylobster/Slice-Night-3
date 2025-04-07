@@ -1,4 +1,4 @@
-global.music = Snd_FlurryInTheHeightsOfTabuli
+global.music = Sng_FlurryInTheHeightsOfTabuli
 global.walljump = true
 global.dash = true
 global.flameslice = true

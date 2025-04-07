@@ -1,4 +1,4 @@
-global.music = Snd_1000DegreeDance
+global.music = Sng_1000DegreeDance
 global.walljump = true
 global.dash = true
 global.flameslice = true

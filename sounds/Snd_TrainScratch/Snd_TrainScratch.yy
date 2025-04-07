@@ -12,8 +12,8 @@
   "duration":1.022993,
   "name":"Snd_TrainScratch",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

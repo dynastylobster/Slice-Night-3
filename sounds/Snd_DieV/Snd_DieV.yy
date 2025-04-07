@@ -12,8 +12,8 @@
   "duration":1.945521,
   "name":"Snd_DieV",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Void",
+    "path":"folders/Sounds/SFX/PlayerSounds/Void.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

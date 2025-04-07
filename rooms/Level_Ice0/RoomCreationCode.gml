@@ -1,3 +1,3 @@
-global.music = Snd_BalladOfTheSnowBunnies
+global.music = Sng_BalladOfTheSnowBunnies
 global.walljump = true
 global.dash = true

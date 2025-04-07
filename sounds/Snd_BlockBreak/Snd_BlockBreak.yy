@@ -12,8 +12,8 @@
   "duration":0.40381,
   "name":"Snd_BlockBreak",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

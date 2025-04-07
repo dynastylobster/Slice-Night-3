@@ -2,7 +2,7 @@ var col = prevcol
 
 	var	b = (#00FF9D)
 	var m = (#FF3A8F)
-if (song == Snd_BalladOfDisparCredits) {
+if (song == Sng_BalladOfDisparCredits) {
  switch(floor(audio_sound_get_track_position(s))) {
 	case 1:
 		col = b

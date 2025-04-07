@@ -9,7 +9,7 @@ touchingwall = true
 } else touchingwall = false;
 
 if !global.paused {
-		audio_resume_sound(Snd_BossMusic)
+		audio_resume_sound(Sng_BossMusic)
 		if !touchingwall {
 		y+= dir*1.5
 			} else {
@@ -21,7 +21,7 @@ if !global.paused {
 	} else {
 		alarm[0]++
 		alarm[1]++
-	if audio_is_playing(Snd_BossMusic) audio_pause_sound(Snd_BossMusic);	
+	if audio_is_playing(Sng_BossMusic) audio_pause_sound(Sng_BossMusic);	
 	}
 	
 if y > room_height

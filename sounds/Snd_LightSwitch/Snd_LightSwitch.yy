@@ -12,8 +12,8 @@
   "duration":0.38059,
   "name":"Snd_LightSwitch",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

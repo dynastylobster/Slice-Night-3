@@ -20,7 +20,7 @@ if age > 2 age = 0
 
 if moving {
 	image_index = ceil(age)
-	if age = 2 or age = 1 or age = 0 audio_play_sound(Snd_land,0,0,0.2,0,1.5)
+	if age = 2 or age = 1 or age = 0 audio_play_sound(Snd_Land,0,0,0.2,0,1.5)
 	if age = 0 audio_play_sound(Snd_Slice,0,0,0.05,0,0.5)
 	y += yspeed
 	if yspeed > -2 then yspeed -= 0.125

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Sng_SliceLandMusic",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":62.774036,
+  "name":"Sng_SliceLandMusic",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Sng_SliceLandMusic.ogg",
+  "type":0,
+  "volume":1.0,
+}

@@ -12,8 +12,8 @@
   "duration":5.193741,
   "name":"Snd_FISHFAIL",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

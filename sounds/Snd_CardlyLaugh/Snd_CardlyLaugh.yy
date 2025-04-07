@@ -12,8 +12,8 @@
   "duration":0.669252,
   "name":"Snd_CardlyLaugh",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Cardly",
+    "path":"folders/Sounds/SFX/PlayerSounds/Cardly.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

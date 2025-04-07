@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Sng_1000DegreeDance",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":77.53846,
+  "name":"Sng_1000DegreeDance",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Sng_1000DegreeDance.ogg",
+  "type":1,
+  "volume":1.0,
+}

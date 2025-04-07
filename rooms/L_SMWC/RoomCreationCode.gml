@@ -1,4 +1,4 @@
-global.music = Snd_7DreamsSMWMusic
+global.music = Sng_7DreamsSMWMusic
 global.character = "Human"
 global.costume = "Billy (SMW)"
 global.walljump = true

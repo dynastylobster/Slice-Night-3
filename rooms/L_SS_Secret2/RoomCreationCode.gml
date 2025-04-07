@@ -1,4 +1,4 @@
-global.music = Snd_JadeSpaceMusic;
+global.music = Sng_JadeSpaceMusic;
 global.walljump = true
 global.dash = true
 global.flameslice = true

@@ -1,4 +1,4 @@
-global.music = Snd_AStepUp
+global.music = Sng_AStepUp
 global.walljump = true
 global.dash = true
 global.flameslice = true

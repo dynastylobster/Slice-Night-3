@@ -34,7 +34,7 @@ if global.character = "Coyote" {
 	if !place_meeting(x,y+4,[Obj_MovePlatform,Obj_Wall,autoTileCol]) {
 			if global.key_Z_pressed {
 				if has_double_jumped = false {
-						audio_play_sound(Snd_jump,0,0,global.SFXvolume*2,0,1.1)
+						audio_play_sound(Snd_Jump,0,0,global.SFXvolume*2,0,1.1)
 						yspeed = -jumpspeed/1.08
 					has_double_jumped = true
 				}
@@ -136,7 +136,7 @@ if !place_meeting(x,y-4,[Obj_Wall, autoTileCol])
 
 if ( place_meeting(x,y+1.2, [Obj_Wall, autoTileCol]) or place_meeting(x,y+1.2,Obj_Slope) ) and yspeed >= 0 {
 	var slopetooclose = (yspeed > 1);
-	if !grounded and !dead audio_play_sound(Snd_land,0,0,slopetooclose*global.SFXvolume)
+	if !grounded and !dead audio_play_sound(Snd_Land,0,0,slopetooclose*global.SFXvolume)
 	grounded = true
 } else if !place_meeting(x,y+2.5+abs(yspeed),Obj_MovePlatform) grounded = false
 
@@ -221,7 +221,7 @@ if global.key_Z_pressed and GameObject.unpausetimer = 0 then about_to_jump = tru
 }
 
 if grounded and about_to_jump and !dead {
-	if !audio_is_playing(Snd_jump) audio_play_sound(Snd_jump,0,0)
+	if !audio_is_playing(Snd_Jump) audio_play_sound(Snd_Jump,0,0)
 	yspeed = -jumpspeed
 	about_to_jump = false
 	has_double_jumped = true;
@@ -233,7 +233,7 @@ if (!grounded && koyote_time > 0 && !canDoubleJump) then koyote_time-=1;
 if (!grounded && koyote_time > 0 && canDoubleJump && has_double_jumped) { koyote_time--; }
 
 if !grounded and koyote_time > 0 and global.key_Z_pressed and !dead and GameObject.unpausetimer = 0{
-	if !audio_is_playing(Snd_jump) audio_play_sound(Snd_jump,0,0)
+	if !audio_is_playing(Snd_Jump) audio_play_sound(Snd_Jump,0,0)
 	has_double_jumped = true;
 	yspeed = -jumpspeed
 	about_to_jump = false
@@ -334,7 +334,7 @@ if instance_exists(Obj_WallJumpEffect) {
 }
 
 if grounded and global.key_Z_pressed and !dead and GameObject.unpausetimer = 0 {
-if !audio_is_playing(Snd_jump) audio_play_sound(Snd_jump,0,0)
+if !audio_is_playing(Snd_Jump) audio_play_sound(Snd_Jump,0,0)
 has_double_jumped = true;
 yspeed = -jumpspeed
 grounded = false
@@ -403,8 +403,8 @@ if global.walljump and !place_meeting(x+8,y,Obj_NoWallJumpBlock) and !place_meet
 					}
 
 					
-				audio_play_sound(Snd_jump,0,0,2)
-				audio_play_sound(Snd_land,0,0,0.8)
+				audio_play_sound(Snd_Jump,0,0,2)
+				audio_play_sound(Snd_Land,0,0,0.8)
 				yspeed = -(jumpspeed/1.25)
 				sprite_index = Spr_BillyJump
 				xspeed = -facing*walljump_multipler
@@ -634,7 +634,7 @@ image_alpha = 0
 
 //funny bugfix
 if image_alpha = 0 {
-audio_stop_sound(Snd_land)}
+audio_stop_sound(Snd_Land)}
 
 //funny bogfix 2
 if place_meeting(x,y+0.25,Obj_MovePlatform) and yspeed >= 0 {
