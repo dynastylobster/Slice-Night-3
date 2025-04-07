@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Paused",
-    "path":"sprites/Spr_Paused/Spr_Paused.yy",
+    "name":"Bg_LevelUp",
+    "path":"sprites/Bg_LevelUp/Bg_LevelUp.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -229,6 +229,7 @@
     {"name":"Bg_ForestTrees_0","order":5,"path":"sprites/Bg_ForestTrees_0/Bg_ForestTrees_0.yy",},
     {"name":"Bg_ForestTrees_1","order":6,"path":"sprites/Bg_ForestTrees_1/Bg_ForestTrees_1.yy",},
     {"name":"Bg_IceCastle","order":10,"path":"sprites/Bg_IceCastle/Bg_IceCastle.yy",},
+    {"name":"Bg_LevelUp","order":37,"path":"sprites/Bg_LevelUp/Bg_LevelUp.yy",},
     {"name":"Bg_MileyStory1","order":11,"path":"sprites/Bg_MileyStory1/Bg_MileyStory1.yy",},
     {"name":"Bg_MileyStory10","order":14,"path":"sprites/Bg_MileyStory10/Bg_MileyStory10.yy",},
     {"name":"Bg_MileyStory2","order":12,"path":"sprites/Bg_MileyStory2/Bg_MileyStory2.yy",},
