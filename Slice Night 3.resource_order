@@ -36,6 +36,7 @@
     {"name":"Sng_SliceLandMusic","order":7,"path":"sounds/Sng_SliceLandMusic/Sng_SliceLandMusic.yy",},
     {"name":"Sng_SlicerOfThe7DreamsMusic","order":16,"path":"sounds/Sng_SlicerOfThe7DreamsMusic/Sng_SlicerOfThe7DreamsMusic.yy",},
     {"name":"Sng_SlicerOfthe7DreamsUpbeatRemiSx","order":27,"path":"sounds/Sng_SlicerOfthe7DreamsUpbeatRemiSx/Sng_SlicerOfthe7DreamsUpbeatRemiSx.yy",},
+    {"name":"Sng_SlicerOfTheAlibis","order":46,"path":"sounds/Sng_SlicerOfTheAlibis/Sng_SlicerOfTheAlibis.yy",},
     {"name":"Sng_Sn1Remix","order":36,"path":"sounds/Sng_Sn1Remix/Sng_Sn1Remix.yy",},
     {"name":"Sng_SombreDrone","order":11,"path":"sounds/Sng_SombreDrone/Sng_SombreDrone.yy",},
     {"name":"Sng_SpaceLevelMusic","order":4,"path":"sounds/Sng_SpaceLevelMusic/Sng_SpaceLevelMusic.yy",},
@@ -48,5 +49,6 @@
     {"name":"Sng_VoidMusic","order":31,"path":"sounds/Sng_VoidMusic/Sng_VoidMusic.yy",},
     {"name":"Sng_WalkerOfTheFinalDreamMusic","order":10,"path":"sounds/Sng_WalkerOfTheFinalDreamMusic/Sng_WalkerOfTheFinalDreamMusic.yy",},
     {"name":"Sng_YonkSlicerOfThe7Dreams","order":33,"path":"sounds/Sng_YonkSlicerOfThe7Dreams/Sng_YonkSlicerOfThe7Dreams.yy",},
+    {"name":"Spr_AquaSunFish","order":1,"path":"sprites/Spr_AquaSunFish/Spr_AquaSunFish.yy",},
   ],
 }
