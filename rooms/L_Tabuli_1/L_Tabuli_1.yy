@@ -232,7 +232,13 @@
         {"$GMRInstance":"v1","%Name":"inst_4F512A41","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F512A41","objectId":{"name":"Obj_Checkpoint","path":"objects/Obj_Checkpoint/Obj_Checkpoint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1024.0,"y":304.0,},
         {"$GMRInstance":"v1","%Name":"inst_631C3178","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_631C3178","objectId":{"name":"Obj_EnemyOnlyBlock","path":"objects/Obj_EnemyOnlyBlock/Obj_EnemyOnlyBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1824.0,"y":192.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"Tiles_FG","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_FG","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":156,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Tiles_FG","depth":500,"effectEnabled":true,"effectType":"_filter_distort","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_FG","properties":[
+        {"name":"g_DistortScale","type":0,"value":"16",},
+        {"name":"g_DistortAmount","type":0,"value":"14",},
+        {"name":"g_DistortOffset","type":0,"value":"0",},
+        {"name":"g_DistortOffset","type":0,"value":"0",},
+        {"name":"g_DistortTexture","type":2,"value":"_filter_distort_smoothnoise",},
+      ],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":156,"TileCompressedData":[
           -47,0,1,64,-32,0,1,64,-112,0,1,64,-97,0,1,64,-16,0,1,64,-60,0,1,20,-68,0,1,64,-17,0,1,64,-24,0,2,17,
           19,-6,0,4,20,0,0,36,-32,0,1,20,-30,0,1,20,-4,0,1,20,-75,0,2,17,19,-6,0,1,20,-8,0,1,20,-26,0,1,36,-24,
           0,1,20,-5,0,1,20,-4,0,1,20,-21,0,1,64,-53,0,2,17,19,-6,0,1,36,-6,0,3,4,0,36,-21,0,1,20,-29,0,1,20,-5,
@@ -267,13 +273,7 @@
           0,1,20,-10,0,1,20,-4,0,1,20,-7,0,1,20,-95,0,1,20,-3,0,1,20,-5,0,1,20,-5,0,1,20,-5,0,1,20,-3,0,1,20,-20,
           0,1,20,-4,0,1,20,-7,0,1,20,-11,0,1,64,-10,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TabuliTileSet","path":"tilesets/TabuliTileSet/TabuliTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"TileCollision","depth":600,"effectEnabled":true,"effectType":"_filter_distort","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TileCollision","properties":[
-        {"name":"g_DistortScale","type":0,"value":"13",},
-        {"name":"g_DistortAmount","type":0,"value":"14",},
-        {"name":"g_DistortOffset","type":0,"value":"0",},
-        {"name":"g_DistortOffset","type":0,"value":"0",},
-        {"name":"g_DistortTexture","type":2,"value":"_filter_distort_smoothnoise",},
-      ],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":156,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"TileCollision","depth":600,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TileCollision","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":156,"TileCompressedData":[
           -16,0,1,17,-89,18,1,19,-6,0,1,17,-42,18,-14,0,3,1,2,82,-35,18,1,65,-12,34,1,66,-40,18,1,19,-6,0,1,17,
           -42,18,-13,0,2,1,18,-14,34,1,66,-22,18,1,19,-12,0,1,17,-20,18,1,65,-6,34,1,66,-12,18,1,19,-6,0,1,17,
           -42,18,-13,0,2,33,35,-14,0,4,33,34,34,66,-19,18,1,19,-12,0,1,17,-17,18,4,65,34,34,35,-6,0,1,33,-3,34,

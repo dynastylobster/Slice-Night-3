@@ -9,7 +9,7 @@ if !touched {
 	if sprite_index != Spr_SecretBox
 	{
 		
-		if image_index = 0 audio_play_sound(Snd_NormalClear,0,0,global.musicvolume)
+		if image_index = 0 or image_index = 5 audio_play_sound(Snd_NormalClear,0,0,global.musicvolume)
 		if image_index = 1 audio_play_sound(Snd_SpecialClear,0,0,global.musicvolume)
 		if image_index = 2 audio_play_sound(Snd_NightmareClear,0,0,global.musicvolume)
 		if image_index = 3 audio_play_sound(Snd_Absorption,0,0,global.musicvolume)
