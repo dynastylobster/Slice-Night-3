@@ -2,12 +2,17 @@
 event_inherited();
 
 if (camera_get_view_y(view_camera[0]) > y - 50) {
-camera_set_view_pos(view_camera[0], 0, y - 50);
+camera_set_view_pos(view_camera[0], 0, clamp((y - 50),0,room_height-240));
 }
 if (camera_get_view_y(view_camera[0]) < y - 150) {
-camera_set_view_pos(view_camera[0], 0, y - 150);
+camera_set_view_pos(view_camera[0], 0, clamp((y - 150),0,room_height-240));
 }
-path_speed = (51 - hp) * 0.05;
+
+if !global.paused {
+path_speed = (51 - hp) * 0.05
+	} else {
+	path_speed = 0;	
+	}
 
 if (path_position == 1) {
 	path_start(CirclePath, path_speed, path_action_restart, false);

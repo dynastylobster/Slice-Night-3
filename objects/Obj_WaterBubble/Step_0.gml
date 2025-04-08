@@ -8,3 +8,6 @@ y += yspeed
 yspeed += grav
 
 if y < camera_get_view_y(view_camera[0]) - 100 then instance_destroy();
+if !place_meeting(x,y,Obj_Water) {
+	instance_destroy();	
+}
