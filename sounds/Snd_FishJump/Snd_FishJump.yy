@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":1.846145,
+  "duration":1.839252,
   "name":"Snd_FishJump",
   "parent":{
     "name":"SFX",
@@ -20,6 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"Snd_FishJump.ogg",
-  "type":0,
+  "type":1,
   "volume":1.0,
 }
