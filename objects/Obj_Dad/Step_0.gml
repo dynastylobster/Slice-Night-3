@@ -7,12 +7,20 @@ if instance_exists(Obj_Billy) {
 		if Obj_Billy.x < x {image_xscale = -1} else image_xscale = 1
 	}
 	
+
 if !global.paused {
 	if fadingin
 	{
 	if fadein > 0 fadein--
 	if fadein = 1 image_index = 0
 	if fadein = 1 sprite_index = Spr_Dad_Slicing
+	}
+	
+if phase = 0 {
+	
+	if sprite_index != Spr_Dad_Idle and sprite_index != Spr_Dad_Slicing {
+	image_index = 1;
+	sprite_index = Spr_Dad_Idle	
 	}
 if sprite_index = Spr_Dad_Slicing {
 	
@@ -51,4 +59,42 @@ if sprite_index = Spr_Dad_Slicing {
 		}
 	}
 	
+} 
+
+{
+if phase = 1 {
+	sprite_index = Spr_Dad_Raise;
+	raisetimer ++
+if raisetimer > 30 image_index = 3
+		if image_index >= 3 {
+				image_speed = 0
+			}
+	if image_index = 3 and raisetimer > 30 {
+		
+		if !instance_exists(Obj_MenaceOrb) {
+		instance_create_layer(32,24,layer,Obj_MenaceOrb)	
+		instance_create_layer(88,24,layer,Obj_MenaceOrb)	
+		instance_create_layer(152,24,layer,Obj_MenaceOrb)	
+		instance_create_layer(216,24,layer,Obj_MenaceOrb)	
+		instance_create_layer(280,24,layer,Obj_MenaceOrb)	
+		instance_create_layer(344,24,layer,Obj_MenaceOrb)
+		with(Obj_MenaceOrb) {	
+			instance_create_depth(x,y,depth-10,Obj_EnemyHurtEffect)
+			alarm[5] = 120
+		}
+		
+		} else {
+			sprite_index = Spr_Dad_Slicing;
+			phase = 0;	
+		}
+		phase = 0
+		raisetimer = 0;
+		}
+	}
+
+	}
+	
+	
+	
 }
+	
