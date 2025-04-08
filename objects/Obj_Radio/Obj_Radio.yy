@@ -30,7 +30,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"music","filters":[],"listItems":[],"multiselect":false,"name":"music","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Sng_YonkSlicerOfThe7Dreams","path":"sounds/Sng_YonkSlicerOfThe7Dreams/Sng_YonkSlicerOfThe7Dreams.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Snd_YonkSlicerOfThe7Dreams","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"music","filters":[],"listItems":[],"multiselect":false,"name":"music","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Sng_YonkSlicerOfThe7Dreams","path":"sounds/Sng_YonkSlicerOfThe7Dreams/Sng_YonkSlicerOfThe7Dreams.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Sng_YonkSlicerOfThe7Dreams","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
