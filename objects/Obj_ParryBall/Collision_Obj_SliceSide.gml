@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+if other.sprite_index != Spr_FlameSliceCollide {
+
+
 if instance_exists(Obj_Billy) {
 
 
@@ -40,3 +43,5 @@ if other.done_slicing = true {
 	other.floating = true
 }
 
+
+}
