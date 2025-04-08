@@ -5,9 +5,9 @@ draw_sprite(Spr_MenuArrow, 0, x - 64, y + 8);
 
 
 
-for (var o = -3; o < 4; o++) {
+for (var o = -7; o < 8; o++) {
 	if (pointer + o < array_length(roomlist) - 1 && pointer + o >= 0) {
-		draw_text(x, y + (o * 32), roomlist[pointer + o]);
+		draw_text(x, y + (o * 16), roomlist[pointer + o]);
 	}
 }
 
