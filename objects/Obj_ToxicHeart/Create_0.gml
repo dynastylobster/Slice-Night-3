@@ -10,3 +10,4 @@ startx = x
 immune = false
 
 alarm[1] = 3
+path_start(Path_DrillBoss, 0.1, path_action_stop, true);

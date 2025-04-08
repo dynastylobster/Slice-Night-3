@@ -66,7 +66,6 @@
     {"name":"inst_7AEB5E23","path":"rooms/L_Tabuli_Boss/L_Tabuli_Boss.yy",},
     {"name":"inst_1158DE44","path":"rooms/L_Tabuli_Boss/L_Tabuli_Boss.yy",},
     {"name":"inst_6D31AABA","path":"rooms/L_Tabuli_Boss/L_Tabuli_Boss.yy",},
-    {"name":"inst_3FA1F1A0","path":"rooms/L_Tabuli_Boss/L_Tabuli_Boss.yy",},
     {"name":"inst_2C1D67BD","path":"rooms/L_Tabuli_Boss/L_Tabuli_Boss.yy",},
   ],
   "isDnd":false,
@@ -139,10 +138,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_GoalBox","path":"objects/Obj_GoalBox/Obj_GoalBox.yy",},"propertyId":{"name":"destination_room","path":"objects/Obj_GoalBox/Obj_GoalBox.yy",},"resource":{"name":"L_Tabuli_3","path":"rooms/L_Tabuli_3/L_Tabuli_3.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"L_Tabuli_3",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":26.0,"y":164.0,},
         {"$GMRInstance":"v1","%Name":"inst_1158DE44","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1158DE44","objectId":{"name":"Obj_Wall","path":"objects/Obj_Wall/Obj_Wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":4.0,"x":0.0,"y":1792.0,},
-        {"$GMRInstance":"v1","%Name":"inst_3FA1F1A0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3FA1F1A0","objectId":{"name":"Obj_MusicLoopPoint","path":"objects/Obj_MusicLoopPoint/Obj_MusicLoopPoint.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_MusicLoopPoint","path":"objects/Obj_MusicLoopPoint/Obj_MusicLoopPoint.yy",},"propertyId":{"name":"Intro","path":"objects/Obj_MusicLoopPoint/Obj_MusicLoopPoint.yy",},"resource":{"name":"Sng_BattleAgainstARodentIntro","path":"sounds/Sng_BattleAgainstARodentIntro/Sng_BattleAgainstARodentIntro.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Snd_BattleAgainstARodentIntro",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_MusicLoopPoint","path":"objects/Obj_MusicLoopPoint/Obj_MusicLoopPoint.yy",},"propertyId":{"name":"Loop","path":"objects/Obj_MusicLoopPoint/Obj_MusicLoopPoint.yy",},"resource":{"name":"Sng_BattleAgainstARodentLoop","path":"sounds/Sng_BattleAgainstARodentLoop/Sng_BattleAgainstARodentLoop.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Snd_BattleAgainstARodentLoop",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":1792.0,},
         {"$GMRInstance":"v1","%Name":"inst_2C1D67BD","colour":4288675737,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2C1D67BD","objectId":{"name":"Obj_Water","path":"objects/Obj_Water/Obj_Water.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_Water","path":"objects/Obj_Water/Obj_Water.yy",},"propertyId":{"name":"constheat","path":"objects/Obj_Water/Obj_Water.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":27.0,"scaleY":106.0,"x":0.0,"y":224.0,},

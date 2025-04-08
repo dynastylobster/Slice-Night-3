@@ -1,4 +1,4 @@
-global.music = Snd_TenseDrone
+global.music = Sng_TenseDrone
 global.walljump = true
 global.dash = true
 global.flameslice = true

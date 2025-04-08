@@ -1,4 +1,4 @@
-global.music = -4
+global.music = Sng_BattleAgainstARodentIntro
 global.walljump = true
 global.dash = true
 global.flameslice = true

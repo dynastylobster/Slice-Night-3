@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Mr_Fix",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.127528,
+  "name":"Mr_Fix",
+  "parent":{
+    "name":"Item Sprites",
+    "path":"folders/Sprites/Item Sprites.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Mr_Fix.wav",
+  "type":0,
+  "volume":1.0,
+}
