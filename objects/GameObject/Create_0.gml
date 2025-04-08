@@ -1,5 +1,5 @@
 /// @description Set Up controls
-global.today = date_current_datetime()
+global.today = current_day
 global.thismonth = current_month 
 //global.today = 27
 //global.thismonth = 2
