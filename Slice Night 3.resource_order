@@ -1,7 +1,14 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"Obj_Airpuff","order":6,"path":"objects/Obj_Airpuff/Obj_Airpuff.yy",},
+    {"name":"Obj_ExsaggeratedTempurature","order":1,"path":"objects/Obj_ExsaggeratedTempurature/Obj_ExsaggeratedTempurature.yy",},
+    {"name":"Obj_HeatLava","order":2,"path":"objects/Obj_HeatLava/Obj_HeatLava.yy",},
     {"name":"Obj_LevelSelect","order":1,"path":"objects/Obj_LevelSelect/Obj_LevelSelect.yy",},
+    {"name":"Obj_MetalBlock","order":5,"path":"objects/Obj_MetalBlock/Obj_MetalBlock.yy",},
+    {"name":"Obj_Steam","order":3,"path":"objects/Obj_Steam/Obj_Steam.yy",},
+    {"name":"Obj_TemperatureZone","order":4,"path":"objects/Obj_TemperatureZone/Obj_TemperatureZone.yy",},
+    {"name":"L_SnowHell","order":1,"path":"rooms/L_SnowHell/L_SnowHell.yy",},
     {"name":"Level_Select","order":1,"path":"rooms/Level_Select/Level_Select.yy",},
     {"name":"Sng_1000DegreeDance","order":1,"path":"sounds/Sng_1000DegreeDance/Sng_1000DegreeDance.yy",},
     {"name":"Sng_7DreamsSMWMusic","order":13,"path":"sounds/Sng_7DreamsSMWMusic/Sng_7DreamsSMWMusic.yy",},

@@ -2,4 +2,4 @@
 // You can write your code in this editor
 //HitPlayer();
 
-other.heat++;
+other.heat += 6;
