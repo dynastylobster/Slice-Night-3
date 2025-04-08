@@ -36,11 +36,19 @@ fade_timer = 270
 if (room == Void_Boss_Room) {
 fade_timer = 0;
 }
+
+	if audio_is_paused(global.music) {
+audio_resume_sound(global.music)
+	} else {
+		
+		
 if global.music != noone {
 	if !audio_is_playing(global.music) {
 	audio_stop_all();
 	audio_play_sound(global.music,0,true,0.6)
 		}	
+	}
+		
 	}
 deathage = 60
 prevmusic = global.music;
