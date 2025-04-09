@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"CoreTileSprite",
   "bboxMode":0,
-  "bbox_bottom":111,
+  "bbox_bottom":159,
   "bbox_left":0,
   "bbox_right":111,
   "bbox_top":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":112,
+  "height":256,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"347a0582-f6ba-4b47-a1fe-cf352fb6fe23","blendMode":0,"displayName":"default","isLocked":false,"name":"347a0582-f6ba-4b47-a1fe-cf352fb6fe23","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
