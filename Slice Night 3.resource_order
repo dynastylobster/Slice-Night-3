@@ -58,6 +58,7 @@
     {"name":"Sng_WalkerOfTheFinalDreamMusic","order":10,"path":"sounds/Sng_WalkerOfTheFinalDreamMusic/Sng_WalkerOfTheFinalDreamMusic.yy",},
     {"name":"Sng_YonkSlicerOfThe7Dreams","order":33,"path":"sounds/Sng_YonkSlicerOfThe7Dreams/Sng_YonkSlicerOfThe7Dreams.yy",},
     {"name":"Bg_CutsceneModel13","order":1,"path":"sprites/Bg_CutsceneModel13/Bg_CutsceneModel13.yy",},
+    {"name":"Bg_MileyStory12","order":2,"path":"sprites/Bg_MileyStory12/Bg_MileyStory12.yy",},
     {"name":"Spr_AquaSunFish","order":1,"path":"sprites/Spr_AquaSunFish/Spr_AquaSunFish.yy",},
   ],
 }
