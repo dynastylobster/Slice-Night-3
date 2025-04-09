@@ -10,6 +10,7 @@
     {"name":"Obj_TemperatureZone","order":4,"path":"objects/Obj_TemperatureZone/Obj_TemperatureZone.yy",},
     {"name":"L_SnowHell","order":1,"path":"rooms/L_SnowHell/L_SnowHell.yy",},
     {"name":"Level_Select","order":1,"path":"rooms/Level_Select/Level_Select.yy",},
+    {"name":"SecondServingStory5","order":2,"path":"rooms/SecondServingStory5/SecondServingStory5.yy",},
     {"name":"Sng_1000DegreeDance","order":1,"path":"sounds/Sng_1000DegreeDance/Sng_1000DegreeDance.yy",},
     {"name":"Sng_7DreamsSMWMusic","order":13,"path":"sounds/Sng_7DreamsSMWMusic/Sng_7DreamsSMWMusic.yy",},
     {"name":"Sng_90DegreeDanceMusic","order":34,"path":"sounds/Sng_90DegreeDanceMusic/Sng_90DegreeDanceMusic.yy",},
@@ -56,6 +57,7 @@
     {"name":"Sng_VoidMusic","order":31,"path":"sounds/Sng_VoidMusic/Sng_VoidMusic.yy",},
     {"name":"Sng_WalkerOfTheFinalDreamMusic","order":10,"path":"sounds/Sng_WalkerOfTheFinalDreamMusic/Sng_WalkerOfTheFinalDreamMusic.yy",},
     {"name":"Sng_YonkSlicerOfThe7Dreams","order":33,"path":"sounds/Sng_YonkSlicerOfThe7Dreams/Sng_YonkSlicerOfThe7Dreams.yy",},
+    {"name":"Bg_CutsceneModel13","order":1,"path":"sprites/Bg_CutsceneModel13/Bg_CutsceneModel13.yy",},
     {"name":"Spr_AquaSunFish","order":1,"path":"sprites/Spr_AquaSunFish/Spr_AquaSunFish.yy",},
   ],
 }

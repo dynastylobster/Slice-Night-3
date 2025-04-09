@@ -454,6 +454,7 @@
     {"id":{"name":"SecondServingStory4A","path":"rooms/SecondServingStory4A/SecondServingStory4A.yy",},},
     {"id":{"name":"SecondServingStory4B","path":"rooms/SecondServingStory4B/SecondServingStory4B.yy",},},
     {"id":{"name":"SecondServingStory4C","path":"rooms/SecondServingStory4C/SecondServingStory4C.yy",},},
+    {"id":{"name":"SecondServingStory5","path":"rooms/SecondServingStory5/SecondServingStory5.yy",},},
     {"id":{"name":"TestRoom1","path":"rooms/TestRoom1/TestRoom1.yy",},},
     {"id":{"name":"TestRoom2","path":"rooms/TestRoom2/TestRoom2.yy",},},
     {"id":{"name":"TitleScreenOptionsRoom","path":"rooms/TitleScreenOptionsRoom/TitleScreenOptionsRoom.yy",},},
@@ -606,6 +607,7 @@
     {"id":{"name":"Bg_CutsceneBilly3","path":"sprites/Bg_CutsceneBilly3/Bg_CutsceneBilly3.yy",},},
     {"id":{"name":"Bg_CutsceneModel1","path":"sprites/Bg_CutsceneModel1/Bg_CutsceneModel1.yy",},},
     {"id":{"name":"Bg_CutsceneModel12","path":"sprites/Bg_CutsceneModel12/Bg_CutsceneModel12.yy",},},
+    {"id":{"name":"Bg_CutsceneModel13","path":"sprites/Bg_CutsceneModel13/Bg_CutsceneModel13.yy",},},
     {"id":{"name":"Bg_CutsceneMotu1","path":"sprites/Bg_CutsceneMotu1/Bg_CutsceneMotu1.yy",},},
     {"id":{"name":"Bg_CutsceneMotu2","path":"sprites/Bg_CutsceneMotu2/Bg_CutsceneMotu2.yy",},},
     {"id":{"name":"Bg_CutsceneMotu351","path":"sprites/Bg_CutsceneMotu351/Bg_CutsceneMotu351.yy",},},
@@ -1296,6 +1298,7 @@
     {"roomId":{"name":"Cardly_Tutorial","path":"rooms/Cardly_Tutorial/Cardly_Tutorial.yy",},},
     {"roomId":{"name":"Level_Select","path":"rooms/Level_Select/Level_Select.yy",},},
     {"roomId":{"name":"L_SnowHell","path":"rooms/L_SnowHell/L_SnowHell.yy",},},
+    {"roomId":{"name":"SecondServingStory5","path":"rooms/SecondServingStory5/SecondServingStory5.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
