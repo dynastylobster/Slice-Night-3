@@ -26,6 +26,8 @@
     {"name":"inst_C5D4A8C","path":"rooms/TestRoom2/TestRoom2.yy",},
     {"name":"inst_183E08D","path":"rooms/TestRoom2/TestRoom2.yy",},
     {"name":"inst_26ED994A","path":"rooms/TestRoom2/TestRoom2.yy",},
+    {"name":"inst_6B6DC802","path":"rooms/TestRoom2/TestRoom2.yy",},
+    {"name":"inst_2DBBEEBC","path":"rooms/TestRoom2/TestRoom2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -59,9 +61,12 @@
         {"$GMRInstance":"v1","%Name":"inst_C5D4A8C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_C5D4A8C","objectId":{"name":"Obj_RegenSliceBlock","path":"objects/Obj_RegenSliceBlock/Obj_RegenSliceBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":384.0,},
         {"$GMRInstance":"v1","%Name":"inst_183E08D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_183E08D","objectId":{"name":"Obj_YinBang","path":"objects/Obj_YinBang/Obj_YinBang.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":416.0,},
         {"$GMRInstance":"v1","%Name":"inst_26ED994A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_26ED994A","objectId":{"name":"Obj_Missile","path":"objects/Obj_Missile/Obj_Missile.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":464.0,"y":304.0,},
+        {"$GMRInstance":"v1","%Name":"inst_6B6DC802","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B6DC802","objectId":{"name":"Obj_DrillChute","path":"objects/Obj_DrillChute/Obj_DrillChute.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":272.0,"y":272.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2DBBEEBC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2DBBEEBC","objectId":{"name":"Obj_Wall","path":"objects/Obj_Wall/Obj_Wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.0,"scaleY":5.0,"x":224.0,"y":192.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":134,"TileCompressedData":[
-          -1774,0,-2,76,-4,0,-2,76,-125,0,-4,76,-2,0,-4,76,-123,0,1,46,-14,47,1,48,-118,0,1,55,-14,56,1,57,-106,
+          -1622,0,1,46,-4,47,1,48,-128,0,1,55,-4,56,1,57,-12,0,-2,76,-4,0,-2,76,-108,0,1,55,-4,56,1,57,-11,0,-4,
+          76,-2,0,-4,76,-107,0,-6,76,-10,0,1,46,-14,47,1,48,-102,0,1,73,-4,74,1,75,-10,0,1,55,-14,56,1,57,-106,
           0,-11,50,2,0,55,-14,56,1,57,-106,0,-11,59,2,0,55,-14,56,1,57,-118,0,1,55,-14,56,1,57,-118,0,1,55,-14,
           56,1,57,-118,0,1,64,-14,65,1,66,-118,0,16,84,85,84,85,84,85,84,85,84,85,84,85,84,85,84,85,-16,0,1,49,
           -101,0,16,84,85,84,85,84,85,84,85,84,85,84,85,84,85,84,85,-16,0,1,58,-101,0,16,84,85,84,85,84,85,84,

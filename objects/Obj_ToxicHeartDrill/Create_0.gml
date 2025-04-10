@@ -6,5 +6,9 @@ max_xspeed = 1.6;
 max_yspeed = 1;
 
 depth -= 50
+if !place_meeting(x,y,Obj_DrillChute) {
 instance_create_depth(x,y,depth,Obj_FishBubble);
+} else {
+
+}
 sliced = false;
