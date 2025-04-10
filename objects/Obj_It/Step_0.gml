@@ -1,0 +1,1 @@
+if (room != Z_It) { instance_destroy(); }

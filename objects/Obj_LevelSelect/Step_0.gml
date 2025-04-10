@@ -5,7 +5,7 @@ if (global.key_down_pressed) { pointer += 1; visualpointer += 1;audio_play_sound
 if (global.key_up) { waiting++; if (waiting > 30) { pointer--; visualpointer--; waiting = 25; audio_play_sound(Snd_Jump,0,0,global.SFXvolume*2,0,0.9) } }
 if (global.key_down) { waiting--; if (waiting < -30) { pointer++ visualpointer++; waiting = -25; audio_play_sound(Snd_Jump,0,0,global.SFXvolume*2,0,0.9) } }
 if (!global.key_up && !global.key_down) { waiting = 0; }
-pointer = clamp(pointer, 0, array_length(roomlist) - 2) ;
+pointer = clamp(pointer, 0, array_length(roomlist)) ;
 
 if (global.key_X_pressed || global.key_Z_pressed) {
 	var a = asset_get_index(roomlist[pointer]);

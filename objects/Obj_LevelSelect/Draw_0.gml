@@ -8,7 +8,7 @@ draw_sprite_ext(Spr_MenuArrow, age/2, x + 73, y + 8,-1,1,0,c_white,1);
 
 
 for (var o = -7; o < 8; o++) {
-	if (pointer + o < array_length(roomlist) - 1 && pointer + o >= 0) {
+	if (pointer + o < array_length(roomlist) && pointer + o >= 0) {
 		draw_set_color(c_black)
 		draw_text(x, y +1 + (o * 16), roomlist[pointer + o]);	
 		
