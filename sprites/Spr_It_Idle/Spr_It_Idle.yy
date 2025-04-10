@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Slice Night 3",
-    "path":"Slice Night 3.yyp",
+    "name":"Gimick Sprites",
+    "path":"folders/Sprites/Gimick Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -151,16 +151,16 @@ if global.paused {
 					}
 				break;
 				case "Speedrun IGT":
-				var onoff;
+				var onoff = "";
 				if global.igt onoff = ": ON"
 				if !global.igt onoff = ": OFF"
 				extraText = string(onoff)
 				break;
 				case "Camera Style":
 				if (global.cameraStyle) {
-				extraText = ": Classic";
+				extraText = ": Modern";
 				} else {
-				extraText = ": Fauxvoid's Style";
+				extraText = ": Classic";
 				}
 				break;
 				case "Button Mapping":
