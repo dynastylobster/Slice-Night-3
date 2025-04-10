@@ -27,7 +27,7 @@
   ],
   "name":"Spr_HPHeart_Cardly",
   "nineSlice":null,
-  "origin":0,
+  "origin":9,
   "parent":{
     "name":"Hud sprites",
     "path":"folders/Sprites/Hud sprites.yy",
@@ -91,7 +91,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":-1,
     "yorigin":0,
   },
   "swatchColours":null,
