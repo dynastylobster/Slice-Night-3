@@ -26,7 +26,7 @@
     {"name":"Obj_Steam","order":3,"path":"objects/Obj_Steam/Obj_Steam.yy",},
     {"name":"Obj_TemperatureZone","order":4,"path":"objects/Obj_TemperatureZone/Obj_TemperatureZone.yy",},
     {"name":"Path_Error","order":1,"path":"paths/Path_Error/Path_Error.yy",},
-    {"name":"L_Core_F","order":3,"path":"rooms/L_Core_F/L_Core_F.yy",},
+    {"name":"L_Core_0","order":3,"path":"rooms/L_Core_0/L_Core_0.yy",},
     {"name":"L_SnowHell","order":1,"path":"rooms/L_SnowHell/L_SnowHell.yy",},
     {"name":"Level_Alien2_B","order":5,"path":"rooms/Level_Alien2_B/Level_Alien2_B.yy",},
     {"name":"Level_Select","order":1,"path":"rooms/Level_Select/Level_Select.yy",},
