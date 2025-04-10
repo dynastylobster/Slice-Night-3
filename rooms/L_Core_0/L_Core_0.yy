@@ -88,6 +88,9 @@
     {"name":"inst_64CF0112","path":"rooms/L_Core_0/L_Core_0.yy",},
     {"name":"inst_451B30AA","path":"rooms/L_Core_0/L_Core_0.yy",},
     {"name":"inst_388E5CC2","path":"rooms/L_Core_0/L_Core_0.yy",},
+    {"name":"inst_1EEBAC5A","path":"rooms/L_Core_0/L_Core_0.yy",},
+    {"name":"inst_5BE4A68F","path":"rooms/L_Core_0/L_Core_0.yy",},
+    {"name":"inst_1A724FF9","path":"rooms/L_Core_0/L_Core_0.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -221,6 +224,9 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_WarpBox","path":"objects/Obj_WarpBox/Obj_WarpBox.yy",},"propertyId":{"name":"dest_x","path":"objects/Obj_WarpBox/Obj_WarpBox.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1568",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_WarpBox","path":"objects/Obj_WarpBox/Obj_WarpBox.yy",},"propertyId":{"name":"dest_y","path":"objects/Obj_WarpBox/Obj_WarpBox.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"400",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":84.0,},
+        {"$GMRInstance":"v1","%Name":"inst_1EEBAC5A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1EEBAC5A","objectId":{"name":"Obj_Wall","path":"objects/Obj_Wall/Obj_Wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.0,"scaleY":1.0,"x":1232.0,"y":-64.0,},
+        {"$GMRInstance":"v1","%Name":"inst_5BE4A68F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5BE4A68F","objectId":{"name":"Obj_NoWallJumpBlock","path":"objects/Obj_NoWallJumpBlock/Obj_NoWallJumpBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":3.0,"x":1328.0,"y":-48.0,},
+        {"$GMRInstance":"v1","%Name":"inst_1A724FF9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A724FF9","objectId":{"name":"Obj_NoWallJumpBlock","path":"objects/Obj_NoWallJumpBlock/Obj_NoWallJumpBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":3.0,"x":1216.0,"y":-48.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"TileCollision","depth":500,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TileCollision","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":123,"TileCompressedData":[
           -10,0,12,1,0,0,1,1,0,0,1,1,0,0,1,-6,0,1,1,-4,0,3,1,0,1,-9,0,-2,1,-2,0,1,1,-16,0,1,1,-9,0,1,1,-6,0,1,

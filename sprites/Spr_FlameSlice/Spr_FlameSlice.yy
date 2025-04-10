@@ -1,8 +1,8 @@
 {
   "$GMSprite":"",
   "%Name":"Spr_FlameSlice",
-  "bboxMode":1,
-  "bbox_bottom":31,
+  "bboxMode":2,
+  "bbox_bottom":29,
   "bbox_left":0,
   "bbox_right":31,
   "bbox_top":0,

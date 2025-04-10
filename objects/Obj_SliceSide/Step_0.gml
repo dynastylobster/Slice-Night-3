@@ -10,8 +10,10 @@ if instance_exists(EnemyParentObject) {
 		}
 	}
 if instance_exists(Obj_SliceBlock) {
+		if !place_meeting(x,y+4,Obj_SliceBlock) {
 		if distance_to_object(instance_nearest(x,y,Obj_SliceBlock)) <= 8 {
 			dont_flameslice = true;	
+		}
 		}
 	}
 
