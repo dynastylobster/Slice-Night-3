@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":10.493696,
+  "duration":9.9839,
   "name":"Snd_It",
   "parent":{
     "name":"SFX",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"Snd_It.ogg",
   "type":0,
-  "volume":0.0,
+  "volume":1.0,
 }

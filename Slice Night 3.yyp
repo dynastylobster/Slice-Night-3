@@ -353,6 +353,7 @@
     {"id":{"name":"Obj_YinBang","path":"objects/Obj_YinBang/Obj_YinBang.yy",},},
     {"id":{"name":"CirclePath","path":"paths/CirclePath/CirclePath.yy",},},
     {"id":{"name":"Path_DrillBoss","path":"paths/Path_DrillBoss/Path_DrillBoss.yy",},},
+    {"id":{"name":"Path_Error","path":"paths/Path_Error/Path_Error.yy",},},
     {"id":{"name":"Path_LongOval","path":"paths/Path_LongOval/Path_LongOval.yy",},},
     {"id":{"name":"Path_TabuliBoss2Flight","path":"paths/Path_TabuliBoss2Flight/Path_TabuliBoss2Flight.yy",},},
     {"id":{"name":"SwingPath","path":"paths/SwingPath/SwingPath.yy",},},
