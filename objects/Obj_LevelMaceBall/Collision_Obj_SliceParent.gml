@@ -9,6 +9,7 @@ if other.object_index = Obj_FlameSlice {
 		yspeed = -1
 		other.done_slicing = true;
 		}
+	if yspeed > 3 yspeed = 3
 	} else {
 	
 	if other.done_slicing = false then audio_play_sound(Snd_Dink,0,0,global.SFXvolume);

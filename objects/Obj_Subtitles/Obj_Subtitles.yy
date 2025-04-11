@@ -28,7 +28,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"song","filters":[],"listItems":[],"multiselect":false,"name":"song","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Sng_BalladOfDisparCredits","path":"sounds/Sng_BalladOfDisparCredits/Sng_BalladOfDisparCredits.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Snd_BalladOfDisparCredits","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"song","filters":[],"listItems":[],"multiselect":false,"name":"song","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Snd_BalladOfDisparCredits","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
