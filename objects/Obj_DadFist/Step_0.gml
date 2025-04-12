@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+CheckOnscreen();
 otherfist = instance_nearest_notme(x,y,Obj_DadFist)
 if dir = 1 {
 dir = -otherfist.dir
@@ -27,7 +27,7 @@ bonus = sin(age*4)*3
 y = starty+ ( (sin(age/3)*32) * dir )
 
 if shooting and !global.paused {
-		if !audio_is_playing(Snd_VoidLazer) audio_play_sound(Snd_VoidLazer,0,0,global.SFXvolume);
+		if !audio_is_playing(Snd_VoidLazer) and onscreen audio_play_sound(Snd_VoidLazer,0,0,global.SFXvolume);
 	}
 if global.paused {
 	if alarm[0] > 0 alarm[0]++

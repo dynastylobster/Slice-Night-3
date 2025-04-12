@@ -1,10 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-alarm[0] = 200
 onscreen = false;
-shooting = false;
+image_speed = 0;
+image_index = 0;
 age = 0;
-bonus = 0;
-otherfist = noone;
-dir = 1;
 starty = y
+startx = x
+cooldown = 0;
