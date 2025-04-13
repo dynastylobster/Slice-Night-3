@@ -51,3 +51,18 @@ room_goto(Void_Boss_Room);
 }
 age2++;
 }
+
+if instance_exists(Obj_TrainBossController) and global.spoketobanan{
+		x -= 1
+	if x < 426 and x > 416 {
+			if !audio_is_playing(Snd_Banan_DriveSafe) {
+				audio_play_sound(Snd_Banan_DriveSafe,0,0,global.musicvolume*2.5);	
+			}
+		}
+	if x < Obj_Train.x  {
+		if !audio_is_playing(Snd_GhostChomp) and x > Obj_Train.x-32 {
+			audio_play_sound(Snd_GhostChomp,0,0,global.SFXvolume*3,0,1.1)	
+		}
+			x-= 4 
+		}
+	}

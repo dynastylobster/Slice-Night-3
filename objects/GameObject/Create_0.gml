@@ -1,5 +1,6 @@
 /// @description Set Up controls
 global.today = current_day
+//global.spoketobanan = false;
 global.thismonth = current_month 
 //global.today = 27
 //global.thismonth = 2
@@ -11,6 +12,7 @@ if global.today = 27 and global.thismonth = 2 {
 a_timer = 0
 ini_open("save.ini")
 global.togglerun = ini_read_real("Prefrence","togglerun",false);
+
 ini_close();
 hpsprite = Spr_HP
 global.igt = false;

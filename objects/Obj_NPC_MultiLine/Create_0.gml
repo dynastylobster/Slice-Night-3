@@ -6,7 +6,7 @@ if image_index = 6 {
 	}
 
 if image_index = 15 sprite_index = Spr_NPCStrawby;
-
+billy_x = 0;
 age = 0;
 startx = x
 drawing = false 

@@ -11,3 +11,6 @@ if place_meeting(x,y,Obj_SliceBlock_Purple) {
 purple = true;	
 }
 
+if instance_exists(Obj_TrainBossController) {
+		x+= 3;
+	}

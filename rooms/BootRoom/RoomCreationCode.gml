@@ -11,7 +11,7 @@ global.billyfox = false
 global.flameslice = false;
 
 ini_open("save.ini")
-
+global.spoketobanan = ini_read_real("Prefrence","spoketobanan",false)
 global.beaten = ini_read_real("save5","beaten",false);
 global.musicvolume = ini_read_real("Prefrence","MusicVolume",1);
 global.SFXvolume = ini_read_real("Prefrence","SFXVolume",0.5);
