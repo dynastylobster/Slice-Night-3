@@ -601,7 +601,7 @@ if !grounded {
 		}
 	}
 
-if instance_exists(Obj_Train) {
+if instance_exists(Obj_Train) and !instance_exists(Obj_TrainBossController) {
 		if instance_nearest(x,y,Obj_Train).active {
 			alarm[3] = 50
 			cam_x = clamp(x-213,0,room_width-426) + instance_nearest(x,y,Obj_Train).xspeed*16

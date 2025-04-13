@@ -8,7 +8,9 @@ if room = Level_Feild {
 	  layer_y(layer_get_id("Bg_still"),camera_get_view_y(view_camera[0])- ( (camera_get_view_x(view_camera[0])) / 16 ) )
 }
  }
-  
+ 
+ 
+ if !instance_exists(Obj_TrainBossController) {
    if layer_exists(layer_get_id("Bg_1"))
  {
  layer_x(layer_get_id("Bg_1"),camera_get_view_x(view_camera[0])/1.25);
@@ -18,6 +20,8 @@ if room = Level_Feild {
 	    layer_y(layer_get_id("Bg_1"), 100+ clamp((camera_get_view_y(view_camera[0])*0.94),room_height-480,room_height) - (camera_get_view_x(view_camera[0])) / 32 );
   }
   
+  
+ }
  }
  
  if layer_exists(layer_get_id("Bg_2")) {

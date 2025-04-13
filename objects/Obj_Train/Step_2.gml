@@ -51,3 +51,7 @@ if image_speed = 1
 	}
 
 if image_speed = 0 image_index = 0
+
+if instance_exists(Obj_TrainBossController) {
+		image_speed = 1;
+	}

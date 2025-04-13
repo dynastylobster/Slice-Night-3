@@ -52,6 +52,8 @@ if place_meeting(x+xspeed*2,y+4,[Obj_Wall, autoTileCol]) {
 	}
 	y += yspeed
 
+if !instance_exists(Obj_TrainBossController) {
+	
 	if facing = 1 {
 		if xspeed < max_xspeed then xspeed += 0.0125
 		if xspeed > max_xspeed xspeed -= 0.125
@@ -65,7 +67,16 @@ if place_meeting(x+xspeed*2,y+4,[Obj_Wall, autoTileCol]) {
 			if instance_nearest(x,y,Obj_RailSlope).image_index = 0 then xspeed += 0.0225
 			if instance_nearest(x,y,Obj_RailSlope).image_index = 1 then xspeed -= 0.0225
 		}
+} else {
+		if global.key_right {
+				if xspeed < max_xspeed then xspeed += 0.125
+			}
+		if global.key_left { 
+				if abs(xspeed) < max_xspeed then xspeed -= 0.125
+			}
+	}
 	x+= xspeed
+	
 	
 	while place_meeting(x,y+1,Obj_RailSlope) {
 			if yspeed >= 0 
@@ -106,3 +117,9 @@ if Obj_Billy.i_frames and !Obj_Billy.dead {
 	} else image_alpha = 1;
 }
 
+if instance_exists(Obj_TrainBossController) {
+	x = clamp(x,0,400)
+	if x > 398 xspeed = clamp(xspeed,-7,0)
+	age += 0.25;
+		image_speed = 1;
+	}
