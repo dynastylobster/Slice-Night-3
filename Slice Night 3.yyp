@@ -1000,6 +1000,7 @@
     {"id":{"name":"Spr_NovaFrag_Glow","path":"sprites/Spr_NovaFrag_Glow/Spr_NovaFrag_Glow.yy",},},
     {"id":{"name":"Spr_NovaFrag","path":"sprites/Spr_NovaFrag/Spr_NovaFrag.yy",},},
     {"id":{"name":"Spr_NPC","path":"sprites/Spr_NPC/Spr_NPC.yy",},},
+    {"id":{"name":"Spr_NPCModel1Text","path":"sprites/Spr_NPCModel1Text/Spr_NPCModel1Text.yy",},},
     {"id":{"name":"Spr_NPCMotuBillyText","path":"sprites/Spr_NPCMotuBillyText/Spr_NPCMotuBillyText.yy",},},
     {"id":{"name":"Spr_NPCMotuBillyTextBoth_1","path":"sprites/Spr_NPCMotuBillyTextBoth_1/Spr_NPCMotuBillyTextBoth_1.yy",},},
     {"id":{"name":"Spr_NPCMotuBillyTextBoth","path":"sprites/Spr_NPCMotuBillyTextBoth/Spr_NPCMotuBillyTextBoth.yy",},},

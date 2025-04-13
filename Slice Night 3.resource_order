@@ -159,6 +159,7 @@
     {"name":"Spr_MovePlatformBlue","order":18,"path":"sprites/Spr_MovePlatformBlue/Spr_MovePlatformBlue.yy",},
     {"name":"Spr_NovaFrag","order":34,"path":"sprites/Spr_NovaFrag/Spr_NovaFrag.yy",},
     {"name":"Spr_NPC","order":42,"path":"sprites/Spr_NPC/Spr_NPC.yy",},
+    {"name":"Spr_NPCModel1Text","order":1,"path":"sprites/Spr_NPCModel1Text/Spr_NPCModel1Text.yy",},
     {"name":"Spr_NuclearPaint","order":26,"path":"sprites/Spr_NuclearPaint/Spr_NuclearPaint.yy",},
     {"name":"Spr_OffDeathBlock","order":39,"path":"sprites/Spr_OffDeathBlock/Spr_OffDeathBlock.yy",},
     {"name":"Spr_ParryBall","order":47,"path":"sprites/Spr_ParryBall/Spr_ParryBall.yy",},
