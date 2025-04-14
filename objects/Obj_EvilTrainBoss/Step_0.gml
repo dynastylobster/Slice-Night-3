@@ -23,3 +23,5 @@ if y < starty {
 
 
 }
+
+wheelframe = sin(age)

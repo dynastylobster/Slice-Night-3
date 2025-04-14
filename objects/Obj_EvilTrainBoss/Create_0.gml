@@ -10,5 +10,5 @@ jumpspeed = 6;
 starty = y;
 startx = x
 age = 0;
-
+wheelframe = 0;
 x = -95;
