@@ -4,7 +4,7 @@ depth = layer_get_depth(layer_get_id("GameObjectLayer"))-200
 	depth = layer_get_depth(layer_get_id("Instances_1"))
 } */
 
-if place_meeting(x,y,Obj_Billy) {
+if place_meeting(x,y,Obj_Billy) and !instance_exists(Obj_TrainBossController) {
 if !drawing draw_sprite(Spr_UpArrow,age,x,y-14)
 }
 

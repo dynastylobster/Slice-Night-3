@@ -12,6 +12,9 @@ if global.key_up_pressed and image_index = 21 {
 		other.x = billy_x;	
 		}
 
+if !instance_exists(Obj_TrainBossController) {
+
+
 if (!global.paused) {
 if (global.key_up_pressed && drawing == true) {
 line++;
@@ -23,4 +26,6 @@ if image_index = 15 audio_play_sound(Snd_Arowr_Plourples,0,0,global.SFXvolume);
 	
 drawing = true	
 }
+}
+
 }

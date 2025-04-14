@@ -3,6 +3,13 @@
 if instance_exists(Obj_Train) {
 		x = Obj_Train.x - 3
 		y = Obj_Train.y - 32 + int64((sin(Obj_Train.age)*1.25)/1.15)
+	} else {
+		if instance_exists(Obj_Maceball_TrainBoss) {
+		with(Obj_Maceball_TrainBoss) 
+		{instance_destroy();}
+		}
+		instance_create_depth(x,y,depth,Obj_model1_defeat);	
+		instance_destroy();
 	}
 
 if instance_exists(Obj_SliceSide) {

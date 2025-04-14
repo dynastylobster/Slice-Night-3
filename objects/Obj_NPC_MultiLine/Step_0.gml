@@ -52,7 +52,7 @@ room_goto(Void_Boss_Room);
 age2++;
 }
 
-if instance_exists(Obj_TrainBossController) and global.spoketobanan{
+if instance_exists(Obj_TrainBossController) and instance_exists(Obj_Train) and global.spoketobanan{
 		x -= 1
 	if x < 426 and x > 416 {
 			if !audio_is_playing(Snd_Banan_DriveSafe) {
