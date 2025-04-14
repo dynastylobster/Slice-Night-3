@@ -16,3 +16,9 @@ if image_index < 3 and image_index > 2.75 and instance_number(Obj_CannonTrackerB
 		instance_create_depth(x,y,depth,Obj_WallJumpEffect)
 		instance_create_depth(x,y,depth-25,Obj_CannonTrackerBall);
 	}
+	
+image_speed = image_speed * global.paused;
+if global.paused {
+		if alarm[0] > 0 alarm[0]++
+		if alarm[1] > 0 alarm[1]++
+	}

@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+if x < startx {
+		x = lerp(x,startx,0.01)
+	}
 age += 0.125
 if instance_exists(Obj_Train) {
 truex = x+sin(age/2)*2 - Obj_Train.xspeed*2.25

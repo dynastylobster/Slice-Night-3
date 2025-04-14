@@ -5,7 +5,7 @@ if !global.paused and speed = 0 {
 		x += xspeed
 		y += yspeed
 	}
-if y > room_height-32 or place_meeting(x,y,[BossParentObject,Obj_EvilTrainFace]) {
+if y > room_height-32 or place_meeting(x,y,[Obj_EvilTrainFace]) {
 	event_user(0);
 }
 if speed = 8 {
