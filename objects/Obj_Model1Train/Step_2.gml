@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+if state = 0 or state = 1 {
 if instance_exists(Obj_Train) {
 		x = Obj_Train.x - 3
 		y = Obj_Train.y - 32 + int64((sin(Obj_Train.age)*1.25)/1.15)
@@ -20,3 +21,5 @@ if instance_exists(Obj_SliceSide) {
 			sprite_index = Spr_model1_attack;	
 		} else sprite_index = Spr_model1_TrainIdle
 	}
+}
+

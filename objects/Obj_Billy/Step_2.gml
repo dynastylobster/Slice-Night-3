@@ -5,3 +5,9 @@ if place_meeting(x,y-5,Obj_ShiftPillarOrange) and place_meeting(x,y+1.25,Obj_Shi
 	HitPlayer()
 	hp = 0
 }
+
+if hp > 6 {
+max_hp = 6
+hp = 6
+}
+
