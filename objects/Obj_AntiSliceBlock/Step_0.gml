@@ -17,3 +17,20 @@ if sprite_index = Spr_AntiSliceBlock {
 				with instance_place(x,y,Obj_Wall) {instance_destroy();}	
 			}
 	}
+	
+if instance_exists(Obj_TrainBossController) and !global.paused {
+turnframe = sin(age*2)
+if turnframe < 0 angle = 45
+if turnframe > 0 angle = 0
+image_angle = angle
+		yspeed += grav 
+		x+= xspeed
+		y+= yspeed
+
+	if y > room_height-32 {
+		event_perform(ev_collision,Obj_FlameSlice);
+			yspeed = -3
+			xspeed = random_range(3,4)
+		}
+
+}

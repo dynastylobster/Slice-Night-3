@@ -7,7 +7,7 @@ y+= yspeed
 age++
 if age > 10 image_alpha = 1
 
-if place_meeting(x,y,Obj_SliceBlock_Purple) {
+if place_meeting(x,y,[Obj_SliceBlock_Purple,Obj_EvilTrainBoss]) {
 purple = true;	
 }
 

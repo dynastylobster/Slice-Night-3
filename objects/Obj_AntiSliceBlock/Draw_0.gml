@@ -14,8 +14,8 @@ if sprite_index = Spr_AntiSliceBlock {
 		}
 		if alarm[0] > 60 {
 			gpu_set_blendmode(bm_add)
-			draw_sprite_ext(Spr_AntiSliceBlockEmpty,0,x,y,image_xscale,image_yscale,0,c_white,1);
-			draw_sprite_ext(Spr_AntiSliceBlockEmpty,0,x,y,image_xscale,image_yscale,0,c_white,1);
+			draw_sprite_ext(Spr_AntiSliceBlockEmpty,0,x,y,image_xscale,image_yscale,angle,c_white,1);
+			draw_sprite_ext(Spr_AntiSliceBlockEmpty,0,x,y,image_xscale,image_yscale,0,angle,1);
 			gpu_set_blendmode(bm_normal)	
 		}
 		
