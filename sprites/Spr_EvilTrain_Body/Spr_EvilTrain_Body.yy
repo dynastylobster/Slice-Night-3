@@ -20,7 +20,7 @@
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"a0905deb-b0a5-4d45-9d0c-3ccb6cd61929","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"a0905deb-b0a5-4d45-9d0c-3ccb6cd61929","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f8e24b80-3b56-4a95-b37d-45097a9a3fa8","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"f8e24b80-3b56-4a95-b37d-45097a9a3fa8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_EvilTrain_Body",
   "nineSlice":null,
