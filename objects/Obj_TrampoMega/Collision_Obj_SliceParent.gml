@@ -1,5 +1,8 @@
 /// @HALF DAMAGE FROM FLAMESLICE
 HitAnyone();
+if other.object_index = Obj_FlameSlice {
+with (other) {instance_destroy();}
+}
 /*
 if place_meeting(x,y,Obj_SliceSide)or place_meeting(x,y,Obj_SliceDown) {
 
