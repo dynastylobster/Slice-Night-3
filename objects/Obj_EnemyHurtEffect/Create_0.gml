@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if instance_exists(Obj_EvilTrainBoss) and place_meeting(x,y,Obj_EvilTrainFace) {
-		if x > Obj_EvilTrainFace.x-5 {
+		if x > Obj_EvilTrainFace.x {
 			if place_meeting(x,y,Obj_SliceBlockParticle) {
 			with(Obj_SliceBlockParticle) {instance_destroy();}	
 			}
