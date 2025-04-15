@@ -10,5 +10,7 @@ if place_meeting(x+8,y+8,Obj_GlassBlock) {
 		sprite_index = Spr_glassparticle
 	}
 }
+if !place_meeting(x,y,Obj_SMWHeart) {
 instance_create_depth(x,y,depth,Obj_SMWHeart);
+}
 instance_destroy();
