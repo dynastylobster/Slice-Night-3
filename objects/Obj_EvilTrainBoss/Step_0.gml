@@ -8,6 +8,7 @@ age += 0.125
 if instance_exists(Obj_Train) {
 truex = x+sin(age/2)*2 - Obj_Train.xspeed*2.25
 
+truewheelx = x+sin(age/2)*1.75 - Obj_Train.xspeed*1.5
 
 if y < starty {
 		yspeed += grav 

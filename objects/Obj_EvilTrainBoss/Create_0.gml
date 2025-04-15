@@ -11,4 +11,5 @@ starty = y;
 startx = x
 age = 0;
 wheelframe = 0;
+truewheelx = x
 x = -95;
