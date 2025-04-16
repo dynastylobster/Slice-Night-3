@@ -1,6 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-if place_meeting(x,y-4,Obj_Billy) {
+if place_meeting(x,y-16,Obj_Billy) {
+	
+		if instance_exists(Obj_SliceSide) {
+			instance_create_depth(Obj_Billy.x,Obj_Billy.y+12,depth,Obj_SliceDown)
+		}
+	
 		if Obj_Billy.x < x-6 {
 				Obj_Billy.x+= 1;
 			}
@@ -13,6 +18,7 @@ if place_meeting(x,y-4,Obj_Billy) {
 			}
 		if active >= 30 {
 			shaketimer++
+			Obj_Billy.jumpspeed = 0;
 			Obj_Billy.x = x 
 			Obj_Billy.y = y+12
 			if !audio_is_playing(Sng_ElivatorMusic){
@@ -34,4 +40,24 @@ if place_meeting(x,y-4,Obj_Billy) {
 	else 
 	{
 		x = start_x	
+	}
+	
+if place_meeting(x,y,Obj_SliceParent) {
+		shaketimer = 0
+		hp -= 1
+		with(Obj_SliceParent) {
+			instance_destroy();	
+		}
+	}
+	
+if hp = 0 {
+	if audio_is_playing(Sng_ElivatorMusic) {
+	audio_stop_all();	
+	}
+	audio_play_sound(Snd_BlockBreak,0,0,global.SFXvolume,0,0.8);
+	audio_play_sound(Snd_BlockBreak,0,0,global.SFXvolume,0,1);
+	repeat(7){
+	instance_create_depth(x,y,depth-50,Obj_SliceBlockParticle)
+	}
+		instance_destroy();
 	}
