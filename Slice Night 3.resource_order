@@ -30,6 +30,7 @@
     {"name":"Obj_MetalBlock","order":5,"path":"objects/Obj_MetalBlock/Obj_MetalBlock.yy",},
     {"name":"Obj_Missile","order":2,"path":"objects/Obj_Missile/Obj_Missile.yy",},
     {"name":"Obj_Model1Train","order":2,"path":"objects/Obj_Model1Train/Obj_Model1Train.yy",},
+    {"name":"Obj_ShadowTiles","order":1,"path":"objects/Obj_ShadowTiles/Obj_ShadowTiles.yy",},
     {"name":"Obj_SliceBack_Inverted","order":8,"path":"objects/Obj_SliceBack_Inverted/Obj_SliceBack_Inverted.yy",},
     {"name":"Obj_SliceBack","order":6,"path":"objects/Obj_SliceBack/Obj_SliceBack.yy",},
     {"name":"Obj_SliceBackAttack","order":7,"path":"objects/Obj_SliceBackAttack/Obj_SliceBackAttack.yy",},
@@ -102,6 +103,7 @@
     {"name":"Bg_End1","order":4,"path":"sprites/Bg_End1/Bg_End1.yy",},
     {"name":"Bg_MileyStory12","order":2,"path":"sprites/Bg_MileyStory12/Bg_MileyStory12.yy",},
     {"name":"Bg_ScorchFloor","order":5,"path":"sprites/Bg_ScorchFloor/Bg_ScorchFloor.yy",},
+    {"name":"CastlePurpleTileSpriteShadow","order":3,"path":"sprites/CastlePurpleTileSpriteShadow/CastlePurpleTileSpriteShadow.yy",},
     {"name":"DebrisPlatformSprite","order":22,"path":"sprites/DebrisPlatformSprite/DebrisPlatformSprite.yy",},
     {"name":"Spr_AntiSliceBlock","order":17,"path":"sprites/Spr_AntiSliceBlock/Spr_AntiSliceBlock.yy",},
     {"name":"Spr_AntiSliceBlockEmpty","order":11,"path":"sprites/Spr_AntiSliceBlockEmpty/Spr_AntiSliceBlockEmpty.yy",},
@@ -220,5 +222,6 @@
     {"name":"Spr_WaterWavesOrange","order":22,"path":"sprites/Spr_WaterWavesOrange/Spr_WaterWavesOrange.yy",},
     {"name":"Sprite1","order":28,"path":"sprites/Sprite1/Sprite1.yy",},
     {"name":"AlienTileSetDim","order":2,"path":"tilesets/AlienTileSetDim/AlienTileSetDim.yy",},
+    {"name":"CastlePurpleTileSetShadow","order":4,"path":"tilesets/CastlePurpleTileSetShadow/CastlePurpleTileSetShadow.yy",},
   ],
 }
