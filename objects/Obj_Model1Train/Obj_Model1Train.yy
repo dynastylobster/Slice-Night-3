@@ -29,7 +29,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"dest_room","filters":[],"listItems":[],"multiselect":false,"name":"dest_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"L_Core_0","path":"rooms/L_Core_0/L_Core_0.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"L_Core_0","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"dest_room","filters":[],"listItems":[],"multiselect":false,"name":"dest_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"L_Evator","path":"rooms/L_Evator/L_Evator.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"L_Evator","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
