@@ -61,3 +61,7 @@ if hp = 0 {
 	}
 		instance_destroy();
 	}
+
+if y > 2600 {
+		audio_sound_gain(Sng_ElivatorMusic,audio_sound_get_gain(Sng_ElivatorMusic)/1.01,0)
+	}

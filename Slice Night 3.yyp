@@ -165,6 +165,7 @@
     {"id":{"name":"Obj_DrillChute","path":"objects/Obj_DrillChute/Obj_DrillChute.yy",},},
     {"id":{"name":"Obj_EasyCheckpoint","path":"objects/Obj_EasyCheckpoint/Obj_EasyCheckpoint.yy",},},
     {"id":{"name":"Obj_Elivator","path":"objects/Obj_Elivator/Obj_Elivator.yy",},},
+    {"id":{"name":"Obj_ElivatorIsABitch","path":"objects/Obj_ElivatorIsABitch/Obj_ElivatorIsABitch.yy",},},
     {"id":{"name":"Obj_EmberEffect","path":"objects/Obj_EmberEffect/Obj_EmberEffect.yy",},},
     {"id":{"name":"Obj_EmergencyAlarm","path":"objects/Obj_EmergencyAlarm/Obj_EmergencyAlarm.yy",},},
     {"id":{"name":"Obj_EnemyFlameSpark","path":"objects/Obj_EnemyFlameSpark/Obj_EnemyFlameSpark.yy",},},
