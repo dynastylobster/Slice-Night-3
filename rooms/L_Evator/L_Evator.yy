@@ -11,6 +11,7 @@
     {"name":"inst_8987A1E","path":"rooms/L_Evator/L_Evator.yy",},
     {"name":"inst_B61820C","path":"rooms/L_Evator/L_Evator.yy",},
     {"name":"inst_6759627F","path":"rooms/L_Evator/L_Evator.yy",},
+    {"name":"inst_1AD58BD5","path":"rooms/L_Evator/L_Evator.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -38,6 +39,7 @@
         {"$GMRInstance":"v1","%Name":"inst_8987A1E","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_8987A1E","objectId":{"name":"Obj_NoWallJumpBlock","path":"objects/Obj_NoWallJumpBlock/Obj_NoWallJumpBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":13.0,"x":384.0,"y":0.0,},
         {"$GMRInstance":"v1","%Name":"inst_B61820C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_B61820C","objectId":{"name":"Obj_Billy","path":"objects/Obj_Billy/Obj_Billy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":192.0,},
         {"$GMRInstance":"v1","%Name":"inst_6759627F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6759627F","objectId":{"name":"Obj_Elivator","path":"objects/Obj_Elivator/Obj_Elivator.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":359.0,"y":183.0,},
+        {"$GMRInstance":"v1","%Name":"inst_1AD58BD5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1AD58BD5","objectId":{"name":"Obj_CameraController","path":"objects/Obj_CameraController/Obj_CameraController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":80.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"TileCollision","depth":500,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TileCollision","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":250,"SerialiseWidth":27,"TileCompressedData":[
           -351,0,-21,1,-3,0,-3,1,-20,0,1,1,-3,0,3,1,0,0,-21,1,-3,0,-3,1,-378,0,-5940,-2147483648,

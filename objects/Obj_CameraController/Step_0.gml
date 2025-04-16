@@ -68,3 +68,17 @@ if boat {
 
 		
 	}
+	
+if elevator {
+	real_cam_y = clamp(Obj_Billy.y-120,0,2600)
+		real_cam_y =(clamp(real_cam_y,0,2600))
+		camera_set_view_pos(view_camera[0],cam_x,real_cam_y)
+		//fuckin eats'ya 
+		//i will literally bite you to bits
+		//asnd youdll die or somthn
+		//i love you 
+		//no washles, pay attention to the elevator code
+		//camy
+		//cashley
+		//cash KROMERRR!?!?
+	}
