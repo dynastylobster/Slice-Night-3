@@ -66,6 +66,7 @@
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"slice night 3 disc art concept.png","CopyToMask":-1,"filePath":"datafiles","name":"slice night 3 disc art concept.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"sn3 bg small.png","CopyToMask":-1,"filePath":"datafiles","name":"sn3 bg small.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"sn3 new box.png","CopyToMask":-1,"filePath":"datafiles","name":"sn3 new box.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"sn3 vector like logo.png","CopyToMask":-1,"filePath":"datafiles","name":"sn3 vector like logo.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},

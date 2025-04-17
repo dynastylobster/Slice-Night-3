@@ -1,5 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
+if !global.togglerun {
+if !global.key_C {
+		if running and grounded {
+			xspeed = clamp(xspeed,-abs(max_walkspeed),abs(max_walkspeed))	
+		}
+	}
+}
 
 if global.costume = "Billy (SMW)" {
 		if room != L_SMWC then global.costume = "Billy"
