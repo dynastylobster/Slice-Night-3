@@ -104,6 +104,9 @@ ds_list_clear(close);
 }
 
 if (attackTimer > 30 * phaseSpeed) {
+	if onscreen {
+audio_play_sound(Snd_Mazzer,0,0,global.SFXvolume*0.8,0,1);
+	}
 lasering = !lasering;
 attackTimer = 0;
 }
@@ -123,13 +126,4 @@ if !global.paused {
 			x += Looper.TpDistance;	
 		}
 	}
-}
-if onscreen {
-if attackTimer > 30 * phaseSpeed {
-			audio_stop_sound(Snd_VoidLazer)
-			audio_play_sound(Snd_VoidLazer,0,0,(global.SFXvolume)/(instance_number(Obj_Mazzer)/6),0,1.1)	
-	}
-}
-if attackTimer < 30 {
-	audio_sound_gain(Snd_VoidLazer,1/(attackTimer/12),0);	
 }

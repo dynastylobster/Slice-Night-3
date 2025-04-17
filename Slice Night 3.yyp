@@ -537,6 +537,7 @@
     {"id":{"name":"Snd_LazerWarning","path":"sounds/Snd_LazerWarning/Snd_LazerWarning.yy",},},
     {"id":{"name":"Snd_Lightning","path":"sounds/Snd_Lightning/Snd_Lightning.yy",},},
     {"id":{"name":"Snd_LightSwitch","path":"sounds/Snd_LightSwitch/Snd_LightSwitch.yy",},},
+    {"id":{"name":"Snd_Mazzer","path":"sounds/Snd_Mazzer/Snd_Mazzer.yy",},},
     {"id":{"name":"Snd_NightmareClear","path":"sounds/Snd_NightmareClear/Snd_NightmareClear.yy",},},
     {"id":{"name":"Snd_NormalClear","path":"sounds/Snd_NormalClear/Snd_NormalClear.yy",},},
     {"id":{"name":"Snd_NuclearPaint","path":"sounds/Snd_NuclearPaint/Snd_NuclearPaint.yy",},},
