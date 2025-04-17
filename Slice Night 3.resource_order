@@ -191,6 +191,7 @@
     {"name":"Spr_RailFlat","order":31,"path":"sprites/Spr_RailFlat/Spr_RailFlat.yy",},
     {"name":"Spr_RailSlope","order":44,"path":"sprites/Spr_RailSlope/Spr_RailSlope.yy",},
     {"name":"Spr_RailTurn","order":41,"path":"sprites/Spr_RailTurn/Spr_RailTurn.yy",},
+    {"name":"Spr_Reference","order":3,"path":"sprites/Spr_Reference/Spr_Reference.yy",},
     {"name":"Spr_RegenSliceBlock","order":36,"path":"sprites/Spr_RegenSliceBlock/Spr_RegenSliceBlock.yy",},
     {"name":"Spr_RocketBlock","order":12,"path":"sprites/Spr_RocketBlock/Spr_RocketBlock.yy",},
     {"name":"Spr_SecretBox","order":6,"path":"sprites/Spr_SecretBox/Spr_SecretBox.yy",},

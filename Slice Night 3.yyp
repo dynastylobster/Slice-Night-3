@@ -1066,6 +1066,7 @@
     {"id":{"name":"Spr_RailSlope","path":"sprites/Spr_RailSlope/Spr_RailSlope.yy",},},
     {"id":{"name":"Spr_RailTurn","path":"sprites/Spr_RailTurn/Spr_RailTurn.yy",},},
     {"id":{"name":"Spr_RedSliceBlockV2","path":"sprites/Spr_RedSliceBlockV2/Spr_RedSliceBlockV2.yy",},},
+    {"id":{"name":"Spr_Reference","path":"sprites/Spr_Reference/Spr_Reference.yy",},},
     {"id":{"name":"Spr_RegenSliceBlock","path":"sprites/Spr_RegenSliceBlock/Spr_RegenSliceBlock.yy",},},
     {"id":{"name":"Spr_RocketBlock","path":"sprites/Spr_RocketBlock/Spr_RocketBlock.yy",},},
     {"id":{"name":"Spr_RotoJoe_Blue","path":"sprites/Spr_RotoJoe_Blue/Spr_RotoJoe_Blue.yy",},},
