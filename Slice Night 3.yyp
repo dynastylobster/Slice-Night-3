@@ -387,6 +387,7 @@
     {"id":{"name":"L_BetaTrollCave","path":"rooms/L_BetaTrollCave/L_BetaTrollCave.yy",},},
     {"id":{"name":"L_Core_0","path":"rooms/L_Core_0/L_Core_0.yy",},},
     {"id":{"name":"L_Core_1","path":"rooms/L_Core_1/L_Core_1.yy",},},
+    {"id":{"name":"L_Core_2","path":"rooms/L_Core_2/L_Core_2.yy",},},
     {"id":{"name":"L_End1","path":"rooms/L_End1/L_End1.yy",},},
     {"id":{"name":"L_Evator","path":"rooms/L_Evator/L_Evator.yy",},},
     {"id":{"name":"L_LaserRoom","path":"rooms/L_LaserRoom/L_LaserRoom.yy",},},
@@ -551,6 +552,7 @@
     {"id":{"name":"Snd_SunImplode","path":"sounds/Snd_SunImplode/Snd_SunImplode.yy",},},
     {"id":{"name":"Snd_TrainLand","path":"sounds/Snd_TrainLand/Snd_TrainLand.yy",},},
     {"id":{"name":"Snd_TrainScratch","path":"sounds/Snd_TrainScratch/Snd_TrainScratch.yy",},},
+    {"id":{"name":"Snd_Unlock","path":"sounds/Snd_Unlock/Snd_Unlock.yy",},},
     {"id":{"name":"Snd_VoidLazer","path":"sounds/Snd_VoidLazer/Snd_VoidLazer.yy",},},
     {"id":{"name":"Snd_VoidVoice","path":"sounds/Snd_VoidVoice/Snd_VoidVoice.yy",},},
     {"id":{"name":"Snd_Warning","path":"sounds/Snd_Warning/Snd_Warning.yy",},},
@@ -1360,6 +1362,7 @@
     {"roomId":{"name":"L_End1","path":"rooms/L_End1/L_End1.yy",},},
     {"roomId":{"name":"L_Scorch_Boss","path":"rooms/L_Scorch_Boss/L_Scorch_Boss.yy",},},
     {"roomId":{"name":"L_Evator","path":"rooms/L_Evator/L_Evator.yy",},},
+    {"roomId":{"name":"L_Core_2","path":"rooms/L_Core_2/L_Core_2.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

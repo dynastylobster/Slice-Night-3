@@ -15,3 +15,7 @@ xspeed = choose (1,2,-1,-2)
 yspeed = random_range(-3,-6)
 grav = 0.125
 alarm[1] = 8
+
+if place_meeting(x,y,Obj_LockBlock) {
+	sprite_index = Spr_GoalBoxSparkle	
+}

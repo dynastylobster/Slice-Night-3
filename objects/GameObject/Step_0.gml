@@ -392,10 +392,7 @@ if global.key_Z_pressed or global.key_X_pressed then global.billyfox = !global.b
 if !instance_exists(Obj_Key) {
 	if instance_exists(Obj_LockBlock) {
 		if Obj_LockBlock.image_speed = 0 {
-		audio_play_sound(Snd_BlockBreak,0,0)
-		audio_play_sound(Snd_BlockBreak,0,0)
-		audio_play_sound(Snd_BlockBreak,0,0)
-		audio_play_sound(Snd_BlockBreak,0,0)
+		audio_play_sound(Snd_Unlock,0,0,global.SFXvolume*3.2)
 		}
 	with(Obj_LockBlock) {
 		image_speed = 1
@@ -405,10 +402,7 @@ if !instance_exists(Obj_Key) {
 
 if instance_exists(Obj_BasketLockBlock) {
 		if Obj_BasketLockBlock.image_index >= 2.5 and !audio_is_playing(Snd_BlockBreak){
-		audio_play_sound(Snd_BlockBreak,0,0)
-		audio_play_sound(Snd_BlockBreak,0,0)
-		audio_play_sound(Snd_BlockBreak,0,0)
-		audio_play_sound(Snd_BlockBreak,0,0)
+		audio_play_sound(Snd_Unlock,0,0,global.SFXvolume*3.2)
 		}
 }
 	
@@ -416,10 +410,7 @@ if instance_exists(Obj_BasketLockBlock) {
 if !instance_exists(Obj_BlueKey) {
 	if instance_exists(Obj_GoldLockBlock) {
 		if Obj_GoldLockBlock.image_speed = 0 {
-		audio_play_sound(Snd_BlockBreak,0,0)
-		audio_play_sound(Snd_BlockBreak,0,0)
-		audio_play_sound(Snd_BlockBreak,0,0)
-		audio_play_sound(Snd_BlockBreak,0,0)
+		audio_play_sound(Snd_Unlock,0,0,global.SFXvolume*3.2)
 		}
 	with(Obj_GoldLockBlock) {
 		image_speed = 1
