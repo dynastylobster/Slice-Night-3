@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Sng_TectonicFuryMusic",
+  "%Name":"Sng_TectonicFury",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":68.307686,
-  "name":"Sng_TectonicFuryMusic",
+  "duration":83.07692,
+  "name":"Sng_TectonicFury",
   "parent":{
     "name":"Music",
     "path":"folders/Sounds/Music.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Sng_TectonicFuryMusic.ogg",
+  "soundFile":"Sng_TectonicFury.ogg",
   "type":1,
   "volume":1.0,
 }
