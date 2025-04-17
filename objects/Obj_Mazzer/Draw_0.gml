@@ -38,13 +38,16 @@ xbon = obj.x + (obj.sprite_width / 2);
 
 
 draw_line_width_color(truex + exbo, truey + eybo, xbon + exbo, ybon + eybo, 1 + age % 3, color1, color2);
-
+//what this is trying to do
+//draw_sprite(Spr_DadFistEffectSprite,age/10,xbon+exbo,ybon+eybo);
 
 ds_list_clear(close);
 }
 } else {
 image_index = 0;
 }
+
+
 
 if (dir == "Spinning") {
 image_angle = abs(spin) * 360;
@@ -60,3 +63,4 @@ if warning and !onscreen{
 // Inherit the parent event
 depth = 550;
 event_inherited();
+
