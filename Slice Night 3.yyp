@@ -842,6 +842,7 @@
     {"id":{"name":"Spr_BounceBall","path":"sprites/Spr_BounceBall/Spr_BounceBall.yy",},},
     {"id":{"name":"Spr_BouncyBonesSMW","path":"sprites/Spr_BouncyBonesSMW/Spr_BouncyBonesSMW.yy",},},
     {"id":{"name":"Spr_BreakableCannonBall","path":"sprites/Spr_BreakableCannonBall/Spr_BreakableCannonBall.yy",},},
+    {"id":{"name":"Spr_BrokenMenaceOrb","path":"sprites/Spr_BrokenMenaceOrb/Spr_BrokenMenaceOrb.yy",},},
     {"id":{"name":"Spr_BubbleSmall","path":"sprites/Spr_BubbleSmall/Spr_BubbleSmall.yy",},},
     {"id":{"name":"Spr_CandyTiles","path":"sprites/Spr_CandyTiles/Spr_CandyTiles.yy",},},
     {"id":{"name":"Spr_CannonBall","path":"sprites/Spr_CannonBall/Spr_CannonBall.yy",},},

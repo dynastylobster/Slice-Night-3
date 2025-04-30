@@ -132,6 +132,7 @@
     {"name":"Spr_BossPhaseBlockSMW","order":14,"path":"sprites/Spr_BossPhaseBlockSMW/Spr_BossPhaseBlockSMW.yy",},
     {"name":"Spr_BounceBall","order":28,"path":"sprites/Spr_BounceBall/Spr_BounceBall.yy",},
     {"name":"Spr_BreakableCannonBall","order":39,"path":"sprites/Spr_BreakableCannonBall/Spr_BreakableCannonBall.yy",},
+    {"name":"Spr_BrokenMenaceOrb","order":2,"path":"sprites/Spr_BrokenMenaceOrb/Spr_BrokenMenaceOrb.yy",},
     {"name":"Spr_CannonTracker","order":47,"path":"sprites/Spr_CannonTracker/Spr_CannonTracker.yy",},
     {"name":"Spr_CannonTrackerBall","order":1,"path":"sprites/Spr_CannonTrackerBall/Spr_CannonTrackerBall.yy",},
     {"name":"Spr_CheckPoint","order":13,"path":"sprites/Spr_CheckPoint/Spr_CheckPoint.yy",},
