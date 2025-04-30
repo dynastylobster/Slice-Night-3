@@ -131,6 +131,7 @@
     {"id":{"name":"Obj_BossWallJumpArmSpikes","path":"objects/Obj_BossWallJumpArmSpikes/Obj_BossWallJumpArmSpikes.yy",},},
     {"id":{"name":"Obj_BounceBall","path":"objects/Obj_BounceBall/Obj_BounceBall.yy",},},
     {"id":{"name":"Obj_BouncyBones","path":"objects/Obj_BouncyBones/Obj_BouncyBones.yy",},},
+    {"id":{"name":"Obj_BrokenMenaceOrb","path":"objects/Obj_BrokenMenaceOrb/Obj_BrokenMenaceOrb.yy",},},
     {"id":{"name":"Obj_BrokenShooterCannonBall","path":"objects/Obj_BrokenShooterCannonBall/Obj_BrokenShooterCannonBall.yy",},},
     {"id":{"name":"Obj_ButtonSelect","path":"objects/Obj_ButtonSelect/Obj_ButtonSelect.yy",},},
     {"id":{"name":"Obj_CameraController","path":"objects/Obj_CameraController/Obj_CameraController.yy",},},

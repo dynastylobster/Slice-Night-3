@@ -13,6 +13,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"Obj_Airpuff","order":6,"path":"objects/Obj_Airpuff/Obj_Airpuff.yy",},
+    {"name":"Obj_BrokenMenaceOrb","order":2,"path":"objects/Obj_BrokenMenaceOrb/Obj_BrokenMenaceOrb.yy",},
     {"name":"Obj_DadFist","order":4,"path":"objects/Obj_DadFist/Obj_DadFist.yy",},
     {"name":"Obj_DrillChute","order":3,"path":"objects/Obj_DrillChute/Obj_DrillChute.yy",},
     {"name":"Obj_Elivator","order":9,"path":"objects/Obj_Elivator/Obj_Elivator.yy",},
