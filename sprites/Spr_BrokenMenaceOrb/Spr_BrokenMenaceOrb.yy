@@ -25,7 +25,7 @@
   ],
   "name":"Spr_BrokenMenaceOrb",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Enemy Sprites",
     "path":"folders/Sprites/Enemy Sprites.yy",
@@ -84,7 +84,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":12,
-    "yorigin":12,
+    "yorigin":5,
   },
   "swatchColours":null,
   "swfPrecision":2.525,
