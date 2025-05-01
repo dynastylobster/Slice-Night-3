@@ -14,6 +14,7 @@ image_xscale = sign(Obj_Billy.image_xscale)
 if !global.paused {
 age+= 0.25
 if verticalmovement then y += (sin(age/4)*3) *_speed
+if horizontalmovement  then x += (sin(age/4)*3) *_speed
 path_speed = 1.5 * _speed
 } else {
 path_speed = 0	

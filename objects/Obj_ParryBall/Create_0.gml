@@ -9,3 +9,7 @@ if circlemovement {
 if verticalmovement {
 y-= 48	
 }
+
+if verticalmovement {
+x-= 48	
+}
