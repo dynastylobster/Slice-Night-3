@@ -109,6 +109,7 @@
     {"name":"Bg_CutsceneModel13","order":1,"path":"sprites/Bg_CutsceneModel13/Bg_CutsceneModel13.yy",},
     {"name":"Bg_End1","order":4,"path":"sprites/Bg_End1/Bg_End1.yy",},
     {"name":"Bg_MileyStory12","order":2,"path":"sprites/Bg_MileyStory12/Bg_MileyStory12.yy",},
+    {"name":"Bg_Punkrock_still2","order":6,"path":"sprites/Bg_Punkrock_still2/Bg_Punkrock_still2.yy",},
     {"name":"Bg_ScorchFloor","order":5,"path":"sprites/Bg_ScorchFloor/Bg_ScorchFloor.yy",},
     {"name":"CastlePurpleTileSpriteShadow","order":3,"path":"sprites/CastlePurpleTileSpriteShadow/CastlePurpleTileSpriteShadow.yy",},
     {"name":"DebrisPlatformSprite","order":22,"path":"sprites/DebrisPlatformSprite/DebrisPlatformSprite.yy",},

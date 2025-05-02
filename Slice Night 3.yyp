@@ -692,6 +692,7 @@
     {"id":{"name":"Bg_Punkrock_1","path":"sprites/Bg_Punkrock_1/Bg_Punkrock_1.yy",},},
     {"id":{"name":"Bg_Punkrock_2","path":"sprites/Bg_Punkrock_2/Bg_Punkrock_2.yy",},},
     {"id":{"name":"Bg_Punkrock_still","path":"sprites/Bg_Punkrock_still/Bg_Punkrock_still.yy",},},
+    {"id":{"name":"Bg_Punkrock_still2","path":"sprites/Bg_Punkrock_still2/Bg_Punkrock_still2.yy",},},
     {"id":{"name":"Bg_rocket","path":"sprites/Bg_rocket/Bg_rocket.yy",},},
     {"id":{"name":"Bg_RocketInside","path":"sprites/Bg_RocketInside/Bg_RocketInside.yy",},},
     {"id":{"name":"Bg_Scorch_Night","path":"sprites/Bg_Scorch_Night/Bg_Scorch_Night.yy",},},
