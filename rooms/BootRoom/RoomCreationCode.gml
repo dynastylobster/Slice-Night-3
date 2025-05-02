@@ -1,3 +1,4 @@
+global.firelevel = 0;
 global.VoidFont = font_add_sprite_ext(Spr_VoidFont,"abcdefghijklmnopqrstuvwxyz.,ABCDEFGHIJKLMNOPQRSTUVWXYZ",true,0)
 global.paused = false;
 global.music = Sng_TitleMusic

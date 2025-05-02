@@ -1,5 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
+ini_open("save.ini") 
+var level = 0;
+level += ini_read_real("Bosses Defeated", "drillguy", 0);
+level += ini_read_real("Bosses Defeated", "model1fight1", 0);
+level += ini_read_real("Bosses Defeated", "model1fight2", 0);
+level += ini_read_real("Bosses Defeated", "train", 0);
+global.firelevel = level;
+ini_close()
+
+
 hp = 3;
 slideage = 0;
 max_hp = 3;

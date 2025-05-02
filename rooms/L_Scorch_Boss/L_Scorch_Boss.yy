@@ -15,6 +15,7 @@
     {"name":"inst_6B61F596","path":"rooms/L_Scorch_Boss/L_Scorch_Boss.yy",},
     {"name":"inst_5EAF22A4","path":"rooms/L_Scorch_Boss/L_Scorch_Boss.yy",},
     {"name":"inst_2DF2CA7","path":"rooms/L_Scorch_Boss/L_Scorch_Boss.yy",},
+    {"name":"inst_331FCF9B","path":"rooms/L_Scorch_Boss/L_Scorch_Boss.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -25,6 +26,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_autotalk","path":"objects/Obj_autotalk/Obj_autotalk.yy",},"propertyId":{"name":"i_index","path":"objects/Obj_autotalk/Obj_autotalk.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_autotalk","path":"objects/Obj_autotalk/Obj_autotalk.yy",},"propertyId":{"name":"text_3","path":"objects/Obj_autotalk/Obj_autotalk.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"You guys head to the core. I'll be on my way.\"",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.953125,"scaleY":3.78125,"x":0.0,"y":-1.0,},
+        {"$GMRInstance":"v1","%Name":"inst_331FCF9B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_331FCF9B","objectId":{"name":"Obj_LevelUp","path":"objects/Obj_LevelUp/Obj_LevelUp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-304.0,"y":-208.0,},
       ],"layers":[],"name":"GameObjectLayer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_3","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_3","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":27,"TileCompressedData":[-405,0,],"TileDataFormat":1,},"tilesetId":{"name":"LavaTileSetHot","path":"tilesets/LavaTileSetHot/LavaTileSetHot.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"FG","animationFPS":30.0,"animationSpeedType":0,"colour":4282056704,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":9.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"FG","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"Bg_Fog","path":"sprites/Bg_Fog/Bg_Fog.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":32,},

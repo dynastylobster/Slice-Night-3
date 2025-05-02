@@ -4,3 +4,6 @@ instance_create_layer(x,y,layer,Obj_model1_defeat);
 audio_stop_sound(global.music)
 global.music = noone
 audio_play_sound(Snd_BossDefeat,0,0,1.3)
+ini_open("save.ini")
+	ini_write_real("Bosses Defeated", "model1fight1", 1)
+ini_close();

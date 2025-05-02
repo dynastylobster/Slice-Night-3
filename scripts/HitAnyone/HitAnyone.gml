@@ -22,11 +22,19 @@ if (instance_exists(Obj_Billy)) {
 			if (dam == "Down") { damage *= 0.75; }
 			if (dam == "Flame") { damage *= 2; }
 		}
+		
+			if (dam == "Flame") {
+	damage += (0.25 * global.firelevel);
+	}
+		
 		if (global.character == "Jester") {
 			if (dam == "Normal") { damage *= 0.5; }
 			if (dam == "Flame") { jesterRand = irandom_range(1, 6); damage = jesterRand; }
 		}
 	}
+
+
+	
 }
 
 if (array_contains(resistances, "Immune To " + dam)) {
