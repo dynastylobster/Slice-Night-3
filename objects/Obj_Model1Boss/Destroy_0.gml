@@ -5,5 +5,5 @@ audio_stop_sound(global.music)
 global.music = noone
 audio_play_sound(Snd_BossDefeat,0,0,1.3)
 ini_open("save.ini")
-	ini_write_real("Bosses Defeated", "model1fight1", 1)
+	ini_write_real(global.save, "model1fight1", 1)
 ini_close();

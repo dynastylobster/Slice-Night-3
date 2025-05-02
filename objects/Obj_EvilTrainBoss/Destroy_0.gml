@@ -5,5 +5,5 @@
 event_inherited();
 
 ini_open("save.ini")
-	ini_write_real("Bosses Defeated", "train", 1)
+	ini_write_real(global.save, "train", 1)
 ini_close();
