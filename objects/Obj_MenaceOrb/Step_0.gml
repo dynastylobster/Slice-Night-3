@@ -15,3 +15,9 @@ yspeed = -jumpspeed *sign(grav)
 
 y += yspeed
 }
+
+if room = Level_BossFinal {
+	if sprite_index != Spr_MenaceOrbEpic and sprite_index != Spr_MenaceOrbShiny {
+		sprite_index = Spr_MenaceOrb_Final
+	}
+	}

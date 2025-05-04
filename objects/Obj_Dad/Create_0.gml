@@ -12,3 +12,8 @@ randomize();
 fadingin = false;
 slicing_xspeed = 0
 alarm[2] = 400;
+hp = 36;
+maxhp = hp
+hpy = 7
+hpx = 270;
+hit = false;

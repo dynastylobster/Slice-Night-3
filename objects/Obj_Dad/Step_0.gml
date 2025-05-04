@@ -97,4 +97,22 @@ if raisetimer > 30 image_index = 3
 	
 	
 }
-	
+
+
+if place_meeting(x,y,Obj_BillyShipBoom) or place_meeting(x,y,Obj_EnemyHurtEffect) {
+		image_alpha = 0.75
+		if place_meeting(x,y,Obj_SliceParent) {
+			image_alpha = 0.5	
+		}
+	} else image_alpha = 1;
+
+
+if hp <= 0 {
+defeat = true;	
+}
+
+if defeat {
+		global.music = Snd_Silence 
+		alarm[1] = 999
+		alarm[2] = 999
+	}

@@ -24,3 +24,17 @@ if phase = 1 and !instance_exists(Obj_MenaceOrb){
 
 draw_self();
 draw_sprite_ext(sprite_index,image_index,x,y,image_xscale,image_yscale,image_angle,c_black,fadein/60)
+
+draw_sprite(Spr_HPBar_Dad,0,hpx,hpy)
+draw_sprite_ext(Spr_HPBar_Dad,1,hpx,hpy, ( (137) / (maxhp) ) * hp, 1, 0, c_white,1)
+if hit {
+	draw_sprite_ext(Spr_HPBar_Dad,2,hpx,hpy, ( (137) / (maxhp) ) * hp, 1, 0, c_white,1)
+}
+draw_sprite(Spr_HPBar_Dad,3,hpx+ (( (137) / (maxhp) ) * hp) -1 ,hpy)
+if hit {
+	draw_sprite(Spr_HPBar_Dad,4,hpx+ (( (137) / (maxhp) ) * hp) -1 ,hpy)
+}
+
+
+draw_sprite(Spr_HPBar_Dad,5,hpx,hpy)
+if hit draw_sprite(Spr_HPBar_Dad,6,hpx,hpy)

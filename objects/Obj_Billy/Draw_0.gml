@@ -194,6 +194,11 @@ if global.costume = "Cardly" {
 	}
 //normal drawing
 draw_self();
+if room = Level_BossFinal {
+	draw_set_alpha(0.5)
+	draw_sprite_ext(sprite_index,image_index,x,y+1,image_xscale,image_yscale,image_angle,(#FF7F8A),1)
+	draw_set_alpha(1)
+}
 // only for cardlys funny frames
 if global.costume = "Cardly" {
 		if sprite_index = Spr_CardWalk or sprite_index = Spr_CardRun {
@@ -262,6 +267,7 @@ if global.music = Sng_FinalBoss or room = Level_BossFinal {
 		if sprite_index = Spr_BillyWallSlide {
 			draw_sprite_ext(Spr_BillyWallSlideSwo,image_index,x,y,image_xscale,image_yscale,image_angle,c_white,1);	
 		}
+		
 	}
 
 if !dead {

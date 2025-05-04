@@ -3,7 +3,7 @@
   "%Name":"Spr_Dad_Raise",
   "bboxMode":0,
   "bbox_bottom":95,
-  "bbox_left":25,
+  "bbox_left":24,
   "bbox_right":95,
   "bbox_top":0,
   "collisionKind":1,
