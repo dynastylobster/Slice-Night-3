@@ -1,4 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-hit = false;
-downhit = false;
+layer_set_visible(layer_get_id("ScreenShake"),false);

@@ -2,6 +2,11 @@
 // You can write your code in this editor
 event_inherited();
 shiny = irandom_range(1,100)
+
+if instance_exists(Obj_Dad) {
+shiny = irandom_range(1,20)	
+}
+
 if shiny = 1 {
 	sprite_index = Spr_MenaceOrbShiny;	
 }

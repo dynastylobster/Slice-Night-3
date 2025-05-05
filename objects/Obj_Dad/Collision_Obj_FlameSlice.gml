@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if !other.done_slicing {
+if !other.done_slicing and hp > 0 {
 		hp-= 0.25
 		hit = true;
 		alarm[3] = 10;

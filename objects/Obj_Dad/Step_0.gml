@@ -1,5 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
+if instance_exists(Obj_EnemyFlameTrail) 
+{
+with (Obj_EnemyFlameTrail) {
+image_alpha = 0.25	
+}
+}
+if instance_exists(Obj_EnemyFlameSpark)
+{
+with (Obj_EnemyFlameSpark) {
+image_alpha = 0.5	
+}
+}
+
 
 image_speed = !global.paused;
 
@@ -111,8 +124,57 @@ if hp <= 0 {
 defeat = true;	
 }
 
+if hitcount = 3 {
+	goingup = true;
+	layer_set_visible(layer_get_id("ScreenShake"),true);
+	alarm[4] = 20
+		hitcount = 0;
+	}
+
+if goingup and !global.paused {
+	if y > -0 y-= 4
+		y-= 10;	
+	}
+	if y < -696 {
+			image_index = 0;
+			layer_set_visible(layer_get_id("ScreenShake"),true);
+			alarm[4] = 20
+			alarm[1] = 60
+			phase = 0
+			x = tppoint.x;
+			goingup = false
+			instance_create_depth(x,196,depth-50,Obj_DadLandCrash)
+			repeat(8){
+			instance_create_depth(x+random_range(-6,6),196,depth-75,Obj_SliceBlockParticle)
+			}
+			audio_play_sound(Snd_Slice,0,0,global.SFXvolume*1.25,0,0.5);
+			audio_play_sound(Snd_Dink,0,0,global.SFXvolume*2.5,0,0.5)
+			audio_play_sound(Snd_BlockBreak,0,0,global.SFXvolume*1.6,0,0.6);
+			y = starty;
+		}
+
 if defeat {
+	instance_create_depth(irandom_range(4,426),0,depth+25,Obj_SliceBlockParticle)
+	if !audio_is_playing(Snd_Land) {
+		audio_play_sound(Snd_Land,0,0,global.SFXvolume/4,0,random_range(0.5,0.7))	
+	}
+		if !audio_is_playing(Snd_BlockBreak) {
+		audio_play_sound(Snd_Land,0,0,global.SFXvolume/6,0,random_range(0.5,0.7))	
+	}
+		if !audio_is_playing(Snd_Dink) {
+		audio_play_sound(Snd_Land,0,0,global.SFXvolume/2,0,random_range(0.3,0.4))	
+	}
+	if instance_exists(Obj_SliceBlockParticle) {
+	with(Obj_SliceBlockParticle) {
+			yspeed = clamp(yspeed,1,99)
+			sprite_index = Spr_SliceBlockParticleBlack
+		}
+		}
+	image_speed = 1
+	layer_set_visible(layer_get_id("ScreenShake"),true);
+	sprite_index = Spr_Dad_Defeat
 		global.music = Snd_Silence 
 		alarm[1] = 999
 		alarm[2] = 999
+		alarm[4] = 999
 	}

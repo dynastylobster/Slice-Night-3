@@ -17,3 +17,9 @@ maxhp = hp
 hpy = 7
 hpx = 270;
 hit = false;
+downhit = false;
+tppoint = noone;
+starty = y;
+
+hitcount = 0;
+goingup = false;

@@ -7,7 +7,7 @@ var blackholeright = false
 	if x < 77 then blackholeleft = true
 	if x > 250 then blackholeright = true
 	
-	if place_meeting(x,y+6,Obj_Wall) {
+	if place_meeting(x,y+6,Obj_Wall) and !instance_exists(Obj_DadLandCrash) {
 		if !blackholeleft and !blackholeright 	draw_sprite_ext(Spr_BillyShadow,0,x,y+19+(floor(image_index)),2,1.5,0,c_black,1);	
 		if blackholeleft draw_sprite_ext(Spr_BillyShadow,1,x,y+19+(floor(image_index)),2,1.5,0,c_black,1);	
 		if blackholeright draw_sprite_ext(Spr_BillyShadow,2,x,y+19+(floor(image_index)),2,1.5,0,c_black,1);	

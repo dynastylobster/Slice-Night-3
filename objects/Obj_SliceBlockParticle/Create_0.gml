@@ -20,3 +20,8 @@ yspeed = random_range(-0.3,-3)
 	sprite_index = Spr_SliceBlockParticleSMW	
 }
 purple = false
+
+if instance_exists(Obj_Dad) {
+	alarm[0] = 1
+	yspeed = random_range(-3,-12)
+}

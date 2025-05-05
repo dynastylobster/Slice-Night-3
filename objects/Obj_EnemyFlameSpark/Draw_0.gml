@@ -5,6 +5,10 @@ if sprite_index = Spr_GoalBoxSparkle {
 		gpu_set_blendmode(bm_add)
 	}
 
+if instance_exists(Obj_Dad) {
+	gpu_set_blendmode(bm_add)	
+}
+
 draw_self()
 
 gpu_set_blendmode(bm_normal)

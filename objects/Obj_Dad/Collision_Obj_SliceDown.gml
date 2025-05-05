@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-if !other.done_slicing {
+if !other.done_slicing and hp > 0 {
+	hitcount++
 		hp-= 0.5
 		hit = true;
 		alarm[3] = 15;
@@ -8,4 +9,17 @@ if !other.done_slicing {
 		audio_play_sound(Snd_BillyHurt,0,0,global.SFXvolume/1.5,0,0.7)
 				audio_play_sound(Snd_Die,0,0,global.SFXvolume/1.5,0,0.85)
 		other.done_slicing = true;
+		
+		if instance_exists(Obj_Billy) {
+		global.key_Z = true
+	Obj_Billy.yspeed = -5
+	if Obj_Billy.x > x
+	{
+		Obj_Billy.xspeed -= 2; global.key_right = true}
+	if Obj_Billy.x < x
+	{
+		Obj_Billy.xspeed += 2; global.key_left = true}
+	
+		}
+		
 	}

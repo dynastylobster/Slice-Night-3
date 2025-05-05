@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-if !other.done_slicing {
+if !other.done_slicing and hp > 0 {
+	hitcount++
 	instance_create_depth(lerp(x,other.x,0.5),lerp(y,other.y,0.5),depth-25,Obj_BillyShipBoom);
 		hp-= 1
 		hit = true;

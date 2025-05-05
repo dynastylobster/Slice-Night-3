@@ -713,3 +713,9 @@ if place_meeting(x+xspeed,y+0.5,[Obj_ShiftPillar,Obj_ShiftPillarBlack,Obj_ShiftP
 	}
 	
 if hp <= 3 max_hp = 3
+
+if room = Level_BossFinal {
+		if instance_exists(Obj_DadTPPoint) and instance_exists(Obj_Dad) {
+			Obj_Dad.tppoint = instance_furthest(x,y,Obj_DadTPPoint)	
+		}
+	}
