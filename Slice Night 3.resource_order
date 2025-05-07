@@ -113,6 +113,7 @@
     {"name":"Sng_YonkSlicerOfThe7Dreams","order":33,"path":"sounds/Sng_YonkSlicerOfThe7Dreams/Sng_YonkSlicerOfThe7Dreams.yy",},
     {"name":"AlienTileSpriteDim","order":1,"path":"sprites/AlienTileSpriteDim/AlienTileSpriteDim.yy",},
     {"name":"Bg_Alien0Eclipse","order":3,"path":"sprites/Bg_Alien0Eclipse/Bg_Alien0Eclipse.yy",},
+    {"name":"Bg_CoreInside","order":7,"path":"sprites/Bg_CoreInside/Bg_CoreInside.yy",},
     {"name":"Bg_CutsceneModel13","order":1,"path":"sprites/Bg_CutsceneModel13/Bg_CutsceneModel13.yy",},
     {"name":"Bg_End1","order":4,"path":"sprites/Bg_End1/Bg_End1.yy",},
     {"name":"Bg_MileyStory12","order":2,"path":"sprites/Bg_MileyStory12/Bg_MileyStory12.yy",},

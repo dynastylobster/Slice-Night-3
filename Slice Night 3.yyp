@@ -645,6 +645,7 @@
     {"id":{"name":"Bg_Castle_Still","path":"sprites/Bg_Castle_Still/Bg_Castle_Still.yy",},},
     {"id":{"name":"Bg_Core_1","path":"sprites/Bg_Core_1/Bg_Core_1.yy",},},
     {"id":{"name":"Bg_Core_Still","path":"sprites/Bg_Core_Still/Bg_Core_Still.yy",},},
+    {"id":{"name":"Bg_CoreInside","path":"sprites/Bg_CoreInside/Bg_CoreInside.yy",},},
     {"id":{"name":"Bg_Credits","path":"sprites/Bg_Credits/Bg_Credits.yy",},},
     {"id":{"name":"Bg_CutsceneBilly1","path":"sprites/Bg_CutsceneBilly1/Bg_CutsceneBilly1.yy",},},
     {"id":{"name":"Bg_CutsceneBilly2","path":"sprites/Bg_CutsceneBilly2/Bg_CutsceneBilly2.yy",},},
