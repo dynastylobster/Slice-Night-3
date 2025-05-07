@@ -88,6 +88,9 @@ if (vert) { exbo = ((2) - i); } else { eybo = ((2) - i); }
 collision_line_list(x + exbo, y + eybo, xbon + 0.5 + exbo, ybon + 0.5 + eybo, [Obj_Billy, Obj_MetalBlock, Obj_MetalBlockLong, Obj_Wall, Obj_EnemyOnlyBlock], true, true, close, true);
 var obj = close[| 0];
 
+
+if !collision_line(x,y,obj.x,obj.y,[Obj_Wall,autoTileCol],1,false) {
+//
 if (instance_exists(obj)) {
 if (obj.object_index == Obj_Billy || obj.object_index == Obj_MetalBlock || obj.object_index == Obj_MetalBlockLong) {
 obj.heat += 10;
@@ -97,6 +100,9 @@ if (obj.object_index != Obj_Billy) {
 if (vert) { ybon = obj.y + (obj.sprite_height / 2); } else { xbon = obj.x + (obj.sprite_width / 2); }
 }
 }
+//
+}
+
 
 ds_list_clear(close);
 }

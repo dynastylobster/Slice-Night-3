@@ -393,6 +393,7 @@
     {"id":{"name":"L_Core_0","path":"rooms/L_Core_0/L_Core_0.yy",},},
     {"id":{"name":"L_Core_1","path":"rooms/L_Core_1/L_Core_1.yy",},},
     {"id":{"name":"L_Core_2","path":"rooms/L_Core_2/L_Core_2.yy",},},
+    {"id":{"name":"L_Core_3","path":"rooms/L_Core_3/L_Core_3.yy",},},
     {"id":{"name":"L_End1","path":"rooms/L_End1/L_End1.yy",},},
     {"id":{"name":"L_Evator","path":"rooms/L_Evator/L_Evator.yy",},},
     {"id":{"name":"L_LaserRoom","path":"rooms/L_LaserRoom/L_LaserRoom.yy",},},
@@ -589,6 +590,7 @@
     {"id":{"name":"Sng_ForestOfHopesMusic","path":"sounds/Sng_ForestOfHopesMusic/Sng_ForestOfHopesMusic.yy",},},
     {"id":{"name":"Sng_IceMusic2","path":"sounds/Sng_IceMusic2/Sng_IceMusic2.yy",},},
     {"id":{"name":"Sng_JadeSpaceMusic","path":"sounds/Sng_JadeSpaceMusic/Sng_JadeSpaceMusic.yy",},},
+    {"id":{"name":"Sng_Lacking","path":"sounds/Sng_Lacking/Sng_Lacking.yy",},},
     {"id":{"name":"Sng_LightToTheTempleMusic","path":"sounds/Sng_LightToTheTempleMusic/Sng_LightToTheTempleMusic.yy",},},
     {"id":{"name":"Sng_MicroSteam_music","path":"sounds/Sng_MicroSteam_music/Sng_MicroSteam_music.yy",},},
     {"id":{"name":"Sng_Model1Music","path":"sounds/Sng_Model1Music/Sng_Model1Music.yy",},},
@@ -1383,6 +1385,7 @@
     {"roomId":{"name":"L_Evator","path":"rooms/L_Evator/L_Evator.yy",},},
     {"roomId":{"name":"L_Core_2","path":"rooms/L_Core_2/L_Core_2.yy",},},
     {"roomId":{"name":"Level_Punk1B","path":"rooms/Level_Punk1B/Level_Punk1B.yy",},},
+    {"roomId":{"name":"L_Core_3","path":"rooms/L_Core_3/L_Core_3.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
