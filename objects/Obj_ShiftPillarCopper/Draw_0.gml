@@ -18,6 +18,12 @@ if alarm[1] <= 15 {
 		draw_sprite_ext(Spr_ShiftPillarCopper_Warn,2,draw_x,y,1,sign(image_yscale),0,c_white,1)
 	}
 
+if alarm[1] > 214 {
+gpu_set_blendmode(bm_add) 
+draw_sprite_ext(sprite_index,1,draw_x,y,1,image_yscale*(room_height/32),0,c_white,1)
+draw_sprite_ext(sprite_index,0,draw_x,y,1,sign(image_yscale),0,c_white,1)
+gpu_set_blendmode(bm_normal)
+}
 
 } else {
 	draw_sprite_ext(sprite_index,1,x,y,1,image_yscale*(room_height/32),0,c_white,1)
@@ -32,6 +38,13 @@ if alarm[1] <= 40 {
 if alarm[1] <= 15 {
 		draw_sprite_ext(Spr_ShiftPillarCopper_Warn,2,x,y,1,sign(image_yscale),0,c_white,1)
 	}
+
+if alarm[1] > 214 {
+gpu_set_blendmode(bm_add) 
+draw_sprite_ext(sprite_index,1,x,y,1,image_yscale*(room_height/32),0,c_white,1)
+draw_sprite_ext(sprite_index,0,x,y,1,sign(image_yscale),0,c_white,1)
+gpu_set_blendmode(bm_normal)
+}
 
 }
 

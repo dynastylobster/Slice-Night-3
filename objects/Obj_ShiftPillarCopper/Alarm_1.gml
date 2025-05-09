@@ -7,5 +7,5 @@ if onscreen {
 	repeat(4) {
 instance_create_depth(x+random_range(-16,16),y+random_range(0,8),depth-25,Obj_EmberEffect);
 	}
-alarm[2] = 30;
+alarm[2] = 20;
 alarm[1] = 240;
