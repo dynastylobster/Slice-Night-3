@@ -10,7 +10,7 @@ if image_index = 1 {
 		mask_index = sprite_index	
 	}
 	
-	if instance_number(Obj_Key) < Requirement  {
+	if global.current_keys >= Requirement  {
 		
 		if image_index = start_index {
 	

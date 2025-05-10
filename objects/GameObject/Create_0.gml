@@ -5,6 +5,8 @@ global.thismonth = current_month
 //global.today = 27
 //global.thismonth = 2
 
+global.current_keys = 0;
+
 if global.today = 27 and global.thismonth = 2 {
 	sprite_assign(Spr_AquaJumper,Spr_AquaSunFish)
 }

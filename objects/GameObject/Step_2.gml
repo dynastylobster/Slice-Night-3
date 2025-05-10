@@ -32,3 +32,5 @@ if room = Level_Feild {
  
     _menux = camera_get_view_x(view_camera[0])+213
 	_menuy = camera_get_view_y(view_camera[0])+80
+	
+global.current_keys = (global.total_keys-instance_number(Obj_Key));

@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+global.current_keys = 0;
 randomize();
 var trampocolor = choose(Spr_TrampoMega,Spr_TrampoMega,Spr_TrampoMegaP)
 if instance_exists(Obj_TrampoMega) {
