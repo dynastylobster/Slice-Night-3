@@ -89,7 +89,9 @@ collision_line_list(x + exbo, y + eybo, xbon + 0.5 + exbo, ybon + 0.5 + eybo, [O
 var obj = close[| 0];
 
 
-if !collision_line(x,y,obj.x,obj.y,[Obj_Wall,autoTileCol],1,false) {
+if instance_exists(obj) {
+
+if !collision_line(x,y,obj.x,obj.y,[Obj_Wall,autoTileCol],1,false) or (obj.object_index = Obj_MetalBlock or obj.object_index = Obj_MetalBlockLong) {
 //
 if (instance_exists(obj)) {
 if (obj.object_index == Obj_Billy || obj.object_index == Obj_MetalBlock || obj.object_index == Obj_MetalBlockLong) {
@@ -102,6 +104,8 @@ if (vert) { ybon = obj.y + (obj.sprite_height / 2); } else { xbon = obj.x + (obj
 }
 //
 }
+}
+
 
 
 ds_list_clear(close);
@@ -111,7 +115,10 @@ ds_list_clear(close);
 
 if (attackTimer > 30 * phaseSpeed) {
 	if onscreen {
-audio_play_sound(Snd_Mazzer,0,0,global.SFXvolume*0.8,0,1);
+		if global.mazzersounds < 8 {
+audio_play_sound(Snd_Mazzer,0,0,global.SFXvolume,0,1);
+	global.mazzersounds += 1;
+		}
 	}
 lasering = !lasering;
 attackTimer = 0;

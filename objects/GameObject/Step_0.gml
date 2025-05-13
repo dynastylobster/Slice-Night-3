@@ -1,3 +1,11 @@
+if global.mazzersounds < 0 {
+	if mazzersoundtimer = 30 {
+			global.mazzersounds --
+			mazzersoundtimer = 0;
+		}
+	}
+mazzersoundtimer ++
+
 if room = TitleScreenRoom or room = TitleScreenRoom2 or room = TitleScreenOptionsRoom {
 		if a_timer != -4 {
 			a_timer ++

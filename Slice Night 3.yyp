@@ -400,6 +400,7 @@
     {"id":{"name":"L_End1","path":"rooms/L_End1/L_End1.yy",},},
     {"id":{"name":"L_Evator","path":"rooms/L_Evator/L_Evator.yy",},},
     {"id":{"name":"L_LaserRoom","path":"rooms/L_LaserRoom/L_LaserRoom.yy",},},
+    {"id":{"name":"L_MotuPheus","path":"rooms/L_MotuPheus/L_MotuPheus.yy",},},
     {"id":{"name":"L_Nightmare_F","path":"rooms/L_Nightmare_F/L_Nightmare_F.yy",},},
     {"id":{"name":"L_PostCredits","path":"rooms/L_PostCredits/L_PostCredits.yy",},},
     {"id":{"name":"L_Scorch_0","path":"rooms/L_Scorch_0/L_Scorch_0.yy",},},
@@ -692,6 +693,7 @@
     {"id":{"name":"Bg_MoonStill","path":"sprites/Bg_MoonStill/Bg_MoonStill.yy",},},
     {"id":{"name":"Bg_MoonStill2","path":"sprites/Bg_MoonStill2/Bg_MoonStill2.yy",},},
     {"id":{"name":"Bg_MotuCutscene4","path":"sprites/Bg_MotuCutscene4/Bg_MotuCutscene4.yy",},},
+    {"id":{"name":"Bg_Motupheus","path":"sprites/Bg_Motupheus/Bg_Motupheus.yy",},},
     {"id":{"name":"Bg_Nightmare1","path":"sprites/Bg_Nightmare1/Bg_Nightmare1.yy",},},
     {"id":{"name":"Bg_Nightmare2","path":"sprites/Bg_Nightmare2/Bg_Nightmare2.yy",},},
     {"id":{"name":"Bg_NightmareFaux","path":"sprites/Bg_NightmareFaux/Bg_NightmareFaux.yy",},},
@@ -1394,6 +1396,7 @@
     {"roomId":{"name":"L_Core_2","path":"rooms/L_Core_2/L_Core_2.yy",},},
     {"roomId":{"name":"Level_Punk1B","path":"rooms/Level_Punk1B/Level_Punk1B.yy",},},
     {"roomId":{"name":"L_Core_3","path":"rooms/L_Core_3/L_Core_3.yy",},},
+    {"roomId":{"name":"L_MotuPheus","path":"rooms/L_MotuPheus/L_MotuPheus.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
