@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":72.79807,
+  "duration":59.076916,
   "name":"Sng_ForestOfHopesMusic",
   "parent":{
     "name":"Music",
@@ -20,6 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"Sng_ForestOfHopesMusic.ogg",
-  "type":0,
+  "type":1,
   "volume":1.0,
 }
