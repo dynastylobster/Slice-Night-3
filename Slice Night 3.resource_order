@@ -19,7 +19,9 @@
   ],
   "ResourceOrderSettings":[
     {"name":"Obj_Airpuff","order":6,"path":"objects/Obj_Airpuff/Obj_Airpuff.yy",},
+    {"name":"Obj_BgBlackHole","order":5,"path":"objects/Obj_BgBlackHole/Obj_BgBlackHole.yy",},
     {"name":"Obj_BgTabuli","order":3,"path":"objects/Obj_BgTabuli/Obj_BgTabuli.yy",},
+    {"name":"Obj_BlackHoleMoon","order":6,"path":"objects/Obj_BlackHoleMoon/Obj_BlackHoleMoon.yy",},
     {"name":"Obj_BrokenMenaceOrb","order":2,"path":"objects/Obj_BrokenMenaceOrb/Obj_BrokenMenaceOrb.yy",},
     {"name":"Obj_BrokenPokeTank","order":3,"path":"objects/Obj_BrokenPokeTank/Obj_BrokenPokeTank.yy",},
     {"name":"Obj_DadFist","order":4,"path":"objects/Obj_DadFist/Obj_DadFist.yy",},
@@ -130,6 +132,7 @@
     {"name":"Bg_Motupheus","order":8,"path":"sprites/Bg_Motupheus/Bg_Motupheus.yy",},
     {"name":"Bg_Punkrock_still2","order":6,"path":"sprites/Bg_Punkrock_still2/Bg_Punkrock_still2.yy",},
     {"name":"Bg_ScorchFloor","order":5,"path":"sprites/Bg_ScorchFloor/Bg_ScorchFloor.yy",},
+    {"name":"Bg_TectonicFuryBlackHole","order":3,"path":"sprites/Bg_TectonicFuryBlackHole/Bg_TectonicFuryBlackHole.yy",},
     {"name":"Bg_TectonicFurySky","order":1,"path":"sprites/Bg_TectonicFurySky/Bg_TectonicFurySky.yy",},
     {"name":"CastlePurpleTileSpriteShadow","order":3,"path":"sprites/CastlePurpleTileSpriteShadow/CastlePurpleTileSpriteShadow.yy",},
     {"name":"DebrisPlatformSprite","order":22,"path":"sprites/DebrisPlatformSprite/DebrisPlatformSprite.yy",},
