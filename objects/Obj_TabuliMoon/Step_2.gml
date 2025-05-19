@@ -5,9 +5,9 @@ if instance_exists(Obj_BgTabuli) {
 		y = Obj_BgTabuli.y - sin(age/8)*20;
 		
 		if x > Obj_BgTabuli.x +40 {
-			depth = Obj_BgTabuli.depth+25	
+			depth = Obj_BgTabuli.depth+5	
 		}
 				if x < Obj_BgTabuli.x -40 {
-			depth = Obj_BgTabuli.depth-25	
+			depth = Obj_BgTabuli.depth-5	
 		}
 	}

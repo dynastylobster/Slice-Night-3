@@ -7,10 +7,10 @@ if instance_exists(Obj_BgBlackHole) {
 	if distance_to_point(Obj_BgBlackHole.x,Obj_BgBlackHole.y) < 10 color = (#FFFFFF)
 	
 		if x < Obj_BgBlackHole.x - 16 {
-		depth = Obj_BgBlackHole.depth -50
+		depth = Obj_BgBlackHole.depth -5
 	}
 	if x > Obj_BgBlackHole.x + 16 {
-		depth = Obj_BgBlackHole.depth +50
+		depth = Obj_BgBlackHole.depth +5
 	}	
 	
 	x = Obj_BgBlackHole.x+  (sin((age/2-distance_x)) )*30;

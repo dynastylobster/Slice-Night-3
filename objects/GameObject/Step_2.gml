@@ -15,6 +15,12 @@ if room = Level_Feild {
   layer_y(layer_get_id("Bg_still2"),camera_get_view_y(view_camera[0]));
  }
  
+  if layer_exists(layer_get_id("Bg_still3"))
+ {
+ layer_x(layer_get_id("Bg_still3"),camera_get_view_x(view_camera[0]));
+  layer_y(layer_get_id("Bg_still3"),camera_get_view_y(view_camera[0]));
+ }
+ 
  
  if !instance_exists(Obj_TrainBossController) {
    if layer_exists(layer_get_id("Bg_1"))

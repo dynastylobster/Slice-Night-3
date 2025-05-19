@@ -10,8 +10,8 @@
   "name":"Obj_BlackHoleMoon",
   "overriddenProperties":[],
   "parent":{
-    "name":"Effects",
-    "path":"folders/Objects/Effects.yy",
+    "name":"TectonicFuryBackGround",
+    "path":"folders/Objects/Effects/TectonicFuryBackGround.yy",
   },
   "parentObjectId":null,
   "persistent":false,
