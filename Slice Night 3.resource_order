@@ -305,8 +305,10 @@
     {"name":"Spr_WaterWavesOrange","order":22,"path":"sprites/Spr_WaterWavesOrange/Spr_WaterWavesOrange.yy",},
     {"name":"Spr_WhiteSquare","order":19,"path":"sprites/Spr_WhiteSquare/Spr_WhiteSquare.yy",},
     {"name":"Sprite1","order":28,"path":"sprites/Sprite1/Sprite1.yy",},
+    {"name":"TectonicTileSprite","order":7,"path":"sprites/TectonicTileSprite/TectonicTileSprite.yy",},
     {"name":"AlienTileSetDim","order":2,"path":"tilesets/AlienTileSetDim/AlienTileSetDim.yy",},
     {"name":"CastlePurpleTileSetShadow","order":4,"path":"tilesets/CastlePurpleTileSetShadow/CastlePurpleTileSetShadow.yy",},
     {"name":"PunkFactoryTileSetBronze","order":6,"path":"tilesets/PunkFactoryTileSetBronze/PunkFactoryTileSetBronze.yy",},
+    {"name":"TectonicTileSet","order":8,"path":"tilesets/TectonicTileSet/TectonicTileSet.yy",},
   ],
 }
