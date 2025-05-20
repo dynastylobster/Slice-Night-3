@@ -137,6 +137,7 @@
     {"name":"Bg_Motupheus","order":8,"path":"sprites/Bg_Motupheus/Bg_Motupheus.yy",},
     {"name":"Bg_Punkrock_still2","order":6,"path":"sprites/Bg_Punkrock_still2/Bg_Punkrock_still2.yy",},
     {"name":"Bg_ScorchFloor","order":5,"path":"sprites/Bg_ScorchFloor/Bg_ScorchFloor.yy",},
+    {"name":"Bg_TectonicFury1","order":9,"path":"sprites/Bg_TectonicFury1/Bg_TectonicFury1.yy",},
     {"name":"Bg_TectonicFuryBlackHole","order":3,"path":"sprites/Bg_TectonicFuryBlackHole/Bg_TectonicFuryBlackHole.yy",},
     {"name":"Bg_TectonicFurySky","order":1,"path":"sprites/Bg_TectonicFurySky/Bg_TectonicFurySky.yy",},
     {"name":"Bg_TectonicFuryStars2","order":5,"path":"sprites/Bg_TectonicFuryStars2/Bg_TectonicFuryStars2.yy",},

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":83.07692,
+  "duration":247.31535,
   "name":"Sng_TectonicFury",
   "parent":{
     "name":"Music",
