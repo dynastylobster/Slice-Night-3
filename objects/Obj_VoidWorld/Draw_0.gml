@@ -3,7 +3,8 @@
 
 if sprite_index = Spr_VoidWorld {
 gpu_set_blendmode(bm_add)
-	draw_sprite_ext(Bg_TectonicFuryStars2,age/1.5,camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0]),1,1,0,c_white,  (1 - ((distance_to_point(Obj_BgBlackHole.x,Obj_BgBlackHole.y))/40 )  )  )
+	draw_sprite_ext(Bg_TectonicFuryStars2,age/1.5,camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0]),1,1,0,c_white,  (1.25 - ((distance_to_point(Obj_BgBlackHole.x,Obj_BgBlackHole.y))/40 )  )  )
+	draw_sprite_ext(Bg_TectonicFuryStars2,age/1.5,camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0]),1,1,0,c_white,  (0.5 - ((distance_to_point(Obj_BgBlackHole.x,Obj_BgBlackHole.y))/40 )  )  )
 gpu_set_blendmode(bm_normal)
 }
 

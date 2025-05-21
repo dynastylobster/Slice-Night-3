@@ -11,7 +11,7 @@ if instance_exists(Obj_BgBlackHole) {
 	if x > camera_get_view_x(view_camera[0])+454 {
 			sprite_index = Spr_VoidWorld_s
 			depth = Obj_BgBlackHole.depth+50
-	} if x < -28 or age = 0 {
+	} if x < camera_get_view_x(view_camera[0])-27 or age = 0 {
 			sprite_index = Spr_VoidWorld
 			depth = Obj_BgTabuli.depth+6
 	}
