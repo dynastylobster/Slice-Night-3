@@ -1,6 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
+if object_index != Obj_MenaceOrbSMW {
+image_speed = 1.5
+}
+
+onscreen = false;
 shiny = irandom_range(1,100)
 
 if instance_exists(Obj_Dad) {

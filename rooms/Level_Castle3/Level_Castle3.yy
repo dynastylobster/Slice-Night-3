@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"Level_Castle3",
-  "creationCodeFile":"${project_dir}/rooms/Level_Castle2/RoomCreationCode.gml",
+  "creationCodeFile":"rooms/Level_Castle3/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -362,7 +362,11 @@
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_2A31AB6C","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2A31AB6C","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"Spr_DeathBlockWarning","path":"sprites/Spr_DeathBlockWarning/Spr_DeathBlockWarning.yy",},"x":1032.0,"y":313.0,},
       ],"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"Tiles_1Shadow","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1Shadow","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":134,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Tiles_1Shadow","depth":500,"effectEnabled":true,"effectType":"_filter_mask","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1Shadow","properties":[
+        {"name":"g_MaskStart","type":0,"value":"1",},
+        {"name":"g_MaskEnd","type":0,"value":"0",},
+        {"name":"g_MaskTexture","type":2,"value":"Spr_MaskingTexture",},
+      ],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":134,"TileCompressedData":[
           -2,11,1,12,-49,0,1,40,-6,39,1,31,-11,0,2,1610612774,1610612773,-24,0,3,40,39,40,-17,39,3,40,39,40,-12,
           0,1,10,-3,11,1,12,-49,0,1,40,-6,39,1,31,-11,0,2,1610612773,31,-24,0,3,40,39,40,-17,39,3,40,39,40,-12,
           0,1,10,-3,11,1,12,-49,0,2,40,39,-4,0,2,39,32,-11,0,2,1610612774,1610612773,-24,0,3,40,39,40,-17,39,3,
