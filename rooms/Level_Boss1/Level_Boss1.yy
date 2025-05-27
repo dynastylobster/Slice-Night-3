@@ -27,11 +27,15 @@
     {"name":"inst_60DA7B78","path":"rooms/Level_Boss1/Level_Boss1.yy",},
     {"name":"inst_69BB00C5","path":"rooms/Level_Boss1/Level_Boss1.yy",},
     {"name":"inst_211B7A93","path":"rooms/Level_Boss1/Level_Boss1.yy",},
+    {"name":"inst_20824C14","path":"rooms/Level_Boss1/Level_Boss1.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"GameObjectLayer","depth":0,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_211B7A93","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_211B7A93","objectId":{"name":"Obj_AbsorptionHeartPickup","path":"objects/Obj_AbsorptionHeartPickup/Obj_AbsorptionHeartPickup.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":84.0,"y":164.0,},
+        {"$GMRInstance":"v1","%Name":"inst_20824C14","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_20824C14","objectId":{"name":"Obj_RainGenerator","path":"objects/Obj_RainGenerator/Obj_RainGenerator.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_RainGenerator","path":"objects/Obj_RainGenerator/Obj_RainGenerator.yy",},"propertyId":{"name":"col","path":"objects/Obj_RainGenerator/Obj_RainGenerator.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FFCC2A4A",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":16.0,},
       ],"layers":[],"name":"GameObjectLayer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"FG","animationFPS":30.0,"animationSpeedType":0,"colour":2214592511,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":-1.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"FG","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"Bg_7Dreams_still","path":"sprites/Bg_7Dreams_still/Bg_7Dreams_still.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":false,"vspeed":0.0,"vtiled":false,"x":0,"y":125,},
     {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
