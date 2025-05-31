@@ -29,6 +29,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"col","filters":[],"listItems":[],"multiselect":false,"name":"col","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FF00367F","varType":7,},
+    {"$GMObjectProperty":"v1","%Name":"local","filters":[],"listItems":[],"multiselect":false,"name":"local","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
@@ -38,5 +39,5 @@
     "path":"sprites/spr_keyless_area/spr_keyless_area.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

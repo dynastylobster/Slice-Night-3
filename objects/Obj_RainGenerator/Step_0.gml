@@ -3,3 +3,11 @@
 cam_x = camera_get_view_x(view_camera[0]) -64
 max_camx = camera_get_view_x(view_camera[0]) +475
 cam_y = camera_get_view_y(view_camera[0]) - 48
+
+if local {
+	if place_meeting(x,y,Obj_Billy) {
+	global.walljump = false;	
+	} else {
+	global.walljump = true;	
+	}
+}

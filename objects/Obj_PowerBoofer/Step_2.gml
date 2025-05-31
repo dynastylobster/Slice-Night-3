@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if place_meeting(x+xspeed*1.5,y,[autoTileCol,Obj_Wall]) {
+if place_meeting(x+xspeed*1.5,y,[autoTileCol,Obj_Wall,Obj_EnemyOnlyBlock]) {
 		xspeed *= -1
 	}
 	

@@ -9,3 +9,10 @@ if sprite_index = Spr_ShitBoofer_Active {
 if instance_exists(Obj_Billy) {
 if (-sign(Obj_Billy.x-x)) != 0 then image_xscale = -sign(Obj_Billy.x-x)
 }
+
+if alarm[1] > 0 {
+		x += random_range(-0.25,0.25)
+	}
+if alarm[1] > 0 and alarm[1] < 40 {
+	x += choose(-1,1)
+}
