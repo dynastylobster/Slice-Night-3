@@ -11,6 +11,7 @@ if (-sign(Obj_Billy.x-x)) != 0 then image_xscale = -sign(Obj_Billy.x-x)
 }
 
 if alarm[1] > 0 {
+	mask_index = Spr_Empty
 		x += random_range(-0.25,0.25)
 	}
 if alarm[1] > 0 and alarm[1] < 40 {
