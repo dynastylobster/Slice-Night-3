@@ -7,9 +7,9 @@
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":0,
+  "compression":1,
   "conversionMode":0,
-  "duration":140.0,
+  "duration":177.23074,
   "name":"Sng_FinalBoss",
   "parent":{
     "name":"Music",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":48000,
-  "soundFile":"Sng_FinalBoss.wav",
+  "soundFile":"Sng_FinalBoss.ogg",
   "type":1,
   "volume":1.0,
 }
