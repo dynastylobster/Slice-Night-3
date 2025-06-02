@@ -1,24 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_TectonicFall",
+  "%Name":"Obj_WhiteOut",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_TectonicFall",
+  "name":"Obj_WhiteOut",
   "overriddenProperties":[],
   "parent":{
-    "name":"Gimmicks",
-    "path":"folders/Objects/Gimmicks.yy",
+    "name":"TectonicFuryBackGround",
+    "path":"folders/Objects/Effects/TectonicFuryBackGround.yy",
   },
-  "parentObjectId":{
-    "name":"Obj_MovePlatform",
-    "path":"objects/Obj_MovePlatform/Obj_MovePlatform.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,14 +27,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"destination_room","filters":[],"listItems":[],"multiselect":false,"name":"destination_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"BootRoom","path":"rooms/BootRoom/BootRoom.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"BootRoom","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr_TectonicFall",
-    "path":"sprites/Spr_TectonicFall/Spr_TectonicFall.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
