@@ -11,7 +11,7 @@ if mask_alpha > 0 mask_alpha -= 0.005
 if mask_alpha <= 0 and image_index = 1 then goleft = true
 
 if goleft {
-	x = lerp(x,-300,0.0125)
+	x = lerp(x,-350,0.0125)
 }
 
 if x < -298 {

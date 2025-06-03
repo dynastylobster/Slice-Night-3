@@ -14,6 +14,10 @@ if zooming {
 		image_yscale *= 1.05
 	}
 	
+if image_index >= 1.75 {
+		image_index = 0
+	}
+	
 var fadeoutopacity = image_xscale/100
 
 if fadeoutopacity > 1.25 {

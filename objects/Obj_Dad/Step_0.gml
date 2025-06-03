@@ -155,15 +155,10 @@ if goingup and !global.paused {
 
 if defeat {
 	instance_create_depth(irandom_range(4,426),0,depth+25,Obj_SliceBlockParticle)
-	if !audio_is_playing(Snd_Land) {
-		audio_play_sound(Snd_Land,0,0,global.SFXvolume/4,0,random_range(0.5,0.7))	
-	}
-		if !audio_is_playing(Snd_BlockBreak) {
-		audio_play_sound(Snd_Land,0,0,global.SFXvolume/6,0,random_range(0.5,0.7))	
-	}
-		if !audio_is_playing(Snd_Dink) {
-		audio_play_sound(Snd_Land,0,0,global.SFXvolume/2,0,random_range(0.3,0.4))	
-	}
+	if !audio_is_playing(Snd_RumbleExplode) {
+			audio_play_sound(Snd_RumbleExplode,0,true,global.SFXvolume);
+		}
+	
 	if instance_exists(Obj_SliceBlockParticle) {
 	with(Obj_SliceBlockParticle) {
 			yspeed = clamp(yspeed,1,99)
