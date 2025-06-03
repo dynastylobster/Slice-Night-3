@@ -6,3 +6,5 @@ circle_alpha = 0.5*image_alpha
 image_alpha -= 0.0125
 circle_rad = 32 + image_xscale*2.5 
 age++
+
+if image_alpha < 0.0125 instance_destroy();
