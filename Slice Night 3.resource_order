@@ -232,6 +232,7 @@
     {"name":"Bg_Punkrock_still2","order":6,"path":"sprites/Bg_Punkrock_still2/Bg_Punkrock_still2.yy",},
     {"name":"Bg_ScorchFloor","order":5,"path":"sprites/Bg_ScorchFloor/Bg_ScorchFloor.yy",},
     {"name":"Bg_SecondServingStoryEnd","order":13,"path":"sprites/Bg_SecondServingStoryEnd/Bg_SecondServingStoryEnd.yy",},
+    {"name":"Bg_Tabuli_Plants","order":14,"path":"sprites/Bg_Tabuli_Plants/Bg_Tabuli_Plants.yy",},
     {"name":"Bg_TectonicFury1","order":9,"path":"sprites/Bg_TectonicFury1/Bg_TectonicFury1.yy",},
     {"name":"Bg_TectonicFuryBlackHole","order":3,"path":"sprites/Bg_TectonicFuryBlackHole/Bg_TectonicFuryBlackHole.yy",},
     {"name":"Bg_TectonicFurySky","order":1,"path":"sprites/Bg_TectonicFurySky/Bg_TectonicFurySky.yy",},
