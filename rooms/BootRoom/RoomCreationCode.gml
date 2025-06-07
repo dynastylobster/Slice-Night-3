@@ -1,5 +1,6 @@
 global.firelevel = 0;
 global.VoidFont = font_add_sprite_ext(Spr_VoidFont,"abcdefghijklmnopqrstuvwxyz.,ABCDEFGHIJKLMNOPQRSTUVWXYZ",true,0)
+global.ConeFont = font_add_sprite_ext(Spr_ConeZoneHpFont,"0123456789",true,1)
 global.paused = false;
 global.music = Sng_TitleMusic
 global.SFXvolume = 0.5;

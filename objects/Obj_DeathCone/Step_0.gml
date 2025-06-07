@@ -15,7 +15,7 @@ if used {
 		if !place_meeting(x,y+8,Obj_FlightShooterSpray) {
 			instance_create_depth(x,y+5,depth+10,Obj_FlightShooterSpray);	
 		}
-		x+= dir
+		x+= dir/2
 	}
 	
 }
