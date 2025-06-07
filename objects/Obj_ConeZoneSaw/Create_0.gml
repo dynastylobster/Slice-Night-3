@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-age = 0;
 image_speed = 0;
-dir = 0;
-used = false;
+starty = y;
+angle = 0
+startx = x;
+jumpspeed = 5
+grav = 0.125
+yspeed = 0;
+onscreen = false;

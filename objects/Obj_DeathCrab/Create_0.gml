@@ -1,6 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-age = 0;
-image_speed = 0;
-dir = 0;
-used = false;
+instance_create_depth(x,y,depth-10,Obj_DeathCone)

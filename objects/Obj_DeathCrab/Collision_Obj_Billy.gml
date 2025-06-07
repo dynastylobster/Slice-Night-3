@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-age = 0;
-image_speed = 0;
-dir = 0;
-used = false;
+if !place_meeting(x,y,Obj_DeathCone) {
+HitPlayer();
+}
