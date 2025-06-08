@@ -175,11 +175,13 @@
     {"name":"inst_2C216DC8","path":"rooms/L_Tectonic_0/L_Tectonic_0.yy",},
     {"name":"inst_2F48A761","path":"rooms/L_Tectonic_0/L_Tectonic_0.yy",},
     {"name":"inst_3DDD9D51","path":"rooms/L_Tectonic_0/L_Tectonic_0.yy",},
+    {"name":"inst_32B77A17","path":"rooms/L_Tectonic_0/L_Tectonic_0.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"GameObjectLayer","depth":0,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_2980F2F4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2980F2F4","objectId":{"name":"Obj_EnemyKillArea","path":"objects/Obj_EnemyKillArea/Obj_EnemyKillArea.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":9.0,"scaleY":2.0,"x":624.0,"y":0.0,},
+        {"$GMRInstance":"v1","%Name":"inst_32B77A17","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_32B77A17","objectId":{"name":"Obj_DadLandCrash","path":"objects/Obj_DadLandCrash/Obj_DadLandCrash.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":464.0,},
       ],"layers":[],"name":"GameObjectLayer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_3","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_3","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":250,"TileCompressedData":[
           -123,0,-127,-2147483648,-123,0,-127,-2147483648,-123,0,-127,-2147483648,-123,0,-127,-2147483648,-123,

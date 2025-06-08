@@ -1,8 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-age = 0;
-targ_x = 0;
-true_x = x;
-xspeed = 0;
-hp = 13;
-hit = false;
+camera_set_view_pos(view_camera[0],clamp(x-213,0,room_width-426),0)

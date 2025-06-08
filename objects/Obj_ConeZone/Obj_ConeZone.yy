@@ -37,7 +37,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"dest_room","filters":[],"listItems":[],"multiselect":false,"name":"dest_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"L_Tectonic_0","path":"rooms/L_Tectonic_0/L_Tectonic_0.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"L_Tectonic_0","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"dest_room","filters":[],"listItems":[],"multiselect":false,"name":"dest_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"L_CoreCutscene","path":"rooms/L_CoreCutscene/L_CoreCutscene.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"L_CoreCutscene","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
