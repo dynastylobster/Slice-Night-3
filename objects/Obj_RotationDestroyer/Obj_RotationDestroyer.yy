@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_WhiteOut",
+  "%Name":"Obj_RotationDestroyer",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_WhiteOut",
+  "name":"Obj_RotationDestroyer",
   "overriddenProperties":[],
   "parent":{
     "name":"TectonicFuryBackGround",
@@ -27,13 +25,14 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"destination_room","filters":[],"listItems":[],"multiselect":false,"name":"destination_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"L_Tectonic_2","path":"rooms/L_Tectonic_2/L_Tectonic_2.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"L_Tectonic_2","varType":5,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_keyless_area",
+    "path":"sprites/spr_keyless_area/spr_keyless_area.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
