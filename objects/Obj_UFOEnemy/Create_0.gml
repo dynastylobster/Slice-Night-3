@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 // Inherit the parent event
-event_inherited();
 hp = 3;
+starthp = hp
 waypoint_x = x;
 waypoint_y = y;
 hit = false;

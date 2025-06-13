@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 hp = 4;
+event_inherited();
 grav = 0.225;
 dir = 1;
 xspeed = dir*2;

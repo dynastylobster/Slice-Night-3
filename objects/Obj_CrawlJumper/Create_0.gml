@@ -15,3 +15,4 @@ instance_create_layer(x,y,layer,Obj_CheckDown);
 alarm[0] = 180
 dir = -1
 if StillJump then sprite_index = Spr_CrawlHopperGreen;
+event_inherited();

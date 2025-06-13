@@ -1,8 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-// Inherit the parent event
-
-hp = 5;
-starthp = hp
-forwardspeed = 2.5;
+if !variable_instance_exists(id,starthp) {
+	starthp = 3;
+}

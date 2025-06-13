@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-event_inherited();
 if object_index != Obj_MenaceOrbSMW {
 image_speed = 1.5
 }
@@ -29,7 +28,9 @@ if belongsToWhizyard
 yspeed = 0
 grav = 0.125
 jumpspeed = 3
+starthp = hp
 whizyardDeathTimer = 0;
 
 
 grav = grav *sign (image_yscale)
+event_inherited();

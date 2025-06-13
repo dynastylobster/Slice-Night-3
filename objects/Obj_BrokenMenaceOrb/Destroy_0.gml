@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+event_inherited();
 if image_yscale = 1 {
 with(instance_create_depth(x,starty,depth,Obj_BrokenMenaceOrb)) 
 		{

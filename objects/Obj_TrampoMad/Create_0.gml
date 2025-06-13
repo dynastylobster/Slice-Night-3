@@ -2,7 +2,6 @@
 // You can write your code in this editor
 
 // Inherit the parent event
-event_inherited();
 hp =3;
 onscreen = false;
 alarm[0] = -4
@@ -14,5 +13,5 @@ jumpspeed = -4;
 grounded = false
 facing = -1
 dead = false;
-age = 0;
 draw_x = x;
+event_inherited();

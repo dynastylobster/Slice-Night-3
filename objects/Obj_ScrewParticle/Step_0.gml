@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-// Inherit the parent event
-
-hp = 5;
-starthp = hp
-forwardspeed = 2.5;
+if yspeed < max_yspeed {
+yspeed += grav
+}
+x+= xspeed
+y+= yspeed
+age++

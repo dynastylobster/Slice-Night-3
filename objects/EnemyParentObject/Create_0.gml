@@ -3,3 +3,6 @@
 autoTileCol = -4;
 try { autoTileCol = layer_tilemap_get_id("TileCollision"); } catch (err) { autoTileCol = -4; }
 deathCounter = 0;
+age = 0;
+starthp = hp
+alarm[9] = 1;
