@@ -180,13 +180,14 @@ if (leftright != 0 && menuType == "Settings") {
 		switch(menuIndex) {
 		case "Music Volume": 
 		global.musicvolume += leftright *0.05
-		if global.musicvolume > 2 global.musicvolume = 2
+		if global.musicvolume > 1 global.musicvolume = 1
 		if global.musicvolume < 0 global.musicvolume = 0
-		audio_play_sound(Snd_Jump,0,0,global.musicvolume)
+		audio_play_sound(Snd_SMWHeart,0,0,global.musicvolume)
 		break;
+		
 		case "SFX Volume":
 		global.SFXvolume += leftright *0.05
-		if global.SFXvolume > 2 global.SFXvolume = 2
+		if global.SFXvolume > 0.5 global.SFXvolume = 0.5
 		if global.SFXvolume < 0 global.SFXvolume = 0
 		audio_play_sound(Snd_Jump,0,0,global.SFXvolume)
 		break;		
@@ -239,13 +240,15 @@ switch(menuIndex) {
 if (confirmed && menuType == "Settings") {
 switch (menuIndex) {
 	case "Music Volume":
-	global.musicvolume += 0.05;
-	if (global.musicvolume > 2) {global.musicvolume = 0; }
+	//global.musicvolume += 0.05;
+	if (global.musicvolume > 1) {global.musicvolume = 0; }
 	break;
+	
 	case "SFX Volume":
-	global.SFXvolume += 0.05;
-	if (global.SFXvolume > 2) {global.SFXvolume = 0; }
+	//global.SFXvolume += 0.05;
+	if (global.SFXvolume > 0.5) {global.SFXvolume = 0; }
 	break;
+	
 	case "Camera Style":
 	global.cameraStyle = !global.cameraStyle;
 	ini_open("save.ini")
@@ -704,3 +707,6 @@ if global.key_up_pressed or global.key_down_pressed or global.key_right_pressed 
     a_timer += 100	
   }
 }
+
+global.musicvolume = clamp(global.musicvolume,0,1)
+global.SFXvolume = clamp(global.SFXvolume,0,0.5)

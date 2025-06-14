@@ -1,5 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+if goesup {
+if !place_meeting(x,y,Obj_Billy) {
+		y = -999
+	}
+}
+
 if room != Level_Boss3 and room != Level_Sun4 {
 if exist > 0 then instance_destroy();
 }

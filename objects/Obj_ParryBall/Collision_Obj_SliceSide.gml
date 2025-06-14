@@ -25,6 +25,7 @@ if other.done_slicing = false {
 }
 	
 	instance_create_layer(x,y,layer,Obj_ParryBallEffect)
+	audio_play_sound(Snd_ParryStar,0,0,global.SFXvolume*2);
 	other.done_slicing = true
 }
 

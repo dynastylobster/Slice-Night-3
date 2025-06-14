@@ -7,9 +7,9 @@
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":0,
+  "compression":1,
   "conversionMode":0,
-  "duration":1.176145,
+  "duration":1.346122,
   "name":"Snd_EnemyExplode",
   "parent":{
     "name":"SFX",
@@ -20,6 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"Snd_EnemyExplode.ogg",
-  "type":0,
+  "type":1,
   "volume":1.0,
 }

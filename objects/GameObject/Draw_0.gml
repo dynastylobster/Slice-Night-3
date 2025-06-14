@@ -147,7 +147,7 @@ if global.paused {
 					if (global.SFXvolume == 2) {
 						extraText = ": Bubsy.";
 					} else {
-					extraText = (": <" +  string(int64(global.SFXvolume*100.25)) + "%>");
+					extraText = (": <" +  string(int64(global.SFXvolume*200.25)) + "%>");
 					}
 				break;
 				case "Speedrun IGT":

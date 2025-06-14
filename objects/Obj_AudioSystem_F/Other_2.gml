@@ -1,2 +1,4 @@
 audio_sound_loop_start(Sng_BattleAgainstARodent_Full, 17.6);
 audio_sound_loop_end(Sng_BattleAgainstARodent_Full, 88);
+audio_sound_loop_start(Sng_SlicerOfThe7DreamsMusic,10)
+audio_sound_loop_end(Sng_SlicerOfThe7DreamsMusic,82)
