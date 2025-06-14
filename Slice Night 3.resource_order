@@ -399,6 +399,7 @@
     {"name":"Spr_Savedatadelete","order":22,"path":"sprites/Spr_Savedatadelete/Spr_Savedatadelete.yy",},
     {"name":"Spr_ScorchGiant","order":4,"path":"sprites/Spr_ScorchGiant/Spr_ScorchGiant.yy",},
     {"name":"Spr_ScrewParticle","order":13,"path":"sprites/Spr_ScrewParticle/Spr_ScrewParticle.yy",},
+    {"name":"Spr_ScrewParticleGold","order":15,"path":"sprites/Spr_ScrewParticleGold/Spr_ScrewParticleGold.yy",},
     {"name":"Spr_ScrewParticleNormal","order":14,"path":"sprites/Spr_ScrewParticleNormal/Spr_ScrewParticleNormal.yy",},
     {"name":"Spr_SecretBox","order":6,"path":"sprites/Spr_SecretBox/Spr_SecretBox.yy",},
     {"name":"Spr_ShiftPillar","order":7,"path":"sprites/Spr_ShiftPillar/Spr_ShiftPillar.yy",},
