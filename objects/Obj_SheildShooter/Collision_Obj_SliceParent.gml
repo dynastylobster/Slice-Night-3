@@ -19,6 +19,7 @@ if !sheilding {
 
 if place_meeting(x,y,Obj_FlameSlice) {
 	with instance_nearest(x,y,Obj_FlameSlice)  {
+		audio_play_sound(Snd_EnemyHit,0,0,global.SFXvolume)
 			instance_destroy();
 		}
 	}

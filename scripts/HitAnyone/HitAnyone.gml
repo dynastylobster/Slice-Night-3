@@ -54,6 +54,10 @@ if (jesterRand > 0) {
 	indicator.image_index = jesterRand;
 	}
 self.hp -= damage;
+if damage > 0 {
+audio_stop_sound(Snd_EnemyHit);
+audio_play_sound(Snd_EnemyHit,0,0,global.SFXvolume)	
+}
 array_push(other.instancesHit, id);
 }
 if instance_exists(Obj_SliceDown) {
