@@ -22,7 +22,7 @@ image_alpha = 0.5
 try { autoTileCol = layer_tilemap_get_id("TileCollision"); } catch (err) { autoTileCol = -4; }
 
 if global.character = "Robot" {
-		xspeed = 2;
+		xspeed = 4;
 		alarm[1] = 30;
 	}
 	

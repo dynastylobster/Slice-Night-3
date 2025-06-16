@@ -13,12 +13,15 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"","%Name":"ccbfded0-2623-4288-8299-81bbd1e23bc2","name":"ccbfded0-2623-4288-8299-81bbd1e23bc2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"1d5571e0-6d5b-43d7-ad35-3de9a79675e7","name":"1d5571e0-6d5b-43d7-ad35-3de9a79675e7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"4d469c29-41f7-41e5-a405-9c04d3e4ccbe","name":"4d469c29-41f7-41e5-a405-9c04d3e4ccbe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":240,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"6f06eef5-cb37-41f4-af7c-c6cfabecb6a5","blendMode":1,"displayName":"Layer 1","isLocked":false,"name":"6f06eef5-cb37-41f4-af7c-c6cfabecb6a5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"12a53688-d637-42ec-a597-4d01bc5f1408","blendMode":0,"displayName":"default","isLocked":false,"name":"12a53688-d637-42ec-a597-4d01bc5f1408","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Bg_ForestHope_still",
@@ -49,7 +52,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":3.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -59,7 +62,7 @@
     },
     "name":"Bg_ForestHope_still",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":2.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -71,6 +74,12 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ccbfded0-2623-4288-8299-81bbd1e23bc2","path":"sprites/Bg_ForestHope_still/Bg_ForestHope_still.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"8836ef6f-55cb-40e9-bd2a-6749173d75f4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1d5571e0-6d5b-43d7-ad35-3de9a79675e7","path":"sprites/Bg_ForestHope_still/Bg_ForestHope_still.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"12731f66-f38f-4a63-8280-fd556483d479","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4d469c29-41f7-41e5-a405-9c04d3e4ccbe","path":"sprites/Bg_ForestHope_still/Bg_ForestHope_still.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3b8c69ba-1a7f-41e2-a8cb-52e41d45d123","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

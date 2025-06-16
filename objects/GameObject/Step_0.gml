@@ -710,3 +710,16 @@ if global.key_up_pressed or global.key_down_pressed or global.key_right_pressed 
 
 global.musicvolume = clamp(global.musicvolume,0,1)
 global.SFXvolume = clamp(global.SFXvolume,0,0.5)
+
+if global.character = "Human" {
+		slice_color = #FF5059
+	}
+if global.character = "Robot" {
+		slice_color = #00FF77
+	}
+if global.character = "Jester" {
+		slice_color = #FFED00
+	}
+if global.character = "Coyote" {
+		slice_color = #BB00FF
+	}

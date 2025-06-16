@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_ParryBallEffect",
+  "%Name":"Obj_EnemyDieCircle",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_ParryBallEffect",
+  "name":"Obj_EnemyDieCircle",
   "overriddenProperties":[],
   "parent":{
-    "name":"Effects",
-    "path":"folders/Objects/Effects.yy",
+    "name":"Dont Place",
+    "path":"folders/Objects/Dont Place.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr_WalljumpEffectSprite",
-    "path":"sprites/Spr_WalljumpEffectSprite/Spr_WalljumpEffectSprite.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
