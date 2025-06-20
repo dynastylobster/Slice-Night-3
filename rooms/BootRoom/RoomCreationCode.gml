@@ -13,6 +13,7 @@ global.billyfox = false
 global.flameslice = false;
 
 ini_open("save.ini")
+global.moturoute = ini_read_real("save5","moturoute",false)
 global.spoketobanan = ini_read_real("Prefrence","spoketobanan",false)
 global.beaten = ini_read_real("save5","beaten",false);
 global.musicvolume = ini_read_real("Prefrence","MusicVolume",0.5);

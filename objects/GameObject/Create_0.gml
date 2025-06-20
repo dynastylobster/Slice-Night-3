@@ -15,8 +15,8 @@ if global.today = 27 and global.thismonth = 2 {
 
 a_timer = 0
 ini_open("save.ini")
+global.moturoute = ini_read_real(global.save,"moturoute",false);
 global.togglerun = ini_read_real("Prefrence","togglerun",false);
-
 ini_close();
 hpsprite = Spr_HP
 global.igt = false;

@@ -59,6 +59,16 @@ x -= 0.5
 if age > 900 {
 		text = "But we can cross that bridge when we get to it, right?"
 	}
+if age > 990 {
+		sprite_index = Spr_PMotuIdle
+		if place_meeting(x,y,Obj_Billy) {
+			ini_open("save.ini")
+			ini_write_real(global.save,"moturoute",true)
+			ini_close()
+			alarm[5] = 120
+			mask_index = Spr_Empty
+		}
+	}
 
 if !guarddown {
 

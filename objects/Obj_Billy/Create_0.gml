@@ -7,6 +7,7 @@ level += ini_read_real(global.save, "model1fight1", 0);
 level += ini_read_real(global.save, "model1fight2", 0);
 level += ini_read_real(global.save, "train", 0);
 global.firelevel = level;
+global.moturoute = ini_read_real(global.save,"moturoute",false)
 ini_close()
 
 

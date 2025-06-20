@@ -18,7 +18,7 @@ if global.secondserving = true then hpsprite = Spr_HPSecondServing
 if global.secondserving = false then hpsprite = Spr_HP
 
 ini_open("save.ini")
-
+global.motuunlocked = ini_read_real("save5","motu",false) + ini_read_real(global.save,"moturoute",false);
 ini_write_real("Prefrence","MusicVolume",global.musicvolume);
 ini_write_real("Prefrence","SFXVolume",global.SFXvolume);
 ini_write_real("Prefrence","Fox",global.billyfox);
