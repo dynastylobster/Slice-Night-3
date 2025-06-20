@@ -73,6 +73,10 @@ if age > 990 {
 		}
 	}
 
+if global.paused {
+		if age != 0 age--
+	}
+
 if !guarddown {
 
 if instance_exists(Obj_Billy) {

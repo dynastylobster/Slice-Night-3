@@ -1,5 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-if change {
-other.destination_room = dest_room
-}
+change = true;

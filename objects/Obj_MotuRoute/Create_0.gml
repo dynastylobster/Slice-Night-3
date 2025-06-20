@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-if change {
-other.destination_room = dest_room
+if !global.moturoute {
+instance_destroy();	
 }
+change = false;
+alarm[0] = 10
