@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-if !spareable and !guarddown {
-active = true;
-alarm[1] = 10;
-}
+onscreen = false;
+shaking = false;
+startx = x

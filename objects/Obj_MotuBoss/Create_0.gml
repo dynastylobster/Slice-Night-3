@@ -4,7 +4,12 @@
 // Inherit the parent event
 event_inherited();
 try { autoTileCol = layer_tilemap_get_id("TileCollision"); } catch (err) { autoTileCol = -4; }
-alarm[0] = 120
+alarm[4] = 60
+spareable = !lockedout;
+text = ""
+age = 0
+guarddown = false;
+
 hp = 16;
 
 state = "running"

@@ -1,6 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-if !spareable and !guarddown {
-active = true;
-alarm[1] = 10;
-}
+image_index = 1;
+alarm[0] = 30

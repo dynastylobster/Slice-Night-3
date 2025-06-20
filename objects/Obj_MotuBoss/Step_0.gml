@@ -3,6 +3,64 @@
 
 // Inherit the parent event
 event_inherited();
+if !lockedout {
+age++
+} else {
+age = 0;
+text = ""	
+}
+
+if instance_exists(Obj_SliceParent) and !lockedout {
+	if distance_to_object(Obj_SliceParent) < 48 {
+		spareable = false;
+		guarddown = false;
+		text = ""
+		if !lockedout and instance_number(Obj_MotuBoss) < 2 {
+		with(instance_create_layer(x,y,layer,Obj_MotuBoss)) {
+		spareable = false 
+		guarddown = false
+		alarm[0] = 20
+		lockedout = true;	
+		}
+		instance_destroy();
+	}
+
+	}
+}
+
+if instance_exists(Obj_Billy) {
+		if distance_to_object(Obj_Billy) < 120 and age < 300 {
+			text = "WAIT!!"
+		}
+	}
+
+if age > 300 and age < 450{
+	guarddown = true;
+	alarm[0] ++
+	x-= 1
+	text = "You're not going to fight?"
+	}
+if age > 450 and age < 500{
+	x-= 1;
+	text = "... You changed your mind?"	
+}
+if age > 545 {
+	text = "I know it can be hard.."	
+}
+if age > 690 {
+	text = "to face your own feelings."
+}
+
+if age > 740 and age < 900 {
+x -= 0.5
+ text = "and I can tell your'e not quite ready yet..."	
+}
+
+if age > 900 {
+		text = "But we can cross that bridge when we get to it, right?"
+	}
+
+if !guarddown {
 
 if instance_exists(Obj_Billy) {
 	if state != "slicing" {
@@ -165,3 +223,5 @@ while place_meeting(x,y+0.25,[Obj_Wall, autoTileCol]) {
 }
 
 image_speed = !global.paused;
+}
+
