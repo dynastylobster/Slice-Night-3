@@ -10,3 +10,9 @@ x++
 if !place_meeting(x,y+1,[Obj_Wall, autoTileCol]) {
 y++	
 }
+
+if room = Level_Boss4 {
+		if alpha >= 2 {
+			room_goto(Level_Boss4_Reject)	
+		}
+	}

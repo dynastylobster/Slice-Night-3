@@ -27,4 +27,10 @@ if shaking {
 	
 } else {
 	image_index = 0;
+	image_speed = 1;
+	}
+
+
+if image_index >= 9 {
+		image_speed = 0
 	}

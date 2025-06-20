@@ -32,7 +32,7 @@
   ],
   "name":"Spr_MotuSad",
   "nineSlice":null,
-  "origin":2,
+  "origin":0,
   "parent":{
     "name":"Hud sprites",
     "path":"folders/Sprites/Hud sprites.yy",
@@ -111,7 +111,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":64,
+    "xorigin":0,
     "yorigin":0,
   },
   "swatchColours":null,

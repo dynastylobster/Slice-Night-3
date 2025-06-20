@@ -1,17 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_MotuBoss_Defeat",
+  "%Name":"Obj_RejectionCutscene",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_MotuBoss_Defeat",
+  "name":"Obj_RejectionCutscene",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bosses",
-    "path":"folders/Objects/Bosses.yy",
+    "name":"Effects",
+    "path":"folders/Objects/Effects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_MotuBoss_Defeated",
-    "path":"sprites/Spr_MotuBoss_Defeated/Spr_MotuBoss_Defeated.yy",
+    "name":"Spr_Story_Rejection",
+    "path":"sprites/Spr_Story_Rejection/Spr_Story_Rejection.yy",
   },
   "spriteMaskId":null,
   "visible":true,
