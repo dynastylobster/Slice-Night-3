@@ -63,9 +63,12 @@ if age > 990 {
 		sprite_index = Spr_PMotuIdle
 		if place_meeting(x,y,Obj_Billy) {
 			ini_open("save.ini")
+			global.music = Snd_Silence
+			audio_stop_all();
+			audio_play_sound(Sng_MotuPartyJoin,0,0,global.musicvolume);
 			ini_write_real(global.save,"moturoute",true)
 			ini_close()
-			alarm[5] = 120
+			alarm[5] = 300
 			mask_index = Spr_Empty
 		}
 	}

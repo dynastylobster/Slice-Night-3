@@ -664,6 +664,7 @@
     {"id":{"name":"Sng_LightToTheTempleMusic","path":"sounds/Sng_LightToTheTempleMusic/Sng_LightToTheTempleMusic.yy",},},
     {"id":{"name":"Sng_MicroSteam_music","path":"sounds/Sng_MicroSteam_music/Sng_MicroSteam_music.yy",},},
     {"id":{"name":"Sng_Model1Music","path":"sounds/Sng_Model1Music/Sng_Model1Music.yy",},},
+    {"id":{"name":"Sng_MotuPartyJoin","path":"sounds/Sng_MotuPartyJoin/Sng_MotuPartyJoin.yy",},},
     {"id":{"name":"Sng_MotusThemeMusic","path":"sounds/Sng_MotusThemeMusic/Sng_MotusThemeMusic.yy",},},
     {"id":{"name":"Sng_NightmareOfTheDisturbedMusic","path":"sounds/Sng_NightmareOfTheDisturbedMusic/Sng_NightmareOfTheDisturbedMusic.yy",},},
     {"id":{"name":"Sng_PlanetLunaMusic","path":"sounds/Sng_PlanetLunaMusic/Sng_PlanetLunaMusic.yy",},},

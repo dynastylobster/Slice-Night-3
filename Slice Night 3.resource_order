@@ -224,6 +224,7 @@
     {"name":"Sng_LightToTheTempleMusic","order":41,"path":"sounds/Sng_LightToTheTempleMusic/Sng_LightToTheTempleMusic.yy",},
     {"name":"Sng_MicroSteam_music","order":6,"path":"sounds/Sng_MicroSteam_music/Sng_MicroSteam_music.yy",},
     {"name":"Sng_Model1Music","order":43,"path":"sounds/Sng_Model1Music/Sng_Model1Music.yy",},
+    {"name":"Sng_MotuPartyJoin","order":54,"path":"sounds/Sng_MotuPartyJoin/Sng_MotuPartyJoin.yy",},
     {"name":"Sng_MotusThemeMusic","order":20,"path":"sounds/Sng_MotusThemeMusic/Sng_MotusThemeMusic.yy",},
     {"name":"Sng_PlanetLunaMusic","order":24,"path":"sounds/Sng_PlanetLunaMusic/Sng_PlanetLunaMusic.yy",},
     {"name":"Sng_Promising","order":51,"path":"sounds/Sng_Promising/Sng_Promising.yy",},

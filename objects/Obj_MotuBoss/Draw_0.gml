@@ -22,3 +22,9 @@ draw_text(x,y-32,text)
 draw_set_font(UndertaleFont)
 draw_set_color(c_white)
 }
+
+if alarm[5] > 0 {
+		draw_set_halign(fa_center)
+		draw_text(room_width/2,32,"MOTU JOINED YOUR PARTY")
+		draw_set_halign(fa_left)
+	}
