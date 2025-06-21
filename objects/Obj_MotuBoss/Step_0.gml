@@ -66,6 +66,7 @@ if age > 990 {
 			global.music = Snd_Silence
 			audio_stop_all();
 			audio_play_sound(Sng_MotuPartyJoin,0,0,global.musicvolume);
+			global.moturoute = true;
 			ini_write_real(global.save,"moturoute",true)
 			ini_close()
 			alarm[5] = 300
