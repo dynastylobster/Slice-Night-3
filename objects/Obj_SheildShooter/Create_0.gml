@@ -4,7 +4,7 @@ autoTileCol = -4;
 try { autoTileCol = layer_tilemap_get_id("TileCollision"); } catch (err) { autoTileCol = -4; }
 deathCounter = 0;
 onscreen = false;
-hp = 5;
+hp = 3.75;
 sheilding = false;
 alarm[0] = 120
 alarm[1] = 65

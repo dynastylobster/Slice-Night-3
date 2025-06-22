@@ -11,3 +11,6 @@ audio_play_sound(Snd_BlockBreak,0,0,global.SFXvolume);
 instance_create_depth(x,y,depth,Obj_BerryBoom)
 instance_destroy();	
 }
+age+=0.5
+
+draw_x = x+sin(age*2)*1.5
