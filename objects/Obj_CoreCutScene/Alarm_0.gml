@@ -5,5 +5,4 @@ sprite = Spr_NPCMotuBillyText
 frame = 0
 
 alarm[1] = 180
-
 alarm[2] = 120

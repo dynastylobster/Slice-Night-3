@@ -3,12 +3,18 @@
 draw_sprite(sprite_index,image_index,draw_x,draw_y)
 
 if place_meeting(x,y,Obj_Wall) {
-
 draw_set_color(#000088)
 draw_text(x,y-50,"RIDE ONTOP OF SOMETHING WITH NO REGARD\nFOR OUR OWN PERSONAL SAFETY!!!!")
 draw_set_color(#00FF90)
 draw_text(x-1,y-51,"RIDE ONTOP OF SOMETHING WITH NO REGARD\nFOR OUR OWN PERSONAL SAFETY!!!!")
+/*
+draw_set_color(#000088)
+draw_text(x,y-50,"SPOILER-FREE PLACEHOLDER TEXT SO I DONT\nGIVE AWAY A MOMENT FROM AN IMPORTANT CHARACTER!!!")
+draw_set_color(#00FF90)
+draw_text(x-1,y-51,"SPOILER-FREE PLACEHOLDER TEXT SO I DONT\nGIVE AWAY A MOMENT FROM AN IMPORTANT CHARACTER!!!")
+*/
 }
+
 draw_set_color(c_white)
 
 if x > room_width {

@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+// Inherit the parent event
+event_inherited();
+active = true;
+onscreen = true;
 image_speed = 0;
-xspeed = 0;
-startx = x 
-starty = y
-draw_x = x
-draw_y = y
+image_index = 0

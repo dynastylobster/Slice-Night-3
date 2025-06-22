@@ -20,7 +20,7 @@ camera_set_view_pos(view_camera[0],0,clamp(_realcamy,0,room_height-240))
 	
 if image_index = 0 {
 	audio_stop_sound(Snd_Jump)
-	audio_play_sound(Snd_Jump,0,0)	
+	audio_play_sound(Snd_Jump,0,0,global.SFXvolume)	
 	image_index = 1	
 	}
 }	
@@ -40,7 +40,7 @@ if menuthing = "Extras" and !locked {
 if place_meeting(x,y,Obj_ButtonSelect) {
 
 if global.key_Z_pressed or global.key_X_pressed {
-if !locked audio_play_sound(Snd_Slice,0,0)
+if !locked audio_play_sound(Snd_Slice,0,0,global.SFXvolume)
 if locked audio_play_sound(Snd_Land,0,0,global.SFXvolume*2);
 if func = "roomselect" {
 room_goto(destination)
