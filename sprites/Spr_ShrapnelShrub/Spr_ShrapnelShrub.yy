@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"490d3079-8273-4f2d-a4e4-c5c6bcbef8b2","name":"490d3079-8273-4f2d-a4e4-c5c6bcbef8b2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7546cc4a-a38d-4887-b325-08164b8b519e","name":"7546cc4a-a38d-4887-b325-08164b8b519e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b815bfdf-9ff6-491a-8a4e-472edf6b5ff1","name":"b815bfdf-9ff6-491a-8a4e-472edf6b5ff1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"1e67fdf5-34c3-4b23-9d32-41ea0901c3c4","name":"1e67fdf5-34c3-4b23-9d32-41ea0901c3c4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,11 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"490d3079-8273-4f2d-a4e4-c5c6bcbef8b2","path":"sprites/Spr_ShrapnelShrub/Spr_ShrapnelShrub.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"77fb0bf6-7436-49d9-a425-d46b304d5453","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b815bfdf-9ff6-491a-8a4e-472edf6b5ff1","path":"sprites/Spr_ShrapnelShrub/Spr_ShrapnelShrub.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3ded8e45-d200-4bf2-af3d-44fdbb2e0f0b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7546cc4a-a38d-4887-b325-08164b8b519e","path":"sprites/Spr_ShrapnelShrub/Spr_ShrapnelShrub.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"185c466a-f794-49d1-b96d-424b1325a7d0","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e67fdf5-34c3-4b23-9d32-41ea0901c3c4","path":"sprites/Spr_ShrapnelShrub/Spr_ShrapnelShrub.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b216ef3f-2791-42c7-b1c1-221fcece22cd","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

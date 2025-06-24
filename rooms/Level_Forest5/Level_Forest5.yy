@@ -76,6 +76,7 @@
     {"name":"inst_2AD07524","path":"rooms/Level_Forest5/Level_Forest5.yy",},
     {"name":"inst_4AA6A25B","path":"rooms/Level_Forest5/Level_Forest5.yy",},
     {"name":"inst_2630296B","path":"rooms/Level_Forest5/Level_Forest5.yy",},
+    {"name":"inst_5363932C","path":"rooms/Level_Forest5/Level_Forest5.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -166,6 +167,7 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2889.0,"y":420.0,},
         {"$GMRInstance":"v1","%Name":"inst_2AD07524","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2AD07524","objectId":{"name":"Obj_MenaceOrb","path":"objects/Obj_MenaceOrb/Obj_MenaceOrb.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2688.0,"y":368.0,},
         {"$GMRInstance":"v1","%Name":"inst_2630296B","colour":16777215,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2630296B","objectId":{"name":"Obj_NoWallJumpBlock","path":"objects/Obj_NoWallJumpBlock/Obj_NoWallJumpBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":29.0,"x":3104.0,"y":-16.0,},
+        {"$GMRInstance":"v1","%Name":"inst_5363932C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":22,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5363932C","objectId":{"name":"Obj_NPC_MultiLine","path":"objects/Obj_NPC_MultiLine/Obj_NPC_MultiLine.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":416.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"TileCollision","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TileCollision","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":195,"TileCompressedData":[
           -35,-2147483648,3,1,-2147483648,1,-115,-2147483648,1,1,-76,-2147483648,3,1,-2147483648,1,-115,-2147483648,

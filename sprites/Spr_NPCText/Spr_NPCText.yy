@@ -3,7 +3,7 @@
   "%Name":"Spr_NPCText",
   "bboxMode":0,
   "bbox_bottom":124,
-  "bbox_left":1,
+  "bbox_left":0,
   "bbox_right":424,
   "bbox_top":0,
   "collisionKind":1,
@@ -34,13 +34,14 @@
     {"$GMSpriteFrame":"","%Name":"c76f2225-1913-48c3-a4cb-ef4b0ea0065f","name":"c76f2225-1913-48c3-a4cb-ef4b0ea0065f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"e04b5ab0-c318-4efb-bf45-b0dfbf80848f","name":"e04b5ab0-c318-4efb-bf45-b0dfbf80848f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"f902169c-2d01-42a8-8b1b-74f7a8a8c43c","name":"f902169c-2d01-42a8-8b1b-74f7a8a8c43c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f5425b8a-3d47-445e-9990-a3f7362c6bf9","name":"f5425b8a-3d47-445e-9990-a3f7362c6bf9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":128,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"fc854fb3-7f84-4059-8711-b16fb9fe7e45","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"fc854fb3-7f84-4059-8711-b16fb9fe7e45","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"38cc4e75-8702-4a1c-8600-7529f4c7884f","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"38cc4e75-8702-4a1c-8600-7529f4c7884f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_NPCText",
   "nineSlice":null,
@@ -70,7 +71,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":22.0,
+    "length":23.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -155,6 +156,9 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f902169c-2d01-42a8-8b1b-74f7a8a8c43c","path":"sprites/Spr_NPCText/Spr_NPCText.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"84f8b896-ae65-4076-a399-c77825d77841","IsCreationKey":false,"Key":21.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f5425b8a-3d47-445e-9990-a3f7362c6bf9","path":"sprites/Spr_NPCText/Spr_NPCText.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a0c45414-7af3-4017-8ed5-e695db03d442","IsCreationKey":false,"Key":22.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
