@@ -23,6 +23,7 @@
   "ResourceOrderSettings":[
     {"name":"BossParentObject","order":8,"path":"objects/BossParentObject/BossParentObject.yy",},
     {"name":"Dust_TemFlake","order":27,"path":"objects/Dust_TemFlake/Dust_TemFlake.yy",},
+    {"name":"Obj_7DreamsMoonReflection","order":49,"path":"objects/Obj_7DreamsMoonReflection/Obj_7DreamsMoonReflection.yy",},
     {"name":"Obj_Airpuff","order":6,"path":"objects/Obj_Airpuff/Obj_Airpuff.yy",},
     {"name":"Obj_BerryBoom","order":23,"path":"objects/Obj_BerryBoom/Obj_BerryBoom.yy",},
     {"name":"Obj_BgTabuli","order":1,"path":"objects/Obj_BgTabuli/Obj_BgTabuli.yy",},
@@ -253,6 +254,7 @@
     {"name":"Sng_WalkerOfTheFinalDreamMusic","order":10,"path":"sounds/Sng_WalkerOfTheFinalDreamMusic/Sng_WalkerOfTheFinalDreamMusic.yy",},
     {"name":"Sng_YonkSlicerOfThe7Dreams","order":33,"path":"sounds/Sng_YonkSlicerOfThe7Dreams/Sng_YonkSlicerOfThe7Dreams.yy",},
     {"name":"AlienTileSpriteDim","order":1,"path":"sprites/AlienTileSpriteDim/AlienTileSpriteDim.yy",},
+    {"name":"Bg_7Dreams_still2","order":23,"path":"sprites/Bg_7Dreams_still2/Bg_7Dreams_still2.yy",},
     {"name":"Bg_Alien0Eclipse","order":3,"path":"sprites/Bg_Alien0Eclipse/Bg_Alien0Eclipse.yy",},
     {"name":"Bg_Cave_0","order":17,"path":"sprites/Bg_Cave_0/Bg_Cave_0.yy",},
     {"name":"Bg_Cave_1","order":18,"path":"sprites/Bg_Cave_1/Bg_Cave_1.yy",},
