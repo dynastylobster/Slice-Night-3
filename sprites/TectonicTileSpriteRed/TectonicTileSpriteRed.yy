@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"TectonicTileSpriteRed",
   "bboxMode":0,
-  "bbox_bottom":143,
+  "bbox_bottom":159,
   "bbox_left":0,
   "bbox_right":111,
   "bbox_top":0,
