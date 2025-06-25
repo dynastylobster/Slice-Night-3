@@ -1,6 +1,6 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TectonicTileSetRed",
+  "%Name":"TectonicTileSetRedFlipped",
   "autoTileSets":[
     {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
         52,105,104,203,54,203,203,203,55,203,203,203,203,203,203,203,51,51,51,51,2,2,2,2,53,53,53,53,102,102,
@@ -12,7 +12,7 @@
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TectonicTileSetRed",
+  "name":"TectonicTileSetRedFlipped",
   "out_columns":43,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -23,8 +23,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"TectonicTileSpriteRedFlipped",
-    "path":"sprites/TectonicTileSpriteRedFlipped/TectonicTileSpriteRedFlipped.yy",
+    "name":"TectonicTileSpriteRed",
+    "path":"sprites/TectonicTileSpriteRed/TectonicTileSpriteRed.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

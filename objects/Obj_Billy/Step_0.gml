@@ -351,7 +351,7 @@ if !global.key_Z {yspeed = yspeed/1.2}
 }
 
 
-while place_meeting(x,y+0.125,[Obj_Wall, autoTileCol]) and grounded
+while place_meeting(x,y+0.125,[Obj_Wall, autoTileCol]) and grounded and !place_meeting(x,y,Obj_RocketBox)
 	{
 		if place_meeting(x,y-5,Obj_RegenSliceBlock) {x-=4}
 	if !place_meeting(x,y,Obj_PushOuttaWall) {
