@@ -3,7 +3,7 @@
 if other.object_index != Obj_FlameSlice {
 	
 	if !sliced{ 
-			alarm[0] = 9;
+			alarm[0] = 5;
 		sliced = true
 		sprite_index = Spr_ToxicHeartDrill_Hit
 		}

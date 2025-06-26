@@ -4,7 +4,7 @@ xspeed = 0;
 yspeed = 0;
 max_xspeed = 1.6;
 max_yspeed = 1;
-
+age = 0;
 depth -= 50
 if !place_meeting(x,y,Obj_DrillChute) {
 instance_create_depth(x,y,depth,Obj_FishBubble);

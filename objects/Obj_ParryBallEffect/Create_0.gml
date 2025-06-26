@@ -5,7 +5,11 @@
 if instance_place(x,y,Obj_ParryBall) {
 	parryball = instance_place(x,y,Obj_ParryBall)
 } else {
+	if instance_exists(Obj_Billy) {
+	parryball = Obj_Billy	
+	} else {
 	parryball = self	
+	}
 }
 
 if instance_exists(Obj_Billy) {

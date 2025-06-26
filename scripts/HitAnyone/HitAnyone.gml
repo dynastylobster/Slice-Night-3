@@ -53,6 +53,44 @@ if (jesterRand > 0) {
 	var indicator = instance_create_depth(x,y,depth,Obj_DiceDMG)
 	indicator.image_index = jesterRand;
 	}
+
+	if instance_exists(Obj_Billy) {
+		///extra damage for side slice if youre going fast
+if dam = "Normal" and damage > 0{
+			if abs(Obj_Billy.xspeed) >= 3.75 {
+				damage = 2;	
+				repeat(3) {
+				instance_create_depth(x+irandom_range(-8,8),y+irandom_range(-8,8),depth,Obj_GoalBoxSparkle)
+				}
+				audio_play_sound(Snd_EnemyHit,0,0,global.SFXvolume,0,0.75);
+				audio_play_sound(Snd_GhostChomp,0,0,global.SFXvolume*0.5,0,1.2)
+				
+				
+				if collision_line(x,y,x-(sign(Obj_Billy.xspeed)*(sprite_width/2+10)),y,Obj_Billy,45,false) or collision_line(x,y-8,x-(sign(Obj_Billy.xspeed)*(sprite_width/2+10)),y-8,Obj_Billy,45,false) and !place_meeting(x,y+8,Obj_Billy) or collision_line(x,y+8,x-(sign(Obj_Billy.xspeed)*(sprite_width/2+10)),y,Obj_Billy,45,false) {
+					damage = 3.5;
+					audio_play_sound(Snd_ParryStar,0,0,global.SFXvolume*2,0,1.1);
+					instance_create_depth(x,y,depth-10,Obj_ParryBallEffect)
+					instance_create_depth(x,y,depth,Obj_FlameSliceCollide)
+				}
+				
+				
+				
+			}
+		}
+		///triple damage for downslice if your falling and have perfect timing (ignores resistence)
+			if dam = "Down" {
+					if Obj_Billy.yspeed >= 1 {
+						if distance_to_object(Obj_Billy) < 8 and distance_to_object(Obj_Billy) > 1 {
+							damage = 3;
+						}
+					}
+				}
+			
+		
+	}
+	
+
+
 self.hp -= damage;
 if damage > 0 {
 audio_stop_sound(Snd_EnemyHit);
