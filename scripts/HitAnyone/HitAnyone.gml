@@ -58,6 +58,8 @@ if (jesterRand > 0) {
 		///extra damage for side slice if youre going fast
 if dam = "Normal" and damage > 0{
 			if abs(Obj_Billy.xspeed) >= 3.75 {
+				
+				Obj_Billy.i_frames = 60;
 				damage = 2;	
 				repeat(3) {
 				instance_create_depth(x+irandom_range(-8,8),y+irandom_range(-8,8),depth,Obj_GoalBoxSparkle)
@@ -82,6 +84,7 @@ if dam = "Normal" and damage > 0{
 					if Obj_Billy.yspeed >= 1 {
 						if distance_to_object(Obj_Billy) < 8 and distance_to_object(Obj_Billy) > 1 {
 							damage = 3;
+							Obj_Billy.i_frames = 60;
 						}
 					}
 				}

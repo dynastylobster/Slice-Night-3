@@ -41,6 +41,7 @@
   "height":128,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"75fd9548-11ab-4aa6-ad1c-34ec92e6456a","blendMode":0,"displayName":"Layer 3","isLocked":false,"name":"75fd9548-11ab-4aa6-ad1c-34ec92e6456a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"38cc4e75-8702-4a1c-8600-7529f4c7884f","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"38cc4e75-8702-4a1c-8600-7529f4c7884f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_NPCText",
