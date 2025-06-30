@@ -559,6 +559,7 @@
     {"id":{"name":"SecondServingStory5","path":"rooms/SecondServingStory5/SecondServingStory5.yy",},},
     {"id":{"name":"TestRoom1","path":"rooms/TestRoom1/TestRoom1.yy",},},
     {"id":{"name":"TestRoom2","path":"rooms/TestRoom2/TestRoom2.yy",},},
+    {"id":{"name":"TestRoom3","path":"rooms/TestRoom3/TestRoom3.yy",},},
     {"id":{"name":"TitleScreenOptionsRoom","path":"rooms/TitleScreenOptionsRoom/TitleScreenOptionsRoom.yy",},},
     {"id":{"name":"TitleScreenRoom","path":"rooms/TitleScreenRoom/TitleScreenRoom.yy",},},
     {"id":{"name":"TitleScreenRoom2","path":"rooms/TitleScreenRoom2/TitleScreenRoom2.yy",},},
@@ -1114,6 +1115,7 @@
     {"id":{"name":"Spr_LightButton","path":"sprites/Spr_LightButton/Spr_LightButton.yy",},},
     {"id":{"name":"Spr_LightningCloud","path":"sprites/Spr_LightningCloud/Spr_LightningCloud.yy",},},
     {"id":{"name":"Spr_LiveOn","path":"sprites/Spr_LiveOn/Spr_LiveOn.yy",},},
+    {"id":{"name":"Spr_LockBlock_Big","path":"sprites/Spr_LockBlock_Big/Spr_LockBlock_Big.yy",},},
     {"id":{"name":"Spr_LockBlock","path":"sprites/Spr_LockBlock/Spr_LockBlock.yy",},},
     {"id":{"name":"Spr_LockBlockSMW","path":"sprites/Spr_LockBlockSMW/Spr_LockBlockSMW.yy",},},
     {"id":{"name":"Spr_LongAquaJumper","path":"sprites/Spr_LongAquaJumper/Spr_LongAquaJumper.yy",},},
@@ -1552,6 +1554,7 @@
     {"roomId":{"name":"Level_Cave","path":"rooms/Level_Cave/Level_Cave.yy",},},
     {"roomId":{"name":"MotuRouteCutsceneRoom2B","path":"rooms/MotuRouteCutsceneRoom2B/MotuRouteCutsceneRoom2B.yy",},},
     {"roomId":{"name":"L_EscapeCutscene","path":"rooms/L_EscapeCutscene/L_EscapeCutscene.yy",},},
+    {"roomId":{"name":"TestRoom3","path":"rooms/TestRoom3/TestRoom3.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

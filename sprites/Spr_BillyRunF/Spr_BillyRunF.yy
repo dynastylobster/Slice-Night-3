@@ -20,8 +20,7 @@
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"819b3d9b-4097-4911-9933-4b422713661e","blendMode":0,"displayName":"default","isLocked":false,"name":"819b3d9b-4097-4911-9933-4b422713661e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"631927c3-2091-44b3-921f-53b1d409ced7","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"631927c3-2091-44b3-921f-53b1d409ced7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"2f15cf6e-85e9-489f-a4e5-5deedd3606c1","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"2f15cf6e-85e9-489f-a4e5-5deedd3606c1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_BillyRunF",
   "nineSlice":null,

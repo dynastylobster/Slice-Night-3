@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if image_index = 6 {
-		var shinybilly = irandom_range(1,1000)
+		var shinybilly = irandom_range(1,100)
 		if shinybilly = 1 then sprite_index = Spr_ShinyBillySoul
 	}
 age = 0
