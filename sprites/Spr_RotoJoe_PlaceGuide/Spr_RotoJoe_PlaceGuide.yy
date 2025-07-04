@@ -20,8 +20,7 @@
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d9f1bdb7-79e5-4408-8309-016a9ff1615b","blendMode":0,"displayName":"default","isLocked":false,"name":"d9f1bdb7-79e5-4408-8309-016a9ff1615b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"241caf27-f051-4093-b4ad-2fde35e57ddf","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"241caf27-f051-4093-b4ad-2fde35e57ddf","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d1c62392-4aa6-457e-9626-a4bf4f4d9b75","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"d1c62392-4aa6-457e-9626-a4bf4f4d9b75","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_RotoJoe_PlaceGuide",
   "nineSlice":null,

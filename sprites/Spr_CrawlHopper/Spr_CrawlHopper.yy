@@ -20,8 +20,7 @@
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"3e275afe-bb0d-4993-bffb-afe3ae1cf673","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"3e275afe-bb0d-4993-bffb-afe3ae1cf673","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"cb473ce7-eb17-4410-8a05-6ecd02b86f34","blendMode":0,"displayName":"default","isLocked":false,"name":"cb473ce7-eb17-4410-8a05-6ecd02b86f34","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"4d58d86f-d307-4ba8-8fc4-117bfcadf42f","blendMode":0,"displayName":"default","isLocked":false,"name":"4d58d86f-d307-4ba8-8fc4-117bfcadf42f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_CrawlHopper",
   "nineSlice":null,

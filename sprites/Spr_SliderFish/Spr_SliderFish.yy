@@ -22,8 +22,7 @@
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"a5f58b9b-3b73-4d16-a1ee-969e3199e875","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"a5f58b9b-3b73-4d16-a1ee-969e3199e875","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"6b5d0fd0-c1fa-46ba-97f4-aecdb0f3789f","blendMode":0,"displayName":"default","isLocked":false,"name":"6b5d0fd0-c1fa-46ba-97f4-aecdb0f3789f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"114e3b09-5efe-4984-a5fc-cfd207254ae7","blendMode":0,"displayName":"default","isLocked":false,"name":"114e3b09-5efe-4984-a5fc-cfd207254ae7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_SliderFish",
   "nineSlice":null,

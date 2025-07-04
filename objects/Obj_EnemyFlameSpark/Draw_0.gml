@@ -5,7 +5,7 @@ if sprite_index = Spr_GoalBoxSparkle {
 		gpu_set_blendmode(bm_add)
 	}
 
-if instance_exists(Obj_Dad) {
+if instance_exists(Obj_Dad) or sprite_index = Spr_EnemyFlameSparkBlue {
 	gpu_set_blendmode(bm_add)	
 }
 

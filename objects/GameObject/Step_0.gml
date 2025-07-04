@@ -223,7 +223,9 @@ switch(menuIndex) {
 				nextCos = 0;
 			}
 			global.costume = ourCosts[nextCos];
-			
+			ini_open("save.ini")
+			ini_write_string(global.save,"costumepref",string(global.costume));
+			ini_close();
 			// SAVE TO FILE
 	break;
 	case "Settings":

@@ -20,8 +20,7 @@
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f8651e94-642b-4b6d-bc27-b9c7b47a8c35","blendMode":0,"displayName":"default","isLocked":false,"name":"f8651e94-642b-4b6d-bc27-b9c7b47a8c35","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"a3276a9f-e84a-4386-9acf-19387dbc66ba","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"a3276a9f-e84a-4386-9acf-19387dbc66ba","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"60596165-9e0b-4207-8032-80735398596e","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"60596165-9e0b-4207-8032-80735398596e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_BillyMotuNPC",
   "nineSlice":null,

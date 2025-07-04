@@ -8,7 +8,8 @@ instance_create_layer(x+2,y,layer,Obj_EnemyFlameSpark)
 instance_create_layer(x-2,y,layer,Obj_EnemyFlameSpark)
 instance_create_layer(x+2,y-3,layer,Obj_EnemyFlameSpark)
 instance_create_layer(x-2,y-3,layer,Obj_EnemyFlameSpark)
-hp -= 1
+//hp -= 1
+HitAnyone();
 hit = true
 alarm[0] = 60;
 alarm[1] = 120

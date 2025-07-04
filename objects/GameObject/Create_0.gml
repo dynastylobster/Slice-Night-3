@@ -4,7 +4,7 @@ global.today = current_day
 global.thismonth = current_month 
 //global.today = 27
 //global.thismonth = 2
-
+settedthecostume = false;
 global.current_keys = 0;
 
 global.mazzersounds = 0;
@@ -159,3 +159,4 @@ image_speed = 1
 	
 	alarm[3] = 2;
 slice_color = #FF0059
+

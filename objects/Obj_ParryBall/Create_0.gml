@@ -7,9 +7,10 @@ if circlemovement {
 	path_start(CirclePath,_speed,path_action_restart,0);
 	}
 if verticalmovement {
-y-= 48	
+
+if !place_meeting(x,y,Obj_MovingDeathBlock) then y-= 48	
 }
 
 if verticalmovement {
-x-= 48	
+if !place_meeting(x,y,Obj_MovingDeathBlock) then x-= 48	
 }

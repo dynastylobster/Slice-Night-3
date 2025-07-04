@@ -1,5 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+if global.save = "file1" or global.save = "file2" global.save = "file3" global.save = "file4" global.save = "file5" global.save = "file7" {
+
+if !settedthecostume and instance_exists(Obj_Billy) {
+ini_open("save.ini")
+global.costume = ini_read_string(global.save,"costumepref","Billy")
+ini_close();	
+settedthecostume = true;
+}
+
+}
+
 global.current_keys = 0;
 randomize();
 var trampocolor = choose(Spr_TrampoMega,Spr_TrampoMega,Spr_TrampoMegaP)
@@ -30,6 +42,7 @@ if global.save = "file7" {
 	global.totalstage = 0
 	global.totalsecret = 0
 }
+
 
 
 fading_out = false
