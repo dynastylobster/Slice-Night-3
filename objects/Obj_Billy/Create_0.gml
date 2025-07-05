@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+instance_create_depth(x,y,depth+10,Obj_BillyTail)
 ini_open("save.ini") 
 var level = 0;
 level += ini_read_real(global.save, "drillguy", 0);

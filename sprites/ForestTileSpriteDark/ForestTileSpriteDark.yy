@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"ForestTileSpriteDark",
   "bboxMode":0,
-  "bbox_bottom":159,
+  "bbox_bottom":239,
   "bbox_left":0,
   "bbox_right":79,
   "bbox_top":0,
@@ -19,7 +19,7 @@
   "height":256,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"427a5929-ef82-49e0-a453-c1938e8f9496","blendMode":0,"displayName":"default","isLocked":false,"name":"427a5929-ef82-49e0-a453-c1938e8f9496","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"cba13a8a-98a5-4334-b08a-de1cc433e232","blendMode":0,"displayName":"default","isLocked":false,"name":"cba13a8a-98a5-4334-b08a-de1cc433e232","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"ForestTileSpriteDark",
   "nineSlice":null,

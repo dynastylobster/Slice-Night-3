@@ -8,9 +8,12 @@
       ],},
   ],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":6,
+    "SerialiseWidth":6,
+    "TileCompressedData":[
+      12,0,60,61,0,0,61,0,70,71,0,0,71,-7,0,11,60,0,60,0,61,0,70,0,65,0,66,-3,0,3,70,0,71,
+    ],
+    "TileDataFormat":1,
   },
   "name":"ForestTileSetDark",
   "out_columns":9,

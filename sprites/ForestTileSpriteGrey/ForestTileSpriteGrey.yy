@@ -19,7 +19,7 @@
   "height":256,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"427a5929-ef82-49e0-a453-c1938e8f9496","blendMode":0,"displayName":"default","isLocked":false,"name":"427a5929-ef82-49e0-a453-c1938e8f9496","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"05269d77-2d3e-4506-9816-a7317df2560a","blendMode":0,"displayName":"default","isLocked":false,"name":"05269d77-2d3e-4506-9816-a7317df2560a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"ForestTileSpriteGrey",
   "nineSlice":null,

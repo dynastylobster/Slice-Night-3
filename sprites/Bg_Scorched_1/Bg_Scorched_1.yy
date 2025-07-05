@@ -5,7 +5,7 @@
   "bbox_bottom":263,
   "bbox_left":0,
   "bbox_right":425,
-  "bbox_top":83,
+  "bbox_top":86,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -19,7 +19,7 @@
   "height":264,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"7a09e0c6-2fe0-44ff-a89d-a06497ec9958","blendMode":0,"displayName":"default","isLocked":false,"name":"7a09e0c6-2fe0-44ff-a89d-a06497ec9958","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"33b1f59e-d0c8-4166-8883-12a884566fc3","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"33b1f59e-d0c8-4166-8883-12a884566fc3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Bg_Scorched_1",
   "nineSlice":null,
