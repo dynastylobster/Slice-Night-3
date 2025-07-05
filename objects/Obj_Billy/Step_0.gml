@@ -719,3 +719,5 @@ if room = Level_BossFinal {
 			Obj_Dad.tppoint = instance_furthest(x,y,Obj_DadTPPoint)	
 		}
 	}
+	
+global.run = running;

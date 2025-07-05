@@ -187,6 +187,8 @@
     {"name":"inst_63F98987","path":"rooms/Level_Castle1/Level_Castle1.yy",},
     {"name":"inst_6404F1BD","path":"rooms/Level_Castle1/Level_Castle1.yy",},
     {"name":"inst_639F7CF3","path":"rooms/Level_Castle1/Level_Castle1.yy",},
+    {"name":"inst_636E1C76","path":"rooms/Level_Castle1/Level_Castle1.yy",},
+    {"name":"inst_53961774","path":"rooms/Level_Castle1/Level_Castle1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -422,6 +424,8 @@
         {"$GMRInstance":"v1","%Name":"inst_639F7CF3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_639F7CF3","objectId":{"name":"Obj_Radio","path":"objects/Obj_Radio/Obj_Radio.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_Radio","path":"objects/Obj_Radio/Obj_Radio.yy",},"propertyId":{"name":"music","path":"objects/Obj_Radio/Obj_Radio.yy",},"resource":{"name":"Sng_CastleOfPromiseMusic","path":"sounds/Sng_CastleOfPromiseMusic/Sng_CastleOfPromiseMusic.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Sng_CastleOfPromiseMusic",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":400.0,},
+        {"$GMRInstance":"v1","%Name":"inst_636E1C76","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_636E1C76","objectId":{"name":"Obj_Dangle","path":"objects/Obj_Dangle/Obj_Dangle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":288.0,},
+        {"$GMRInstance":"v1","%Name":"inst_53961774","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_53961774","objectId":{"name":"Obj_Dangle","path":"objects/Obj_Dangle/Obj_Dangle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":208.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":134,"TileCompressedData":[
           1,12,-27,0,2,55,57,-88,0,1,55,-15,56,1,12,-27,0,2,55,57,-88,0,1,55,-15,56,1,12,-27,0,2,55,57,-88,0,1,

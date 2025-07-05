@@ -1,4 +1,5 @@
 /// @description Set Up controls
+global.run = false;
 global.today = current_day
 //global.spoketobanan = false;
 global.thismonth = current_month 

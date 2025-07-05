@@ -1,0 +1,46 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"ForestTileSetDark2",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        7,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,6,19,19,19,2,2,2,2,8,19,19,8,12,12,12,12,9,17,1,1,3,3,
+        13,13,11,11,4,16,14,18,19,
+      ],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":6,
+    "SerialiseWidth":6,
+    "TileCompressedData":[
+      12,0,60,61,0,0,61,0,70,71,0,0,71,-7,0,11,60,0,60,0,61,0,70,0,65,0,66,-3,0,3,70,0,71,
+    ],
+    "TileDataFormat":1,
+  },
+  "name":"ForestTileSetDark2",
+  "out_columns":9,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"ForestTileSpriteDark2",
+    "path":"sprites/ForestTileSpriteDark2/ForestTileSpriteDark2.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":80,
+}

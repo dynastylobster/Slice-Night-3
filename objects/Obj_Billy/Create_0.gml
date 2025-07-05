@@ -12,6 +12,8 @@ global.moturoute = ini_read_real(global.save,"moturoute",false)
 ini_close()
 
 
+
+
 hp = 3;
 slideage = 0;
 max_hp = 3;
@@ -19,6 +21,11 @@ spinning = false;
 sliding = false
 walking = false
 running = false
+
+if global.run and global.togglerun {
+	running = true	
+}
+
 jumpspeed = 6
 doublejump = false;
 has_double_jumped = false;
