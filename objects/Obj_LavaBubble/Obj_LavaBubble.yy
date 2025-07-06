@@ -1,14 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_WaterBubble",
+  "%Name":"Obj_LavaBubble",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_DeathBlock","path":"objects/Obj_DeathBlock/Obj_DeathBlock.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_WaterBubble",
+  "name":"Obj_LavaBubble",
   "overriddenProperties":[],
   "parent":{
     "name":"Effects",
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_BubbleSmall",
-    "path":"sprites/Spr_BubbleSmall/Spr_BubbleSmall.yy",
+    "name":"Spr_LavaBubble",
+    "path":"sprites/Spr_LavaBubble/Spr_LavaBubble.yy",
   },
   "spriteMaskId":null,
   "visible":true,

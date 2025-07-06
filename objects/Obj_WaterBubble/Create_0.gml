@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 yspeed = 3;
+startx = x 
+starty = y
 grav = -0.1;
 xspeed = random_range(-1,1)
 age = 0;
