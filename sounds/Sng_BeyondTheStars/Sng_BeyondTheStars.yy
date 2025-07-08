@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Sng_BeyondTheStars",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":149.53845,
+  "name":"Sng_BeyondTheStars",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Sng_BeyondTheStars.ogg",
+  "type":1,
+  "volume":1.0,
+}

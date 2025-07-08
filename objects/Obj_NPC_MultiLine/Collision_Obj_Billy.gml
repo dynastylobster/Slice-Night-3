@@ -12,6 +12,12 @@ if global.key_up_pressed and image_index = 21 {
 		other.x = billy_x;	
 		}
 
+if global.key_up_pressed and image_index = 24 {
+		if !audio_is_playing(Snd_Bitching) {
+			audio_play_sound(Snd_Bitching,0,0,global.SFXvolume*3.25);
+			}
+}
+
 if !instance_exists(Obj_TrainBossController) {
 
 
