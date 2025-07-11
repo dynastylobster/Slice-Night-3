@@ -19,7 +19,7 @@
   "height":1830,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"0f0a68c7-b727-4638-af88-80bdf5f2e626","blendMode":0,"displayName":"default","isLocked":false,"name":"0f0a68c7-b727-4638-af88-80bdf5f2e626","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"214e2c10-78be-4ed0-bb9e-11cf6d050370","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"214e2c10-78be-4ed0-bb9e-11cf6d050370","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"a720a7e9-0f75-4be5-9577-17723edd4034","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"a720a7e9-0f75-4be5-9577-17723edd4034","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_TrueCredits",
