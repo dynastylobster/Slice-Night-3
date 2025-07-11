@@ -4,6 +4,10 @@
 if instance_exists(Obj_SheildShooter) {
 		homeguy = instance_nearest(x,y,Obj_SheildShooter)
 	}
+	if instance_place(x,y,Obj_SheildShooterBroken) {
+homeguy = 	Obj_SheildShooterBroken;
+}
+	
 if homeguy != noone {
 		dir = homeguy.dir 
 	}

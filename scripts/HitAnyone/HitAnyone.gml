@@ -61,6 +61,14 @@ if dam = "Normal"{
 				
 				Obj_Billy.i_frames = 60;
 				if damage > 0 damage = 2;	
+				
+					if object_index = Obj_SheildShooter or object_index = Obj_SheildShooterGrav or object_index = Obj_SheildShooterBounce {
+							instance_create_depth(x+(image_xscale*14),y,depth-50,Obj_BrokenSheild)
+							instance_create_depth(x,y,depth,Obj_SheildShooterBroken)
+							alarm[5] = 5;	
+					}
+				
+				
 				repeat(3) {
 				instance_create_depth(x,y,depth,Obj_FlameSparkBlueifyer)
 				instance_create_depth(x+irandom_range(-8,8),y+irandom_range(-8,8),depth,Obj_GoalBoxSparkle)
@@ -89,6 +97,8 @@ if dam = "Normal"{
 
 					instance_create_depth(x,y,depth-10,Obj_ParryBallEffect)
 					instance_create_depth(x,y,depth,Obj_FlameSliceCollide)
+					
+					
 				}
 				
 				

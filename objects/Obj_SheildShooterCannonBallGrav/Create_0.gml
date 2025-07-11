@@ -4,10 +4,16 @@ reduce = 0.75;
 draw_x = x
 autoTileCol = -4;
 try { autoTileCol = layer_tilemap_get_id("TileCollision"); } catch (err) { autoTileCol = -4; }
+
 	homeguy = noone;
 if instance_exists(Obj_SheildShooterGrav) {
 		homeguy = instance_nearest(x,y,Obj_SheildShooterGrav)
 	}
+	
+if instance_place(x,y,Obj_SheildShooterBroken) {
+homeguy = 	Obj_SheildShooterBroken;
+}
+	
 if homeguy != noone {
 		dir = homeguy.dir 
 	}
