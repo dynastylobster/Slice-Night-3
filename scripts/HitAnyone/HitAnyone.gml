@@ -79,6 +79,9 @@ if dam = "Normal"{
 				
 				if collision_line(x,y,x-(sign(Obj_Billy.xspeed)*(sprite_width/2+10)),y,Obj_Billy,45,false) or collision_line(x,y-8,x-(sign(Obj_Billy.xspeed)*(sprite_width/2+10)),y-8,Obj_Billy,45,false) and !place_meeting(x,y+8,Obj_Billy) or collision_line(x,y+8,x-(sign(Obj_Billy.xspeed)*(sprite_width/2+10)),y,Obj_Billy,45,false) {
 					damage = 3.5;
+					if instance_exists(Obj_Model1Boss) {
+					damage = 1.25	
+					}
 					//audio_play_sound(Snd_ParryStar,0,0,global.SFXvolume*2,0,1.1);
 					audio_play_sound(Snd_SuperCrit,0,0,global.SFXvolume*2,0,1);
 					instance_create_depth(Obj_Billy.x,Obj_Billy.y,depth,Obj_SMWHeart);

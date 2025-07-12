@@ -215,6 +215,7 @@
     {"name":"inst_5AEB23B9","path":"rooms/Level_Nightmare4/Level_Nightmare4.yy",},
     {"name":"inst_1D45376F","path":"rooms/Level_Nightmare4/Level_Nightmare4.yy",},
     {"name":"inst_347FE757","path":"rooms/Level_Nightmare4/Level_Nightmare4.yy",},
+    {"name":"inst_80BDFF3","path":"rooms/Level_Nightmare4/Level_Nightmare4.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -469,6 +470,9 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_NPC","path":"objects/Obj_NPC/Obj_NPC.yy",},"propertyId":{"name":"text_3","path":"objects/Obj_NPC/Obj_NPC.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"is it my eyes that are broken",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_NPC","path":"objects/Obj_NPC/Obj_NPC.yy",},"propertyId":{"name":"text_5","path":"objects/Obj_NPC/Obj_NPC.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"or is it my mind?",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":592.0,"y":352.0,},
+        {"$GMRInstance":"v1","%Name":"inst_80BDFF3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_80BDFF3","objectId":{"name":"Obj_MotuRoute","path":"objects/Obj_MotuRoute/Obj_MotuRoute.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_MotuRoute","path":"objects/Obj_MotuRoute/Obj_MotuRoute.yy",},"propertyId":{"name":"dest_room","path":"objects/Obj_MotuRoute/Obj_MotuRoute.yy",},"resource":{"name":"MotuCutsceneRoomNightMare","path":"rooms/MotuCutsceneRoomNightMare/MotuCutsceneRoomNightMare.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"MotuCutsceneRoomNightMare",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2800.0,"y":336.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":185,"TileCompressedData":[
           2,52,53,-11,150,3,1073741924,0,254,-11,0,1,51,-8,52,1,53,-6,0,2,252,253,-13,0,-3,254,-21,0,2,252,253,
