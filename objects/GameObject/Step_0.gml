@@ -1,3 +1,5 @@
+if !global.paused then musicnote = 1;
+
 if global.mazzersounds < 0 {
 	if mazzersoundtimer = 30 {
 			global.mazzersounds --
@@ -182,7 +184,9 @@ if (leftright != 0 && menuType == "Settings") {
 		global.musicvolume += leftright *0.05
 		if global.musicvolume > 1 global.musicvolume = 1
 		if global.musicvolume < 0 global.musicvolume = 0
-		audio_play_sound(Snd_SMWHeart,0,0,global.musicvolume)
+		//audio_play_sound(Snd_SMWHeart,0,0,global.musicvolume)
+		MusicVolumeSound();
+		musicnote+=1;
 		break;
 		
 		case "SFX Volume":

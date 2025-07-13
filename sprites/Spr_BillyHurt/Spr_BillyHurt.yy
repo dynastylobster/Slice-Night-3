@@ -21,7 +21,7 @@
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"bd11221c-8c15-4919-9e98-5083bb90bcb1","blendMode":0,"displayName":"default","isLocked":false,"name":"bd11221c-8c15-4919-9e98-5083bb90bcb1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"e07652a9-d4ed-4f5e-9f5a-b070b05af3e0","blendMode":0,"displayName":"default","isLocked":false,"name":"e07652a9-d4ed-4f5e-9f5a-b070b05af3e0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_BillyHurt",
   "nineSlice":null,

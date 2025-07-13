@@ -19,7 +19,7 @@
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"96301279-8e01-4a0d-a498-cf058714310e","blendMode":0,"displayName":"default","isLocked":false,"name":"96301279-8e01-4a0d-a498-cf058714310e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"9faa3118-8140-4790-86b8-15f191dbefc1","blendMode":0,"displayName":"default","isLocked":false,"name":"9faa3118-8140-4790-86b8-15f191dbefc1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_BillyWallSlide",
   "nineSlice":null,

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"MusicVolumeSound",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"MusicVolumeSound",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

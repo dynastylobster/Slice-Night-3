@@ -1,4 +1,5 @@
 /// @description Set Up controls
+musicnote = 1;
 global.run = false;
 global.today = current_day
 //global.spoketobanan = false;

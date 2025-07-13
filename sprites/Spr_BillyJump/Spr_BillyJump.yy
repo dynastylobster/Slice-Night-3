@@ -20,7 +20,7 @@
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f37d5f3b-8976-4194-b0b4-c253ae6f74c5","blendMode":0,"displayName":"default","isLocked":false,"name":"f37d5f3b-8976-4194-b0b4-c253ae6f74c5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"5fbc4539-c115-4d81-bb34-2586a0d29ced","blendMode":0,"displayName":"default","isLocked":false,"name":"5fbc4539-c115-4d81-bb34-2586a0d29ced","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_BillyJump",
   "nineSlice":null,
