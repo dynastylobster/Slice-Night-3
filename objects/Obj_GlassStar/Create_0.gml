@@ -7,3 +7,5 @@ active = true;
 onscreen = true;
 image_speed = 0;
 image_index = 0
+
+if falling then horizontalmovement = true;

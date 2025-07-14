@@ -2,6 +2,11 @@
 // You can write your code in this editor
 
 // Inherit the parent event
+
+if !global.paused and falling {
+		y+= 2.5
+	}
+
 mask_index = Spr_ParryballBigHitbox;
 if place_meeting(x,y,[Obj_SliceSide,Obj_SliceDown]) {
 //alarm[0] = 30
@@ -54,5 +59,7 @@ if !active and image_index < 4
 { image_speed = 1;} else {
 image_speed = 0	
 }
+
+if y > room_height+16 then instance_destroy()
 
 //sprite_index = Spr_GlassStar
