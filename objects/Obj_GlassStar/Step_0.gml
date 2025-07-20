@@ -4,7 +4,8 @@
 // Inherit the parent event
 
 if !global.paused and falling {
-		y+= 2.5
+		y+= 1.5
+		x = startx+sin(age/2)*3
 	}
 
 mask_index = Spr_ParryballBigHitbox;

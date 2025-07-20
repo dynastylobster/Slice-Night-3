@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+if instance_exists(Obj_Billy) {
 
 x = billy.x - (billy.xspeed/4) + ( billy.facing* (abs(billy.yspeed))*0.5 )
 
@@ -27,4 +28,6 @@ if billy.yspeed < -5 {
 
 if image_index > 0.5 and billy.xspeed = 0 {
 image_index += 0.25
+}
+
 }

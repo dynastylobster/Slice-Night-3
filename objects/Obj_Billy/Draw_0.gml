@@ -134,6 +134,36 @@ if sprite_index = Spr_BillyWallSlide then sprite_index = Spr_PMotuWallSlide
 
 }
 
+// playable Meowtu
+if (global.costume == "Meowtu") {
+	
+if sprite_index = Spr_BillyDie then sprite_index = Spr_PMeowtuDie
+if sprite_index = Spr_BillyWalk {image_speed = 0.8} else image_speed = 1
+if sprite_index = Spr_BillyWalk or sprite_index = Spr_BillyRun then sprite_index = Spr_PMeowtuRun
+if sprite_index = Spr_BillyDash or sprite_index = Spr_BillyRunDash then sprite_index = Spr_PMeowtuRunDash
+
+if sprite_index = Spr_BillySliceSide {
+		if instance_exists(Obj_SliceSide) 
+			{
+			if Obj_SliceSide.image_index <= 1.5 {sprite_index = Spr_PMeowtuSlicePrepare} else sprite_index = Spr_PMeowtuSliceSide
+			if Obj_SliceSide.image_index > 2.5 image_index = 1
+		} else {sprite_index = Spr_PMeowtuSliceSide; image_index = 0}
+	}
+if sprite_index = Spr_BillySliceDown {
+		if instance_exists(Obj_SliceDown) 
+			{
+			if Obj_SliceDown.image_index <= 1.5 {sprite_index = Spr_PMeowtuSlicePrepare} else sprite_index = Spr_PMeowtuSliceDown
+			if Obj_SliceDown.image_index > 2.5 image_index = 1
+		} else {sprite_index = Spr_PMeowtuSliceDown; image_index = 0}
+	}
+
+if sprite_index = Spr_BillyHurt then sprite_index = Spr_PMeowtuHurt
+if sprite_index = Spr_BillyIdle then sprite_index = Spr_PMeowtuIdle
+if sprite_index = Spr_BillyJump then sprite_index = Spr_PMeowtuJump
+if sprite_index = Spr_BillyWallSlide then sprite_index = Spr_PMeowtuWallSlide
+
+}
+
 if global.costume = "Void" {
 		if sprite_index = Spr_BillyDie then sprite_index = Spr_VoidDie
 		if sprite_index = Spr_BillyWalk sprite_index = Spr_VoidWalk

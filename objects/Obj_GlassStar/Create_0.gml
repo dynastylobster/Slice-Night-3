@@ -5,6 +5,7 @@
 event_inherited();
 active = true;
 onscreen = true;
+startx = x
 image_speed = 0;
 image_index = 0
 

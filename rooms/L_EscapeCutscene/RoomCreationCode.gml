@@ -1,4 +1,4 @@
-global.music = Sng_TectonicFury
+global.music = Sng_EscapeMusic
 global.walljump = true
 global.dash = true
 global.flameslice = true

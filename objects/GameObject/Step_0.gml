@@ -171,7 +171,7 @@ if (updown != 0) {
 var humanCostumes = ["Billy", "Miley", "Billy (Fox)", "Miley (Fox)", "Billy (SMW)"];
 //
 var robotCostumes = [];
-if (global.motuunlocked) { array_push(robotCostumes, "Motu"); }
+if (global.motuunlocked) { array_push(robotCostumes, "Motu","Meowtu"); }
 var coyoteCostumes = [];
 if (global.voidunlocked) { array_push(coyoteCostumes, "Void", "Void (Clown)"); }
 var jesterCostumes = ["Cardly"]

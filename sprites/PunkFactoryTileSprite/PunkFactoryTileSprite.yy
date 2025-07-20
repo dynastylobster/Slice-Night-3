@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"PunkFactoryTileSprite",
   "bboxMode":0,
-  "bbox_bottom":95,
+  "bbox_bottom":127,
   "bbox_left":0,
   "bbox_right":127,
   "bbox_top":0,
@@ -19,7 +19,7 @@
   "height":512,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"16d2519b-d1cf-4e48-8a0a-f38b149170aa","blendMode":0,"displayName":"default","isLocked":false,"name":"16d2519b-d1cf-4e48-8a0a-f38b149170aa","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"167940e1-53c6-4ff8-a11c-b28fce8aab39","blendMode":0,"displayName":"default","isLocked":false,"name":"167940e1-53c6-4ff8-a11c-b28fce8aab39","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"PunkFactoryTileSprite",
   "nineSlice":null,

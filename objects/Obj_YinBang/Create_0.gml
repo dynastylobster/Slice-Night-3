@@ -8,3 +8,4 @@ yspeed = 0;
 jumpspeed = 4.5;
 onscreen = false;
 random_set_seed(45);
+bounced = false;
