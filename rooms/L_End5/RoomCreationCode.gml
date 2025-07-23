@@ -1,4 +1,4 @@
 global.secondserving = true
-global.music = Snd_Silence;
+global.music = Sng_Finale;
 global.walljump = true
 global.dash = true
