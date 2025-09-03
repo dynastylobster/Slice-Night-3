@@ -8,13 +8,13 @@
 _camy = y-120;
 playedsound = false;
 ini_open("save.ini")
-if menuthing = "file1" dest_room = ini_read_real("file1","level",BillyCutsceneRoom1)
-if menuthing = "file2" dest_room = ini_read_real("file2","level",BillyCutsceneRoom1)
-if menuthing = "file3" dest_room = ini_read_real("file3","level",BillyCutsceneRoom1)
+if menuthing = "file1" dest_room = asset_get_index(ini_read_string("file1","level","BillyCutsceneRoom1"))
+if menuthing = "file2" dest_room = asset_get_index(ini_read_string("file2","level","BillyCutsceneRoom1"))
+if menuthing = "file3" dest_room = asset_get_index(ini_read_string("file3","level","BillyCutsceneRoom1"))
 
-if menuthing = "file4" dest_room = ini_read_real("file4","level",destination)
-if menuthing = "file5" dest_room = ini_read_real("file5","level",destination)
-if menuthing = "file6" dest_room = ini_read_real("file6","level",destination)
+if menuthing = "file4" dest_room = asset_get_index(ini_read_string("file4","level","SecondServingStory1"))
+if menuthing = "file5" dest_room = asset_get_index(ini_read_string("file5","level","SecondServingStory1"))
+if menuthing = "file6" dest_room = asset_get_index(ini_read_string("file4","level","SecondServingStory1"))
 
 ini_close();
 

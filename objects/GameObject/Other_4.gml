@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if global.save = "file1" or global.save = "file2" global.save = "file3" global.save = "file4" global.save = "file5" global.save = "file7" {
+if global.save = "file1" or global.save = "file2" or global.save = "file3" or global.save = "file4" or global.save = "file5" or global.save = "file7" {
 
 if !settedthecostume and instance_exists(Obj_Billy) {
 ini_open("save.ini")
