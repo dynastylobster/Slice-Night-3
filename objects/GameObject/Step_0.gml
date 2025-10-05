@@ -1,3 +1,5 @@
+
+
 if !global.paused then musicnote = 1;
 
 if global.mazzersounds < 0 {

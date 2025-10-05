@@ -5,7 +5,7 @@ if other.hit = true {
 if !place_meeting(x,y,Obj_EnemySafetyBubble) {
 hp =-2;
 }
-instance_create_layer(x,y,layer,Obj_EnemyHurtEffect)
+instance_create_depth(x,y,depth,Obj_EnemyHurtEffect)
 with(other) {
 instance_destroy();	
 }

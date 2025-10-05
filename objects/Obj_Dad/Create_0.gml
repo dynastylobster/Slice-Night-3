@@ -12,7 +12,7 @@ randomize();
 fadingin = false;
 slicing_xspeed = 0
 alarm[2] = 400;
-hp = 36;
+hp = 25;
 maxhp = hp
 hpy = 7
 hpx = 270;

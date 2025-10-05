@@ -1,5 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+if walking or running and grounded {
+		image_speed = (abs(xspeed)/max_runspeed) * 1.5
+	}
+
 if !global.togglerun {
 if !global.key_C {
 		if running and grounded {

@@ -1,4 +1,7 @@
 /// @description Set Up controls
+
+gml_release_mode(true);
+
 musicnote = 1;
 global.run = false;
 global.today = current_day

@@ -19,8 +19,7 @@
   "height":1830,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"214e2c10-78be-4ed0-bb9e-11cf6d050370","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"214e2c10-78be-4ed0-bb9e-11cf6d050370","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"a720a7e9-0f75-4be5-9577-17723edd4034","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"a720a7e9-0f75-4be5-9577-17723edd4034","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"6369623f-7cea-426c-82d5-5cbe6d22660f","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"6369623f-7cea-426c-82d5-5cbe6d22660f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_TrueCredits",
   "nineSlice":null,
@@ -33,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"Spr_TrueCredits",
     "autoRecord":true,
     "backdropHeight":768,
@@ -64,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":1830.0,
+    "seqWidth":426.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

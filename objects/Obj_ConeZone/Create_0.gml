@@ -4,5 +4,5 @@ age = 0;
 targ_x = 0;
 true_x = x;
 xspeed = 0;
-hp = 13;
+hp = 10;
 hit = false;

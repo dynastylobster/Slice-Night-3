@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"Slice Night 3",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -71,6 +71,7 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"controscheme.png","CopyToMask":-1,"filePath":"datafiles","name":"controscheme.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"slice night 3 disc art concept.png","CopyToMask":-1,"filePath":"datafiles","name":"slice night 3 disc art concept.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -81,7 +82,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"Slice Night 3",
   "resources":[
@@ -461,7 +462,6 @@
     {"id":{"name":"BillyCutsceneRoom3","path":"rooms/BillyCutsceneRoom3/BillyCutsceneRoom3.yy",},},
     {"id":{"name":"BootRoom","path":"rooms/BootRoom/BootRoom.yy",},},
     {"id":{"name":"Cardly_Tutorial","path":"rooms/Cardly_Tutorial/Cardly_Tutorial.yy",},},
-    {"id":{"name":"Click_here_for_level_select","path":"rooms/Click_here_for_level_select/Click_here_for_level_select.yy",},},
     {"id":{"name":"Click_here_for_level_select","path":"rooms/Click_here_for_level_select/Click_here_for_level_select.yy",},},
     {"id":{"name":"Coyote_Tutorial","path":"rooms/Coyote_Tutorial/Coyote_Tutorial.yy",},},
     {"id":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},

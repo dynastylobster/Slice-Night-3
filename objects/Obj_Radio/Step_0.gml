@@ -7,7 +7,7 @@ if playing {
 		image_index = 0
 		image_speed = 0
 		if !audio_is_playing(global.music) {
-				audio_play_sound(global.music,0,true,global.musicvolume);
+				audio_play_sound(global.music,0,true,global.musicvolume/2);
 			}
 	}
 

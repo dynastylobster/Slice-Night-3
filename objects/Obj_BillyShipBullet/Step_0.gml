@@ -23,7 +23,7 @@ if place_meeting(x,y,[Obj_Wall,autoTileCol]) {
 
 }
 if walltimer = 0 {
-instance_create_layer(x,y,layer,Obj_BillyShipBoom)
+instance_create_depth(x,y,depth,Obj_BillyShipBoom)
 audio_play_sound(Snd_Land,0,0,1)
 audio_play_sound(Snd_BlockBreak,0,0,0.6)
 instance_destroy();

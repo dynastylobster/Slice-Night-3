@@ -24,6 +24,7 @@ global.jumpslicemap = ini_read_real("Prefrence","ZXFlip",0);
 global.fem = ini_read_real("Prefrence","Fem",0);
 global.voidunlocked = ini_read_real("save5","void",false);
 global.motuunlocked = ini_read_real("save5","motu",false);
+global.cardlyunlocked = ini_read_real("save5","cardly",false);
 	global.cameraStyle = ini_read_real("Prefrence", "CameraStyle",true );
 	ini_close()
 

@@ -54,7 +54,7 @@ if !global.paused {
 			if image_index >0 and image_index < 1
 			{
 				if instance_number(Obj_FlameSlice) < 3 {
-						instance_create_layer(x,y,layer,Obj_FlameSlice)
+						instance_create_depth(x,y,depth,Obj_FlameSlice)
 						flamesliced = true;
 					}
 			}

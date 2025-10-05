@@ -4,3 +4,6 @@ alarm[9] = 1
 age = 0;
 starthp = 3
 draw_x = x
+frame = 0;
+pretimer = -1;
+posttimer = -1;

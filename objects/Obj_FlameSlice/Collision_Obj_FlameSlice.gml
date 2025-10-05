@@ -4,12 +4,12 @@
 if sprite_index != Spr_FlameDice {
 if other.image_xscale != image_xscale {
 	if !instance_exists(Obj_FlameSliceCollide)
-		instance_create_layer(lerp(x,other.x,0.5),lerp(y,other.y,0.5),layer,Obj_FlameSliceCollide);
+		instance_create_depth(lerp(x,other.x,0.5),lerp(y,other.y,0.5),depth,Obj_FlameSliceCollide);
 	}
 	
 } else {
 		if !instance_exists(Obj_FlameSliceCollide) {
-		instance_create_layer(lerp(x,other.x,0.5),lerp(y,other.y,0.5),layer,Obj_FlameSliceCollide);
+		instance_create_depth(lerp(x,other.x,0.5),lerp(y,other.y,0.5),depth,Obj_FlameSliceCollide);
 	}
 }
 

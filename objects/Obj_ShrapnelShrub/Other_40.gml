@@ -5,3 +5,5 @@ if image_index = 1
 	image_index = 0 
 	depth += 10
 }
+pretimer = -1
+posttimer = -1

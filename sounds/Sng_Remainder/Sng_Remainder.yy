@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":107.7071,
+  "duration":236.25003,
   "name":"Sng_Remainder",
   "parent":{
     "name":"Music",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Sng_Remainder.ogg",
+  "soundFile":"Sng_Remainder.wav",
   "type":1,
   "volume":1.0,
 }
