@@ -147,6 +147,7 @@
     {"name":"inst_10450A7F","path":"rooms/Level_Fantasy4/Level_Fantasy4.yy",},
     {"name":"inst_930C109","path":"rooms/Level_Fantasy4/Level_Fantasy4.yy",},
     {"name":"inst_38F791C3","path":"rooms/Level_Fantasy4/Level_Fantasy4.yy",},
+    {"name":"inst_7FB2252C","path":"rooms/Level_Fantasy4/Level_Fantasy4.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -328,6 +329,9 @@
         {"$GMRInstance":"v2","%Name":"inst_10450A7F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_10450A7F","objectId":{"name":"Obj_ParryBall","path":"objects/Obj_ParryBall/Obj_ParryBall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3584.0,"y":144.0,},
         {"$GMRInstance":"v2","%Name":"inst_930C109","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_930C109","objectId":{"name":"Obj_ParryBall","path":"objects/Obj_ParryBall/Obj_ParryBall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3584.0,"y":64.0,},
         {"$GMRInstance":"v2","%Name":"inst_38F791C3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_38F791C3","objectId":{"name":"Obj_EasyCheckpoint","path":"objects/Obj_EasyCheckpoint/Obj_EasyCheckpoint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3104.0,"y":224.0,},
+        {"$GMRInstance":"v2","%Name":"inst_7FB2252C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":25,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7FB2252C","objectId":{"name":"Obj_NPC_MultiLine","path":"objects/Obj_NPC_MultiLine/Obj_NPC_MultiLine.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_NPC_MultiLine","path":"objects/Obj_NPC_MultiLine/Obj_NPC_MultiLine.yy",},"propertyId":{"name":"textToSay","path":"objects/Obj_NPC_MultiLine/Obj_NPC_MultiLine.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[\"*EXPLODES YOU*\\n\\n\\nwhat\"]",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":272.0,"y":-16.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1_1","depth":400,"effectEnabled":true,"effectType":"_filter_mask","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1_1","properties":[
         {"name":"g_MaskStart","type":0,"value":"0",},

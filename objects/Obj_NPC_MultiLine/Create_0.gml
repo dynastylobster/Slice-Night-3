@@ -19,3 +19,5 @@ yaceel = 0;
 grav = 0.45;
 age2 = 0;
 fadingOut = false;
+
+explodetimer = 0;

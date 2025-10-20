@@ -35,3 +35,26 @@ drawing = true
 }
 
 }
+
+if drawing and image_index = 25{
+explodetimer++	
+}
+if drawing {
+if explodetimer >= 40 {
+	var player = Obj_Billy
+		player.xspeed = -9
+		player.yspeed = -7
+		instance_create_depth(player.x,player.y,depth-10,Obj_EnemyHurtEffect)
+		HitPlayer();
+		player.hp++
+		audio_play_sound(Snd_BlockBreak,0,0,global.SFXvolume*2,0,1)
+		audio_play_sound(Snd_GhostChomp,0,0,global.SFXvolume*2,0,1)
+		audio_play_sound(Snd_EnemyExplode,0,0,global.SFXvolume*2,0,1)
+		repeat(10) {
+		instance_create_depth(player.x,player.y,depth-10,Obj_Confetti)
+		global.confetti_id++
+		}
+		explodetimer = 0
+		drawing = false
+	}
+}
