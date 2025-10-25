@@ -12,7 +12,7 @@ if !global.paused {
 	age++
 	
 	if age >= 120 {
-		instance_create_layer(x,y,layer,Obj_EnemyHurtEffect);
+		instance_create_depth(x,y,depth,Obj_EnemyHurtEffect);
 		instance_destroy();
 	}
 

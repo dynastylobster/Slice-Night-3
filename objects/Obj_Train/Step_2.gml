@@ -20,6 +20,15 @@ Obj_Billy.image_xscale = image_xscale
 if place_meeting(x,y+4,Obj_Rail) {
 Obj_Billy.cam_y = lerp(Obj_Billy.cam_y,clamp(y-120,0,room_height-240),0.25)
 }
+else {
+	if abs(yspeed) > 2{
+		if yspeed < 0 angle = 22
+		if yspeed > 0 angle = -22
+		} else {
+		angle = 0;	
+		}
+	}
+
 Obj_Billy.dir = facing
 
 

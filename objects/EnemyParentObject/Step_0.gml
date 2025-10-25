@@ -10,10 +10,10 @@ audio_play_sound(Snd_EnemyExplode,0,0,1.4)
 } else {
 	audio_play_sound(Snd_EnemyExplode,0,0,0.125)
 }
-instance_create_layer(x+2,y,layer,Obj_EnemyFlameSpark)
-instance_create_layer(x-2,y,layer,Obj_EnemyFlameSpark)
-instance_create_layer(x+2,y-3,layer,Obj_EnemyFlameSpark)
-instance_create_layer(x-2,y-3,layer,Obj_EnemyFlameSpark)
+instance_create_depth(x+2,y,depth,Obj_EnemyFlameSpark)
+instance_create_depth(x-2,y,depth,Obj_EnemyFlameSpark)
+instance_create_depth(x+2,y-3,depth,Obj_EnemyFlameSpark)
+instance_create_depth(x-2,y-3,depth,Obj_EnemyFlameSpark)
 deathCounter++;
 }
 try {

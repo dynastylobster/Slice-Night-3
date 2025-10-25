@@ -58,7 +58,7 @@ if !instance_exists(Obj_BillyShip) and instance_exists(Obj_Billy) {
 		x = startx
 		y = starty
 		
-		instance_create_layer(Obj_Billy.x,Obj_Billy.y,layer,Obj_HeartPickup);
-		instance_create_layer(Obj_Billy.x,Obj_Billy.y,layer,Obj_BillyShip);
+		instance_create_depth(Obj_Billy.x,Obj_Billy.y,depth,Obj_HeartPickup);
+		instance_create_depth(Obj_Billy.x,Obj_Billy.y,depth,Obj_BillyShip);
 		}
 	}

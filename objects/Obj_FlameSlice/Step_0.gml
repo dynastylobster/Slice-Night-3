@@ -35,7 +35,7 @@ if !global.paused {
 }
 
 if !instance_exists(Obj_Billy) {
-		instance_create_layer(x,y,layer,Obj_EnemyHurtEffect);
+		instance_create_depth(x,y,depth,Obj_EnemyHurtEffect);
 		instance_destroy();
 	}
 	

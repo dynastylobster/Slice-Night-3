@@ -4,7 +4,7 @@ if !touched {
 	audio_play_sound(Snd_Warp,0,0,global.SFXvolume,0,1);
 	repeat(7) {
 	global.confetti_id += 1
-	instance_create_layer(x,y,layer,Obj_Confetti)
+	instance_create_depth(x,y,depth,Obj_Confetti)
 }
 	alarm[0] = 30
 	touched = true

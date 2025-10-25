@@ -12,7 +12,7 @@ if other.done_slicing = false {
 				audio_play_sound(Snd_BlockBreak,0,0,global.SFXvolume*0.75);
 					yspeed = -5; y-= 6;
 										repeat(5) {
-					instance_create_layer(x,y,layer,Obj_EnemyFlameSpark)
+					instance_create_depth(x,y,depth,Obj_EnemyFlameSpark)
 					}
 		}
 	}

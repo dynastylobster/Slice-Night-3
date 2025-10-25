@@ -4,7 +4,7 @@ if other.object_index != Obj_FlameSlice {
 		if sliced = false {
 			alarm[0] = 1
 			repeat(4) {
-			instance_create_layer(x,y,layer,Obj_SliceBlockParticle)
+			instance_create_depth(x,y,depth,Obj_SliceBlockParticle)
 			}
 			with(Obj_SliceBlockParticle) {
 					sprite_index = Spr_SliceBlockRedParticle;

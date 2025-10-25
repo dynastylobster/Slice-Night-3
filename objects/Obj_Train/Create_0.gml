@@ -9,7 +9,7 @@ facing = image_xscale;
 start_facing = facing
 start_x = x
 start_y = y 
-
+angle = 0;
 
 age = 0
 try { autoTileCol = layer_tilemap_get_id("TileCollision"); } catch (err) { autoTileCol = -4; }

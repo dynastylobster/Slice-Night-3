@@ -9,9 +9,12 @@ if age <= 2 {
 	}
 	draw_set_color(c_white)
 
+if instance_exists(parryball) {
+
 draw_sprite(Spr_ParryStarSparkle,age,parryball.x+lengthdir_x(dist,dir),parryball.y+lengthdir_y(dist,dir))
 draw_sprite(Spr_ParryStarSparkle,age,parryball.x-lengthdir_x(dist,dir),parryball.y-lengthdir_y(dist,dir))
 
 draw_sprite(Spr_ParryStarSparkle,4,x+lengthdir_x(dist,dir-age*4),y+lengthdir_y(dist,dir-age*4))
 draw_sprite(Spr_ParryStarSparkle,4,x-lengthdir_x(dist,dir-age*4),y-lengthdir_y(dist,dir-age*4))
 gpu_set_blendmode(bm_normal)
+}

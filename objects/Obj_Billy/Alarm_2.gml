@@ -5,12 +5,12 @@
 
 if global.dash {
 	if charge_timer >= 70 {
-		instance_create_layer(sillyx,sillyy,layer,Obj_BillyChargeParticle)
+		instance_create_depth(sillyx,sillyy,depth,Obj_BillyChargeParticle)
 	}	
 	if dashing {
 		sillyx = x+random_range(-12,12)
 		sillyy = y+random_range(-12,12)
-		instance_create_layer(sillyx,sillyy,layer,Obj_GoalBoxSparkle)
+		instance_create_depth(sillyx,sillyy,depth,Obj_GoalBoxSparkle)
 	}
 }
 alarm[2] = 5

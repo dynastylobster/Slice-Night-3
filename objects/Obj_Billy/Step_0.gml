@@ -36,7 +36,7 @@ if global.character = "Human" {
 if global.character = "Coyote" {
 	base_koyote_time = 45
 	if !instance_exists(Obj_VoidTail) {
-			instance_create_layer(x,y,layer,Obj_VoidTail)
+			instance_create_depth(x,y,depth,Obj_VoidTail)
 		}
 	doublejump = true;
 		max_runspeed = 3.15

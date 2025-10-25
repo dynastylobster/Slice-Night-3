@@ -16,7 +16,7 @@ if !global.paused {
 	y = Obj_Billy.y + randY;
 	x = Obj_Billy.x + randX;
 	}
-	instance_create_layer(x, y, layer, Obj_MenaceOrb, {belongsToWhizyard : true} );
+	instance_create_depth(x, y, depth, Obj_MenaceOrb, {belongsToWhizyard : true} );
 	audio_play_sound(Snd_Wizard_TP, 0, false, global.SFXvolume * 1);
 	attackCounter = 0;
 	}

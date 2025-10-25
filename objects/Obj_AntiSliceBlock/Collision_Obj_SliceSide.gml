@@ -2,10 +2,10 @@
 // You can write your code in this editor
 
 if sprite_index != Spr_AntiSliceBlock {
-instance_create_layer(x,y,layer,Obj_EnemyFlameSpark)
-instance_create_layer(x,y,layer,Obj_EnemyFlameSpark)
-instance_create_layer(x,y,layer,Obj_EnemyFlameSpark)
-instance_create_layer(x,y,layer,Obj_EnemyFlameSpark)	
+instance_create_depth(x,y,depth,Obj_EnemyFlameSpark)
+instance_create_depth(x,y,depth,Obj_EnemyFlameSpark)
+instance_create_depth(x,y,depth,Obj_EnemyFlameSpark)
+instance_create_depth(x,y,depth,Obj_EnemyFlameSpark)	
 }
 
 if sprite_index != Spr_AntiSliceBlock {

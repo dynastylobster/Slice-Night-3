@@ -14,10 +14,10 @@ if place_meeting(x,y+yspeed+1,[Obj_Wall, autoTileCol]) {
 		if yspeed> 1.5 {
 				audio_play_sound(Snd_Land,0,0,global.SFXvolume*3,0,0.75)
 				audio_play_sound(Snd_Land,0,0,global.SFXvolume*2,0,0.8)
-				instance_create_layer(x,y+8,layer,Obj_SliceBlockParticle)
-				instance_create_layer(x,y+8,layer,Obj_SliceBlockParticle)
-				instance_create_layer(x,y+8,layer,Obj_SliceBlockParticle)
-				instance_create_layer(x,y+8,layer,Obj_SliceBlockParticle)
+				instance_create_depth(x,y+8,depth,Obj_SliceBlockParticle)
+				instance_create_depth(x,y+8,depth,Obj_SliceBlockParticle)
+				instance_create_depth(x,y+8,depth,Obj_SliceBlockParticle)
+				instance_create_depth(x,y+8,depth,Obj_SliceBlockParticle)
 				with(Obj_SliceBlockParticle) {if yspeed < -3 yspeed = -3}
 			}
 		yspeed *= -0.80

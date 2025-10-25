@@ -12,7 +12,7 @@ if Obj_Billy.dashing then instance_destroy();
 }
 
 if done_slicing {
-instance_create_layer(x,y,layer,Obj_BillyShipBoom)
+instance_create_depth(x,y,depth,Obj_BillyShipBoom)
 instance_destroy();	
 }
 if xspeed < 5 xspeed ++

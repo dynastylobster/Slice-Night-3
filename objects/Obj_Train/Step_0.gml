@@ -19,10 +19,10 @@ if place_meeting(x+xspeed*2,y+4,[Obj_Wall, autoTileCol]) {
 		instance_destroy();	
 	}
 	
-		instance_create_layer(x,y,layer,Obj_EnemyHurtEffect)
+		instance_create_depth(x,y,depth,Obj_EnemyHurtEffect)
 		
 		repeat(5) {
-		instance_create_layer(x,y,layer,Obj_SliceBlockParticle)
+		instance_create_depth(x,y,depth,Obj_SliceBlockParticle)
 		}
 		Obj_SliceBlockParticle.sprite_index = Spr_SliceBlockRedParticle
 		
@@ -95,14 +95,14 @@ if !instance_exists(Obj_TrainBossController) {
 	if !audio_is_playing(Snd_TrainLand) {
 if yspeed > 0
 audio_play_sound(Snd_TrainLand,0,0,global.SFXvolume*3.5,0,random_range(0.95,1.08))
-
+angle = 0;
 	}	
 	}
 
 if place_meeting(x,y+2,Obj_RailTurn) {
 		if age %2 > 1 and age %2 < 1.5
 		{
-		instance_create_layer(x-(xspeed*4),y+8,layer,Obj_EnemyFlameSpark);
+		instance_create_depth(x-(xspeed*4),y+8,depth,Obj_EnemyFlameSpark);
 		audio_play_sound(Snd_BlockBreak,0,0,global.SFXvolume/6);
 		}
 		if !audio_is_playing(Snd_TrainScratch) {

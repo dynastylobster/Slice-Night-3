@@ -5,7 +5,7 @@ if other.done_slicing = false {
 if !immune {
 event_inherited()
 } else {
-		instance_create_layer(x,y,layer,Obj_EnemyHurtEffect)
+		instance_create_depth(x,y,depth,Obj_EnemyHurtEffect)
 	}
 
 other.done_slicing = true;

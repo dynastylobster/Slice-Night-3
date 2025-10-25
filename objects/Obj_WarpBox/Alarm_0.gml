@@ -3,7 +3,7 @@
 with(Obj_WarpBox) {
 repeat(7) {
 	global.confetti_id += 1
-	instance_create_layer(x,y,layer,Obj_Confetti)
+	instance_create_depth(x,y,depth,Obj_Confetti)
 }
 }
 	if instance_exists(Obj_BillyShip) {
@@ -12,4 +12,4 @@ repeat(7) {
 	}
 	Obj_Billy.x = dest_x
 	Obj_Billy.y = dest_y
-	instance_create_layer(dest_x,dest_y,layer,Obj_WarpBoxEffect)
+	instance_create_depth(dest_x,dest_y,depth,Obj_WarpBoxEffect)
