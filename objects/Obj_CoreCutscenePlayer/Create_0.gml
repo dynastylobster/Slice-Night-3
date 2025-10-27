@@ -10,6 +10,7 @@ x+= 32
 yspeed = -4.5
 grav = 0.125
 xspeed = 4
+startx = x
 image_speed = 0
 jumping = true;
 age = 0

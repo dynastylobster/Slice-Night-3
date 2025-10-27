@@ -15,7 +15,7 @@ if !place_meeting(x,y,Obj_BillyShipBullet) and image_speed = 0
 }*/
 
 if place_meeting(x+xspeed*2,y+4,[Obj_Wall, autoTileCol]) {
-	if instance_exists(Obj_TrainBossController) {
+	if !instance_exists(Obj_TrainBossController) {
 		instance_destroy();	
 	}
 	
