@@ -3,6 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
+active = false;
 grav = 0.25
 max_xspeed = 3.5;
 facing = image_xscale;
